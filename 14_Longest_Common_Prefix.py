@@ -11,14 +11,14 @@ Write a function to find the longest common prefix string amongst an array of st
 
 
 class Solution(object):
-    def longestCommonPrefix(self, strs):
+    def longestCommonPrefix_1(self, strs):
         """
         :type strs: List[str]
         :rtype: str
         """
         if not strs:
             return ""
-            
+
         min_length = min([len(_) for _ in strs])
         result = ""
 
@@ -36,6 +36,24 @@ class Solution(object):
             result += chr_
 
         return result
+
+    def longestCommonPrefix(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: str
+        """
+        if not strs:
+            return ""
+
+        prefix = strs[0]
+
+        for i in range(1, len(strs)):
+            while strs[i].find(prefix) != 0:
+                prefix = prefix[:-1]
+                if len(prefix) == 0:
+                    return ""
+        return prefix
+
 
 
 if __name__ == '__main__':
