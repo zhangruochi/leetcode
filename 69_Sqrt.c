@@ -27,29 +27,32 @@ int mySqrt_me(int x) {
 
 //采用二分法
 int mySqrt(int x){
-    if(x == 0)
-        return 0;
+    if(x == 0 || x == 1)
+        return x;
 
     int left = 1, right = x/2;
 
-    while(left < right){
-        int mid = left + (right - left)/2;
+    while(left <= right){
 
-        if(x / mid > left )
-            left = mid;
+        int mid = (left + right)/2;
+        //printf("%d,%d,%d\n",mid,left,right);
 
-        if(x / mid < right)
-            right = mid;
+        if(x / mid == mid)
+            return mid;
+
+        else if(x / mid < mid )
+            right = mid - 1;
+
+        else if (x / mid > mid)
+            left = mid + 1; 
     }
 
-    return left - 1;
-
-
-
+    return right;
 }
+
 //2147395600
 
 int main(){
-    printf("%d\n",mySqrt(9));
+    printf("%d\n",mySqrt(1));
     return 0;
 }
