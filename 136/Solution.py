@@ -16,6 +16,10 @@ Input: [4,1,2,1,2]
 Output: 4
 '''
 
+import operator
+from functools import reduce
+
+
 class Solution:
     def singleNumber(self, nums):
         """
@@ -29,9 +33,14 @@ class Solution:
 
         return nums[-1]        
 
+    def singleNumber2(self,nums):
+        return reduce(operator.xor,nums)
+        
+
 if __name__ == '__main__':
     solution = Solution()
     print(solution.singleNumber([4,1,2,1,2]))
+    print(solution.singleNumber2([4,1,2,1,2]))
 
 
 
