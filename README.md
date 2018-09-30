@@ -12,6 +12,7 @@ LeetCode solutions in Python3.
 |No.191|Number of 1 Bits|[Solution](./191/Solution.py)|[Note](./191/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 |No.190|Reverse Bits|[Solution](./190/Solution.py)|[Note](./190/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 |No.231|Power of Two|[Solution](./231/Solution.py)|[Note](./231/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
+|No.342|Power of Four|[Solution](./342/Solution.py)|[Note](./342/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 
 
 
