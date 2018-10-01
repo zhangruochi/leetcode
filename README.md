@@ -14,6 +14,7 @@ LeetCode solutions in Python3.
 |No.231|Power of Two|[Solution](./231/Solution.py)|[Note](./231/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 |No.342|Power of Four|[Solution](./342/Solution.py)|[Note](./342/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 |No.401|Binary Watch|[Solution](./401/Solution.py)|[Note](./401/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
+|No.461|Hamming Distance|[Solution](./461/Solution.py)|[Note](./461/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 
 
 
