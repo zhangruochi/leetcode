@@ -2,9 +2,6 @@ LeetCode solutions in Python3.
 ========
 
 
-Table of Contents
-=================
-
    * [LeetCode](#leetcode)
       * [Bit Manipulation](#bit-manipulation)
       * [Array](#array)
