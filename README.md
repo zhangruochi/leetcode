@@ -1,7 +1,13 @@
-LeetCode
+LeetCode solutions in Python3.
 ========
 
-LeetCode solutions in Python3.
+
+Table of Contents
+=================
+
+   * [LeetCode](#leetcode)
+      * [Bit Manipulation](#bit-manipulation)
+      * [Array](#array)
 
 
 ## Bit Manipulation
@@ -27,5 +33,5 @@ LeetCode solutions in Python3.
 |No.026|Remove Duplicates from Sorted Array|[Solution](./026/Solution.py)|[Note](./026/note.md)|Easy|O(n)|O(1)|Array|
 |No.027|Remove Element|[Solution](./027/Solution.py)|[Note](./027/note.md)|Easy|O(n)|O(1)|Array|
 |No.066|Plus One|[Solution](./066/Solution.py)|[Note](./066/note.md)|Easy|O(n)|O(1)|Array|
-|No.118|Plus One|[Solution](./118/Solution.py)|[Note](./118/note.md)|Easy|O(n^2)|O(1)|Array|
-|No.119|Plus One|[Solution](./119/Solution.py)|[Note](./119/note.md)|Easy|O(n^2)|O(1)|Array|
+|No.118|Pascal's Triangle|[Solution](./118/Solution.py)|[Note](./118/note.md)|Easy|O(n^2)|O(1)|Array|
+|No.119|Pascal's Triangle II|[Solution](./119/Solution.py)|[Note](./119/note.md)|Easy|O(n^2)|O(1)|Array|
