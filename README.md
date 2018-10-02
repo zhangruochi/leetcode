@@ -25,3 +25,5 @@ LeetCode solutions in Python3.
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.026|Remove Duplicates from Sorted Array|[Solution](./026/Solution.py)|[Note](./026/note.md)|Easy|O(n)|O(1)|Array|
+|No.027|Remove Element|[Solution](./027/Solution.py)|[Note](./027/note.md)|Easy|O(n)|O(1)|Array|
+|No.066|Remove Element|[Solution](./066/Solution.py)|[Note](./066/note.md)|Easy|O(n)|O(1)|Array|

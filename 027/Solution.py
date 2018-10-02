@@ -38,3 +38,27 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 """
+class Solution:
+    def removeElement(self, nums, val):
+        """
+        :type nums: List[int]
+        :type val: int
+        :rtype: int
+        """
+        nums.sort()
+        index = 0
+
+        for num in nums:
+            if num != val:
+                nums[index] = num
+                index += 1
+
+        return  index
+
+if __name__ == '__main__':
+    print(Solution().removeElement([0,1,2,2,3,0,4,2],2))
+
+
+                    
+
+
