@@ -36,7 +36,8 @@ Table of Contents
 |No.118|Pascal's Triangle|[Solution](./118/Solution.py)|[Note](./118/note.md)|Easy|O(n^2)|O(1)|Array|
 |No.119|Pascal's Triangle II|[Solution](./119/Solution.py)|[Note](./119/note.md)|Easy|O(n^2)|O(1)|Array|
 |No.121|Best Time to Buy and Sell Stock|[Solution](./121/Solution.py)|[Note](./121/note.md)|Easy|O(n)|O(1)|Array|
-
+|No.169|Majority Element|[Solution](./169/Solution.py)|[Note](./169/note.md)|Easy|O(n)|O(1)|Array|
+|No.189|Rotate Array|[Solution](./189/Solution.py)|[Note](./189/note.md)|Easy|O(n)|O(1)|Array|
 
 
 
