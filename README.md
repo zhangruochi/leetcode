@@ -41,6 +41,14 @@ Table of Contents
 |No.896|Monotonic Array|[Solution](./896/Solution.py)|[Note](./896/note.md)|Easy|O(n)|O(1)|Array|
 |No.243|Shortest Word Distance|[Solution](./243/Solution.py)|[Note](./243/note.md)|Easy|O(n)|O(1)|Array|
 
+## String
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.014|Longest Common Prefix|[Solution](./014/Solution.py)|[Note](./014/note.md)|Meduim|O(n)|O(1)|String|
+|No.006|ZigZag Conversion|[Solution](./006/Solution.py)|[Note](./006/note.md)|Meduim|O(n * k)|O(1)|String|
+
+
+
 
 
 
