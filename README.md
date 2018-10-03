@@ -26,7 +26,6 @@ Table of Contents
 
 
 
-
 ## Array
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
@@ -38,6 +37,9 @@ Table of Contents
 |No.121|Best Time to Buy and Sell Stock|[Solution](./121/Solution.py)|[Note](./121/note.md)|Easy|O(n)|O(1)|Array|
 |No.169|Majority Element|[Solution](./169/Solution.py)|[Note](./169/note.md)|Easy|O(n)|O(1)|Array|
 |No.189|Rotate Array|[Solution](./189/Solution.py)|[Note](./189/note.md)|Easy|O(n)|O(1)|Array|
+|No.905|Sort Array By Parity|[Solution](./905/Solution.py)|[Note](./905/note.md)|Easy|O(n)|O(1)|Array|
+|No.896|Monotonic Array|[Solution](./896/Solution.py)|[Note](./896/note.md)|Easy|O(n)|O(1)|Array|
+|No.243|Shortest Word Distance|[Solution](./243/Solution.py)|[Note](./243/note.md)|Easy|O(n)|O(1)|Array|
 
 
 
