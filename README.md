@@ -6,8 +6,19 @@ Table of Contents
 =================
 
    * [LeetCode](#leetcode)
+      * [Classical Algorithm](#Classical-Algorithm)
       * [Bit Manipulation](#bit-manipulation)
       * [Array](#array)
+
+## Classical Algorithm
+- String
+    - [KMP](./classical_algorithm/kmp.py) | [NOTE](./classical_algorithm/note.md)
+
+    
+
+
+
+
 
 
 ## Bit Manipulation
