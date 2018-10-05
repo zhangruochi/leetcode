@@ -56,12 +56,13 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.014|Longest Common Prefix|[Solution](./014/Solution.py)|[Note](./014/note.md)|Easy|O(n)|O(1)|String|
-|No.028|Implement strStr()|[Solution](./028/Solution.py)|[Note](./028/note.md)|Easy|O(n + k)|O(1)|KMP|
+|No.028|Implement strStr()|[Solution](./028/Solution.py)|[Note](./028/note.md)|Easy|O(n + k)|O(1)|kmp|
 |No.028|Count and Say|[Solution](./038/Solution.py)|[Note](./038/note.md)|Easy|O(n * 2)|O(1)|iteration|
 |No.058|Length of Last Word|[Solution](./058/Solution.py)|[Note](./058/note.md)|Easy|O(n)|O(1)|count from back|
 |No.067|Add Binary|[Solution](./067/Solution.py)|[Note](./067/note.md)|Easy|O(n)|O(1)|construction number|
-|No.125|Valid Palindrome|[Solution](./125/Solution.py)|[Note](./125/note.md)|Easy|O()|O()||
-|No.165|Compare Version Numbers|[Solution](./165/Solution.py)|[Note](./165/note.md)|Easy|O()|O()||
+|No.125|Valid Palindrome|[Solution](./125/Solution.py)|[Note](./125/note.md)|Easy|O(n)|O(n)||
+|No.165|Compare Version Numbers|[Solution](./165/Solution.py)|[Note](./165/note.md)|Easy|O(n)|O(n)||
+|No.434|Number of Segments in a String|[Solution](./434/Solution.py)|[Note](./434/note.md)|Easy|O()|O()||
 |No.006|ZigZag Conversion|[Solution](./006/Solution.py)|[Note](./006/note.md)|Meduim|O(n * k)|O(1)|String|
 
 
