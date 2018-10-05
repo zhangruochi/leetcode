@@ -44,8 +44,10 @@ Table of Contents
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.014|Longest Common Prefix|[Solution](./014/Solution.py)|[Note](./014/note.md)|Meduim|O(n)|O(1)|String|
+|No.014|Longest Common Prefix|[Solution](./014/Solution.py)|[Note](./014/note.md)|Easy|O(n)|O(1)|String|
+|No.028|Implement strStr()|[Solution](./028/Solution.py)|[Note](./028/note.md)|Easy|O(n * k)|O(1)|String|
 |No.006|ZigZag Conversion|[Solution](./006/Solution.py)|[Note](./006/note.md)|Meduim|O(n * k)|O(1)|String|
+
 
 
 
