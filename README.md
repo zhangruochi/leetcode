@@ -71,7 +71,8 @@ Table of Contents
 ## Linked List
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.021|Merge Two Sorted Lists|[Solution](./021/Solution.py)|[Note](./021/note.md)|Easy|O(n)|O(1)|String|
+|No.021|Merge Two Sorted Lists|[Solution](./021/Solution.py)|[Note](./021/note.md)|Easy|O(n)|O(1)|guard node|
+|No.024|Merge Two Sorted Lists|[Solution](./024/Solution.py)|[Note](./024/note.md)|Easy|O(n)|O(1)||
 
 
 
