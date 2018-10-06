@@ -9,6 +9,7 @@ Table of Contents
       * [Classical Algorithm](#Classical-Algorithm)
       * [Bit Manipulation](#bit-manipulation)
       * [Array](#array)
+      * [Linked List](#Linked-List)
 
 ## Classical Algorithm
 - String
@@ -66,6 +67,11 @@ Table of Contents
 |No.443|String Compression|[Solution](./443/Solution.py)|[Note](./443/note.md)|Easy|O(n)|O(1)|many pointer|
 |No.459|Repeated Substring Pattern|[Solution](./459/Solution.py)|[Note](./459/note.md)|Easy|O(n)|O(1)|kmp|
 |No.006|ZigZag Conversion|[Solution](./006/Solution.py)|[Note](./006/note.md)|Meduim|O(n * k)|O(1)|String|
+
+## Linked List
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.021|Merge Two Sorted Lists|[Solution](./021/Solution.py)|[Note](./021/note.md)|Easy|O(n)|O(1)|String|
 
 
 
