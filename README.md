@@ -72,7 +72,11 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.021|Merge Two Sorted Lists|[Solution](./021/Solution.py)|[Note](./021/note.md)|Easy|O(n)|O(1)|guard node|
-|No.024|Merge Two Sorted Lists|[Solution](./024/Solution.py)|[Note](./024/note.md)|Easy|O(n)|O(1)||
+|No.024|Merge Two Sorted Lists|[Solution](./024/Solution.py)|[Note](./024/note.md)|Easy|O(n)|O(1)|watch end|
+|No.083|Remove Duplicates from Sorted List|[Solution](./083/Solution.py)|[Note](./083/note.md)|Easy|O(n)|O(1)|two pointer|
+|No.160|Intersection of Two Linked Lists|[Solution](./160/Solution.py)|[Note](./160/note.md)|Easy|O(n)|O(1)||
+|No.203|Remove Linked List Elements|[Solution](./203/Solution.py)|[Note](./203/note.md)|Easy|O(n)|O(1)||
+
 
 
 
