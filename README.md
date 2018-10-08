@@ -10,6 +10,7 @@ Table of Contents
       * [Bit Manipulation](#bit-manipulation)
       * [Array](#array)
       * [Linked List](#Linked-List)
+      * [Stack](#Stack)
 
 ## Classical Algorithm
 - String
@@ -76,6 +77,13 @@ Table of Contents
 |No.083|Remove Duplicates from Sorted List|[Solution](./083/Solution.py)|[Note](./083/note.md)|Easy|O(n)|O(1)|two pointer|
 |No.160|Intersection of Two Linked Lists|[Solution](./160/Solution.py)|[Note](./160/note.md)|Easy|O(n)|O(1)||
 |No.203|Remove Linked List Elements|[Solution](./203/Solution.py)|[Note](./203/note.md)|Easy|O(n)|O(1)||
+|No.237|Delete Node in a Linked List|[Solution](./237/Solution.py)|[Note](./237/note.md)|Easy|O(1)|O(1)|tricky,del|
+|No.328|Delete Node in a Linked List|[Solution](./328/Solution.py)|[Note](./328/note.md)|Meduim|O(1)|O(1)||
+
+
+
+## Stack
+|No.101|Symmetric Tree|[Solution](./101/Solution.py)|[Note](./101/note.md)|Easy|O(n)|O(1)||
 
 
 
