@@ -78,13 +78,15 @@ Table of Contents
 |No.160|Intersection of Two Linked Lists|[Solution](./160/Solution.py)|[Note](./160/note.md)|Easy|O(n)|O(1)||
 |No.203|Remove Linked List Elements|[Solution](./203/Solution.py)|[Note](./203/note.md)|Easy|O(n)|O(1)||
 |No.237|Delete Node in a Linked List|[Solution](./237/Solution.py)|[Note](./237/note.md)|Easy|O(1)|O(1)|tricky,del|
-|No.234|Palindrome Linked List|[Solution](./234/Solution.py)|[Note](./234/note.md)|Meduim|O(1)|O(1)||
+|No.234|Palindrome Linked List|[Solution](./234/Solution.py)|[Note](./234/note.md)|Meduim|O(1)|O(1)|slow,quick pointer|
 
 
 
 
 ## Stack
 |No.101|Symmetric Tree|[Solution](./101/Solution.py)|[Note](./101/note.md)|Easy|O(n)|O(1)||
+|No.20|Valid Parentheses|[Solution](./20/Solution.py)|[Note](./20/note.md)|Easy|O(n)|O(1)||
+|No.844|Backspace String Compare|[Solution](./844/Solution.py)|[Note](./844/note.md)|Easy|O(n)|O(1)|yield|
 
 
 
