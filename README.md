@@ -90,6 +90,7 @@ Table of Contents
 |No.155|Min Stack|[Solution](./155/Solution.py)|[Note](./155/note.md)|Easy|O(1)|O(1)|yield|
 |No.173|Binary Search Tree Iterator|[Solution](./173/Solution.py)|[Note](./173/note.md)|Easy|O(n)|O(1)||
 |No.232|Implement Queue using Stacks|[Solution](./232/Solution.py)|[Note](./232/note.md)|Easy|O(n)|O(1)||
+|No.682|Baseball Game|[Solution](./682/Solution.py)|[Note](./682/note.md)|Easy|O(n)|O(1)||
 
 
 
