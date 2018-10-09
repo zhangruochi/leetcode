@@ -98,6 +98,8 @@ Table of Contents
 
 
 ## Recursion
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
 |No.101|Symmetric Tree|[Solution](./101/Solution.py)|[Note](./101/note.md)|Easy|O(n)|O(h)||
 
 
