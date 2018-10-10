@@ -91,17 +91,15 @@ Table of Contents
 |No.844|Backspace String Compare|[Solution](./844/Solution.py)|[Note](./844/note.md)|Easy|O(n)|O(1)|yield|
 |No.155|Min Stack|[Solution](./155/Solution.py)|[Note](./155/note.md)|Easy|O(1)|O(1)|yield|
 |No.173|Binary Search Tree Iterator|[Solution](./173/Solution.py)|[Note](./173/note.md)|Easy|O(n)|O(1)||
-|No.232|Implement Queue using Stacks|[Solution](./232/Solution.py)|[Note](./232/note.md)|Easy|O(n)|O(n)||
-|No.682|Baseball Game|[Solution](./682/Solution.py)|[Note](./682/note.md)|Easy|O(n)|O(n)||
+|No.232|Implement Queue using Stacks|[Solution](./232/Solution.py)|[Note](./232/note.md)|Easy|O(n)|O(1)||
+|No.682|Baseball Game|[Solution](./682/Solution.py)|[Note](./682/note.md)|Easy|O(n)|O(1)||
 
 
 
 
 ## Recursion
-|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
-|---|-----|--------|----|----------|----|-----|---|
 |No.101|Symmetric Tree|[Solution](./101/Solution.py)|[Note](./101/note.md)|Easy|O(n)|O(h)||
-
+|No.872|Leaf-Similar Trees|[Solution](./872/Solution.py)|[Note](./872/note.md)|Easy|O(n)|O(n)||
 
 
 
