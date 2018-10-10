@@ -16,6 +16,7 @@ Table of Contents
 ## Classical Algorithm
 - String
     - [KMP](./classical_algorithm/kmp.py) | [NOTE](./classical_algorithm/note.md)
+    - [Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
 
     
 
@@ -98,6 +99,8 @@ Table of Contents
 
 
 ## Recursion
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
 |No.101|Symmetric Tree|[Solution](./101/Solution.py)|[Note](./101/note.md)|Easy|O(n)|O(h)||
 |No.872|Leaf-Similar Trees|[Solution](./872/Solution.py)|[Note](./872/note.md)|Easy|O(n)|O(n)||
 
