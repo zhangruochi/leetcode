@@ -9,17 +9,17 @@ Table of Contents
       * [Classical Algorithm](#Classical-Algorithm)
       * [Bit Manipulation](#bit-manipulation)
       * [Array](#array)
-      * [Linked List](#linked-list)
-      * [Stack](#stack)
-      * [Recursion](#recursion)
+      * [Linked List](#Linked-List)
+      * [Stack](#Stack)
+      * [Recursion](#Recursion)
 
 ## Classical Algorithm
-| Name. | Note |  Time | Space | Tag |
-| ---   | ---- | ------| ----  | --- |
-|[KMP](./classical_algorithm/kmp.py) | [NOTE](./classical_algorithm/kmp.md) | O(S+P)  | O(P)  |
-|[Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md) | O(n) | O(logn)
-|[BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md) |  |  |
-|Recursion | [NOTE](./classical_algorithm/Recursion.md)|  |  |
+| Name. | Note | Solution | Note | Difficulty | Time | Space | Tag |
+| --- | ----- | -------- | ---- | ---------- | ---- | ----- | --- |
+|[KMP](./classical_algorithm/kmp.py) | [NOTE](./classical_algorithm/kmp.md)
+|[Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
+|[BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md)
+|Recursion | [NOTE](./classical_algorithm/Recursion.md)
 
     
 
@@ -106,6 +106,8 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.101|Symmetric Tree|[Solution](./101/Solution.py)|[Note](./101/note.md)|Easy|O(n)|O(h)||
 |No.872|Leaf-Similar Trees|[Solution](./872/Solution.py)|[Note](./872/note.md)|Easy|O(n)|O(n)||
+|No.104|Maximum Depth of Binary Tree|[Solution](./104/Solution.py)|[Note](./104/note.md)|Easy|O(n)|O(n)||
+
 
 
 
