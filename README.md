@@ -9,9 +9,9 @@ Table of Contents
       * [Classical Algorithm](#Classical-Algorithm)
       * [Bit Manipulation](#bit-manipulation)
       * [Array](#array)
-      * [Linked List](#Linked-List)
-      * [Stack](#Stack)
-      * [Recursion](#Recursion)
+      * [Linked List](#linked-list)
+      * [Stack](#stack)
+      * [Recursion](#recursion)
 
 ## Classical Algorithm
 | Name. | Note |  Time | Space | Tag |
