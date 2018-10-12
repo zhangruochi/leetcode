@@ -106,7 +106,8 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.101|Symmetric Tree|[Solution](./101/Solution.py)|[Note](./101/note.md)|Easy|O(n)|O(h)||
 |No.872|Leaf-Similar Trees|[Solution](./872/Solution.py)|[Note](./872/note.md)|Easy|O(n)|O(n)||
-|No.104|Maximum Depth of Binary Tree|[Solution](./104/Solution.py)|[Note](./104/note.md)|Easy|O(n)|O(n)||
+|No.104|Maximum Depth of Binary Tree|[Solution](./104/Solution.py)|[Note](./104/note.md)|Easy|O(logn)|O(1)||
+|No.110|Balanced Binary Tree|[Solution](./110/Solution.py)|[Note](./110/note.md)|Easy|O(n)|O(n)||
 
 
 
