@@ -14,11 +14,12 @@ Table of Contents
       * [Recursion](#Recursion)
 
 ## Classical Algorithm
-- String
-    - [KMP](./classical_algorithm/kmp.py) | [NOTE](./classical_algorithm/kmp.md)
-    - [Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
-    - [BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md)
-    -  Recursion | [NOTE](./classical_algorithm/Recursion.md)
+| Name. | Note |  Time | Space | Tag |
+| ---   | ---- | ------| ----  | --- |
+|[KMP](./classical_algorithm/kmp.py) | [NOTE](./classical_algorithm/kmp.md) | O(S+P)  | O(P)  |
+|[Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md) | O(n) | O(logn)
+|[BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md) |  |  |
+|Recursion | [NOTE](./classical_algorithm/Recursion.md)|  |  |
 
     
 
