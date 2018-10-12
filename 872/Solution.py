@@ -47,8 +47,6 @@ class Solution:
         list_root2 = []
         
         self.root_recursion(root1,list_root1)
-        print(list_root1)
-        exit()
         self.root_recursion(root2,list_root2) 
 
         return list_root1 == list_root2

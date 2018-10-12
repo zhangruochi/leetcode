@@ -108,7 +108,8 @@ Table of Contents
 |No.872|Leaf-Similar Trees|[Solution](./872/Solution.py)|[Note](./872/note.md)|Easy|O(n)|O(n)||
 |No.104|Maximum Depth of Binary Tree|[Solution](./104/Solution.py)|[Note](./104/note.md)|Easy|O(logn)|O(1)||
 |No.110|Balanced Binary Tree|[Solution](./110/Solution.py)|[Note](./110/note.md)|Easy|O(logn)|O(1)||
-|No.111|Balanced Binary Tree|[Solution](./111/Solution.py)|[Note](./111/note.md)|Easy|O(logn)|O(1)||
+|No.111|Minimum Depth of Binary Tree|[Solution](./111/Solution.py)|[Note](./111/note.md)|Easy|O(logn)|O(1)||
+|No.404|Sum of Left Leaves|[Solution](./404/Solution.py)|[Note](./404/note.md)|Easy|O(logn)|O(1)||
 
 
 
