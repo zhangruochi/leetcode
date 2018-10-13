@@ -111,6 +111,7 @@ Table of Contents
 |No.111|Minimum Depth of Binary Tree|[Solution](./111/Solution.py)|[Note](./111/note.md)|Easy|O(logn)|O(1)||
 |No.404|Sum of Left Leaves|[Solution](./404/Solution.py)|[Note](./404/note.md)|Easy|O(logn)|O(1)||
 |No.669|Trim a Binary Search Tree|[Solution](./669/Solution.py)|[Note](./669/note.md)|Easy|O(logn)|O(1)||
+|No.671|Second Minimum Node In a Binary Tree|[Solution](./671/Solution.py)|[Note](./671/note.md)|Easy|O(logn)|O(1)||
 
 
 
