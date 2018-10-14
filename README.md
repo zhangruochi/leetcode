@@ -20,6 +20,7 @@ Table of Contents
 |[Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
 |[BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md)
 |Recursion | [NOTE](./classical_algorithm/Recursion.md)
+|BFS,DFS,TopoSort | [NOTE](./classical_algorithm/Graph.md)
 
     
 
