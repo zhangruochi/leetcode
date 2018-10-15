@@ -21,6 +21,7 @@ Table of Contents
 |[BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md)
 |Recursion | [NOTE](./classical_algorithm/Recursion.md)
 |BFS,DFS,TopoSort | [NOTE](./classical_algorithm/Graph.md)
+|[Dijkstra](./classical_algorithm/Dijkstra.py) | [NOTE](./classical_algorithm/Dijkstra.md)
 
     
 
