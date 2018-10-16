@@ -12,6 +12,7 @@ Table of Contents
       * [Linked List](#Linked-List)
       * [Stack](#Stack)
       * [Recursion](#Recursion)
+      * [Queue](#Queue)
 
 ## Classical Algorithm
 | Name. | Note | Solution | Note | Difficulty | Time | Space | Tag |
@@ -25,9 +26,6 @@ Table of Contents
 | Floyd |[NOTE](./classical_algorithm/Floyd.md)
 
     
-
-
-
 
 
 
@@ -118,6 +116,10 @@ Table of Contents
 
 
 
+## Queue
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.346|Moving Average from Data Stream|[Solution](./346/Solution.py)|[Note](./346/note.md)|Easy|O(1)|O(w)||
 
 
 
