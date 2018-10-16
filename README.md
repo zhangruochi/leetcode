@@ -130,6 +130,7 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.226|Invert Binary Tree|[Solution](./226/Solution.py)|[Note](./226/note.md)|Easy|O(logn)|O(1)||
 |No.538|Convert BST to Greater Tree|[Solution](./538/Solution.py)|[Note](./538/note.md)|Easy|O(n)|O(n)||
+|No.543|Diameter of Binary Tree|[Solution](./543/Solution.py)|[Note](./543/note.md)|Easy|O(n)|O(n)||
 
 
 
