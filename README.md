@@ -128,7 +128,8 @@ Table of Contents
 ## Tree
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.226|Invert Binary Tree|[Solution](./226/Solution.py)|[Note](./226/note.md)|Medium|O()|O()||
+|No.226|Invert Binary Tree|[Solution](./226/Solution.py)|[Note](./226/note.md)|Easy|O(logn)|O(1)||
+|No.538|Convert BST to Greater Tree|[Solution](./538/Solution.py)|[Note](./538/note.md)|Easy|O(n)|O(n)||
 
 
 
