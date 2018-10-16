@@ -87,56 +87,5 @@ if __name__ == '__main__':
 
 
 
-## -----------------------------------------
-
-
-def get_start_point(nodes):
-    index_dict = {}
-    cur_index = 0
-    for index,length in enumerate(list(reversed(range(nodes)))[0:-1]):
-        index_dict[index] = cur_index
-        cur_index += length
-    return index_dict
-
-def dijkstra(graph,nums_nodes,start,end):
-
-    index_dict = get_start_point(nums_nodes)
-
-    q, visited, mins = [(0,start,[])], set(), {start:0}  # q->(cost,start->current,path)
-    heapify(q)
-
-    while q:
-        (cost,v1,path) = heappop(q)
-
-        if v1 not in visited:
-            visited.add(v1)
-            path = path + [v1]
- 
-            if v1 == end: 
-                return (cost,path)
-
-            for index,c in enumerate(graph[index_dict[v1]:index_dict[v1]+nums_nodes-(v1+1)]):
-                v2 = v1 + index + 1
-                if v2 in visited or c == float("inf"):
-                    continue
-                prev = mins.get(v2,float("inf"))
-                new_path_cost = cost + c
-                if prev > new_path_cost:
-                    mins[v2] = new_path_cost
-                    heappush(q,(new_path_cost,v2,path))        
-    
-    return float("inf")    
-
-
-
-if __name__ == '__main__':
-    nums_nodes = 6
-    graph = [6, 3, float("inf"), float("inf"), float("inf"),2, 5,float("inf"), float("inf"),3,4,float("inf"),2, 3, 2]
-
-    path = dijkstra(graph,nums_nodes,0,5)  # 查找从源点0开始带其他节点的最短路径
-    print(path)
-
-
-
 
 

@@ -22,6 +22,7 @@ Table of Contents
 |Recursion | [NOTE](./classical_algorithm/Recursion.md)
 |BFS,DFS,TopoSort | [NOTE](./classical_algorithm/Graph.md)
 |[Dijkstra](./classical_algorithm/Dijkstra.py) | [NOTE](./classical_algorithm/Dijkstra.md)
+| Floyd |[NOTE](./classical_algorithm/Floyd.md)
 
     
 
