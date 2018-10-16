@@ -13,6 +13,7 @@ Table of Contents
       * [Stack](#Stack)
       * [Recursion](#Recursion)
       * [Queue](#Queue)
+      * [Tree](#Tree)
 
 ## Classical Algorithm
 | Name. | Note | Solution | Note | Difficulty | Time | Space | Tag |
@@ -121,6 +122,12 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.346|Moving Average from Data Stream|[Solution](./346/Solution.py)|[Note](./346/note.md)|Easy|O(1)|O(w)||
 |No.281|Zigzag Iterator|[Solution](./281/Solution.py)|[Note](./281/note.md)|Medium|O(n)|O(n)||
+
+
+## Tree
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.226|Invert Binary Tree|[Solution](./226/Solution.py)|[Note](./226/note.md)|Medium|O()|O()||
 
 
 
