@@ -120,6 +120,7 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.346|Moving Average from Data Stream|[Solution](./346/Solution.py)|[Note](./346/note.md)|Easy|O(1)|O(w)||
+|No.281|Zigzag Iterator|[Solution](./281/Solution.py)|[Note](./281/note.md)|Medium|O(n)|O(n)||
 
 
 
