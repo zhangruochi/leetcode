@@ -22,9 +22,10 @@ Table of Contents
 |[Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
 |[BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md)
 |Recursion | [NOTE](./classical_algorithm/Recursion.md)
-|BFS,DFS,TopoSort | [NOTE](./classical_algorithm/Graph.md)
+|Graph| [NOTE](./classical_algorithm/Graph.md)
 |[Dijkstra](./classical_algorithm/Dijkstra.py) | [NOTE](./classical_algorithm/Dijkstra.md)
 | Floyd |[NOTE](./classical_algorithm/Floyd.md)
+| BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
 
     
 
