@@ -135,6 +135,7 @@ Table of Contents
 |No.897|Increasing Order Search Tree|[Solution](./897/Solution.py)|[Note](./897/note.md)|Easy|O(n)|O(h)||
 |No.617|Merge Two Binary Trees|[Solution](./617/Solution.py)|[Note](./617/note.md)|Easy|O(n)|O(h)||
 |No.606|Construct String from Binary Tree|[Solution](./606/Solution.py)|[Note](./606/note.md)|Easy|O(n)|O(h)||
+|No.572|Subtree of Another Tree|[Solution](./572/Solution.py)|[Note](./572/note.md)|Easy|O(n)|O(h)||
 
 
 
