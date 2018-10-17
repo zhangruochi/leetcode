@@ -132,6 +132,8 @@ Table of Contents
 |No.538|Convert BST to Greater Tree|[Solution](./538/Solution.py)|[Note](./538/note.md)|Easy|O(n)|O(h)||
 |No.543|Diameter of Binary Tree|[Solution](./543/Solution.py)|[Note](./543/note.md)|Easy|O(n)|O(h)||
 |No.687|Longest Univalue Path|[Solution](./687/Solution.py)|[Note](./687/note.md)|Easy|O(n)|O(h)||
+|No.897|Increasing Order Search Tree|[Solution](./897/Solution.py)|[Note](./897/note.md)|Easy||||
+|No.617|Merge Two Binary Trees|[Solution](./617/Solution.py)|[Note](./617/note.md)|Easy||||
 
 
 
