@@ -6,14 +6,14 @@ Table of Contents
 =================
 
    * [LeetCode](#leetcode)
-      * [Classical Algorithm](#Classical-Algorithm)
+      * [Classical Algorithm](#classical-Algorithm)
       * [Bit Manipulation](#bit-manipulation)
       * [Array](#array)
-      * [Linked List](#Linked-List)
-      * [Stack](#Stack)
-      * [Recursion](#Recursion)
-      * [Queue](#Queue)
-      * [Tree](#Tree)
+      * [Linked List](#linked-List)
+      * [Stack](#stack)
+      * [Recursion](#recursion)
+      * [Queue](#queue)
+      * [Tree](#tree)
 
 ## Classical Algorithm
 | Name. | Note | Solution | Note | Difficulty | Time | Space | Tag |
@@ -137,7 +137,7 @@ Table of Contents
 |No.606|Construct String from Binary Tree|[Solution](./606/Solution.py)|[Note](./606/note.md)|Easy|O(n)|O(h)||
 |No.572|Subtree of Another Tree|[Solution](./572/Solution.py)|[Note](./572/note.md)|Easy|O(n)|O(h)||
 |No.563|Binary Tree Tilt|[Solution](./563/Solution.py)|[Note](./563/note.md)|Easy|O(n^2)|||
-|No.094|Binary Tree Inorder Traversal|[Solution](./094/Solution.py)|[Note](./094/note.md)|Medium||||
+|No.094|Binary Tree Inorder Traversal|[Solution](./094/Solution.py)|[Note](./094/note.md)|Medium|O(n)|O(n)||
 
 
 
