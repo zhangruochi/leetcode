@@ -137,6 +137,7 @@ Table of Contents
 |No.606|Construct String from Binary Tree|[Solution](./606/Solution.py)|[Note](./606/note.md)|Easy|O(n)|O(h)||
 |No.572|Subtree of Another Tree|[Solution](./572/Solution.py)|[Note](./572/note.md)|Easy|O(n)|O(h)||
 |No.563|Binary Tree Tilt|[Solution](./563/Solution.py)|[Note](./563/note.md)|Easy|O(n^2)|||
+|No.094|Binary Tree Inorder Traversal|[Solution](./094/Solution.py)|[Note](./094/note.md)|Medium||||
 
 
 
