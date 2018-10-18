@@ -6,7 +6,7 @@ Table of Contents
 =================
 
    * [LeetCode](#leetcode)
-      * [Classical Algorithm](#classical-Algorithm)
+      * [Classical Algorithm](#classical-algorithm)
       * [Bit Manipulation](#bit-manipulation)
       * [Array](#array)
       * [Linked List](#linked-List)
@@ -14,6 +14,7 @@ Table of Contents
       * [Recursion](#recursion)
       * [Queue](#queue)
       * [Tree](#tree)
+      * [Hash Table](#hash-table)
 
 ## Classical Algorithm
 | Name. | Note | Solution | Note | Difficulty | Time | Space | Tag |
@@ -137,7 +138,15 @@ Table of Contents
 |No.606|Construct String from Binary Tree|[Solution](./606/Solution.py)|[Note](./606/note.md)|Easy|O(n)|O(h)||
 |No.572|Subtree of Another Tree|[Solution](./572/Solution.py)|[Note](./572/note.md)|Easy|O(n)|O(h)||
 |No.563|Binary Tree Tilt|[Solution](./563/Solution.py)|[Note](./563/note.md)|Easy|O(n^2)|||
-|No.094|Binary Tree Inorder Traversal|[Solution](./094/Solution.py)|[Note](./094/note.md)|Medium|O(n)|O(n)||
+|No.094|Binary Tree Inorder Traversal|[Solution](./094/Solution.py)|[Note](./094/note.md)|Medium|O(n)|O(n)|Inorder Traversal|
+
+
+## Hash Table
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.202|Happy Number|[Solution](./202/Solution.py)|[Note](./202/note.md)|Medium|O(n)|O(n)||
+|No.204|Count Primes|[Solution](./204/Solution.py)|[Note](./204/note.md)|Medium|O(n)|||
+
 
 
 
