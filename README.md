@@ -146,6 +146,7 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.202|Happy Number|[Solution](./202/Solution.py)|[Note](./202/note.md)|Medium|O(n)|O(n)||
 |No.204|Count Primes|[Solution](./204/Solution.py)|[Note](./204/note.md)|Medium|O(n)|||
+|No.205|Isomorphic Strings|[Solution](./205/Solution.py)|[Note](./205/note.md)|Medium|O(n)|||
 
 
 
