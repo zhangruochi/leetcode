@@ -149,6 +149,7 @@ Table of Contents
 |No.205|Isomorphic Strings|[Solution](./205/Solution.py)|[Note](./205/note.md)|Medium|O(n)|O(n)||
 |No.217|Contains Duplicate|[Solution](./217/Solution.py)|[Note](./217/note.md)|Medium|O(n)|O(n)||
 |No.219|Contains DuplicateII|[Solution](./219/Solution.py)|[Note](./219/note.md)|Medium|O(n)|O(n)||
+|No.246|Strobogrammatic Number|[Solution](./246/Solution.py)|[Note](./246/note.md)|Medium|O(n)|O(n)||
 
 
 
