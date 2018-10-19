@@ -27,6 +27,7 @@ Table of Contents
 |[Dijkstra](./classical_algorithm/Dijkstra.py) | [NOTE](./classical_algorithm/Dijkstra.md)
 | Floyd |[NOTE](./classical_algorithm/Floyd.md)
 | BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
+| BinarySearch|[NOTE](./classical_algorithm/BinarySearch.md)
 
     
 
@@ -62,6 +63,7 @@ Table of Contents
 |No.905|Sort Array By Parity|[Solution](./905/Solution.py)|[Note](./905/note.md)|Easy|O(n)|O(1)|Array|
 |No.896|Monotonic Array|[Solution](./896/Solution.py)|[Note](./896/note.md)|Easy|O(n)|O(1)|Array|
 |No.243|Shortest Word Distance|[Solution](./243/Solution.py)|[Note](./243/note.md)|Easy|O(n)|O(1)|Array|
+
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -144,13 +146,13 @@ Table of Contents
 ## Hash Table
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.202|Happy Number|[Solution](./202/Solution.py)|[Note](./202/note.md)|Medium|O(n)|O(n)||
-|No.204|Count Primes|[Solution](./204/Solution.py)|[Note](./204/note.md)|Medium|O(n)|||
-|No.205|Isomorphic Strings|[Solution](./205/Solution.py)|[Note](./205/note.md)|Medium|O(n)|O(n)||
-|No.217|Contains Duplicate|[Solution](./217/Solution.py)|[Note](./217/note.md)|Medium|O(n)|O(n)||
-|No.219|Contains DuplicateII|[Solution](./219/Solution.py)|[Note](./219/note.md)|Medium|O(n)|O(n)||
-|No.246|Strobogrammatic Number|[Solution](./246/Solution.py)|[Note](./246/note.md)|Medium|O(n)|O(n)||
-
+|No.202|Happy Number|[Solution](./202/Solution.py)|[Note](./202/note.md)|Easy|O(n)|O(n)||
+|No.204|Count Primes|[Solution](./204/Solution.py)|[Note](./204/note.md)|Easy|O(n)|||
+|No.205|Isomorphic Strings|[Solution](./205/Solution.py)|[Note](./205/note.md)|Easy|O(n)|O(n)||
+|No.217|Contains Duplicate|[Solution](./217/Solution.py)|[Note](./217/note.md)|Easy|O(n)|O(n)||
+|No.219|Contains DuplicateII|[Solution](./219/Solution.py)|[Note](./219/note.md)|Easy|O(n)|O(n)||
+|No.246|Strobogrammatic Number|[Solution](./246/Solution.py)|[Note](./246/note.md)|Easy|O(n)|O(n)||
+|No.244|Shortest Word Distance II|[Solution](./244/Solution.py)|[Note](./244/note.md)|Medium|O(n)|O(n)||
 
 
 
