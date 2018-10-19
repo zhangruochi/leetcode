@@ -17,8 +17,8 @@ Table of Contents
       * [Hash Table](#hash-table)
 
 ## Classical Algorithm
-| Name. | Note | Solution | Note | Difficulty | Time | Space | Tag |
-| --- | ----- | -------- | ---- | ---------- | ---- | ----- | --- |
+| Name. | Note |
+| --- | ----- |
 |[KMP](./classical_algorithm/kmp.py) | [NOTE](./classical_algorithm/kmp.md)
 |[Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
 |[BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md)
@@ -28,6 +28,7 @@ Table of Contents
 | Floyd |[NOTE](./classical_algorithm/Floyd.md)
 | BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
 | BinarySearch|[NOTE](./classical_algorithm/BinarySearch.md)
+| [Union Find](./classical_algorithm/UnionFind.py)|[NOTE](./classical_algorithm/UnionFind.md)
 
     
 
@@ -154,7 +155,8 @@ Table of Contents
 |No.246|Strobogrammatic Number|[Solution](./246/Solution.py)|[Note](./246/note.md)|Easy|O(n)|O(n)||
 |No.244|Shortest Word Distance II|[Solution](./244/Solution.py)|[Note](./244/note.md)|Medium|O(m+n)|O(n)||
 |No.249|Group Shifted Strings|[Solution](./249/Solution.py)|[Note](./249/note.md)|Easy|O(n)|O(n)||
-|No.266|Palindrome Permutation|[Solution](./266/Solution.py)|[Note](./266/note.md)|Easy|O()|O()||
+|No.266|Palindrome Permutation|[Solution](./266/Solution.py)|[Note](./266/note.md)|Easy|O(n)|O(n)||
+|No.288|Unique Word Abbreviation|[Solution](./288/Solution.py)|[Note](./288/note.md)|Medium|O(n)|O(n)||
 
 
 
