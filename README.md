@@ -152,7 +152,7 @@ Table of Contents
 |No.217|Contains Duplicate|[Solution](./217/Solution.py)|[Note](./217/note.md)|Easy|O(n)|O(n)||
 |No.219|Contains DuplicateII|[Solution](./219/Solution.py)|[Note](./219/note.md)|Easy|O(n)|O(n)||
 |No.246|Strobogrammatic Number|[Solution](./246/Solution.py)|[Note](./246/note.md)|Easy|O(n)|O(n)||
-|No.244|Shortest Word Distance II|[Solution](./244/Solution.py)|[Note](./244/note.md)|Medium|O(n)|O(n)||
+|No.244|Shortest Word Distance II|[Solution](./244/Solution.py)|[Note](./244/note.md)|Medium|O(m+n)|O(n)||
 
 
 
