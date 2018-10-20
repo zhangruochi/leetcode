@@ -15,6 +15,7 @@ Table of Contents
       * [Queue](#queue)
       * [Tree](#tree)
       * [Hash Table](#hash-table)
+      * [Sort](#sort)
 
 ## Classical Algorithm
 | Name. | Note |
@@ -29,6 +30,7 @@ Table of Contents
 | BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
 | BinarySearch|[NOTE](./classical_algorithm/BinarySearch.md)
 | [Union Find](./classical_algorithm/UnionFind.py)|[NOTE](./classical_algorithm/UnionFind.md)
+| Sort|[NOTE](./classical_algorithm/Sort.md)
 
     
 
@@ -157,6 +159,12 @@ Table of Contents
 |No.249|Group Shifted Strings|[Solution](./249/Solution.py)|[Note](./249/note.md)|Easy|O(n)|O(n)||
 |No.266|Palindrome Permutation|[Solution](./266/Solution.py)|[Note](./266/note.md)|Easy|O(n)|O(n)||
 |No.288|Unique Word Abbreviation|[Solution](./288/Solution.py)|[Note](./288/note.md)|Medium|O(n)|O(n)||
+
+
+## Sort
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.088|Merge Sorted Array|[Solution](./088/Solution.py)|[Note](./088/note.md)|Medium|O(n)|O(n)||
 
 
 
