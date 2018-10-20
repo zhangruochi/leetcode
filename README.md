@@ -30,7 +30,7 @@ Table of Contents
 | BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
 | BinarySearch|[NOTE](./classical_algorithm/BinarySearch.md)
 | [Union Find](./classical_algorithm/UnionFind.py)|[NOTE](./classical_algorithm/UnionFind.md)
-| Sort|[NOTE](./classical_algorithm/Sort.md)
+| [Sort](./classical_algorithm/Sort.py)|[NOTE](./classical_algorithm/Sort.md)
 
     
 
