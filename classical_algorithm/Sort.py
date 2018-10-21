@@ -3,12 +3,14 @@ import random
 def insert_sort(lists):
     for i in range(1,len(lists)):
         tmp = lists[i]
-        for j in range(i-1,-1,-1):
+        j = i - 1
+        while j >= 0:
             if lists[j] > tmp:
                 lists[j+1] = lists[j] #数据移动
+                j -= 1
             else:
                 break
-        lists[j] = tmp        
+        lists[j+1] = tmp        
 
 
 def select_sort(lists):

@@ -164,7 +164,7 @@ Table of Contents
 ## Sort
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.088|Merge Sorted Array|[Solution](./088/Solution.py)|[Note](./088/note.md)|Medium|O(n)|O(n)||
+|No.088|Merge Sorted Array|[Solution](./088/Solution.py)|[Note](./088/note.md)|Medium|O(n+m)|O(1)|three pointer|
 
 
 
