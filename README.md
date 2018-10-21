@@ -165,7 +165,7 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.088|Merge Sorted Array|[Solution](./088/Solution.py)|[Note](./088/note.md)|Medium|O(n+m)|O(1)|three pointer|
-
+|No.252|Meeting Room|[Solution](./252/Solution.py)|[Note](./252/note.md)|Easy|O(nlogn)|O(1)||
 
 
 
