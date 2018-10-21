@@ -166,7 +166,8 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.088|Merge Sorted Array|[Solution](./088/Solution.py)|[Note](./088/note.md)|Medium|O(n+m)|O(1)|three pointer|
 |No.252|Meeting Room|[Solution](./252/Solution.py)|[Note](./252/note.md)|Easy|O(nlogn)|O(1)||
-
+|No.075|Sort Colors|[Solution](./075/Solution.py)|[Note](./075/note.md)|Easy|O(n)|O(1)|tri pointer|
+|No.147|Insertion Sort List|[Solution](./147/Solution.py)|[Note](./147/note.md)|Easy|O(n)|O(1)||
 
 
 
