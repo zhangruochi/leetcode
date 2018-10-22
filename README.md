@@ -168,8 +168,9 @@ Table of Contents
 |No.252|Meeting Room|[Solution](./252/Solution.py)|[Note](./252/note.md)|Easy|O(nlogn)|O(1)||
 |No.075|Sort Colors|[Solution](./075/Solution.py)|[Note](./075/note.md)|Medium|O(n)|O(1)|tri pointer|
 |No.147|Insertion Sort List|[Solution](./147/Solution.py)|[Note](./147/note.md)|Medium|O(n^2)|O(1)||
-|No.148|Sort List|[Solution](./148/Solution.py)|[Note](./148/note.md)|Medium|O(nlog)|O(1)||
-|No.179|Largest Number|[Solution](./179/Solution.py)|[Note](./179/note.md)|Medium|O(nlog)|O(1)||
+|No.148|Sort List|[Solution](./148/Solution.py)|[Note](./148/note.md)|Medium|O(nlog)|O(1)|list merge sort|
+|No.179|Largest Number|[Solution](./179/Solution.py)|[Note](./179/note.md)|Medium|O(nlog)|O(1)|cmp_to_key|
+|No.253|Meeting Rooms II|[Solution](./253/Solution.py)|[Note](./253/note.md)|Medium|O(nlog)|O(1)|cmp_to_key|
 
 
 
