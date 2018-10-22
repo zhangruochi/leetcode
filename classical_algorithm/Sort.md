@@ -135,6 +135,48 @@ def select_sort(lists):
         
         return merge(left,right) 
     ```
+    ```Python
+    # merge sort linklist version
+    class Solution:
+        def merge(self,list1,list2):
+            dummy = ListNode(0)
+            cur = dummy
+            while list1 and list2:
+                if list1.val <= list2.val:
+                    cur.next = list1
+                    list1 = list1.next
+                else:
+                    cur.next = list2
+                    list2 = list2.next
+                cur = cur.next
+
+            if list1:
+                cur.next = list1
+            if list2:
+                cur.next = list2
+
+            return dummy.next
+                        
+
+        def sortList(self, head):
+            """
+            :type head: ListNode
+            :rtype: ListNode
+            """
+            if not head or not head.next:
+                return head
+
+            fast = head.next
+            slow = head
+            while fast and fast.next:
+                fast = fast.next.next
+                slow = slow.next
+                
+            middle = slow.next
+            slow.next = None
+            
+            return self.merge(self.sortList(head),self.sortList(middle)) 
+    ```
 - 归并排序不是就地排序算法
 - 归并排序是稳定排序算法
     在merge函数中，如果 left 和 right 中有值相同的元素，可以先把 left中的元素放入 result，这样保持了元素的有序性。

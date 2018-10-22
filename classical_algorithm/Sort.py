@@ -127,6 +127,48 @@ def radix_sort(lists, radix = 11):
     return lists    
 
 
+
+## merge sort linklist version
+class Solution:
+    def merge(self,list1,list2):
+        dummy = ListNode(0)
+        cur = dummy
+        while list1 and list2:
+            if list1.val <= list2.val:
+                cur.next = list1
+                list1 = list1.next
+            else:
+                cur.next = list2
+                list2 = list2.next
+            cur = cur.next
+
+        if list1:
+            cur.next = list1
+        if list2:
+            cur.next = list2
+
+        return dummy.next
+                    
+
+    def sortList(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        if not head or not head.next:
+            return head
+
+        fast = head.next
+        slow = head
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next
+            
+        middle = slow.next
+        slow.next = None
+        
+        return self.merge(self.sortList(head),self.sortList(middle)) 
+
 if __name__ == '__main__':
     phone_numbers = [randint(10000000000,99999999999) for num in range(1000000)]
     phone_numbers = radix_sort(phone_numbers)
