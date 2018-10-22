@@ -31,3 +31,19 @@
         
         return self.merge(self.merge_sort(nums[:length//2]),self.merge_sort(nums[length//2:]))
 ```
+
+# 使用 python 自带的函数 cmp_to_key
+- cmp_to_key 接受一个 comparison function， negative number for less-than, zero for equality, or a positive number for greater-than
+
+```Python
+from functools import cmp_to_key
+class Solution:
+    def largestNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: str
+        """
+        nums = list(map(str,nums))
+        nums.sort(key = cmp_to_key(lambda x,y: int(x+y)-int(y+x)), reverse = True)
+        return "".join(nums).lstrip("0") or "0"
+```
