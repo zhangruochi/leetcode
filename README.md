@@ -17,6 +17,7 @@ Table of Contents
       * [Tree](#tree)
       * [Hash Table](#hash-table)
       * [Sort](#sort)
+      * [Heap](#heap)
 
 ## Complexity
 [Time & Space Complexity](./classical_algorithm/TimeSpaceCpmlexity.md)
@@ -179,4 +180,8 @@ Table of Contents
 |No.253|Meeting Rooms II|[Solution](./253/Solution.py)|[Note](./253/note.md)|Medium|O(nlogn)|O(n)||
 
 
+## Heap
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.264|Ugly Number II|[Solution](./264/Solution.py)|[Note](./264/note.md)|Medium|O(n)|O(1)||
 
