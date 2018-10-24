@@ -18,6 +18,7 @@ Table of Contents
       * [Hash Table](#hash-table)
       * [Sort](#sort)
       * [Heap](#heap)
+      * [Math](#math)
 
 ## Complexity
 [Time & Space Complexity](./classical_algorithm/TimeSpaceCpmlexity.md)
@@ -184,4 +185,10 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.264|Ugly Number II|[Solution](./264/Solution.py)|[Note](./264/note.md)|Medium|O(n)|O(1)||
+
+
+## Math
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.263|Ugly Number|[Solution](./263/Solution.py)|[Note](./263/note.md)|Easy|O(n)|O(1)||
 
