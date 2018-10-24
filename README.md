@@ -185,6 +185,7 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.264|Ugly Number II|[Solution](./264/Solution.py)|[Note](./264/note.md)|Medium|O(n)|O(1)||
+|No.313|Super Ugly Number|[Solution](./313/Solution.py)|[Note](./313/note.md)|Medium||||
 
 
 ## Math
