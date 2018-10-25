@@ -188,6 +188,7 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.264|Ugly Number II|[Solution](./264/Solution.py)|[Note](./264/note.md)|Medium|O(n)|O(1)||
 |No.313|Super Ugly Number|[Solution](./313/Solution.py)|[Note](./313/note.md)|Medium|O(n * k)|O(n * k)||
+|No.378|Kth Smallest Element in a Sorted Matrix|[Solution](./378/Solution.py)|[Note](./378/note.md)|Medium|O()|O()||
 
 
 ## Binary Search
