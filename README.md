@@ -19,6 +19,7 @@ Table of Contents
       * [Sort](#sort)
       * [Heap](#heap)
       * [Math](#math)
+      * [Binary Search](#binary-search)
 
 ## Complexity
 [Time & Space Complexity](./classical_algorithm/TimeSpaceCpmlexity.md)
@@ -187,6 +188,13 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.264|Ugly Number II|[Solution](./264/Solution.py)|[Note](./264/note.md)|Medium|O(n)|O(1)||
 |No.313|Super Ugly Number|[Solution](./313/Solution.py)|[Note](./313/note.md)|Medium|O(n * k)|O(n * k)||
+
+
+## Binary Search
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.855|Exam Room|[Solution](./855/Solution.py)|[Note](./855/note.md)|Medium|O(n)|O(n)||
+
 
 
 ## Math

@@ -27,3 +27,46 @@ Note:
 ExamRoom.seat() and ExamRoom.leave() will be called at most 10^4 times across all test cases.
 Calls to ExamRoom.leave(p) are guaranteed to have a student currently sitting in seat number p.
 """
+
+
+import bisect
+class ExamRoom:
+
+    def __init__(self, N):
+        """
+        :type N: int
+        """
+        self.seated = []
+        self.N = N
+        
+
+    def seat(self):
+        """
+        :rtype: int
+        """            
+        if not self.seated:
+            student = 0
+        else:
+            max_dis = self.seated[0]
+            student = 0
+            for prev,cur in zip(self.seated,self.seated[1:]):
+                tmp_dis = (cur - prev)//2
+                tmp_pos = prev + tmp_dis
+                if tmp_dis > max_dis:
+                    max_dis = tmp_dis
+                    student = tmp_pos
+            if self.N-1 - self.seated[-1] > max_dis:
+                student = self.N-1
+            
+        bisect.insort(self.seated,student)
+        return student
+            
+    def leave(self, p):
+        """
+        :type p: int
+        :rtype: void
+        """
+        self.seated.remove(p)
+        
+        
+
