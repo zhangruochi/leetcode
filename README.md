@@ -74,6 +74,7 @@ Table of Contents
 |No.905|Sort Array By Parity|[Solution](./905/Solution.py)|[Note](./905/note.md)|Easy|O(n)|O(1)|Array|
 |No.896|Monotonic Array|[Solution](./896/Solution.py)|[Note](./896/note.md)|Easy|O(n)|O(1)|Array|
 |No.243|Shortest Word Distance|[Solution](./243/Solution.py)|[Note](./243/note.md)|Easy|O(n)|O(1)|Array|
+|No.448|Find All Numbers Disappeared in an Array|[Solution](./448/Solution.py)|[Note](./448/note.md)|Easy|O(n)|O(1)|Array|
 
 
 ## String
@@ -185,7 +186,7 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.264|Ugly Number II|[Solution](./264/Solution.py)|[Note](./264/note.md)|Medium|O(n)|O(1)||
-|No.313|Super Ugly Number|[Solution](./313/Solution.py)|[Note](./313/note.md)|Medium||||
+|No.313|Super Ugly Number|[Solution](./313/Solution.py)|[Note](./313/note.md)|Medium|O(n * k)|O(n * k)||
 
 
 ## Math
