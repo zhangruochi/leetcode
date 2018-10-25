@@ -76,6 +76,7 @@ Table of Contents
 |No.896|Monotonic Array|[Solution](./896/Solution.py)|[Note](./896/note.md)|Easy|O(n)|O(1)|Array|
 |No.243|Shortest Word Distance|[Solution](./243/Solution.py)|[Note](./243/note.md)|Easy|O(n)|O(1)|Array|
 |No.448|Find All Numbers Disappeared in an Array|[Solution](./448/Solution.py)|[Note](./448/note.md)|Easy|O(n)|O(1)|Array|
+|No.821|Shortest Distance to a Character|[Solution](./821/Solution.py)|[Note](./821/note.md)|Easy|O(n)|O(n)|Array|
 
 
 ## String
@@ -188,7 +189,7 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.264|Ugly Number II|[Solution](./264/Solution.py)|[Note](./264/note.md)|Medium|O(n)|O(1)||
 |No.313|Super Ugly Number|[Solution](./313/Solution.py)|[Note](./313/note.md)|Medium|O(n * k)|O(n * k)||
-|No.378|Kth Smallest Element in a Sorted Matrix|[Solution](./378/Solution.py)|[Note](./378/note.md)|Medium|O()|O()||
+|No.378|Kth Smallest Element in a Sorted Matrix|[Solution](./378/Solution.py)|[Note](./378/note.md)|Medium|O(nklogn)|O(n)||
 
 
 ## Binary Search
