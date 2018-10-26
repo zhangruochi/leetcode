@@ -199,6 +199,7 @@ Table of Contents
 |No.374|Guess Number Higher or Lower|[Solution](./374/Solution.py)|[Note](./374/note.md)|Easy|O(logn)|O(1)||
 |No.475|Heaters|[Solution](./475/Solution.py)|[Note](./475/note.md)|Easy|O(nlogn)|O(1)||
 |No.744|Find Smallest Letter Greater Than Target|[Solution](./744/Solution.py)|[Note](./744/note.md)|Easy|O(nlogn)|O(1)||
+|No.852|Peak Index in a Mountain Array|[Solution](./852/Solution.py)|[Note](./852/note.md)|Easy|O(nlogn)|O(1)||
 
 
 
