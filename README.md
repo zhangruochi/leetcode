@@ -36,7 +36,7 @@ Table of Contents
 |[Dijkstra](./classical_algorithm/Dijkstra.py) | [NOTE](./classical_algorithm/Dijkstra.md)
 | Floyd |[NOTE](./classical_algorithm/Floyd.md)
 | BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
-| BinarySearch|[NOTE](./classical_algorithm/BinarySearch.md)
+| [BinarySearch](./classical_algorithm/BinarySearch.py)|[NOTE](./classical_algorithm/BinarySearch.md)
 | [Union Find](./classical_algorithm/UnionFind.py)|[NOTE](./classical_algorithm/UnionFind.md)
 | [Sort](./classical_algorithm/Sort.py)|[NOTE](./classical_algorithm/Sort.md)
 | [Heap and HeapSort](./classical_algorithm/MyHeap.py)| NOTE
@@ -197,7 +197,9 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.855|Exam Room|[Solution](./855/Solution.py)|[Note](./855/note.md)|Medium|O(n)|O(n)||
 |No.374|Guess Number Higher or Lower|[Solution](./374/Solution.py)|[Note](./374/note.md)|Easy|O(logn)|O(1)||
-|No.475|Heaters|[Solution](./475/Solution.py)|[Note](./475/note.md)|Easy|O(logn)|O(1)||
+|No.475|Heaters|[Solution](./475/Solution.py)|[Note](./475/note.md)|Easy|O(nlogn)|O(1)||
+|No.744|Find Smallest Letter Greater Than Target|[Solution](./744/Solution.py)|[Note](./744/note.md)|Easy|O(nlogn)|O(1)||
+
 
 
 
