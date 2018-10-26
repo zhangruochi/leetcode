@@ -196,7 +196,8 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.855|Exam Room|[Solution](./855/Solution.py)|[Note](./855/note.md)|Medium|O(n)|O(n)||
-|No.374|Guess Number Higher or Lower|[Solution](./374/Solution.py)|[Note](./374/note.md)|Medium|O(n)|O(n)||
+|No.374|Guess Number Higher or Lower|[Solution](./374/Solution.py)|[Note](./374/note.md)|Easy|O(logn)|O(1)||
+|No.475|Heaters|[Solution](./475/Solution.py)|[Note](./475/note.md)|Easy|O(logn)|O(1)||
 
 
 
