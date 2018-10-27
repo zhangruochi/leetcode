@@ -59,6 +59,8 @@ Table of Contents
 |No.645|Set Mismatch|[Solution](./645/Solution.py)|[Note](./645/note.md)|Easy|O(n)|O(1)|Bit Manipulation|
 |No.137|Single NumberII|[Solution](./137/Solution.py)|[Note](./137/note.md)|Medium|O(n)|O(1)|Bit Manipulation|
 |No.762|Prime Number of Set Bits in Binary Representation|[Solution](./762/Solution.py)|[Note](./762/note.md)|Medium|O(1)|O(1)|Bit Manipulation|
+|No.371|Sum of Two Integers|[Solution](./371/Solution.py)|[Note](./371/note.md)|Medium|O(1)|O(1)|Bit Manipulation|
+
 
 
 
@@ -79,6 +81,9 @@ Table of Contents
 |No.448|Find All Numbers Disappeared in an Array|[Solution](./448/Solution.py)|[Note](./448/note.md)|Easy|O(n)|O(1)|Array|
 |No.821|Shortest Distance to a Character|[Solution](./821/Solution.py)|[Note](./821/note.md)|Easy|O(n)|O(n)|Array|
 |No.001|Two Sum|[Solution](./001/Solution.py)|[Note](./001/note.md)|Easy|O(n)|O(n)|Array|
+|No.167|Two Sum II|[Solution](./167/Solution.py)|[Note](./167/note.md)|Easy|O(n)|O(1)|Array|
+|No.170|Two Sum III|[Solution](./170/Solution.py)|[Note](./170/note.md)|Easy|O(n)|O(1)|Array|
+
 
 
 ## String
