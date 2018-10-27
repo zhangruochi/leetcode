@@ -213,6 +213,7 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.852|Lowest Common Ancestor of a Binary Search Tree|[Solution](./852/Solution.py)|[Note](./852/note.md)|Easy|O(logn)|O(1)||
 |No.270|Closest Binary Search Tree Value|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(logn)|O(1)||
+|No.270|Two Sum IV - Input is a BST|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(n)|O(n)||
 
 
 
