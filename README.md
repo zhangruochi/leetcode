@@ -78,6 +78,7 @@ Table of Contents
 |No.243|Shortest Word Distance|[Solution](./243/Solution.py)|[Note](./243/note.md)|Easy|O(n)|O(1)|Array|
 |No.448|Find All Numbers Disappeared in an Array|[Solution](./448/Solution.py)|[Note](./448/note.md)|Easy|O(n)|O(1)|Array|
 |No.821|Shortest Distance to a Character|[Solution](./821/Solution.py)|[Note](./821/note.md)|Easy|O(n)|O(n)|Array|
+|No.001|Two Sum|[Solution](./001/Solution.py)|[Note](./001/note.md)|Easy|O(n)|O(n)|Array|
 
 
 ## String
