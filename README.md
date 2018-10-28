@@ -177,6 +177,7 @@ Table of Contents
 |No.249|Group Shifted Strings|[Solution](./249/Solution.py)|[Note](./249/note.md)|Easy|O(n)|O(n)||
 |No.266|Palindrome Permutation|[Solution](./266/Solution.py)|[Note](./266/note.md)|Easy|O(n)|O(n)||
 |No.288|Unique Word Abbreviation|[Solution](./288/Solution.py)|[Note](./288/note.md)|Medium|O(n)|O(n)||
+|No.299|Bulls and Cows|[Solution](./299/Solution.py)|[Note](./299/note.md)|Medium|O(n)|O(n)||
 
 
 ## Sort
