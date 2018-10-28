@@ -178,6 +178,7 @@ Table of Contents
 |No.266|Palindrome Permutation|[Solution](./266/Solution.py)|[Note](./266/note.md)|Easy|O(n)|O(n)||
 |No.288|Unique Word Abbreviation|[Solution](./288/Solution.py)|[Note](./288/note.md)|Medium|O(n)|O(n)||
 |No.299|Bulls and Cows|[Solution](./299/Solution.py)|[Note](./299/note.md)|Medium|O(n)|O(n)||
+|No.387|First Unique Character in a String|[Solution](./387/Solution.py)|[Note](./387/note.md)|Easy|O(n)|O(n)||
 
 
 ## Sort
