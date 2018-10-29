@@ -21,7 +21,6 @@ Table of Contents
       * [Math](#math)
       * [Binary Search](#binary-search)
       * [Binary Search Tree](#binary-search-tree)
-      * [Depth First Search](#depth-first-search)
 
 ## Complexity
 [Time & Space Complexity](./classical_algorithm/TimeSpaceCpmlexity.md)
@@ -165,8 +164,7 @@ Table of Contents
 |No.094|Binary Tree Inorder Traversal|[Solution](./094/Solution.py)|[Note](./094/note.md)|Medium|O(n)|O(n)|Inorder Traversal|
 |No.112|Path Sum|[Solution](./112/Solution.py)|[Note](./112/note.md)|Easy|O(n)|O(1)|DFS|
 |No.257|Binary Tree Paths|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
-
-
+|No.257|Nested List Weight Sum|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
 
 ## Hash Table
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -222,12 +220,6 @@ Table of Contents
 |No.270|Two Sum IV - Input is a BST|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(n)|O(n)||
 
 
-## Depth First Search
-|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
-|---|-----|--------|----|----------|----|-----|---|
-|No.257|Nested List Weight Sum|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
-|No.690|Employee Importance|[Solution](./690/Solution.py)|[Note](./690/note.md)|Easy|O(n)|O(n)|DFS|
-|No.695|Max Area of Island|[Solution](./695/Solution.py)|[Note](./695/note.md)|Medium|O(n)|O(n)|DFS|
 
 
 ## Math
