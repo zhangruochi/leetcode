@@ -68,22 +68,24 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.026|Remove Duplicates from Sorted Array|[Solution](./026/Solution.py)|[Note](./026/note.md)|Easy|O(n)|O(1)|Array|
-|No.027|Remove Element|[Solution](./027/Solution.py)|[Note](./027/note.md)|Easy|O(n)|O(1)|Array|
-|No.066|Plus One|[Solution](./066/Solution.py)|[Note](./066/note.md)|Easy|O(n)|O(1)|Array|
-|No.118|Pascal's Triangle|[Solution](./118/Solution.py)|[Note](./118/note.md)|Easy|O(n^2)|O(1)|Array|
-|No.119|Pascal's Triangle II|[Solution](./119/Solution.py)|[Note](./119/note.md)|Easy|O(n^2)|O(1)|Array|
+|No.027|Remove Element|[Solution](./027/Solution.py)|[Note](./027/note.md)|Easy|O(n)|O(1)||
+|No.066|Plus One|[Solution](./066/Solution.py)|[Note](./066/note.md)|Easy|O(n)|O(1)||
+|No.118|Pascal's Triangle|[Solution](./118/Solution.py)|[Note](./118/note.md)|Easy|O(n^2)|O(1)||
+|No.119|Pascal's Triangle II|[Solution](./119/Solution.py)|[Note](./119/note.md)|Easy|O(n^2)|O(1)||
 |No.121|Best Time to Buy and Sell Stock|[Solution](./121/Solution.py)|[Note](./121/note.md)|Easy|O(n)|O(1)|Array|
-|No.169|Majority Element|[Solution](./169/Solution.py)|[Note](./169/note.md)|Easy|O(n)|O(1)|Array|
-|No.189|Rotate Array|[Solution](./189/Solution.py)|[Note](./189/note.md)|Easy|O(n)|O(1)|Array|
-|No.905|Sort Array By Parity|[Solution](./905/Solution.py)|[Note](./905/note.md)|Easy|O(n)|O(1)|Array|
-|No.896|Monotonic Array|[Solution](./896/Solution.py)|[Note](./896/note.md)|Easy|O(n)|O(1)|Array|
-|No.243|Shortest Word Distance|[Solution](./243/Solution.py)|[Note](./243/note.md)|Easy|O(n)|O(1)|Array|
-|No.448|Find All Numbers Disappeared in an Array|[Solution](./448/Solution.py)|[Note](./448/note.md)|Easy|O(n)|O(1)|Array|
-|No.821|Shortest Distance to a Character|[Solution](./821/Solution.py)|[Note](./821/note.md)|Easy|O(n)|O(n)|Array|
-|No.001|Two Sum|[Solution](./001/Solution.py)|[Note](./001/note.md)|Easy|O(n)|O(n)|Array|
-|No.167|Two Sum II|[Solution](./167/Solution.py)|[Note](./167/note.md)|Easy|O(n)|O(1)|Array|
-|No.170|Two Sum III|[Solution](./170/Solution.py)|[Note](./170/note.md)|Easy|O(n)|O(1)|Array|
-|No.922|Sort Array By Parity II|[Solution](./922/Solution.py)|[Note](./922/note.md)|Easy|O(n)|O(1)|Array|
+|No.169|Majority Element|[Solution](./169/Solution.py)|[Note](./169/note.md)|Easy|O(n)|O(1)||
+|No.189|Rotate Array|[Solution](./189/Solution.py)|[Note](./189/note.md)|Easy|O(n)|O(1)||
+|No.905|Sort Array By Parity|[Solution](./905/Solution.py)|[Note](./905/note.md)|Easy|O(n)|O(1)||
+|No.896|Monotonic Array|[Solution](./896/Solution.py)|[Note](./896/note.md)|Easy|O(n)|O(1)||
+|No.243|Shortest Word Distance|[Solution](./243/Solution.py)|[Note](./243/note.md)|Easy|O(n)|O(1)||
+|No.448|Find All Numbers Disappeared in an Array|[Solution](./448/Solution.py)|[Note](./448/note.md)|Easy|O(n)|O(1)||
+|No.821|Shortest Distance to a Character|[Solution](./821/Solution.py)|[Note](./821/note.md)|Easy|O(n)|O(n)||
+|No.001|Two Sum|[Solution](./001/Solution.py)|[Note](./001/note.md)|Easy|O(n)|O(n)||
+|No.167|Two Sum II|[Solution](./167/Solution.py)|[Note](./167/note.md)|Easy|O(n)|O(1)||
+|No.170|Two Sum III|[Solution](./170/Solution.py)|[Note](./170/note.md)|Easy|O(n)|O(1)||
+|No.922|Sort Array By Parity II|[Solution](./922/Solution.py)|[Note](./922/note.md)|Easy|O(n)|O(1)|two pointer|
+|No.868|Transpose Matrix|[Solution](./868/Solution.py)|[Note](./868/note.md)|Easy|O(n)|O(1)||
+
 
 
 
