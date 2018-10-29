@@ -84,7 +84,8 @@ Table of Contents
 |No.167|Two Sum II|[Solution](./167/Solution.py)|[Note](./167/note.md)|Easy|O(n)|O(1)||
 |No.170|Two Sum III|[Solution](./170/Solution.py)|[Note](./170/note.md)|Easy|O(n)|O(1)||
 |No.922|Sort Array By Parity II|[Solution](./922/Solution.py)|[Note](./922/note.md)|Easy|O(n)|O(1)|two pointer|
-|No.868|Transpose Matrix|[Solution](./868/Solution.py)|[Note](./868/note.md)|Easy|O(n)|O(1)||
+|No.868|Transpose Matrix|[Solution](./868/Solution.py)|[Note](./868/note.md)|Easy|O(n)|O(n)||
+|No.860|Lemonade Change|[Solution](./860/Solution.py)|[Note](./860/note.md)|Easy|O(n)|O(n)||
 
 
 
