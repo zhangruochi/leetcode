@@ -88,6 +88,8 @@ Table of Contents
 |No.860|Lemonade Change|[Solution](./860/Solution.py)|[Note](./860/note.md)|Easy|O(n)|O(n)||
 |No.849|Maximize Distance to Closest Person|[Solution](./849/Solution.py)|[Note](./849/note.md)|Easy|O(n)|O(1)||
 |No.840|Magic Squares In Grid|[Solution](./840/Solution.py)|[Note](./840/note.md)|Easy|O(n)|O(1)||
+|No.283|Move Zeroes|[Solution](./283/Solution.py)|[Note](./283/note.md)|Easy|O(n)|O(1)||
+|No.015|3sum|[Solution](./015/Solution.py)|[Note](./015/note.md)|Easy|O(n^2)|O(n)||
 
 
 
@@ -188,6 +190,7 @@ Table of Contents
 |No.288|Unique Word Abbreviation|[Solution](./288/Solution.py)|[Note](./288/note.md)|Medium|O(n)|O(n)||
 |No.299|Bulls and Cows|[Solution](./299/Solution.py)|[Note](./299/note.md)|Medium|O(n)|O(n)||
 |No.387|First Unique Character in a String|[Solution](./387/Solution.py)|[Note](./387/note.md)|Easy|O(n)|O(n)||
+|No.350|Intersection of Two Arrays II|[Solution](./350/Solution.py)|[Note](./350/note.md)|Easy|O(n)|O(n)||
 
 
 ## Sort
