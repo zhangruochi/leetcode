@@ -28,3 +28,22 @@ class Solution:
             
         return count
 ```
+
+- prefix_sum 可以不用提前计算
+
+```Python
+class Solution:
+    def subarraySum(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: int
+        """
+        table,count,cum = {0:1},0,0
+        for num in nums:
+            cum += num
+            count += table.get(cum-k,0) 
+            table[cum] = table.get(cum,0) + 1
+
+        return count
+```
