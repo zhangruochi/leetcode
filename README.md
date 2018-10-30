@@ -90,6 +90,7 @@ Table of Contents
 |No.840|Magic Squares In Grid|[Solution](./840/Solution.py)|[Note](./840/note.md)|Easy|O(n)|O(1)||
 |No.283|Move Zeroes|[Solution](./283/Solution.py)|[Note](./283/note.md)|Easy|O(n)|O(1)||
 |No.015|3sum|[Solution](./015/Solution.py)|[Note](./015/note.md)|Easy|O(n^2)|O(n)||
+|No.209|Minimum Size Subarray Sum|[Solution](./209/Solution.py)|[Note](./209/note.md)|Easy|O(n)|O(1)|two pointer|
 
 
 
