@@ -53,7 +53,26 @@ class Solution:
         if len(stack):
             return False      
 
-        return True          
+        return True    
+
+class Solution:
+    def isValid(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
+        table = {"(":")","[":"]","{":"}"}
+        stack = []
+        for char in s:
+            if char in table:
+                stack.append(char)
+            else:
+                if not stack or char != table[stack.pop()]:
+                    return False
+        if stack:
+            return False
+        
+        return True      
 
 if __name__ == '__main__':
     print(Solution().isValid(""))
