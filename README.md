@@ -7,7 +7,7 @@ Table of Contents
 
    * [LeetCode](#leetcode)
       * [Complexity](#complexity)
-      * [Classical Algorithm](#classical-algorithm)
+      * [Classical Algorithm](#classical-data-structure-and-algorithm)
       * [Bit Manipulation](#bit-manipulation)
       * [Array](#array)
       * [Linked List](#linked-List)
@@ -26,7 +26,7 @@ Table of Contents
 [Time & Space Complexity](./classical_algorithm/TimeSpaceCpmlexity.md)
 
 
-## Classical Algorithm
+## Classical Data Structure and Algorithm
 | Name. | Note |
 | --- | ----- |
 |[KMP](./classical_algorithm/kmp.py) | [NOTE](./classical_algorithm/kmp.md)
@@ -41,6 +41,7 @@ Table of Contents
 | [Union Find](./classical_algorithm/UnionFind.py)|[NOTE](./classical_algorithm/UnionFind.md)
 | [Sort](./classical_algorithm/Sort.py)|[NOTE](./classical_algorithm/Sort.md)
 | [Heap and HeapSort](./classical_algorithm/MyHeap.py)| NOTE
+| [Sort](./classical_algorithm/Greedy.py)|[NOTE](./classical_algorithm/Greedy.md)
 
     
 
