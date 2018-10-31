@@ -41,7 +41,7 @@ Table of Contents
 | [Union Find](./classical_algorithm/UnionFind.py)|[NOTE](./classical_algorithm/UnionFind.md)
 | [Sort](./classical_algorithm/Sort.py)|[NOTE](./classical_algorithm/Sort.md)
 | [Heap and HeapSort](./classical_algorithm/MyHeap.py)| NOTE
-| [Sort](./classical_algorithm/Greedy.py)|[NOTE](./classical_algorithm/Greedy.md)
+| [Greedy](./classical_algorithm/Greedy.py)|[NOTE](./classical_algorithm/Greedy.md)
 
     
 
