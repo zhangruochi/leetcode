@@ -14,13 +14,14 @@ Table of Contents
       * [Stack](#stack)
       * [Recursion](#recursion)
       * [Queue](#queue)
-      * [Tree](#tree)
+      * [Binary Tree](#binary-tree)
       * [Hash Table](#hash-table)
       * [Sort](#sort)
       * [Heap](#heap)
       * [Math](#math)
       * [Binary Search](#binary-search)
       * [Binary Search Tree](#binary-search-tree)
+      * [N-ary Tree](#n-ary-tree)
 
 ## Complexity
 [Time & Space Complexity](./classical_algorithm/TimeSpaceCpmlexity.md)
@@ -164,7 +165,7 @@ Table of Contents
 |No.281|Zigzag Iterator|[Solution](./281/Solution.py)|[Note](./281/note.md)|Medium|O(n)|O(n)||
 
 
-## Tree
+## Binary Tree
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.226|Invert Binary Tree|[Solution](./226/Solution.py)|[Note](./226/note.md)|Easy|O(logn)|O(h)||
@@ -180,6 +181,8 @@ Table of Contents
 |No.112|Path Sum|[Solution](./112/Solution.py)|[Note](./112/note.md)|Easy|O(n)|O(1)|DFS|
 |No.257|Binary Tree Paths|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
 |No.257|Nested List Weight Sum|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
+|No.144|Binary Tree Preorder Traversal|[Solution](./144/Solution.py)|[Note](./144/note.md)|Easy|O(n)|O(n)|iteration traverse|
+
 
 ## Hash Table
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -235,6 +238,13 @@ Table of Contents
 |No.270|Closest Binary Search Tree Value|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(logn)|O(1)||
 |No.270|Two Sum IV - Input is a BST|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(n)|O(n)||
 
+
+## N-ary Tree
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.589|N-ary Tree Preorder Traversal|[Solution](./589/Solution.py)|[Note](./589/note.md)|Easy|O(n)|O(n)||
+|No.590|N-ary Tree Postorder Traversal|[Solution](./590/Solution.py)|[Note](./590/note.md)|Easy|O(n)|O(n)||
+|No.429|N-ary Tree Levelorder Traversal|[Solution](./429/Solution.py)|[Note](./429/note.md)|Easy|O(n)|O(n)||
 
 
 
