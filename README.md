@@ -254,6 +254,7 @@ Table of Contents
 |No.589|N-ary Tree Preorder Traversal|[Solution](./589/Solution.py)|[Note](./589/note.md)|Easy|O(n)|O(n)||
 |No.590|N-ary Tree Postorder Traversal|[Solution](./590/Solution.py)|[Note](./590/note.md)|Easy|O(n)|O(n)||
 |No.429|N-ary Tree Levelorder Traversal|[Solution](./429/Solution.py)|[Note](./429/note.md)|Easy|O(n)|O(n)||
+|No.559|Maximum Depth of N-ary Tree|[Solution](./559/Solution.py)|[Note](./559/note.md)|Easy|O(n)|O(n)||
 
 
 
