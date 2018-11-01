@@ -186,6 +186,7 @@ Table of Contents
 |No.145|Binary Tree Postorder Traversal|[Solution](./145/Solution.py)|[Note](./145/note.md)|Hard|O(n)|O(n)|iteration traverse|
 |No.102|Binary Tree Level Order Traversal|[Solution](./102/Solution.py)|[Note](./102/note.md)|Medium|O(n)|O(n)|iteration traverse|
 |No.250|Count Univalue Subtrees|[Solution](./250/Solution.py)|[Note](./250/note.md)|Medium|O(n)|O(n)||
+|No.106|Construct Binary Tree from Inorder and Postorder Traversal|[Solution](./106/Solution.py)|[Note](./106/note.md)|Medium|O(n)|O(n)|build tree|
 
 
 ## Hash Table
