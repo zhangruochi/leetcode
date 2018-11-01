@@ -38,6 +38,35 @@ class Solution:
         else:
             return max(self.maxDepth(root.left)+1,self.maxDepth(root.right)+1)
 
+## top_down 
+class Solution(object):
+    
+    def maxDepth(self, root):
+        """
+        :type root: TreeNode
+        :rtype: int
+        """
+        def top_down(root,level):
+            nonlocal result
+            if not root:
+                return 
+            if not root.left and not root.right:
+                result = max(result,level)
+
+            top_down(root.left,level+1)
+            top_down(root.right,level+1)
+
+## bottom_up 
+class Solution(object):
+    
+    def maxDepth(self, root):
+        """
+        :type root: TreeNode
+        :rtype: int
+        """
+        if not root: return 0
+        
+        return max(self.maxDepth(root.left),self.maxDepth(root.right)) + 1
 
 if __name__ == '__main__':
     a = TreeNode(1)
