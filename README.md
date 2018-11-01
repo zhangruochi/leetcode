@@ -190,6 +190,7 @@ Table of Contents
 |No.105|Construct Binary Tree from Inorder and Preorder Traversal|[Solution](./105/Solution.py)|[Note](./105/note.md)|Medium|O(n)|O(n)|build tree|
 |No.116|Populating Next Right Pointers in Each Node|[Solution](./116/Solution.py)|[Note](./116/note.md)|Medium|O(n)|O(n)||
 |No.117|Populating Next Right Pointers in Each Node II|[Solution](./117/Solution.py)|[Note](./117/note.md)|Medium|O(n)|O(n)||
+|No.236|Lowest Common Ancestor of a Binary Tree|[Solution](./236/Solution.py)|[Note](./236/note.md)|Medium|O(n^2)|O(n)||
 
 
 ## Hash Table
