@@ -62,6 +62,7 @@ Table of Contents
 |No.137|Single NumberII|[Solution](./137/Solution.py)|[Note](./137/note.md)|Medium|O(n)|O(1)|Bit Manipulation|
 |No.762|Prime Number of Set Bits in Binary Representation|[Solution](./762/Solution.py)|[Note](./762/note.md)|Medium|O(1)|O(1)|Bit Manipulation|
 |No.371|Sum of Two Integers|[Solution](./371/Solution.py)|[Note](./371/note.md)|Medium|O(1)|O(1)|Bit Manipulation|
+|No.268|Missing Number|[Solution](./268/Solution.py)|[Note](./268/note.md)|Easy|O(n)|O(1)|Bit Manipulation,Math|
 
 
 
