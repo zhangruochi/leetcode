@@ -95,6 +95,7 @@ Table of Contents
 |No.209|Minimum Size Subarray Sum|[Solution](./209/Solution.py)|[Note](./209/note.md)|Easy|O(n)|O(1)|two pointer|
 |No.560|Subarray Sum Equals k|[Solution](./560/Solution.py)|[Note](./560/note.md)|Easy|O(n)|O(1)|prefix sum|
 |No.325|Maximum Size Subarray Sum Equals k|[Solution](./325/Solution.py)|[Note](./325/note.md)|Easy|O(n)|O(n)|prefix sum|
+|No.930|Binary Subarrays With Sum|[Solution](./930/Solution.py)|[Note](./930/note.md)|Easy|O(n)|O(n)|prefix sum|
 
 
 
