@@ -30,12 +30,12 @@ Table of Contents
 ## Classical Data Structure and Algorithm
 | Name. | Note |
 | --- | ----- |
-|[KMP](./classical_algorithm/kmp.py) | [NOTE](./classical_algorithm/kmp.md)
-|[Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
-|[BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md)
-|Recursion | [NOTE](./classical_algorithm/Recursion.md)
-|Graph| [NOTE](./classical_algorithm/Graph.md)
-|[Dijkstra](./classical_algorithm/Dijkstra.py) | [NOTE](./classical_algorithm/Dijkstra.md)
+| [KMP](./classical_algorithm/kmp.py) | [NOTE](./classical_algorithm/kmp.md)
+| [Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
+| [BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md)
+| Recursion | [NOTE](./classical_algorithm/Recursion.md)
+| Graph| [NOTE](./classical_algorithm/Graph.md)
+| [Dijkstra](./classical_algorithm/Dijkstra.py) | [NOTE](./classical_algorithm/Dijkstra.md)
 | Floyd |[NOTE](./classical_algorithm/Floyd.md)
 | BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
 | [BinarySearch](./classical_algorithm/BinarySearch.py)|[NOTE](./classical_algorithm/BinarySearch.md)
@@ -43,6 +43,7 @@ Table of Contents
 | [Sort](./classical_algorithm/Sort.py)|[NOTE](./classical_algorithm/Sort.md)
 | [Heap and HeapSort](./classical_algorithm/MyHeap.py)| NOTE
 | [Greedy](./classical_algorithm/Greedy.py)|[NOTE](./classical_algorithm/Greedy.md)
+| [Trie](./classical_algorithm/Trie.py)|[NOTE](./classical_algorithm/Trie.md)
 
     
 
