@@ -262,6 +262,7 @@ Table of Contents
 |No.208|Implement Trie (Prefix Tree)|[Solution](./208/Solution.py)|[Note](./208/note.md)|Medium|O(k)|O(n)|trie|
 |No.677|Map Sum Pairs|[Solution](./677/Solution.py)|[Note](./677/note.md)|Medium|||trie|
 |No.648|Replace Words|[Solution](./648/Solution.py)|[Note](./648/note.md)|Medium|O(n)|O(n)|trie|
+|No.211|Add and Search Word - Data structure design|[Solution](./211/Solution.py)|[Note](./211/note.md)|Medium|O(n)|O(n)|trie|
 
 
 ## Math
