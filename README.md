@@ -134,6 +134,7 @@ Table of Contents
 |No.019|Remove Nth Node From End of List|[Solution](./019/Solution.py)|[Note](./019/note.md)|Medium|O(n)|O(1)|quick slow pointer|
 |No.114|Flatten Binary Tree to Linked List|[Solution](./114/Solution.py)|[Note](./114/note.md)|Medium|O(n)|O(1)|DFS|
 |No.141|Linked List Cycle |[Solution](./141/Solution.py)|[Note](./141/note.md)|Medium|O(n)|O(1)|quick slow pointer|
+|No.142|Linked List CycleII |[Solution](./142/Solution.py)|[Note](./142/note.md)|Medium|O(n)|O(1)|quick slow pointer|
 
 
 
