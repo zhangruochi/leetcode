@@ -22,6 +22,7 @@ Table of Contents
       * [Binary Search](#binary-search)
       * [Binary Search Tree](#binary-search-tree)
       * [N-ary Tree](#n-ary-tree)
+      
 
 ## Complexity
 [Time & Space Complexity](./classical_algorithm/TimeSpaceCpmlexity.md)
@@ -258,7 +259,7 @@ Table of Contents
 |No.590|N-ary Tree Postorder Traversal|[Solution](./590/Solution.py)|[Note](./590/note.md)|Easy|O(n)|O(n)||
 |No.429|N-ary Tree Levelorder Traversal|[Solution](./429/Solution.py)|[Note](./429/note.md)|Easy|O(n)|O(n)||
 |No.559|Maximum Depth of N-ary Tree|[Solution](./559/Solution.py)|[Note](./559/note.md)|Easy|O(n)|O(n)||
-
+|No.208|Implement Trie (Prefix Tree)|[Solution](./208/Solution.py)|[Note](./208/note.md)|Easy|O(k)|O(n)|trie|
 
 
 ## Math
