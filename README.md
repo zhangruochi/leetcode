@@ -119,6 +119,7 @@ Table of Contents
 |No.459|Repeated Substring Pattern|[Solution](./459/Solution.py)|[Note](./459/note.md)|Easy|O(n)|O(1)|kmp|
 |No.006|ZigZag Conversion|[Solution](./006/Solution.py)|[Note](./006/note.md)|Meduim|O(n * k)|O(1)|String|
 |No.521|Longest Uncommon Subsequence I|[Solution](./521/Solution.py)|[Note](./521/note.md)|Easy|O(n * k)|O(1)|String|
+|No.680|Valid Palindrome II|[Solution](./680/Solution.py)|[Note](./680/note.md)|Easy|O(n)|O(1)|String|
 
 
 ## Linked List
