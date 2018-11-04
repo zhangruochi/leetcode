@@ -298,3 +298,4 @@ Table of Contents
 |No.017|Letter Combinations of a Phone Number|[Solution](./017/Solution.py)|[Note](./017/note.md)|Medium|O(n)|O(n)||
 |No.093|Restore IP Addresses|[Solution](./093/Solution.py)|[Note](./093/note.md)|Medium|O(n^4)|O(n)||
 |No.078|Subset|[Solution](./078/Solution.py)|[Note](./078/note.md)|Medium|O(2^n)|O(n)||
+|No.046|Permutations|[Solution](./046/Solution.py)|[Note](./046/note.md)|Medium|O(n!)|O(n)||
