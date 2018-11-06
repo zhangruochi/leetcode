@@ -139,6 +139,7 @@ Table of Contents
 |No.114|Flatten Binary Tree to Linked List|[Solution](./114/Solution.py)|[Note](./114/note.md)|Medium|O(n)|O(1)|DFS|
 |No.141|Linked List Cycle |[Solution](./141/Solution.py)|[Note](./141/note.md)|Medium|O(n)|O(1)|quick slow pointer|
 |No.142|Linked List CycleII |[Solution](./142/Solution.py)|[Note](./142/note.md)|Medium|O(n)|O(1)|quick slow pointer|
+|No.023|Merge k Sorted Lists|[Solution](./023/Solution.py)|[Note](./023/note.md)|Hard|O(nlogn)|O(nk)||
 
 
 
@@ -152,6 +153,7 @@ Table of Contents
 |No.173|Binary Search Tree Iterator|[Solution](./173/Solution.py)|[Note](./173/note.md)|Easy|O(n)|O(1)||
 |No.232|Implement Queue using Stacks|[Solution](./232/Solution.py)|[Note](./232/note.md)|Easy|O(n)|O(1)||
 |No.682|Baseball Game|[Solution](./682/Solution.py)|[Note](./682/note.md)|Easy|O(n)|O(1)||
+|No.056|Merge Intervals|[Solution](./056/Solution.py)|[Note](./056/note.md)|Easy|O(nlogn)|O(n)||
 
 
 
@@ -264,6 +266,7 @@ Table of Contents
 |No.270|Closest Binary Search Tree Value|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(logn)|O(1)||
 |No.270|Two Sum IV - Input is a BST|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(n)|O(n)||
 |No.098|Validate Binary Search Tree|[Solution](./098/Solution.py)|[Note](./098/note.md)|Easy|O(n)|O(n)||
+|No.278|First Bad Version|[Solution](./278/Solution.py)|[Note](./278/note.md)|Easy|O(logn)|O(1)||
 
 
 ## N-ary Tree
@@ -299,3 +302,4 @@ Table of Contents
 |No.093|Restore IP Addresses|[Solution](./093/Solution.py)|[Note](./093/note.md)|Medium|O(n^4)|O(n)||
 |No.078|Subset|[Solution](./078/Solution.py)|[Note](./078/note.md)|Medium|O(2^n)|O(n)||
 |No.046|Permutations|[Solution](./046/Solution.py)|[Note](./046/note.md)|Medium|O(n!)|O(n)||
+|No.047|PermutationsII|[Solution](./047/Solution.py)|[Note](./047/note.md)|Medium|O(n!)|O(n)||
