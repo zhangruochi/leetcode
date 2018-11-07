@@ -122,7 +122,7 @@ Table of Contents
 |No.006|ZigZag Conversion|[Solution](./006/Solution.py)|[Note](./006/note.md)|Meduim|O(n * k)|O(1)|String|
 |No.521|Longest Uncommon Subsequence I|[Solution](./521/Solution.py)|[Note](./521/note.md)|Easy|O(n * k)|O(1)|String|
 |No.680|Valid Palindrome II|[Solution](./680/Solution.py)|[Note](./680/note.md)|Easy|O(n)|O(1)|String|
-|No.681|Next Closest Time|[Solution](./681/Solution.py)|[Note](./681/note.md)|Easy|O(1)|O(1)|DFS|
+|No.681|Next Closest Time|[Solution](./681/Solution.py)|[Note](./681/note.md)|Easy|O(4^4)|O(1)|DFS|
 
 
 ## Linked List
@@ -270,6 +270,7 @@ Table of Contents
 |No.270|Two Sum IV - Input is a BST|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(n)|O(n)||
 |No.098|Validate Binary Search Tree|[Solution](./098/Solution.py)|[Note](./098/note.md)|Easy|O(n)|O(n)||
 |No.278|First Bad Version|[Solution](./278/Solution.py)|[Note](./278/note.md)|Easy|O(logn)|O(1)||
+|No.033|Search in Rotated Array|[Solution](./033/Solution.py)|[Note](./033/note.md)|Medium|O(logn)|O(1)||
 
 
 ## N-ary Tree
