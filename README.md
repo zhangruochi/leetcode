@@ -122,6 +122,7 @@ Table of Contents
 |No.006|ZigZag Conversion|[Solution](./006/Solution.py)|[Note](./006/note.md)|Meduim|O(n * k)|O(1)|String|
 |No.521|Longest Uncommon Subsequence I|[Solution](./521/Solution.py)|[Note](./521/note.md)|Easy|O(n * k)|O(1)|String|
 |No.680|Valid Palindrome II|[Solution](./680/Solution.py)|[Note](./680/note.md)|Easy|O(n)|O(1)|String|
+|No.681|Next Closest Time|[Solution](./681/Solution.py)|[Note](./681/note.md)|Easy|O(1)|O(1)|DFS|
 
 
 ## Linked List
