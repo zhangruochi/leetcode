@@ -11,3 +11,6 @@ class Solution:
             if char in set_j:
                 count += 1
         return count
+
+    def numJewelsInStones(self, J, S):
+        return sum(map(J.count, S))
