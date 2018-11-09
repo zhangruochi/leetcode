@@ -323,4 +323,5 @@ Table of Contents
 |No.062|Unique Paths|[Solution](./062/Solution.py)|[Note](./062/note.md)|Medium|O(n^2)|O(n)||
 |No.070|Combing Stairs|[Solution](./070/Solution.py)|[Note](./070/note.md)|Medium|O(n)|O(n)||
 |No.926|Flip String to Monotone Increasing|[Solution](./926/Solution.py)|[Note](./926/note.md)|Medium|O(n)|O(n)||
-
+|No.845|Longest Mountain in Array|[Solution](./845/Solution.py)|[Note](./845/note.md)|Medium|O(n)|O(1)||
+|No.139|Longest Mountain in Array|[Solution](./139/Solution.py)|[Note](./139/note.md)|Medium|O(n)|O(1)||
