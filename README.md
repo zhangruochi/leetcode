@@ -321,5 +321,6 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.091|Decode Ways|[Solution](./091/Solution.py)|[Note](./091/note.md)|Medium|O(n)|O(1)||
 |No.062|Unique Paths|[Solution](./062/Solution.py)|[Note](./062/note.md)|Medium|O(n^2)|O(n)||
-|No.070|Combing Stairs|[Solution](./070/Solution.py)|[Note](./070/note.md)|Easy|O(n)|O(n)||
+|No.070|Combing Stairs|[Solution](./070/Solution.py)|[Note](./070/note.md)|Medium|O(n)|O(n)||
+|No.926|Flip String to Monotone Increasing|[Solution](./926/Solution.py)|[Note](./926/note.md)|Medium|O(n)|O(n)||
 
