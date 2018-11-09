@@ -264,6 +264,7 @@ Table of Contents
 |No.744|Find Smallest Letter Greater Than Target|[Solution](./744/Solution.py)|[Note](./744/note.md)|Easy|O(n)|O(1)||
 |No.852|Peak Index in a Mountain Array|[Solution](./852/Solution.py)|[Note](./852/note.md)|Easy|O(n)|O(1)||
 |No.426|Convert Binary Search Tree to Sorted Doubly Linked List|[Solution](./426/Solution.py)|[Note](./426/note.md)|Medium|O(n)|O(1)||
+|No.050|Pow(x, n)|[Solution](./050/Solution.py)|[Note](./050/note.md)|Medium|O(logn)|O(1)||
 
 
 ## Binary Search Tree
