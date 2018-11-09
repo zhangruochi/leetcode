@@ -4,25 +4,40 @@ class Solution:
         :type s: str
         :rtype: int
         """
-    
-        count = 0
-        def bfs(i):
-            nonlocal count
-            if i > len(s):
-                return 
+        if s[0] == "0":return 0
+        if len(s) == 1: return 1
+        
+        if s[1] == "0":
+            if s[0:2] > "26":
+                dp = [1,0]
+            else:
+                dp = [1,1]
+        else:
+            if s[0:2] > "26":
+                dp = [1,1]
+            else:
+                dp = [1,2]
+                            
+        
+        for i in range(2,len(s)):
+            if s[i-1] == "0" and s[i] == "0":
+                return 0
+            elif s[i-1] != "0" and s[i] == "0":
+                if s[i-1:i+1] <= "26":
+                    dp.append(dp[i-2])
+                else:
+                    return 0
+            elif s[i-1] == "0" and s[i] != "0":
+                dp.append(dp[i-1])
+            else:
+                if s[i-1:i+1] <= "26":
+                    dp.append(dp[i-2] + dp[i-1])
+                else:
+                    dp.append(dp[i-1])
             
-            if i == len(s):
-                count += 1
-                return
             
-            for j in (1,2):
-                if j == 1 and s[i:i+j] == "0": continue
-                if j == 2 and ("0" == s[i:i+1] or s[i:i+2] > "26"): break
-
-                bfs(i+j)
-                
-        bfs(0)
-        return count
+        return dp[len(s)-1]
+        
                 
             
         
