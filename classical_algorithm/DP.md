@@ -9,6 +9,13 @@
 ### 重叠子问题
 **在斐波拉契数列和钢条切割结构图中，可以看到大量的重叠子问题，比如说在求fib（6）的时候，fib（2）被调用了5次，在求cut（4）的时候cut（0）被调用了4次。如果使用递归算法的时候会反复的求解相同的子问题，不停的调用函数，而不是生成新的子问题。如果递归算法反复求解相同的子问题，就称为具有重叠子问题（overlapping subproblems）性质。在动态规划算法中使用数组来保存子问题的解，这样子问题多次求解的时候可以直接查表不用调用函数递归。**
 
+### 无后效性
+the optimal solution of a subproblem will not change when they are used to solve a bigger problem optimal
+
+
+### template
+![Screen Shot 2018-11-08 at 22.12.18.png](resources/8292BFFF59D444C515C0D687EEAA703B.png)
+
 
 ### fibonacci 的dp解法
 ```Python
@@ -48,7 +55,7 @@ fibonacci2(10)
 ```
 
 ### 活动选择问题
-![IMG_5E3BA62BDDD1-1.jpeg](resources/FBB4DAAC34B063C3FB1F7ED0DB706137.jpg =834x1112)
+![IMG_5E3BA62BDDD1-1.jpeg](resources/FBB4DAAC34B063C3FB1F7ED0DB706137.jpg)
 ```Python
 def get_max_paid():
     prev_table = {
@@ -74,7 +81,7 @@ print(get_max_paid())
 
 
 ### 数字不能相邻，求 sum 最大的数字组合
-![Screen Shot 2018-11-07 at 19.59.57.png](resources/683665B12E62F64DD8D81DE45150DAEC.png =473x190)
+![Screen Shot 2018-11-07 at 19.59.57.png](resources/683665B12E62F64DD8D81DE45150DAEC.png)
 ```Python
 def rec_opt(nums, i):
     if i == 0:
@@ -100,7 +107,7 @@ print(dp_opt(nums))
 
 ### 是否存在和为S的子集
 
-![Screen Shot 2018-11-07 at 20.01.19.png](resources/344DF1EEF63B70CF3E5BCEAEC48A9D11.png =478x260)
+![Screen Shot 2018-11-07 at 20.01.19.png](resources/344DF1EEF63B70CF3E5BCEAEC48A9D11.png)
 ```Python
 nums = [3,34,4,12,5,2]
 
