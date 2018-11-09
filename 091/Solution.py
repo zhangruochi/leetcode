@@ -38,7 +38,59 @@ class Solution:
             
         return dp[len(s)-1]
         
-                
+ 
+
+
+ class Solution:
+    def numDecodings(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
+        if s[0] == "0":return 0
+        if len(s) == 1: return 1
+        
+        if s[1] == "0":
+            if s[0:2] > "26":
+                #dp = [1,0]
+                p1,p2 = 1,0
+            else:
+                #dp = [1,1]
+                p1,p2 = 1,1
+        else:
+            if s[0:2] > "26":
+                #dp = [1,1]
+                p1,p2 = 1,1
+            else:
+                #dp = [1,2]
+                p1,p2 = 1,2
+                            
+        
+        for i in range(2,len(s)):
+            if s[i-1] == "0" and s[i] == "0":
+                return 0
+            elif s[i-1] != "0" and s[i] == "0":
+                if s[i-1:i+1] <= "26":
+                    #dp.append(dp[i-2])
+                    cur = p1
+                else:
+                    return 0
+            elif s[i-1] == "0" and s[i] != "0":
+                #dp.append(dp[i-1])
+                cur = p2
+            else:
+                if s[i-1:i+1] <= "26":
+                    #dp.append(dp[i-2] + dp[i-1])
+                    cur = p1 + p2
+                else:
+                    #dp.append(dp[i-1])
+                    cur = p2
+            
+            p1 = p2
+            p2 = cur
+            
+    
+        return p2               
             
         
 

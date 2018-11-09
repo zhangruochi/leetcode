@@ -319,7 +319,7 @@ Table of Contents
 ## Dynamic Programming
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.091|Decode Ways|[Solution](./091/Solution.py)|[Note](./091/note.md)|Medium|O(n)|O(n)||
+|No.091|Decode Ways|[Solution](./091/Solution.py)|[Note](./091/note.md)|Medium|O(n)|O(1)||
 |No.062|Unique Paths|[Solution](./062/Solution.py)|[Note](./062/note.md)|Medium|O(n^2)|O(n)||
 |No.070|Combing Stairs|[Solution](./070/Solution.py)|[Note](./070/note.md)|Easy|O(n)|O(n)||
 
