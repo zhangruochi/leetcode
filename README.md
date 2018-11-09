@@ -320,3 +320,5 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.091|Decode Ways|[Solution](./091/Solution.py)|[Note](./091/note.md)|Medium|O(n)|O(n)||
+|No.062|Unique Paths|[Solution](./062/Solution.py)|[Note](./062/note.md)|Medium|O(n^2)|O(n)||
+

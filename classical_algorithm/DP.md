@@ -48,7 +48,7 @@ fibonacci2(10)
 ```
 
 ### 活动选择问题
-![IMG_5E3BA62BDDD1-1.jpeg](resources/FBB4DAAC34B063C3FB1F7ED0DB706137.jpg)
+![IMG_5E3BA62BDDD1-1.jpeg](resources/FBB4DAAC34B063C3FB1F7ED0DB706137.jpg =834x1112)
 ```Python
 def get_max_paid():
     prev_table = {
@@ -72,6 +72,54 @@ def get_max_paid():
 print(get_max_paid())
 ```
 
+
+### 数字不能相邻，求 sum 最大的数字组合
+![Screen Shot 2018-11-07 at 19.59.57.png](resources/683665B12E62F64DD8D81DE45150DAEC.png =473x190)
+```Python
+def rec_opt(nums, i):
+    if i == 0:
+        return 1
+    elif i == 1:
+        return 2
+    else:
+        return max(nums[i]+rec_opt(nums,i-2),rec_opt(nums,i-1))
+
+nums = [1,2,4,1,7,8,3]
+print(rec_opt(nums,6))
+
+
+def dp_opt(nums):
+    dp = []
+    dp.append(1)
+    dp.append(2)
+    for i in range(2,len(nums)):
+        dp.append(max(nums[i]+dp[i-2],dp[i-1]))
+    return dp[-1]
+print(dp_opt(nums))
+```
+
+### 是否存在和为S的子集
+
+![Screen Shot 2018-11-07 at 20.01.19.png](resources/344DF1EEF63B70CF3E5BCEAEC48A9D11.png =478x260)
+```Python
+nums = [3,34,4,12,5,2]
+
+def rec_subset(nums,i,s):
+    if s == 0:
+        return True
+    if i == 0:
+        return nums[0] == s
+
+    if nums[i] > s:
+        return rec_subset(nums,i-1,s)
+
+
+    return rec_subset(nums,i-1,s-nums[i]) or rec_subset(nums,i-1,s)
+
+print(rec_subset(nums,len(nums)-1,9))
+print(rec_subset(nums,len(nums)-1,46))
+print(rec_subset(nums,len(nums)-1,100))
+```
 
 国王挖矿问题
 
