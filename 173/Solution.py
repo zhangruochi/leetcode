@@ -16,25 +16,35 @@ Special thanks to @ts for adding this problem and creating all test cases.
 #         self.left = None
 #         self.right = None
 
+from collections import deque
 class BSTIterator(object):
     def __init__(self, root):
         """
         :type root: TreeNode
         """
+        self.root = root
+        self.queue = deque()
+        self.preorder(self.root)
         
-
+    
+    def preorder(self,root):
+        if not root:
+            return 
+        self.preorder(root.left)
+        self.queue.append(root.val)
+        self.preorder(root.right)
+        
+        
+    
     def hasNext(self):
         """
         :rtype: bool
         """
+        return True if self.queue else False
         
 
     def next(self):
         """
         :rtype: int
         """
-        
-
-# Your BSTIterator will be called like this:
-# i, v = BSTIterator(root), []
-# while i.hasNext(): v.append(i.next())
+        return self.queue.popleft()
