@@ -128,6 +128,7 @@ Table of Contents
 |No.681|Next Closest Time|[Solution](./681/Solution.py)|[Note](./681/note.md)|Easy|O(4^4)|O(1)|DFS|
 |No.771|Jewels and Stones|[Solution](./771/Solution.py)|[Note](./771/note.md)|Easy|O(n)|O(n)||
 |No.482|License Key Formatting|[Solution](./482/Solution.py)|[Note](./482/note.md)|Easy|O(n)|O(n)||
+|No.344|Reverse String|[Solution](./344/Solution.py)|[Note](./344/note.md)|Easy|O(n)|O(1)||
 
 
 
@@ -185,6 +186,7 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.346|Moving Average from Data Stream|[Solution](./346/Solution.py)|[Note](./346/note.md)|Easy|O(1)|O(w)||
 |No.281|Zigzag Iterator|[Solution](./281/Solution.py)|[Note](./281/note.md)|Medium|O(n)|O(n)||
+|No.127|Word Ladder|[Solution](./127/Solution.py)|[Note](./127/note.md)|Medium|O(n)|O(n)||
 
 
 ## Binary Tree
