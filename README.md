@@ -105,6 +105,7 @@ Table of Contents
 |No.930|Binary Subarrays With Sum|[Solution](./930/Solution.py)|[Note](./930/note.md)|Easy|O(n)|O(n)|prefix sum|
 |No.011|Container With Most Water|[Solution](./011/Solution.py)|[Note](./011/note.md)|Medium|O(n)|O(1)|two pointer|
 |No.904|Fruit Into Baskets|[Solution](./904/Solution.py)|[Note](./904/note.md)|Medium|O(n)|O(1)|two pointer|
+|No.674|Longest Continuous Increasing Subsequence|[Solution](./674/Solution.py)|[Note](./674/note.md)|Easy|O(n)|O(1)||
 
 
 
