@@ -129,6 +129,7 @@ Table of Contents
 |No.771|Jewels and Stones|[Solution](./771/Solution.py)|[Note](./771/note.md)|Easy|O(n)|O(n)||
 |No.482|License Key Formatting|[Solution](./482/Solution.py)|[Note](./482/note.md)|Easy|O(n)|O(n)||
 |No.344|Reverse String|[Solution](./344/Solution.py)|[Note](./344/note.md)|Easy|O(n)|O(1)||
+|No.412|Fizz Buzz|[Solution](./412/Solution.py)|[Note](./412/note.md)|Easy|O(n)|O(1)||
 
 
 
