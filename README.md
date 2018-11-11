@@ -126,6 +126,7 @@ Table of Contents
 |No.680|Valid Palindrome II|[Solution](./680/Solution.py)|[Note](./680/note.md)|Easy|O(n)|O(1)|String|
 |No.681|Next Closest Time|[Solution](./681/Solution.py)|[Note](./681/note.md)|Easy|O(4^4)|O(1)|DFS|
 |No.771|Jewels and Stones|[Solution](./771/Solution.py)|[Note](./771/note.md)|Easy|O(n)|O(n)||
+|No.482|License Key Formatting|[Solution](./482/Solution.py)|[Note](./482/note.md)|Easy|O(n)|O(n)||
 
 
 
