@@ -303,6 +303,7 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.263|Ugly Number|[Solution](./263/Solution.py)|[Note](./263/note.md)|Easy|O(n)|O(1)||
 |No.238|Product of Array Except Self|[Solution](./238/Solution.py)|[Note](./238/note.md)|Easy|O(n)|O(1)||
+|No.621|Task Scheduler|[Solution](./621/Solution.py)|[Note](./621/note.md)|Medium|O(n)|O(1)||
 
 
 ## Graph
