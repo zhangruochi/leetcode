@@ -164,6 +164,7 @@ Table of Contents
 |No.232|Implement Queue using Stacks|[Solution](./232/Solution.py)|[Note](./232/note.md)|Easy|O(n)|O(1)||
 |No.682|Baseball Game|[Solution](./682/Solution.py)|[Note](./682/note.md)|Easy|O(n)|O(1)||
 |No.056|Merge Intervals|[Solution](./056/Solution.py)|[Note](./056/note.md)|Easy|O(nlogn)|O(n)||
+|No.394|Decode String|[Solution](./394/Solution.py)|[Note](./394/note.md)|Medium|O(n)|O(n)||
 
 
 
@@ -258,6 +259,7 @@ Table of Contents
 |No.264|Ugly Number II|[Solution](./264/Solution.py)|[Note](./264/note.md)|Medium|O(n)|O(1)||
 |No.313|Super Ugly Number|[Solution](./313/Solution.py)|[Note](./313/note.md)|Medium|O(n * k)|O(n * k)||
 |No.378|Kth Smallest Element in a Sorted Matrix|[Solution](./378/Solution.py)|[Note](./378/note.md)|Medium|O(nklogn)|O(n)||
+|No.215|Kth Largest Element in an Array|[Solution](./215/Solution.py)|[Note](./215/note.md)|Medium|O(n+klogn)|O(n)||
 
 
 ## Binary Search
@@ -270,7 +272,7 @@ Table of Contents
 |No.852|Peak Index in a Mountain Array|[Solution](./852/Solution.py)|[Note](./852/note.md)|Easy|O(n)|O(1)||
 |No.426|Convert Binary Search Tree to Sorted Doubly Linked List|[Solution](./426/Solution.py)|[Note](./426/note.md)|Medium|O(n)|O(1)||
 |No.050|Pow(x, n)|[Solution](./050/Solution.py)|[Note](./050/note.md)|Medium|O(logn)|O(1)||
-|No.153|Find Minimum in Rotated Sorted Array|[Solution](./153/Solution.py)|[Note](./153/note.md)|Medium|O(logn)|O(1)||
+|No.153|Find Minimum in Rotated Sorted Array|[Solution](./153/Solution.py)|[Note](./153/note.md)|Medium|O(logn)|O(n)||
 
 
 ## Binary Search Tree
