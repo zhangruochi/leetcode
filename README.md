@@ -153,6 +153,7 @@ Table of Contents
 |No.141|Linked List Cycle |[Solution](./141/Solution.py)|[Note](./141/note.md)|Medium|O(n)|O(1)|quick slow pointer|
 |No.142|Linked List CycleII |[Solution](./142/Solution.py)|[Note](./142/note.md)|Medium|O(n)|O(1)|quick slow pointer|
 |No.023|Merge k Sorted Lists|[Solution](./023/Solution.py)|[Note](./023/note.md)|Hard|O(nlogn)|O(nk)||
+|No.138|Copy List with Random Pointer|[Solution](./138/Solution.py)|[Note](./138/note.md)|Medium|O(n)|O(n)||
 
 
 
