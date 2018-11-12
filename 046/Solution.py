@@ -32,4 +32,9 @@ class Solution:
         :rtype: List[List[int]]
         """       
         return list(permutations(nums,len(nums)))
-        
+
+
+if __name__ == '__main__':
+    solution = Solution()
+    for item in solution.permute([1,2,3,4]):
+        print(item)
