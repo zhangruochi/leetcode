@@ -133,6 +133,8 @@ Table of Contents
 |No.344|Reverse String|[Solution](./344/Solution.py)|[Note](./344/note.md)|Easy|O(n)|O(1)||
 |No.412|Fizz Buzz|[Solution](./412/Solution.py)|[Note](./412/note.md)|Easy|O(n)|O(1)||
 |No.005|Longest Palindromic Substring|[Solution](./005/Solution.py)|[Note](./005/note.md)|Medium|O(n^2)|O(1)||
+|No.819|Most Common Word|[Solution](./819/Solution.py)|[Note](./819/note.md)|Easy|O(n)|O(n)||
+|No.929|Unique Email Addresses|[Solution](./929/Solution.py)|[Note](./929/note.md)|Easy|O(n^2)|O(n)||
 
 
 
