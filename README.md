@@ -136,6 +136,7 @@ Table of Contents
 |No.819|Most Common Word|[Solution](./819/Solution.py)|[Note](./819/note.md)|Easy|O(n)|O(n)||
 |No.929|Unique Email Addresses|[Solution](./929/Solution.py)|[Note](./929/note.md)|Easy|O(n^2)|O(n)||
 |No.535|Encode and Decode TinyURL|[Solution](./535/Solution.py)|[Note](./535/note.md)|Meduim|O(n)|O(n)||
+|No.271|Encode and Decode Strings|[Solution](./271/Solution.py)|[Note](./271/note.md)|Meduim|O(n)|O(n)||
 
 
 ## Linked List
