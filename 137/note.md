@@ -21,6 +21,7 @@
        a = a xor i & ~b
 
 
+![picture](./picture.png)
 
 ## 位运算的性质
 

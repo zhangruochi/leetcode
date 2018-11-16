@@ -50,5 +50,14 @@ class Solution:
                 if self.bit_count(hour) + self.bit_count(minute) == num]
 
 
+
+class Solution:
+    def readBinaryWatch(self, num):
+        """
+        :type num: int
+        :rtype: List[str]
+        """
+        return ["{0}:{1:02d}".format(hour,mins) for hour in range(12) for mins in range(60) if bin(hour).count("1") + bin(mins).count("1") == num]
+
 if __name__ == '__main__':
     print(Solution().readBinaryWatch2(5))
