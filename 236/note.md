@@ -16,10 +16,6 @@
 - 如果只有left有返回值，说明left的返回值是最小公共祖先
 - 如果只有root.right有返回值，说明root.right的返回值是最小公共祖先
 
-作者：Jason_Yuan
-链接：https://www.jianshu.com/p/118dfcb1d606
-來源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
 
 ```Python
 # Definition for a binary tree node.
