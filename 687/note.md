@@ -3,10 +3,10 @@
 - 对于每个节点，假设左边最长路径已经知道，右边最长路径也已经知道，则：
 ```Python
 left = maxpath(root.left)
-            right = maxpath(root.right)
+right = maxpath(root.right)
 
-            left = left + 1 if root.left and root.left.val == root.val else 0
-            right = right + 1 if root.right and root.right.val == root.val else 0
+left = left + 1 if root.left and root.left.val == root.val else 0
+ååright = right + 1 if root.right and root.right.val == root.val else 0
 ```
 
 - 此时，最长路径为：

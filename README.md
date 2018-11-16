@@ -67,7 +67,7 @@ Table of Contents
 |No.645|Set Mismatch|[Solution](./645/Solution.py)|[Note](./645/note.md)|Easy|O(n)|O(1)|Bit Manipulation|
 |No.137|Single NumberII|[Solution](./137/Solution.py)|[Note](./137/note.md)|Medium|O(n)|O(1)|Bit Manipulation|
 |No.762|Prime Number of Set Bits in Binary Representation|[Solution](./762/Solution.py)|[Note](./762/note.md)|Medium|O(1)|O(1)|Bit Manipulation|
-|No.371|Sum of Two Integers|[Solution](./371/Solution.py)|[Note](./371/note.md)|Medium|O(1)|O(1)|Bit Manipulation|
+|No.371|Sum of Two Integers|[Solution](./371/Solution.py)|[Note](./371/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 |No.268|Missing Number|[Solution](./268/Solution.py)|[Note](./268/note.md)|Easy|O(n)|O(1)|Bit Manipulation,Math|
 
 
@@ -174,6 +174,7 @@ Table of Contents
 |No.682|Baseball Game|[Solution](./682/Solution.py)|[Note](./682/note.md)|Easy|O(n)|O(1)||
 |No.056|Merge Intervals|[Solution](./056/Solution.py)|[Note](./056/note.md)|Easy|O(nlogn)|O(n)||
 |No.394|Decode String|[Solution](./394/Solution.py)|[Note](./394/note.md)|Medium|O(n)|O(n)||
+|No.921|Minimum Add to Make Parentheses Valid|[Solution](./921/Solution.py)|[Note](./921/note.md)|Medium|O(n)|O(n)||
 
 
 
