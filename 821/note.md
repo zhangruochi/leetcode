@@ -41,3 +41,17 @@ def shortestToChar(self, S, C):
         
         return result
 ```
+
+
+
+## 最优思路
+
+- Intuition
+
+For each index S[i], let's try to find the distance to the next character C going left, and going right. The answer is the minimum of these two values.
+
+- Algorithm
+
+When going left to right, we'll remember the index prev of the last character C we've seen. Then the answer is i - prev.
+When going right to left, we'll remember the index prev of the last character C we've seen. Then the answer is prev - i.
+

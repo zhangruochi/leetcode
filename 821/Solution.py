@@ -21,6 +21,30 @@ class Solution:
         :type C: str
         :rtype: List[int]
         """
+        ans,prev = [], float("-inf")
+        
+        for index,char in enumerate(S):
+            if char == C:
+                prev = index
+            ans.append(index-prev)
+            
+        next = float("inf")
+        for i in range(len(S)-1,-1,-1):
+            if S[i] == C:
+                next = i
+            ans[i] = min(next-i,ans[i])
+        
+        return ans
+
+
+
+class Solution:
+    def shortestToChar(self, S, C):
+        """
+        :type S: str
+        :type C: str
+        :rtype: List[int]
+        """
         index_c = []
         for index,char in enumerate(S):
             if char == C:
