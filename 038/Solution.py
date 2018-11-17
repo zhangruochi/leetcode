@@ -55,6 +55,26 @@ class Solution:
 
         return current_str
 
+class Solution:
+    def countAndSay(self, n):
+        """
+        :type n: int
+        :rtype: str
+        """
+        cur = "1"
+        for i in range(1,n):
+            tmp,prev,count = "",cur[0],0
+            for char in cur:
+                if char == prev:
+                    count += 1
+                else:
+                    tmp = tmp + str(count) + prev
+                    prev = char
+                    count = 1
+            tmp = tmp + str(count) + prev
+            cur = tmp
+        return cur
+
 if __name__ == '__main__':
     print(Solution().countAndSay(6))            
 

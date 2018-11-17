@@ -70,6 +70,18 @@ class Solution:
                 return i - j + 1
 
         return -1       
+
+class Solution:
+    def strStr(self, haystack, needle):
+        """
+        :type haystack: str
+        :type needle: str
+        :rtype: int
+        """
+        return haystack.find(needle)
+        
+        
+        
          
 if __name__ == '__main__':
     print(Solution().strStr2(haystack="mississippi", needle="issip"))

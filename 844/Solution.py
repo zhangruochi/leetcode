@@ -71,6 +71,24 @@ class Solution:
         import itertools
         return all(x == y for x, y in
                    itertools.zip_longest(self.findNext(S), self.findNext(T)))
+
+class Solution:
+    def backspaceCompare(self, S, T):
+        """
+        :type S: str
+        :type T: str
+        :rtype: bool
+        """
+        def build(s):
+            stack = []
+            for char in s:
+                if char != "#":
+                    stack.append(char)
+                elif stack:
+                    stack.pop()
+                    
+            return "".join(stack)
+        return build(S) == build(T)
             
 
 

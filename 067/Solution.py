@@ -46,6 +46,24 @@ class Solution:
         return str(result)    
 
 
+from itertools import zip_longest
+class Solution:
+    def addBinary(self, a, b):
+        """
+        :type a: str
+        :type b: str
+        :rtype: str
+        """
+        ans,carry = "",0
+        for a,b in zip_longest(a[::-1],b[::-1],fillvalue=0):
+            carry,digit = divmod(int(a)+int(b)+carry,2)
+            ans = str(digit) + ans
+        if carry:
+            ans = str(carry) + ans
+        return ans
+        
+
+
 
 
 if __name__ == '__main__':
