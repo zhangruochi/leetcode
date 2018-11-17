@@ -145,7 +145,7 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.021|Merge Two Sorted Lists|[Solution](./021/Solution.py)|[Note](./021/note.md)|Easy|O(n)|O(1)|guard node|
-|No.024|Merge Two Sorted Lists|[Solution](./024/Solution.py)|[Note](./024/note.md)|Easy|O(n)|O(1)|watch end|
+|No.024|Swap Nodes in Pairs |[Solution](./024/Solution.py)|[Note](./024/note.md)|Medium|O(n)|O(1)|watch end|
 |No.083|Remove Duplicates from Sorted List|[Solution](./083/Solution.py)|[Note](./083/note.md)|Easy|O(n)|O(1)|two pointer|
 |No.160|Intersection of Two Linked Lists|[Solution](./160/Solution.py)|[Note](./160/note.md)|Easy|O(n)|O(1)||
 |No.203|Remove Linked List Elements|[Solution](./203/Solution.py)|[Note](./203/note.md)|Easy|O(n)|O(1)||
@@ -154,7 +154,6 @@ Table of Contents
 |No.206|Reverse Linked List|[Solution](./206/Solution.py)|[Note](./206/note.md)|Easy|O(n)|O(1)|reverse|
 |No.002|Add Two Numbers|[Solution](./002/Solution.py)|[Note](./002/note.md)|Easy|O(n)|O(1)||
 |No.019|Remove Nth Node From End of List|[Solution](./019/Solution.py)|[Note](./019/note.md)|Medium|O(n)|O(1)|quick slow pointer|
-|No.114|Flatten Binary Tree to Linked List|[Solution](./114/Solution.py)|[Note](./114/note.md)|Medium|O(n)|O(1)|DFS|
 |No.141|Linked List Cycle |[Solution](./141/Solution.py)|[Note](./141/note.md)|Medium|O(n)|O(1)|quick slow pointer|
 |No.142|Linked List CycleII |[Solution](./142/Solution.py)|[Note](./142/note.md)|Medium|O(n)|O(1)|quick slow pointer|
 |No.023|Merge k Sorted Lists|[Solution](./023/Solution.py)|[Note](./023/note.md)|Hard|O(nlogn)|O(nk)||
@@ -166,13 +165,13 @@ Table of Contents
 ## Stack
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.20|Valid Parentheses|[Solution](./20/Solution.py)|[Note](./20/note.md)|Easy|O(n)|O(1)||
+|No.020|Valid Parentheses|[Solution](./020/Solution.py)|[Note](./020/note.md)|Easy|O(n)|O(1)||
 |No.844|Backspace String Compare|[Solution](./844/Solution.py)|[Note](./844/note.md)|Easy|O(M+N)|O(1)|yield|
 |No.155|Min Stack|[Solution](./155/Solution.py)|[Note](./155/note.md)|Easy|O(1)|O(1)|yield|
 |No.173|Binary Search Tree Iterator|[Solution](./173/Solution.py)|[Note](./173/note.md)|Easy|O(n)|O(1)||
 |No.232|Implement Queue using Stacks|[Solution](./232/Solution.py)|[Note](./232/note.md)|Easy|O(n)|O(1)||
 |No.682|Baseball Game|[Solution](./682/Solution.py)|[Note](./682/note.md)|Easy|O(n)|O(1)||
-|No.056|Merge Intervals|[Solution](./056/Solution.py)|[Note](./056/note.md)|Easy|O(nlogn)|O(n)||
+|No.056|Merge Intervals|[Solution](./056/Solution.py)|[Note](./056/note.md)|Medium|O(nlogn)|O(n)||
 |No.394|Decode String|[Solution](./394/Solution.py)|[Note](./394/note.md)|Medium|O(n)|O(n)||
 |No.921|Minimum Add to Make Parentheses Valid|[Solution](./921/Solution.py)|[Note](./921/note.md)|Medium|O(n)|O(n)||
 |No.339|Nested List Weight Sum|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
@@ -231,7 +230,7 @@ Table of Contents
 |No.314|Binary Tree Vertical Order Traversal|[Solution](./314/Solution.py)|[Note](./314/note.md)|Medium|O(n)|O(n)||
 |No.637|Average of Levels in Binary Tree|[Solution](./637/Solution.py)|[Note](./637/note.md)|Easy|O(n)|O(n)||
 |No.103|Binary Tree Zigzag Level Order Traversal|[Solution](./103/Solution.py)|[Note](./103/note.md)|Medium|O(n)|O(n)||
-
+|No.114|Flatten Binary Tree to Linked List|[Solution](./114/Solution.py)|[Note](./114/note.md)|Medium|O(n)|O(1)|DFS|
 
 ## Hash Table
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|

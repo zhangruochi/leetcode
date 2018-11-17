@@ -1,3 +1,3 @@
 ## 思路
 
-!(picture)(./picture.png)
+![picture](./picture.png)
