@@ -45,15 +45,12 @@ class Solution:
         :type val: int
         :rtype: int
         """
-        nums.sort()
         index = 0
-
-        for num in nums:
-            if num != val:
-                nums[index] = num
+        for i in range(len(nums)):
+            if nums[i] != val:
+                nums[index] = nums[i]
                 index += 1
-
-        return  index
+        return index
 
 if __name__ == '__main__':
     print(Solution().removeElement([0,1,2,2,3,0,4,2],2))

@@ -49,7 +49,20 @@ class Solution:
         if carry:
             result.append(carry)
 
-        return result[::-1]        
+        return result[::-1]     
+
+
+    def plusOne4(self, digits):
+        """
+        :type digits: List[int]
+        :rtype: List[int]
+        """
+        carry = 1
+        for i in range(len(digits)-1,-1,-1):
+            carry,digits[i] = divmod(digits[i]+carry,10)
+        if carry:
+            digits.insert(0,carry)
+        return digits   
           
 
 
