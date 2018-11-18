@@ -92,6 +92,30 @@ class Solution:
             if count == n:
                 return num  
 
+
+import heapq
+class Solution:
+    def nthUglyNumber(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        if n == 0:
+            return 
+        pool,count = set([1]),0
+        heap = [1]
+        heapq.heapify(heap)
+        while True:
+            cur = heapq.heappop(heap)
+            count += 1
+            if count == n:
+                return cur
+            
+            for num in (cur*2,cur*3,cur*5):
+                if num not in pool:
+                    pool.add(num)
+                    heapq.heappush(heap,num)
+        return -1
             
 
 
