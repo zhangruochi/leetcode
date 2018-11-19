@@ -50,6 +50,8 @@ Table of Contents
 | [Trie](./classical_algorithm/Trie.py)|[NOTE](./classical_algorithm/Trie.md)
 | [Dynamic Programming](./classical_algorithm/DP.py)|[NOTE](./classical_algorithm/DP.md)
 | [Eight Queue](./classical_algorithm/queue.py)|Backtracking
+| [Hamilton circuit](./classical_algorithm/hamilton.py)|Backtracking
+
 
 
     
