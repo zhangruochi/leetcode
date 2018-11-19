@@ -21,19 +21,28 @@ def eightqueue1(board,row):
     return False
 
 
+
+
+
+
 ## 优化
 def check2(board,row,col):
+    i = 0
+    while i < row:
+        if abs(col-board[i]) in (0, abs(row-i)):
+            return False
+        i+=1
+    return True    
+
     
-
-
-
 def eightqueue2(board,row):
     if row == len(board):
-        print(board)
+        result.append(list(board))
+        #print(board)
         return 
 
     for col in range(len(board)):
-        if check(board,row,col):
+        if check2(board,row,col):
             board[row] = col
             eightqueue2(board,row+1)
             board[row] = 0
@@ -41,9 +50,23 @@ def eightqueue2(board,row):
 
 
 
+def generate3d(result):
+    ans = []
+    for i in range(len(result)):
+        for j in range(len(result)):
+            tmp = []
+            for k in range(len(result[0])):
+                tmp.append((k,result[i][k],result[j][k]))
+            ans.append(tmp)
+    return ans
+
 
 
 
 if __name__ == '__main__':
     board = [[0]*4 for i in range(4)]
-    eightqueue1(board,0)
+    result = []
+    eightqueue2(board,0)
+    ans = generate3d(result)
+    for answer in ans:
+        print(answer)
