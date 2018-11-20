@@ -235,6 +235,8 @@ Table of Contents
 |No.637|Average of Levels in Binary Tree|[Solution](./637/Solution.py)|[Note](./637/note.md)|Easy|O(n)|O(n)||
 |No.103|Binary Tree Zigzag Level Order Traversal|[Solution](./103/Solution.py)|[Note](./103/note.md)|Medium|O(n)|O(n)||
 |No.114|Flatten Binary Tree to Linked List|[Solution](./114/Solution.py)|[Note](./114/note.md)|Medium|O(n)|O(1)|DFS|
+|No.437|Path Sum III|[Solution](./437/Solution.py)|[Note](./437/note.md)|Medium|O(nlogn)|O(1)|DFS|
+
 
 ## Hash Table
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
