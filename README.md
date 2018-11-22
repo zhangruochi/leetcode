@@ -327,6 +327,7 @@ Table of Contents
 |No.238|Product of Array Except Self|[Solution](./238/Solution.py)|[Note](./238/note.md)|Easy|O(n)|O(1)||
 |No.621|Task Scheduler|[Solution](./621/Solution.py)|[Note](./621/note.md)|Medium|O(n)|O(1)||
 |No.326|Power of Three|[Solution](./326/Solution.py)|[Note](./326/note.md)|Easy|O(n)|O(1)|Math|
+|No.892|Surface Area of 3D Shapes|[Solution](./892/Solution.py)|[Note](./892/note.md)|Easy|O(n)|O(1)|Math|
 
 
 ## Graph
