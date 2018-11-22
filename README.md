@@ -203,6 +203,7 @@ Table of Contents
 |No.346|Moving Average from Data Stream|[Solution](./346/Solution.py)|[Note](./346/note.md)|Easy|O(1)|O(w)||
 |No.281|Zigzag Iterator|[Solution](./281/Solution.py)|[Note](./281/note.md)|Medium|O(n)|O(n)||
 |No.127|Word Ladder|[Solution](./127/Solution.py)|[Note](./127/note.md)|Medium|O(n)|O(n)||
+|No.622|Design Circular Queue|[Solution](./622/Solution.py)|[Note](./622/note.md)|Medium|O(n)|O(n)||
 
 
 ## Binary Tree
