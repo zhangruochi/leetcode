@@ -144,6 +144,7 @@ Table of Contents
 |No.271|Encode and Decode Strings|[Solution](./271/Solution.py)|[Note](./271/note.md)|Meduim|O(n)|O(n)||
 |No.003|Longest Substring Without Repeating Characters|[Solution](./003/Solution.py)|[Note](./003/note.md)|Meduim|O(n)|O(n)||
 |No.293|Flip Game|[Solution](./293/Solution.py)|[Note](./293/note.md)|Easy|O(n)|O(n)||
+|No.293| Design Compressed String Iterator|[Solution](./293/Solution.py)|[Note](./293/note.md)|Easy|O(n)|O(n)|Iterator|
 
 ## Linked List
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
