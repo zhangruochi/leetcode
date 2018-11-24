@@ -145,6 +145,7 @@ Table of Contents
 |No.003|Longest Substring Without Repeating Characters|[Solution](./003/Solution.py)|[Note](./003/note.md)|Meduim|O(n)|O(n)||
 |No.293|Flip Game|[Solution](./293/Solution.py)|[Note](./293/note.md)|Easy|O(n)|O(n)||
 |No.293| Design Compressed String Iterator|[Solution](./293/Solution.py)|[Note](./293/note.md)|Easy|O(n)|O(n)|Iterator|
+|No.008| String to Integer (atoi)|[Solution](./008/Solution.py)|[Note](./008/note.md)|Meduim|O(n)|O(n)||
 
 ## Linked List
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -361,3 +362,4 @@ Table of Contents
 |No.926|Flip String to Monotone Increasing|[Solution](./926/Solution.py)|[Note](./926/note.md)|Medium|O(n)|O(n)||
 |No.845|Longest Mountain in Array|[Solution](./845/Solution.py)|[Note](./845/note.md)|Medium|O(n)|O(1)||
 |No.139|Longest Mountain in Array|[Solution](./139/Solution.py)|[Note](./139/note.md)|Medium|O(n)|O(1)||
+|No.300|Longest Increasing Subsequence|[Solution](./300/Solution.py)|[Note](./300/note.md)|Medium|O(nlogn)|O(1)||
