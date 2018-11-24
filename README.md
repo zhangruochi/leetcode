@@ -114,6 +114,7 @@ Table of Contents
 |No.031|Next Permutation|[Solution](./031/Solution.py)|[Note](./031/note.md)|Medium|O(nlogn)|O(1)||
 |No.422|Valid Word Square|[Solution](./422/Solution.py)|[Note](./422/note.md)|Easy|O(n^2)|O(1)||
 |No.349|Intersection of Two Arrays|[Solution](./349/Solution.py)|[Note](./349/note.md)|Easy|O(n)|O(1)||
+|No.724|Find Pivot Index|[Solution](./724/Solution.py)|[Note](./724/note.md)|Easy|O(n)|O(1)||
 
 
 ## String
