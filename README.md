@@ -116,6 +116,7 @@ Table of Contents
 |No.349|Intersection of Two Arrays|[Solution](./349/Solution.py)|[Note](./349/note.md)|Easy|O(n)|O(1)||
 |No.724|Find Pivot Index|[Solution](./724/Solution.py)|[Note](./724/note.md)|Easy|O(n)|O(1)||
 |No.747|Find Pivot Index|[Solution](./747/Solution.py)|[Note](./747/note.md)|Easy|O(n)|O(1)||
+|No.498|Diagonal Traverse|[Solution](./498/Solution.py)|[Note](./498/note.md)|Medium|O(n)|O(n)||
 
 
 ## String
