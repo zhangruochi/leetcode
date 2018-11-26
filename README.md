@@ -267,6 +267,7 @@ Table of Contents
 |No.387|First Unique Character in a String|[Solution](./387/Solution.py)|[Note](./387/note.md)|Easy|O(n)|O(n)||
 |No.350|Intersection of Two Arrays II|[Solution](./350/Solution.py)|[Note](./350/note.md)|Easy|O(n)|O(n)||
 |No.049|Group Anagrams|[Solution](./049/Solution.py)|[Note](./049/note.md)|Easy|O(nklonk)|O(n)||
+|No.705|Design HashSet |[Solution](./705/Solution.py)|[Note](./705/note.md)|Easy|O(1)|O(n)||
 
 
 ## Sort
