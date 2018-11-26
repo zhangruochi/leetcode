@@ -269,6 +269,7 @@ Table of Contents
 |No.049|Group Anagrams|[Solution](./049/Solution.py)|[Note](./049/note.md)|Easy|O(nklonk)|O(n)||
 |No.705|Design HashSet |[Solution](./705/Solution.py)|[Note](./705/note.md)|Easy|O(1)|O(n)||
 |No.599|Minimum Index Sum of Two Lists|[Solution](./599/Solution.py)|[Note](./599/note.md)|Easy|O(1)|O(n)||
+|No.359|Logger Rate Limiter|[Solution](./359/Solution.py)|[Note](./359/note.md)|Easy|O(1)|O(n)||
 
 ## Sort
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
