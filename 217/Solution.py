@@ -29,3 +29,11 @@ class Solution:
                 return True
             visited.add(num)
         return False 
+
+class Solution:
+    def containsDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        return not (len(set(nums)) == len(nums))
