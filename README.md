@@ -188,7 +188,8 @@ Table of Contents
 |No.056|Merge Intervals|[Solution](./056/Solution.py)|[Note](./056/note.md)|Medium|O(nlogn)|O(n)||
 |No.394|Decode String|[Solution](./394/Solution.py)|[Note](./394/note.md)|Medium|O(n)|O(n)||
 |No.921|Minimum Add to Make Parentheses Valid|[Solution](./921/Solution.py)|[Note](./921/note.md)|Medium|O(n)|O(n)||
-|No.339|Nested List Weight Sum|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
+|No.339|Nested List Weight Sum|[Solution](./339/Solution.py)|[Note](./339/note.md)|Easy|O(n)|O(1)|DFS|
+|No.716|Max Stack|[Solution](./716/Solution.py)|[Note](./716/note.md)|Easy|O(n)|O(1)|DFS|
 
 
 
@@ -270,6 +271,7 @@ Table of Contents
 |No.705|Design HashSet |[Solution](./705/Solution.py)|[Note](./705/note.md)|Easy|O(1)|O(n)||
 |No.599|Minimum Index Sum of Two Lists|[Solution](./599/Solution.py)|[Note](./599/note.md)|Easy|O(1)|O(n)||
 |No.359|Logger Rate Limiter|[Solution](./359/Solution.py)|[Note](./359/note.md)|Easy|O(1)|O(n)||
+
 
 ## Sort
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|

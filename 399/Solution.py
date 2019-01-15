@@ -32,30 +32,43 @@ class Solution:
             graph[b][a] = 1.0/values[index]
         
         
-        def dfs_rec(x,y,visited,cum):
+        def dfs_rec(x,y,visited):
         
             if x == y:
-                ans.append(cum)
-                return
+                return 1.0
+            
             visited.add(x)
             
             for n in graph[x]:
                 if n not in visited:
-                    dfs_rec(n,y,visited,cum*graph[x][n])
+                    visited.add(n)
+                    d = dfs_rec(n,y,visited) * graph[x][n]
+                    if d > 0:
+                        return d
+            return -1.0
                     
-                    
-            
-            
         
         for query in queries:
             start,end = query[0],query[1]
             if start not in graph or end not in graph:
                 ans.append(-1.0)
                 continue
-            dfs_rec(graph,start,end,1,set())
-        
+            ans.append( dfs_rec(start,end,set()) )
+            
         return ans
                     
+                    
+                
+            
+            
+            
+            
+            
+        
+        
+        
+            
+        
                     
                 
             
