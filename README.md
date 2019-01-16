@@ -61,7 +61,7 @@ Table of Contents
 ## Bit Manipulation
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.136|Single Number|[Solution](./136/Solution.py)|[Note](./136/note.md)|Easy|O(n)|O(1)|Bit Manipulation|
+|[No.136](https://leetcode.com/problems/single-number/)|Single Number|[Solution](./136/Solution.py)|[Note](./136/note.md)|Easy|O(n)|O(1)|Bit Manipulation|
 |No.191|Number of 1 Bits|[Solution](./191/Solution.py)|[Note](./191/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 |No.190|Reverse Bits|[Solution](./190/Solution.py)|[Note](./190/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 |No.231|Power of Two|[Solution](./231/Solution.py)|[Note](./231/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
