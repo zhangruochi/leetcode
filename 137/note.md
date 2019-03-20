@@ -17,7 +17,7 @@
 
     公式方面 ，上面两次的时候，b清空的公式是 b = b xor i
             而第三次时，b要等于零，而这时a是True，所以再 & 一个a的非就可以，b = b xor & ~a
-    -> b = b xor i & ~ a
+    -> b = b xor i & ~a
        a = a xor i & ~b
 
 

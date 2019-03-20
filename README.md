@@ -67,12 +67,12 @@ Table of Contents
 |No.231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](./231/Solution.py)|[Note](./231/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 |No.342|[Power of Four](https://leetcode.com/problems/power-of-four/submissions/)|[Solution](./342/Solution.py)|[Note](./342/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 |No.401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Solution](./401/Solution.py)|[Note](./401/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
-|No.461|Hamming Distance|[Solution](./461/Solution.py)|[Note](./461/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
-|No.645|Set Mismatch|[Solution](./645/Solution.py)|[Note](./645/note.md)|Easy|O(n)|O(1)|Bit Manipulation|
-|No.137|Single NumberII|[Solution](./137/Solution.py)|[Note](./137/note.md)|Medium|O(n)|O(1)|Bit Manipulation|
-|No.762|Prime Number of Set Bits in Binary Representation|[Solution](./762/Solution.py)|[Note](./762/note.md)|Medium|O(1)|O(1)|Bit Manipulation|
-|No.371|Sum of Two Integers|[Solution](./371/Solution.py)|[Note](./371/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
-|No.268|Missing Number|[Solution](./268/Solution.py)|[Note](./268/note.md)|Easy|O(n)|O(1)|Bit Manipulation,Math|
+|No.461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Solution](./461/Solution.py)|[Note](./461/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
+|No.645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Solution](./645/Solution.py)|[Note](./645/note.md)|Easy|O(n)|O(1)|Bit Manipulation|
+|No.137|[Single NumberII](https://leetcode.com/problems/single-number-ii/)|[Solution](./137/Solution.py)|[Note](./137/note.md)|Medium|O(n)|O(1)|Bit Manipulation|
+|No.762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[Solution](./762/Solution.py)|[Note](./762/note.md)|Medium|O(1)|O(1)|Bit Manipulation|
+|No.371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Solution](./371/Solution.py)|[Note](./371/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
+|No.268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Solution](./268/Solution.py)|[Note](./268/note.md)|Easy|O(n)|O(1)|Bit Manipulation,Math|
 
 
 

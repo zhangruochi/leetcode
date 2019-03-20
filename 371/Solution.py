@@ -1,33 +1,53 @@
 """
-Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
+371. Sum of Two Integers
+Easy
 
-The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2.
+691
 
-Note:
+1150
 
-Your returned answers (both index1 and index2) are not zero-based.
-You may assume that each input would have exactly one solution and you may not use the same element twice.
-Example:
+Favorite
 
-Input: numbers = [2,7,11,15], target = 9
-Output: [1,2]
-Explanation: The sum of 2 and 7 is 9. Therefore index1 = 1, index2 = 2.
+Share
+Calculate the sum of two integers a and b, but you are not allowed to use the operator + and -.
+
+Example 1:
+
+Input: a = 1, b = 2
+Output: 3
+Example 2:
+
+Input: a = -2, b = 3
+Output: 1
 """
 
-class Solution:
-    def twoSum(self, numbers, target):
+class Solution(object):
+    # def getSum(self, a, b):
+    #     """
+    #     :type a: int
+    #     :type b: int
+    #     :rtype: int
+    #     """
+    #     while b:
+    #         tmp = a & b
+    #         a = a ^ b
+    #         b = tmp << 1
+    #     return a
+    def getSum(self, a, b):
         """
-        :type numbers: List[int]
-        :type target: int
-        :rtype: List[int]
+        :type a: int
+        :type b: int
+        :rtype: int
         """
-        low,high = 0,len(numbers)-1
-        while low < high:
-            sum_ = numbers[low] + numbers[high]
-            if sum_ == target:
-                return [low+1,high+1]
-            elif sum_ < target:
-                low += 1
-            else:
-                high -=1
-                
+        # 32 bits integer max
+        MAX = 0x7FFFFFFF
+        # 32 bits interger min
+        MIN = 0x80000000
+        # mask to get last 32 bits
+        mask = 0xFFFFFFFF
+        while b != 0:
+            # ^ get different bits and & gets double 1s, << moves carry
+            a, b = (a ^ b) & mask, ((a & b) << 1) & mask
+        # if a is negative, get a's 32 bits complement positive first
+        # then get 32-bit positive's Python complement negative
+        return a if a <= MAX else ~(a ^ mask)

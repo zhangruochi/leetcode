@@ -31,14 +31,14 @@ R - L will be at most 10000.
 
 class Solution:
 
-    def isPrime(self,number):
-        if number <= 1:
+    def isPrime(self,n):
+        if n <= 1:
             return False
-
-        for num in range(2,number):
-            if number % num == 0:
+        
+        for i in range(2,int(n**0.5)+1):
+            if n % i == 0:
                 return False
-        return True   
+        return True  
 
     def countPrimeSetBits(self, L, R):
         """
