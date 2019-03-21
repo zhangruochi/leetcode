@@ -83,17 +83,17 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Solution](./026/Solution.py)|[Note](./026/note.md)|Easy|O(n)|O(1)|Array|
 |No.027|[Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](./027/Solution.py)|[Note](./027/note.md)|Easy|O(n)|O(1)||
-|No.066|Plus One|[Solution](./066/Solution.py)|[Note](./066/note.md)|Easy|O(n)|O(1)||
+|No.066|[Plus One](https://leetcode.com/problems/plus-one/)|[Solution](./066/Solution.py)|[Note](./066/note.md)|Easy|O(n)|O(1)||
 |No.118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Solution](./118/Solution.py)|[Note](./118/note.md)|Easy|O(n^2)|O(1)||
 |No.119|[Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/)|[Solution](./119/Solution.py)|[Note](./119/note.md)|Easy|O(n^2)|O(1)||
-|No.121|Best Time to Buy and Sell Stock|[Solution](./121/Solution.py)|[Note](./121/note.md)|Easy|O(n)|O(1)|Array|
-|No.169|Majority Element|[Solution](./169/Solution.py)|[Note](./169/note.md)|Easy|O(n)|O(1)||
-|No.189|Rotate Array|[Solution](./189/Solution.py)|[Note](./189/note.md)|Easy|O(n)|O(1)||
-|No.905|Sort Array By Parity|[Solution](./905/Solution.py)|[Note](./905/note.md)|Easy|O(n)|O(1)||
-|No.896|Monotonic Array|[Solution](./896/Solution.py)|[Note](./896/note.md)|Easy|O(n)|O(1)||
-|No.243|Shortest Word Distance|[Solution](./243/Solution.py)|[Note](./243/note.md)|Easy|O(n)|O(1)||
-|No.448|Find All Numbers Disappeared in an Array|[Solution](./448/Solution.py)|[Note](./448/note.md)|Easy|O(n)|O(1)||
-|No.821|Shortest Distance to a Character|[Solution](./821/Solution.py)|[Note](./821/note.md)|Easy|O(n)|O(n)||
+|No.121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|[Solution](./121/Solution.py)|[Note](./121/note.md)|Easy|O(n)|O(1)|Array|
+|No.169|[Majority Element](https://leetcode.com/problems/majority-element/)|[Solution](./169/Solution.py)|[Note](./169/note.md)|Easy|O(n)|O(1)||
+|No.189|[Rotate Array](https://leetcode.com/problems/rotate-array/)|[Solution](./189/Solution.py)|[Note](./189/note.md)|Easy|O(n)|O(1)||
+|No.905|[Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)|[Solution](./905/Solution.py)|[Note](./905/note.md)|Easy|O(n)|O(1)||
+|No.896|[Monotonic Array](https://leetcode.com/problems/monotonic-array/)|[Solution](./896/Solution.py)|[Note](./896/note.md)|Easy|O(n)|O(1)||
+|No.243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Solution](./243/Solution.py)|[Note](./243/note.md)|Easy|O(n)|O(1)||
+|No.448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Solution](./448/Solution.py)|[Note](./448/note.md)|Easy|O(n)|O(1)||
+|No.821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Solution](./821/Solution.py)|[Note](./821/note.md)|Easy|O(n)|O(n)||
 |No.001|Two Sum|[Solution](./001/Solution.py)|[Note](./001/note.md)|Easy|O(n)|O(n)||
 |No.167|Two Sum II|[Solution](./167/Solution.py)|[Note](./167/note.md)|Easy|O(n)|O(1)||
 |No.170|Two Sum III|[Solution](./170/Solution.py)|[Note](./170/note.md)|Easy|O(n)|O(1)||

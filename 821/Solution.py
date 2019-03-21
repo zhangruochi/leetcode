@@ -71,3 +71,43 @@ class Solution:
             result.append(i)
         
         return result
+
+
+
+class Solution(object):
+    def shortestToChar(self, S, C):
+        """
+        :type S: str
+        :type C: str
+        :rtype: List[int]
+        """
+        res = [-1] * len(S)
+        
+        pe = []
+        for i,char in enumerate(S):
+            if char == C:
+                pe.append(i)
+        
+        index = 0
+        for i in range(pe[0],-1,-1):
+            res[i] = index
+            index += 1
+        
+        index = 0
+        for i in range(pe[-1],len(S)):
+            res[i] = index
+            index += 1
+        
+        for i in range(len(pe)-1):
+            l = pe[i]
+            h = pe[i+1]
+            print(l,h)
+            index = 0
+            while l <= h:
+                res[l] = index
+                res[h] = index
+                l += 1
+                h -= 1
+                index += 1
+        return res
+                

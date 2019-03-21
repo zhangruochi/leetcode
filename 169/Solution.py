@@ -27,6 +27,16 @@ class Solution:
         return nums[len(nums)//2]
 
 
+    def majorityElement3(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        counts = Counter(nums)
+        return max(counts.keys(),key = counts.get)
+
+
+
             
 if __name__ == '__main__':
     print(Solution().majorityElement2([2,2,1,1,1,2,2]))            
