@@ -47,6 +47,24 @@ class Solution:
             result.append(tmp)
         return result    
 
+    
+    def generate3(self, numRows):
+        """
+        :type numRows: int
+        :rtype: List[List[int]]
+        """
+        res = []
+        for i in range(numRows):
+            if not res:
+                res.append([1])
+            else:
+                tmp = [1]
+                for i in range(len(res[-1])-1):
+                    tmp.append(res[-1][i]+res[-1][i+1])
+                tmp.append(1)
+                res.append(tmp)
+        return res
+
 
 
 if __name__ == '__main__':
