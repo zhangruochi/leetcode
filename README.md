@@ -94,10 +94,10 @@ Table of Contents
 |No.243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/)|[Solution](./243/Solution.py)|[Note](./243/note.md)|Easy|O(n)|O(1)||
 |No.448|[Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)|[Solution](./448/Solution.py)|[Note](./448/note.md)|Easy|O(n)|O(1)||
 |No.821|[Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)|[Solution](./821/Solution.py)|[Note](./821/note.md)|Easy|O(n)|O(n)||
-|No.001|Two Sum|[Solution](./001/Solution.py)|[Note](./001/note.md)|Easy|O(n)|O(n)||
-|No.167|Two Sum II|[Solution](./167/Solution.py)|[Note](./167/note.md)|Easy|O(n)|O(1)||
-|No.170|Two Sum III|[Solution](./170/Solution.py)|[Note](./170/note.md)|Easy|O(n)|O(1)||
-|No.922|Sort Array By Parity II|[Solution](./922/Solution.py)|[Note](./922/note.md)|Easy|O(n)|O(1)|two pointer|
+|No.001|[Two Sum](https://leetcode.com/problems/two-sum/)|[Solution](./001/Solution.py)|[Note](./001/note.md)|Easy|O(n)|O(n)||
+|No.167|[Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Solution](./167/Solution.py)|[Note](./167/note.md)|Easy|O(n)|O(1)||
+|No.170|[Two Sum III](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Solution](./170/Solution.py)|[Note](./170/note.md)|Easy|O(n)|O(1)||
+|No.922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Solution](./922/Solution.py)|[Note](./922/note.md)|Easy|O(n)|O(1)|two pointer|
 |No.868|Transpose Matrix|[Solution](./868/Solution.py)|[Note](./868/note.md)|Easy|O(n)|O(n)||
 |No.860|Lemonade Change|[Solution](./860/Solution.py)|[Note](./860/note.md)|Easy|O(n)|O(n)||
 |No.849|Maximize Distance to Closest Person|[Solution](./849/Solution.py)|[Note](./849/note.md)|Easy|O(n)|O(1)||
