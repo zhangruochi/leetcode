@@ -50,4 +50,43 @@ class Solution(object):
         max_ = max(max_,len(seats)-1-prev)
         return max_
 
+class Solution(object):
+    def maxDistToClosest(self, seats):
+        """
+        :type seats: List[int]
+        :rtype: int
+        """
+        indics = []
+        for i,num in enumerate(seats):
+            if num > 0:
+                indics.append(i)
+
+        max_dis = max(indics[0], len(seats) - indics[-1] - 1)    
+        for i in range(len(indics) -1):
+            max_dis = max(max_dis,(indics[i+1] - indics[i])//2)
+        
+        return max_dis
+
+from itertools import groupby
+
+class Solution(object):
+    def maxDistToClosest(self, seats):
+        """
+        :type seats: List[int]
+        :rtype: int
+        """
+        ans = 0
+        for seat, group in itertools.groupby(seats):
+            if not seat:
+                ans = max(ans, (len(list(group)) + 1)//2)
+        
+        return max(ans,seats.index(1),seats[::-1].index(1))
+    
+
+        
+        
+        
+        
+        
+                
 

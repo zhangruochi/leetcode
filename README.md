@@ -98,13 +98,13 @@ Table of Contents
 |No.167|[Two Sum II](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)|[Solution](./167/Solution.py)|[Note](./167/note.md)|Easy|O(n)|O(1)||
 |No.170|[Two Sum III](https://leetcode.com/problems/two-sum-iii-data-structure-design/)|[Solution](./170/Solution.py)|[Note](./170/note.md)|Easy|O(n)|O(1)||
 |No.922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Solution](./922/Solution.py)|[Note](./922/note.md)|Easy|O(n)|O(1)|two pointer|
-|No.868|Transpose Matrix|[Solution](./868/Solution.py)|[Note](./868/note.md)|Easy|O(n)|O(n)||
-|No.860|Lemonade Change|[Solution](./860/Solution.py)|[Note](./860/note.md)|Easy|O(n)|O(n)||
-|No.849|Maximize Distance to Closest Person|[Solution](./849/Solution.py)|[Note](./849/note.md)|Easy|O(n)|O(1)||
-|No.840|Magic Squares In Grid|[Solution](./840/Solution.py)|[Note](./840/note.md)|Easy|O(n)|O(1)||
-|No.283|Move Zeroes|[Solution](./283/Solution.py)|[Note](./283/note.md)|Easy|O(n)|O(1)||
+|No.867|[Transpose Matrix](https://leetcode.com/problems/transpose-matrix/)|[Solution](./868/Solution.py)|[Note](./868/note.md)|Easy|O(n)|O(n)||
+|No.860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/)|[Solution](./860/Solution.py)|[Note](./860/note.md)|Easy|O(n)|O(n)||
+|No.849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Solution](./849/Solution.py)|[Note](./849/note.md)|Easy|O(n)|O(1)||
+|No.840|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|[Solution](./840/Solution.py)|[Note](./840/note.md)|Easy|O(n)|O(1)||
+|No.283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Solution](./283/Solution.py)|[Note](./283/note.md)|Easy|O(n)|O(1)||
 |No.015|3sum|[Solution](./015/Solution.py)|[Note](./015/note.md)|Easy|O(n^2)|O(n)||
-|No.209|Minimum Size Subarray Sum|[Solution](./209/Solution.py)|[Note](./209/note.md)|Easy|O(n)|O(1)|two pointer|
+|No.209|Minimum Size Subarray Sum|[Solution](./209/Solution.py)|[Note](./209/note.md)|Medium|O(n)|O(1)|two pointer|
 |No.560|Subarray Sum Equals k|[Solution](./560/Solution.py)|[Note](./560/note.md)|Easy|O(n)|O(1)|prefix sum|
 |No.325|Maximum Size Subarray Sum Equals k|[Solution](./325/Solution.py)|[Note](./325/note.md)|Easy|O(n)|O(n)|prefix sum|
 |No.930|Binary Subarrays With Sum|[Solution](./930/Solution.py)|[Note](./930/note.md)|Easy|O(n)|O(n)|prefix sum|

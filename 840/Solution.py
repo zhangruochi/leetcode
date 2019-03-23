@@ -66,3 +66,28 @@ class Solution(object):
                     count += 1
         return count
 
+
+class Solution:
+    
+    def is_magic(self,grid,r,c):
+        res = [sum([grid[i][j] for j in range(c,c+3)]) for i in range(r,r+3)] + \
+        [sum([grid[i][j] for i in range(r,r+3)]) for j in range(c,c+3)] + \
+        [sum([grid[r+i][c+i] for i in range(3)])] + [sum([grid[r+i][c+2-i] for i in range(3)])]
+        
+        
+        return len(set(res)) == 1
+    
+    def numMagicSquaresInside(self, grid: List[List[int]]) -> int:    
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
+        count = 0
+        for i in range(len(grid)-2):
+            for j in range(len(grid[0])-2):                
+                if set([grid[i+n][j+m] for n in range(3) for m in range(3)]) == set(range(1,10)) and self.is_magic(grid,i,j):
+                    count += 1
+        return count
+                
+        
+

@@ -11,18 +11,15 @@ You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
 """
 
-class Solution(object):
-    def moveZeroes(self, nums):
+class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
         """
-        :type nums: List[int]
-        :rtype: void Do not return anything, modify nums in-place instead.
+        Do not return anything, modify nums in-place instead.
         """
-        count,pointer = 0,0
-        
+        index = 0
         for num in nums:
-            if num == 0:
-                count += 1
-                continue
-            nums[pointer] = num
-            pointer += 1
-        nums[pointer:] = [0] * (len(nums)-pointer)
+            if num != 0:
+                nums[index] = num
+                index += 1
+        
+        nums[index:] = [0] * (len(nums) - index)

@@ -86,3 +86,42 @@ class Solution(object):
 
 
 
+class Solution(object):
+    def lemonadeChange(self, bills):
+        """
+        :type bills: List[int]
+        :rtype: bool
+        """
+        counter = {5:0,10:0,20:0}
+        for bill in bills:
+            change = bill - 5
+            if change == 0:
+                counter[5] += 1
+            elif change == 5:
+                while counter[5] > 0 and change - 5 >= 0:
+                    counter[5] -= 1
+                    change -= 5
+                if change:
+                    return False
+                counter[10] += 1
+            else:
+                while counter[10] > 0 and change - 10 >= 0:
+                    counter[10] -= 1
+                    change -= 10
+                while counter[5] > 0 and change - 5 >= 0:
+                    counter[5] -= 1
+                    change -= 5
+                if change:
+                    return False
+                counter[20] += 1
+        return True
+    
+                    
+                
+            
+                
+                    
+                
+        
+
+
