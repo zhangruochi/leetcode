@@ -68,6 +68,15 @@ Therefore, it is NOT a valid word square.
 """
 
 class Solution:
+    def validWordSquare(self, words: List[str]) -> bool:
+        for i, row in enumerate(words):
+            col  = "".join([row[i] for row in words if i < len(row)])
+            print(row,col)
+            if row != col:
+                return False
+        return True
+
+class Solution:
     def validWordSquare(self, words):
         """
         :type words: List[str]
@@ -78,4 +87,5 @@ class Solution:
                 if j >= len(words) or i >= len(words[j]) or words[i][j] != words[j][i]:
                     return False
         return True
+
 
