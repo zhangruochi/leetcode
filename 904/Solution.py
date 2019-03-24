@@ -46,21 +46,18 @@ Note:
 
 
 from collections import Counter
-class Solution(object):
-    def totalFruit(self, tree):
-        """
-        :type tree: List[int]
-        :rtype: int
-        """
+class Solution:
+    def totalFruit(self, tree: List[int]) -> int:
         count = Counter()
-        i,max_ = 0,0
-        for j,char in enumerate(tree):
-            count[char] += 1
+        max_ = 0
+        i = 0
+        for fruit in tree:
+            count[fruit] += 1
             while len(count) == 3:
                 count[tree[i]] -= 1
                 if count[tree[i]] == 0:
                     del count[tree[i]]
                 i += 1
             max_ = max(max_,sum(count.values()))
-        return max_            
+        return max_         
                 
