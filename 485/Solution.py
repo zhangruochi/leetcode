@@ -29,4 +29,16 @@ class Solution:
                 cum += 1
             max_ = max(max_,cum)
         return max_
+
+
+from itertools import groupby
+class Solution:
+    def findMaxConsecutiveOnes(self, nums: List[int]) -> int:
+        count = 0
+        for key,group in groupby(nums):
+            if key == 1:
+                count = max(count,len(list(group)))
+        return count
+            
+        
                 

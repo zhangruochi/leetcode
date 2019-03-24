@@ -117,8 +117,8 @@ Table of Contents
 |No.724|Find Pivot Index|[Solution](./724/Solution.py)|[Note](./724/note.md)|Easy|O(n)|O(1)||
 |No.747|Find Pivot Index|[Solution](./747/Solution.py)|[Note](./747/note.md)|Easy|O(n)|O(1)||
 |No.498|Diagonal Traverse|[Solution](./498/Solution.py)|[Note](./498/note.md)|Medium|O(n)|O(n)||
-|No.561|Array Partition I |[Solution](./561/Solution.py)|[Note](./561/note.md)|Easy|O(nlogn)|O(1)||
-|No.485|Max Consecutive Ones|[Solution](./485/Solution.py)|[Note](./485/note.md)|Easy|O(n)|O(1)||
+|No.561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Solution](./561/Solution.py)|[Note](./561/note.md)|Easy|O(nlogn)|O(1)||
+|No.485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Solution](./485/Solution.py)|[Note](./485/note.md)|Easy|O(n)|O(1)||
 
 
 ## String
