@@ -103,9 +103,9 @@ Table of Contents
 |No.849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/)|[Solution](./849/Solution.py)|[Note](./849/note.md)|Easy|O(n)|O(1)||
 |No.840|[Magic Squares In Grid](https://leetcode.com/problems/magic-squares-in-grid/)|[Solution](./840/Solution.py)|[Note](./840/note.md)|Easy|O(n)|O(1)||
 |No.283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/)|[Solution](./283/Solution.py)|[Note](./283/note.md)|Easy|O(n)|O(1)||
-|No.015|3sum|[Solution](./015/Solution.py)|[Note](./015/note.md)|Easy|O(n^2)|O(n)||
-|No.209|Minimum Size Subarray Sum|[Solution](./209/Solution.py)|[Note](./209/note.md)|Medium|O(n)|O(1)|two pointer|
-|No.560|Subarray Sum Equals k|[Solution](./560/Solution.py)|[Note](./560/note.md)|Easy|O(n)|O(1)|prefix sum|
+|No.015|[3sum](https://leetcode.com/problems/3sum/)|[Solution](./015/Solution.py)|[Note](./015/note.md)|Easy|O(n^2)|O(n)||
+|No.209|[Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)|[Solution](./209/Solution.py)|[Note](./209/note.md)|Medium|O(n)|O(1)|two pointer|
+|No.560|[Subarray Sum Equals k](https://leetcode.com/problems/subarray-sum-equals-k/)|[Solution](./560/Solution.py)|[Note](./560/note.md)|Medium|O(n)|O(1)|prefix sum|
 |No.325|Maximum Size Subarray Sum Equals k|[Solution](./325/Solution.py)|[Note](./325/note.md)|Easy|O(n)|O(n)|prefix sum|
 |No.930|Binary Subarrays With Sum|[Solution](./930/Solution.py)|[Note](./930/note.md)|Easy|O(n)|O(n)|prefix sum|
 |No.011|Container With Most Water|[Solution](./011/Solution.py)|[Note](./011/note.md)|Medium|O(n)|O(1)|two pointer|
