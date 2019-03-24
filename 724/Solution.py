@@ -50,4 +50,20 @@ class Solution:
             if x == y:
                 return index
         return -1
+
+
+class Solution:
+    def pivotIndex(self, nums: List[int]) -> int:
+        prefix_sums = []
+        cum = 0
+        for num in nums:
+            cum += num
+            prefix_sums.append(cum)
+        
+        print(prefix_sums)
+        for i,s in enumerate(prefix_sums):
+            if s == (prefix_sums[-1] - s + nums[i]):
+                return i
+        return -1
+        
         

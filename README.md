@@ -113,9 +113,9 @@ Table of Contents
 |No.674|Longest Continuous Increasing Subsequence|[Solution](./674/Solution.py)|[Note](./674/note.md)|Easy|O(n)|O(1)||
 |No.031|Next Permutation|[Solution](./031/Solution.py)|[Note](./031/note.md)|Medium|O(nlogn)|O(1)||
 |No.422|Valid Word Square|[Solution](./422/Solution.py)|[Note](./422/note.md)|Easy|O(n^2)|O(1)||
-|No.349|Intersection of Two Arrays|[Solution](./349/Solution.py)|[Note](./349/note.md)|Easy|O(n)|O(1)||
-|No.724|Find Pivot Index|[Solution](./724/Solution.py)|[Note](./724/note.md)|Easy|O(n)|O(1)||
-|No.747|Find Pivot Index|[Solution](./747/Solution.py)|[Note](./747/note.md)|Easy|O(n)|O(1)||
+|No.349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/submissions/)|[Solution](./349/Solution.py)|[Note](./349/note.md)|Easy|O(n)|O(1)||
+|No.724|[Find Pivot Index](https://leetcode.com/problems/find-pivot-index/)|[Solution](./724/Solution.py)|[Note](./724/note.md)|Easy|O(n)|O(1)||
+|No.747|[Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/)|[Solution](./747/Solution.py)|[Note](./747/note.md)|Easy|O(n)|O(1)||
 |No.498|Diagonal Traverse|[Solution](./498/Solution.py)|[Note](./498/note.md)|Medium|O(n)|O(n)||
 |No.561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Solution](./561/Solution.py)|[Note](./561/note.md)|Easy|O(nlogn)|O(1)||
 |No.485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Solution](./485/Solution.py)|[Note](./485/note.md)|Easy|O(n)|O(1)||
