@@ -44,3 +44,20 @@ class Solution(object):
             else:
                 table[sum_] += 1
         return count
+
+
+class Solution(object):
+    def numSubarraysWithSum(self, A, S):
+        """
+        :type A: List[int]
+        :type S: int
+        :rtype: int
+        """
+        prefix_sums,cum,count = {0:1},0,0
+        for bit in A:      
+            cum += bit
+            count += prefix_sums.get(cum-S,0)
+            prefix_sums[cum] = prefix_sums.get(cum,0) + 1
+
+        return count
+            

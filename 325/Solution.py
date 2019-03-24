@@ -42,6 +42,27 @@ class Solution:
         return length
 
 
+class Solution:
+    def maxSubArrayLen(self, nums: List[int], k: int) -> int:
+        indices = {}   
+        max_dis = 0
+        prefix_sums, cum = [0],0
+        
+        for num in nums:
+            cum += num
+            prefix_sums.append(cum)
+              
+        # prfix_sums[j] - prefix_sums[i] = s  ---> prfix_sums[j]  -  s = prefix_sums[i]
+        for i,s in enumerate(prefix_sums):
+
+            if s not in indices:
+                indices[s] = i
+            t = prefix_sums[i] - k
+            if t in indices:
+                max_dis = max(max_dis, i - indices[t])
+        
+        return max_dis
+
 
 
         
