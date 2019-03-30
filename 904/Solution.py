@@ -44,6 +44,26 @@ Note:
 0 <= tree[i] < tree.length
 """
 
+class Solution(object):
+    def totalFruit(self, tree):
+        """
+        :type tree: List[int]
+        :rtype: int
+        """
+        table = {}
+        i = 0
+
+        res = 0
+        for j in range(len(tree)):
+            table[tree[j]] = table.get(tree[j],0)+1
+            while len(table) > 2:
+                table[tree[i]] -= 1
+                if table[tree[i]] == 0:
+                    del table[tree[i]]
+                i += 1
+            res = max(res,j-i+1)
+        return res
+
 
 from collections import Counter
 class Solution:
