@@ -79,6 +79,41 @@ class Solution(object):
 
         return start     
 
+class Solution(object):
+    def getIntersectionNode(self, headA, headB):
+        """
+        :type head1, head1: ListNode
+        :rtype: ListNode
+        """
+        if not headA or not headB:
+            return None
+        
+        len_a, len_b = 0,0
+        cur_a, cur_b = headA, headB
+        
+        while cur_a:
+            len_a += 1
+            cur_a = cur_a.next
+        
+        while cur_b:
+            len_b += 1
+            cur_b = cur_b.next
+        
+        dif = abs(len_a - len_b)
+        if len_a > len_b:
+            while dif:
+                headA = headA.next
+                dif -= 1
+        else:
+            while dif:
+                headB = headB.next
+                dif -= 1
+        
+        while headA and headB and headA != headB:
+            headA = headA.next
+            headB = headB.next
+        
+        return headA if headA == headB else None
 
 if __name__ == '__main__':
     a = ListNode(1)

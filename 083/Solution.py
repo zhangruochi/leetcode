@@ -39,7 +39,28 @@ class Solution:
                     cur.next = None
             else:
                 cur = cur.next
-        return head                   
+        return head    
+
+class Solution(object):
+    def deleteDuplicates(self, head):
+        """
+        :type head: ListNode
+        :rtype: ListNode
+        """
+        
+    
+        dummy = cur = head
+        while head:
+            if head.val != cur.val:
+                cur.next = head
+                cur = cur.next
+            
+            head = head.next
+        if cur:
+            cur.next = None
+        
+        return dummy
+                       
 
 if __name__ == '__main__':
     one = ListNode(1)

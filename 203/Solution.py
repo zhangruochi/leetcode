@@ -16,6 +16,28 @@ class ListNode:
     def __repr__(self):
         return "{}->{}".format(self.val,self.next)    
 
+
+class Solution(object):
+    def removeElements(self, head, val):
+        """
+        :type head: ListNode
+        :type val: int
+        :rtype: ListNode
+        """
+        if not head:
+            return None
+        dummy = cur = ListNode(0)
+        while head:
+            if head.val != val:
+                cur.next = head
+                cur = cur.next
+                
+            head = head.next
+        
+        cur.next = None
+        return dummy.next
+        
+
 class Solution:
     def removeElements(self, head, val):
         """

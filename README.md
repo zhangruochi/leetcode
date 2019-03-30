@@ -124,7 +124,7 @@ Table of Contents
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.014|Longest Common Prefix|[Solution](./014/Solution.py)|[Note](./014/note.md)|Easy|O(n)|O(1)|String|
+|No.014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Solution](./014/Solution.py)|[Note](./014/note.md)|Easy|O(n)|O(1)|String|
 |No.028|Implement strStr()|[Solution](./028/Solution.py)|[Note](./028/note.md)|Easy|O(n + k)|O(1)|kmp|
 |No.038|Count and Say|[Solution](./038/Solution.py)|[Note](./038/note.md)|Easy|O(n * 2)|O(1)|iteration|
 |No.058|Length of Last Word|[Solution](./058/Solution.py)|[Note](./058/note.md)|Easy|O(n)|O(1)|count from back|
@@ -158,11 +158,11 @@ Table of Contents
 ## Linked List
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.021|Merge Two Sorted Lists|[Solution](./021/Solution.py)|[Note](./021/note.md)|Easy|O(n)|O(1)|guard node|
+|No.021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Solution](./021/Solution.py)|[Note](./021/note.md)|Easy|O(n)|O(1)|guard node|
 |No.024|Swap Nodes in Pairs |[Solution](./024/Solution.py)|[Note](./024/note.md)|Medium|O(n)|O(1)|watch end|
-|No.083|Remove Duplicates from Sorted List|[Solution](./083/Solution.py)|[Note](./083/note.md)|Easy|O(n)|O(1)|two pointer|
-|No.160|Intersection of Two Linked Lists|[Solution](./160/Solution.py)|[Note](./160/note.md)|Easy|O(n)|O(1)||
-|No.203|Remove Linked List Elements|[Solution](./203/Solution.py)|[Note](./203/note.md)|Easy|O(n)|O(1)||
+|No.083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Solution](./083/Solution.py)|[Note](./083/note.md)|Easy|O(n)|O(1)|two pointer|
+|No.160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Solution](./160/Solution.py)|[Note](./160/note.md)|Easy|O(n)|O(1)||
+|No.203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Solution](./203/Solution.py)|[Note](./203/note.md)|Easy|O(n)|O(1)||
 |No.237|Delete Node in a Linked List|[Solution](./237/Solution.py)|[Note](./237/note.md)|Easy|O(1)|O(1)|tricky,del|
 |No.234|Palindrome Linked List|[Solution](./234/Solution.py)|[Note](./234/note.md)|Meduim|O(1)|O(1)|slow,quick pointer|
 |No.206|Reverse Linked List|[Solution](./206/Solution.py)|[Note](./206/note.md)|Easy|O(n)|O(1)|reverse|
