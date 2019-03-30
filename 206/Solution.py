@@ -19,6 +19,29 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 #         self.val = x
 #         self.next = None
 
+
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+        if not head:
+            return None
+        
+        tail = cur = head
+        while cur.next:
+            temp = cur.next.next
+            cur.next.next = tail
+            tail = cur.next
+            cur.next = temp        
+        return tail
+            
+
+
 class Solution:
     def reverseList(self, head):
         """

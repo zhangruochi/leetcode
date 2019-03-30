@@ -163,9 +163,9 @@ Table of Contents
 |No.083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Solution](./083/Solution.py)|[Note](./083/note.md)|Easy|O(n)|O(1)|two pointer|
 |No.160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Solution](./160/Solution.py)|[Note](./160/note.md)|Easy|O(n)|O(1)||
 |No.203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Solution](./203/Solution.py)|[Note](./203/note.md)|Easy|O(n)|O(1)||
-|No.237|Delete Node in a Linked List|[Solution](./237/Solution.py)|[Note](./237/note.md)|Easy|O(1)|O(1)|tricky,del|
-|No.234|Palindrome Linked List|[Solution](./234/Solution.py)|[Note](./234/note.md)|Meduim|O(1)|O(1)|slow,quick pointer|
-|No.206|Reverse Linked List|[Solution](./206/Solution.py)|[Note](./206/note.md)|Easy|O(n)|O(1)|reverse|
+|No.237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)|[Solution](./237/Solution.py)|[Note](./237/note.md)|Easy|O(1)|O(1)|tricky,del|
+|No.234|[Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)|[Solution](./234/Solution.py)|[Note](./234/note.md)|Meduim|O(1)|O(1)|slow,quick pointer|
+|No.206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Solution](./206/Solution.py)|[Note](./206/note.md)|Easy|O(n)|O(1)|reverse|
 |No.002|Add Two Numbers|[Solution](./002/Solution.py)|[Note](./002/note.md)|Easy|O(n)|O(1)||
 |No.019|Remove Nth Node From End of List|[Solution](./019/Solution.py)|[Note](./019/note.md)|Medium|O(n)|O(1)|quick slow pointer|
 |No.141|Linked List Cycle |[Solution](./141/Solution.py)|[Note](./141/note.md)|Medium|O(n)|O(1)|quick slow pointer|

@@ -56,6 +56,7 @@ class Solution:
             index+= 1
         return True  
 
+    
     def reverse(self,midpoint):
         tail = head = midpoint.next
         while head.next:
@@ -87,6 +88,23 @@ class Solution:
             head = head.next    
         return True                 
 
+
+class Solution:
+    def isPalindrome(self, head: ListNode) -> bool:
+        slow = quick = head
+        while quick and quick.next:
+            quick = quick.next.next
+            slow = slow.next
+        
+        mid = slow
+        part1, part2 = [],[]
+        while slow:
+            part1.append(head.val)
+            part2.append(slow.val)
+            head = head.next
+            slow = slow.next
+        
+        return part1[::-1] == part2
 
 if __name__ == '__main__':
     a = ListNode(1)
