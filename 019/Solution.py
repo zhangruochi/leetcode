@@ -41,4 +41,31 @@ class Solution:
         slow.next = slow.next.next
         return dummy.next
             
+
+class Solution(object):
+    def removeNthFromEnd(self, head, n):
+        """
+        :type head: ListNode
+        :type n: int
+        :rtype: ListNode
+        """
+        dummy = ListNode(0)
+        dummy.next = head
+        
+        count, p = 0, dummy
+        while p:
+            count += 1
+            p = p.next
+        k = count - n - 1
+        
+        p = dummy
+        while k:
+            p = p.next
+            k -= 1
+            
+        p.next = p.next.next
+        return dummy.next
+            
+        
+    
         
