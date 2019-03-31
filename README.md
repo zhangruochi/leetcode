@@ -168,10 +168,10 @@ Table of Contents
 |No.206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[Solution](./206/Solution.py)|[Note](./206/note.md)|Easy|O(n)|O(1)|reverse|
 |No.002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Solution](./002/Solution.py)|[Note](./002/note.md)|Medium|O(n)|O(1)||
 |No.019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)|[Solution](./019/Solution.py)|[Note](./019/note.md)|Medium|O(n)|O(1)|quick slow pointer|
-|No.141|Linked List Cycle |[Solution](./141/Solution.py)|[Note](./141/note.md)|Easy|O(n)|O(1)|quick slow pointer|
-|No.142|Linked List CycleII |[Solution](./142/Solution.py)|[Note](./142/note.md)|Medium|O(n)|O(1)|quick slow pointer|
-|No.023|Merge k Sorted Lists|[Solution](./023/Solution.py)|[Note](./023/note.md)|Hard|O(nlogn)|O(nk)||
-|No.138|Copy List with Random Pointer|[Solution](./138/Solution.py)|[Note](./138/note.md)|Medium|O(n)|O(n)||
+|No.141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)|[Solution](./141/Solution.py)|[Note](./141/note.md)|Easy|O(n)|O(1)|quick slow pointer|
+|No.142|[Linked List CycleII](https://leetcode.com/problems/linked-list-cycle-ii/)|[Solution](./142/Solution.py)|[Note](./142/note.md)|Medium|O(n)|O(1)|quick slow pointer|
+|No.023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Solution](./023/Solution.py)|[Note](./023/note.md)|Hard|O(nlogn)|O(nk)||
+|No.138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Solution](./138/Solution.py)|[Note](./138/note.md)|Medium|O(n)|O(n)||
 
 
 
