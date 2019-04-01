@@ -23,5 +23,27 @@ class Solution:
             else:
                 stack.append(char)
         return len(stack)
+
+
+class Solution(object):
+    def minAddToMakeValid(self, S):
+        """
+        :type S: str
+        :rtype: int
+        """
+        count = 0
+        stack = []
+        for char in S:
+            if char == "(":
+                stack.append(char)
+                count += 1
+            elif char == ")" and stack and stack[-1] == "(":
+                stack.pop()
+                count -= 1
+            else:
+                count += 1
+        
+        return count
+                
                 
                     

@@ -183,11 +183,11 @@ Table of Contents
 |No.844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Solution](./844/Solution.py)|[Note](./844/note.md)|Easy|O(M+N)|O(1)||
 |No.155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Solution](./155/Solution.py)|[Note](./155/note.md)|Easy|O(1)|O(1)||
 |No.173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Solution](./173/Solution.py)|[Note](./173/note.md)|Medium|O(n)|O(1)||
-|No.232|Implement Queue using Stacks|[Solution](./232/Solution.py)|[Note](./232/note.md)|Easy|O(n)|O(1)||
-|No.682|Baseball Game|[Solution](./682/Solution.py)|[Note](./682/note.md)|Easy|O(n)|O(1)||
-|No.056|Merge Intervals|[Solution](./056/Solution.py)|[Note](./056/note.md)|Medium|O(nlogn)|O(n)||
-|No.394|Decode String|[Solution](./394/Solution.py)|[Note](./394/note.md)|Medium|O(n)|O(n)||
-|No.921|Minimum Add to Make Parentheses Valid|[Solution](./921/Solution.py)|[Note](./921/note.md)|Medium|O(n)|O(n)||
+|No.232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)|[Solution](./232/Solution.py)|[Note](./232/note.md)|Easy|O(n)|O(1)||
+|No.682|[Baseball Game](https://leetcode.com/problems/baseball-game/)|[Solution](./682/Solution.py)|[Note](./682/note.md)|Easy|O(n)|O(1)||
+|No.056|[Merge Intervals](https://leetcode.com/problems/merge-intervals/)|[Solution](./056/Solution.py)|[Note](./056/note.md)|Medium|O(nlogn)|O(n)||
+|No.394|[Decode String](https://leetcode.com/problems/decode-string/)|[Solution](./394/Solution.py)|[Note](./394/note.md)|Medium|O(n)|O(n)||
+|No.921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Solution](./921/Solution.py)|[Note](./921/note.md)|Medium|O(n)|O(n)||
 |No.339|Nested List Weight Sum|[Solution](./339/Solution.py)|[Note](./339/note.md)|Easy|O(n)|O(1)|DFS|
 |No.716|Max Stack|[Solution](./716/Solution.py)|[Note](./716/note.md)|Easy|O(n)|O(1)|DFS|
 
