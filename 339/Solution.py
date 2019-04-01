@@ -80,4 +80,24 @@ class Solution:
                     stack.append((item,depth+1))
         return sums
 
+class Solution:
+    def depthSum(self, nestedList: List[NestedInteger]) -> int:
+        res = 0
+        
+        def get_sum(nestedList,depth):
+            nonlocal res
+            
+            for NestedInteger in nestedList:
+                if NestedInteger.isInteger():
+                    res += (NestedInteger.getInteger() * depth)
+                else:
+                    res = get_sum(NestedInteger.getList(),depth+1)
+                
+            return res
+        
+        return get_sum(nestedList,1)
+            
+            
+        
+        
         
