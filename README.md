@@ -180,8 +180,8 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Solution](./020/Solution.py)|[Note](./020/note.md)|Easy|O(n)|O(1)||
-|No.844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Solution](./844/Solution.py)|[Note](./844/note.md)|Easy|O(M+N)|O(1)|yield|
-|No.155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Solution](./155/Solution.py)|[Note](./155/note.md)|Easy|O(1)|O(1)|yield|
+|No.844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Solution](./844/Solution.py)|[Note](./844/note.md)|Easy|O(M+N)|O(1)||
+|No.155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Solution](./155/Solution.py)|[Note](./155/note.md)|Easy|O(1)|O(1)||
 |No.173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Solution](./173/Solution.py)|[Note](./173/note.md)|Medium|O(n)|O(1)||
 |No.232|Implement Queue using Stacks|[Solution](./232/Solution.py)|[Note](./232/note.md)|Easy|O(n)|O(1)||
 |No.682|Baseball Game|[Solution](./682/Solution.py)|[Note](./682/note.md)|Easy|O(n)|O(1)||
