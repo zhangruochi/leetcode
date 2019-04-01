@@ -189,7 +189,7 @@ Table of Contents
 |No.394|[Decode String](https://leetcode.com/problems/decode-string/)|[Solution](./394/Solution.py)|[Note](./394/note.md)|Medium|O(n)|O(n)||
 |No.921|[Minimum Add to Make Parentheses Valid](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/)|[Solution](./921/Solution.py)|[Note](./921/note.md)|Medium|O(n)|O(n)||
 |No.339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|[Solution](./339/Solution.py)|[Note](./339/note.md)|Easy|O(n)|O(1)|DFS|
-|No.716|Max Stack|[Solution](./716/Solution.py)|[Note](./716/note.md)|Easy|O(n)|O(1)|DFS|
+|No.716|[Max Stack](https://leetcode.com/problems/max-stack/)|[Solution](./716/Solution.py)|[Note](./716/note.md)|Easy|O(n)|O(1)|DFS|
 
 
 
