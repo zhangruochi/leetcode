@@ -20,6 +20,7 @@ class ListNode:
         return "{}->{}".format(self.val,self.next)
             
 
+
 class Solution:
     def swapPairs(self, head):
         """
@@ -40,6 +41,25 @@ class Solution:
             cur = cur.next.next
 
         return dummy.next 
+
+
+class Solution:
+    def swapPairs(self, head: ListNode) -> ListNode:
+        dummy = cur = ListNode(0)
+        dummy.next = head
+        
+        while cur.next and cur.next.next:
+            f = cur.next
+            s = f.next
+            tmp = s.next
+            
+            cur.next = s
+            f.next = tmp
+            s.next = f
+            
+            cur = f
+            
+        return dummy.next
 
 
 if __name__ == '__main__':

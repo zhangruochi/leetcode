@@ -159,7 +159,7 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Solution](./021/Solution.py)|[Note](./021/note.md)|Easy|O(n)|O(1)|guard node|
-|No.024|Swap Nodes in Pairs |[Solution](./024/Solution.py)|[Note](./024/note.md)|Medium|O(n)|O(1)|watch end|
+|No.024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) |[Solution](./024/Solution.py)|[Note](./024/note.md)|Medium|O(n)|O(1)|watch end|
 |No.083|[Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)|[Solution](./083/Solution.py)|[Note](./083/note.md)|Easy|O(n)|O(1)|two pointer|
 |No.160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)|[Solution](./160/Solution.py)|[Note](./160/note.md)|Easy|O(n)|O(1)||
 |No.203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)|[Solution](./203/Solution.py)|[Note](./203/note.md)|Easy|O(n)|O(1)||
@@ -181,8 +181,8 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[Solution](./020/Solution.py)|[Note](./020/note.md)|Easy|O(n)|O(1)||
 |No.844|[Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)|[Solution](./844/Solution.py)|[Note](./844/note.md)|Easy|O(M+N)|O(1)|yield|
-|No.155|Min Stack|[Solution](./155/Solution.py)|[Note](./155/note.md)|Easy|O(1)|O(1)|yield|
-|No.173|Binary Search Tree Iterator|[Solution](./173/Solution.py)|[Note](./173/note.md)|Easy|O(n)|O(1)||
+|No.155|[Min Stack](https://leetcode.com/problems/min-stack/)|[Solution](./155/Solution.py)|[Note](./155/note.md)|Easy|O(1)|O(1)|yield|
+|No.173|[Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)|[Solution](./173/Solution.py)|[Note](./173/note.md)|Medium|O(n)|O(1)||
 |No.232|Implement Queue using Stacks|[Solution](./232/Solution.py)|[Note](./232/note.md)|Easy|O(n)|O(1)||
 |No.682|Baseball Game|[Solution](./682/Solution.py)|[Note](./682/note.md)|Easy|O(n)|O(1)||
 |No.056|Merge Intervals|[Solution](./056/Solution.py)|[Note](./056/note.md)|Medium|O(nlogn)|O(n)||
