@@ -3,6 +3,7 @@
 - 创建两个队列，在二者都不为空的时候，轮流从queue中取出元素
 - 当某个队列为空时，一直从该队列中取出元素
 - 创建一个生成器函数
+
 ```Python
 def __next(self):
         while self.v1 and self.v2:
@@ -15,6 +16,7 @@ def __next(self):
         while self.v2:
             yield self.v2.popleft()
 ```
+
 - 调用生成器函数创建一个生成器对象 
 ```Python
 self.genobj = self.__next()
