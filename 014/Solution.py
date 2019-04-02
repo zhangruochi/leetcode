@@ -64,7 +64,25 @@ class Solution:
             if len(set(letters)) > 1:
                 return strs[0][:i]
 
-        return min(strs)        
+        return min(strs)  
+
+
+class Solution(object):
+    def longestCommonPrefix(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: str
+        """
+        if not strs:
+            return ""
+        min_length = min(len(string) for string in strs)
+        index = 0
+        while index < min_length:
+            if len(set(string[index] for string in strs)) != 1:
+                break
+            index += 1
+        
+        return strs[0][:index]      
 
 
 if __name__ == '__main__':
