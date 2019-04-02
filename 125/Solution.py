@@ -37,8 +37,15 @@ class Solution:
         return True        
 
 
-
+import re
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        s = s.lower()
+        s = "".join(re.split("\W",s))
+        print(s)
+        return s == s[::-1]
         
+
             
 
 if __name__ == '__main__':

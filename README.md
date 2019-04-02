@@ -125,12 +125,12 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Solution](./014/Solution.py)|[Note](./014/note.md)|Easy|O(n)|O(1)|String|
-|No.028|Implement strStr()|[Solution](./028/Solution.py)|[Note](./028/note.md)|Easy|O(n + k)|O(1)|kmp|
-|No.038|Count and Say|[Solution](./038/Solution.py)|[Note](./038/note.md)|Easy|O(n * 2)|O(1)|iteration|
+|No.028|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Solution](./028/Solution.py)|[Note](./028/note.md)|Easy|O(n + k)|O(1)|kmp|
+|No.038|[Count and Say](https://leetcode.com/problems/count-and-say/)|[Solution](./038/Solution.py)|[Note](./038/note.md)|Easy|O(n * 2)|O(1)|iteration|
 |No.058|Length of Last Word|[Solution](./058/Solution.py)|[Note](./058/note.md)|Easy|O(n)|O(1)|count from back|
-|No.067|Add Binary|[Solution](./067/Solution.py)|[Note](./067/note.md)|Easy|O(n)|O(1)|construction number|
-|No.125|Valid Palindrome|[Solution](./125/Solution.py)|[Note](./125/note.md)|Easy|O(n)|O(n)||
-|No.165|Compare Version Numbers|[Solution](./165/Solution.py)|[Note](./165/note.md)|Easy|O(n)|O(n)||
+|No.067|[Add Binary](https://leetcode.com/problems/add-binary/)|[Solution](./067/Solution.py)|[Note](./067/note.md)|Easy|O(n)|O(1)|construction number|
+|No.125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](./125/Solution.py)|[Note](./125/note.md)|Easy|O(n)|O(n)||
+|No.165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Solution](./165/Solution.py)|[Note](./165/note.md)|Easy|O(n)|O(n)||
 |No.434|Number of Segments in a String|[Solution](./434/Solution.py)|[Note](./434/note.md)|Easy|O(n)|O(1)||
 |No.443|String Compression|[Solution](./443/Solution.py)|[Note](./443/note.md)|Easy|O(n)|O(1)|many pointer|
 |No.459|Repeated Substring Pattern|[Solution](./459/Solution.py)|[Note](./459/note.md)|Easy|O(n)|O(1)|kmp|

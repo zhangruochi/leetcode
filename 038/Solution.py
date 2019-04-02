@@ -75,6 +75,22 @@ class Solution:
             cur = tmp
         return cur
 
+from itertools import groupby
+class Solution(object):
+    def countAndSay(self, n):
+        """
+        :type n: int
+        :rtype: str
+        """
+        string = "1"
+        for i in range(n-1):
+            res = ""
+            for i,g in groupby(string):
+                res += "{}{}".format(len(list(g)),i)
+            string = res
+        return string
+                
+
 if __name__ == '__main__':
     print(Solution().countAndSay(6))            
 
