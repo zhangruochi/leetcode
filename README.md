@@ -131,7 +131,7 @@ Table of Contents
 |No.067|[Add Binary](https://leetcode.com/problems/add-binary/)|[Solution](./067/Solution.py)|[Note](./067/note.md)|Easy|O(n)|O(1)|construction number|
 |No.125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](./125/Solution.py)|[Note](./125/note.md)|Easy|O(n)|O(n)||
 |No.165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Solution](./165/Solution.py)|[Note](./165/note.md)|Easy|O(n)|O(n)||
-|No.434|Number of Segments in a String|[Solution](./434/Solution.py)|[Note](./434/note.md)|Easy|O(n)|O(1)||
+|No.434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[Solution](./434/Solution.py)|[Note](./434/note.md)|Easy|O(n)|O(1)||
 |No.443|String Compression|[Solution](./443/Solution.py)|[Note](./443/note.md)|Easy|O(n)|O(1)|many pointer|
 |No.459|Repeated Substring Pattern|[Solution](./459/Solution.py)|[Note](./459/note.md)|Easy|O(n)|O(1)|kmp|
 |No.006|ZigZag Conversion|[Solution](./006/Solution.py)|[Note](./006/note.md)|Meduim|O(n * k)|O(1)|String|
