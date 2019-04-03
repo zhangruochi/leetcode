@@ -135,7 +135,7 @@ Table of Contents
 |No.443|[String Compression](https://leetcode.com/problems/string-compression/)|[Solution](./443/Solution.py)|[Note](./443/note.md)|Easy|O(n)|O(1)|many pointer|
 |No.459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Solution](./459/Solution.py)|[Note](./459/note.md)|Easy|O(n)|O(1)|kmp|
 |No.006|ZigZag Conversion|[Solution](./006/Solution.py)|[Note](./006/note.md)|Meduim|O(n * k)|O(1)|String|
-|No.521|Longest Uncommon Subsequence I|[Solution](./521/Solution.py)|[Note](./521/note.md)|Easy|O(n * k)|O(1)|String|
+|No.521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[Solution](./521/Solution.py)|[Note](./521/note.md)|Easy|O(n * k)|O(1)|String|
 |No.680|Valid Palindrome II|[Solution](./680/Solution.py)|[Note](./680/note.md)|Easy|O(n)|O(1)|String|
 |No.681|Next Closest Time|[Solution](./681/Solution.py)|[Note](./681/note.md)|Easy|O(4^4)|O(1)|DFS|
 |No.771|Jewels and Stones|[Solution](./771/Solution.py)|[Note](./771/note.md)|Easy|O(n)|O(n)||
