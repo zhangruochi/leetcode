@@ -132,8 +132,8 @@ Table of Contents
 |No.125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](./125/Solution.py)|[Note](./125/note.md)|Easy|O(n)|O(n)||
 |No.165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Solution](./165/Solution.py)|[Note](./165/note.md)|Easy|O(n)|O(n)||
 |No.434|[Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)|[Solution](./434/Solution.py)|[Note](./434/note.md)|Easy|O(n)|O(1)||
-|No.443|String Compression|[Solution](./443/Solution.py)|[Note](./443/note.md)|Easy|O(n)|O(1)|many pointer|
-|No.459|Repeated Substring Pattern|[Solution](./459/Solution.py)|[Note](./459/note.md)|Easy|O(n)|O(1)|kmp|
+|No.443|[String Compression](https://leetcode.com/problems/string-compression/)|[Solution](./443/Solution.py)|[Note](./443/note.md)|Easy|O(n)|O(1)|many pointer|
+|No.459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Solution](./459/Solution.py)|[Note](./459/note.md)|Easy|O(n)|O(1)|kmp|
 |No.006|ZigZag Conversion|[Solution](./006/Solution.py)|[Note](./006/note.md)|Meduim|O(n * k)|O(1)|String|
 |No.521|Longest Uncommon Subsequence I|[Solution](./521/Solution.py)|[Note](./521/note.md)|Easy|O(n * k)|O(1)|String|
 |No.680|Valid Palindrome II|[Solution](./680/Solution.py)|[Note](./680/note.md)|Easy|O(n)|O(1)|String|
@@ -281,7 +281,7 @@ Table of Contents
 |No.075|Sort Colors|[Solution](./075/Solution.py)|[Note](./075/note.md)|Medium|O(n)|O(1)|tri pointer|
 |No.147|Insertion Sort List|[Solution](./147/Solution.py)|[Note](./147/note.md)|Medium|O(n^2)|O(1)||
 |No.148|Sort List|[Solution](./148/Solution.py)|[Note](./148/note.md)|Medium|O(nlog)|O(1)|list merge sort|
-|No.179|Largest Number|[Solution](./179/Solution.py)|[Note](./179/note.md)|Medium|O(nlogn)|O(1)|cmp_to_key|
+|No.179|[Largest Number](https://leetcode.com/problems/largest-number/)|[Solution](./179/Solution.py)|[Note](./179/note.md)|Medium|O(nlogn)|O(1)|cmp_to_key|
 |No.253|Meeting Rooms II|[Solution](./253/Solution.py)|[Note](./253/note.md)|Medium|O(nlogn)|O(n)||
 |No.347|Top K Frequent Elements|[Solution](./347/Solution.py)|[Note](./347/note.md)|Medium|O(nlogn)|O(n)||
 |No.581|Shortest Unsorted Continuous Subarray|[Solution](./581/Solution.py)|[Note](./581/note.md)|Easy|O(nlogn)|O(n)||

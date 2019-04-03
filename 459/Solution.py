@@ -19,6 +19,20 @@ Explanation: It's the substring "abc" four times.
 """
 
 
+
+class Solution:
+    def repeatedSubstringPattern(self, s: str) -> bool:
+        if not s:
+            return False
+        k = 2
+        while k <= len(s):
+            if len(s) % k == 0 and s[:len(s)//k]*k == s:
+                return True
+            k += 1
+        
+        return False
+
+
 class Solution:
     def repeatedSubstringPattern(self, s):
         """
