@@ -16,6 +16,36 @@ The string will only contain lowercase characters a-z. The maximum length of the
 """
 
 class Solution:
+    
+    def check(self,s):
+        l, h = 0, len(s)-1
+        while l < h:
+            if s[l] == s[h]:
+                l += 1
+                h -= 1
+            else:
+                return False
+        return True
+            
+    
+    def validPalindrome(self, s: str) -> bool:
+        l,h = 0, len(s)-1
+        while l < h:
+            if s[l] == s[h]:
+                l += 1
+                h -= 1
+            else:
+                if self.check(s[l+1:h+1]) or self.check(s[l:h]):
+                    return True
+                else:
+                    return False
+        return True
+        
+            
+
+
+
+class Solution:
     def check(self,s):
         return s == s[::-1]
           

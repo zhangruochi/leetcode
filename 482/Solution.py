@@ -27,6 +27,25 @@ String S consists only of alphanumerical characters (a-z and/or A-Z and/or 0-9) 
 String S is non-empty.
 """
 
+class Solution:
+    def licenseKeyFormatting(self, S: str, K: int) -> str:
+        res = ""
+        i = len(S) - 1
+        count = 0
+        while i >= 0:
+            if S[i] != "-":
+                count += 1
+                res += S[i]
+                if count == K:
+                    res += "-"
+                    count = 0
+            i -= 1
+            
+        return res.strip("-").upper()[::-1]
+                
+            
+
+
 class Solution(object):
     def licenseKeyFormatting(self, S, K):
         """

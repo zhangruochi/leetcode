@@ -1,3 +1,11 @@
+from collections import Counter
+class Solution:
+    def numJewelsInStones(self, J: str, S: str) -> int:
+        table = Counter(S)
+        return sum(table.get(char,0) for char in set(J))
+    
+        
+
 class Solution:
     def numJewelsInStones(self, J, S):
         """

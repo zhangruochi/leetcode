@@ -136,10 +136,10 @@ Table of Contents
 |No.459|[Repeated Substring Pattern](https://leetcode.com/problems/repeated-substring-pattern/)|[Solution](./459/Solution.py)|[Note](./459/note.md)|Easy|O(n)|O(1)|kmp|
 |No.006|ZigZag Conversion|[Solution](./006/Solution.py)|[Note](./006/note.md)|Meduim|O(n * k)|O(1)|String|
 |No.521|[Longest Uncommon Subsequence I](https://leetcode.com/problems/longest-uncommon-subsequence-i/)|[Solution](./521/Solution.py)|[Note](./521/note.md)|Easy|O(n * k)|O(1)|String|
-|No.680|Valid Palindrome II|[Solution](./680/Solution.py)|[Note](./680/note.md)|Easy|O(n)|O(1)|String|
-|No.681|Next Closest Time|[Solution](./681/Solution.py)|[Note](./681/note.md)|Easy|O(4^4)|O(1)|DFS|
-|No.771|Jewels and Stones|[Solution](./771/Solution.py)|[Note](./771/note.md)|Easy|O(n)|O(n)||
-|No.482|License Key Formatting|[Solution](./482/Solution.py)|[Note](./482/note.md)|Easy|O(n)|O(n)||
+|No.680|[Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/submissions/)|[Solution](./680/Solution.py)|[Note](./680/note.md)|Easy|O(n)|O(1)|String|
+|No.681|[Next Closest Time](https://leetcode.com/problemset/all/)|[Solution](./681/Solution.py)|[Note](./681/note.md)|Medium|O(4^4)|O(1)|DFS|
+|No.771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Solution](./771/Solution.py)|[Note](./771/note.md)|Easy|O(n)|O(n)||
+|No.482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[Solution](./482/Solution.py)|[Note](./482/note.md)|Easy|O(n)|O(n)||
 |No.344|Reverse String|[Solution](./344/Solution.py)|[Note](./344/note.md)|Easy|O(n)|O(1)||
 |No.412|Fizz Buzz|[Solution](./412/Solution.py)|[Note](./412/note.md)|Easy|O(n)|O(1)||
 |No.005|Longest Palindromic Substring|[Solution](./005/Solution.py)|[Note](./005/note.md)|Medium|O(n^2)|O(1)||
