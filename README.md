@@ -140,11 +140,11 @@ Table of Contents
 |No.681|[Next Closest Time](https://leetcode.com/problemset/all/)|[Solution](./681/Solution.py)|[Note](./681/note.md)|Medium|O(4^4)|O(1)|DFS|
 |No.771|[Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[Solution](./771/Solution.py)|[Note](./771/note.md)|Easy|O(n)|O(n)||
 |No.482|[License Key Formatting](https://leetcode.com/problems/license-key-formatting/)|[Solution](./482/Solution.py)|[Note](./482/note.md)|Easy|O(n)|O(n)||
-|No.344|Reverse String|[Solution](./344/Solution.py)|[Note](./344/note.md)|Easy|O(n)|O(1)||
-|No.412|Fizz Buzz|[Solution](./412/Solution.py)|[Note](./412/note.md)|Easy|O(n)|O(1)||
+|No.344|[Reverse String](https://leetcode.com/problems/reverse-string/)|[Solution](./344/Solution.py)|[Note](./344/note.md)|Easy|O(n)|O(1)||
+|No.412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)|[Solution](./412/Solution.py)|[Note](./412/note.md)|Easy|O(n)|O(1)||
 |No.005|Longest Palindromic Substring|[Solution](./005/Solution.py)|[Note](./005/note.md)|Medium|O(n^2)|O(1)||
-|No.819|Most Common Word|[Solution](./819/Solution.py)|[Note](./819/note.md)|Easy|O(n)|O(n)||
-|No.929|Unique Email Addresses|[Solution](./929/Solution.py)|[Note](./929/note.md)|Easy|O(n^2)|O(n)||
+|No.819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[Solution](./819/Solution.py)|[Note](./819/note.md)|Easy|O(n)|O(n)||
+|No.929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[Solution](./929/Solution.py)|[Note](./929/note.md)|Easy|O(n^2)|O(n)||
 |No.535|Encode and Decode TinyURL|[Solution](./535/Solution.py)|[Note](./535/note.md)|Meduim|O(n)|O(n)||
 |No.271|Encode and Decode Strings|[Solution](./271/Solution.py)|[Note](./271/note.md)|Meduim|O(n)|O(n)||
 |No.003|Longest Substring Without Repeating Characters|[Solution](./003/Solution.py)|[Note](./003/note.md)|Meduim|O(n)|O(n)||

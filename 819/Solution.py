@@ -40,3 +40,17 @@ class Solution(object):
         del count[""]
         
         return max(count,key = lambda k:count[k])
+
+
+import re
+from collections import Counter
+class Solution:
+    def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
+        words = re.split("\W+",paragraph.lower())
+        count = Counter(words)
+        count = sorted(count,key = count.get, reverse = True)
+        banned = set(banned)
+        for word in count:
+            if word and word not in banned:
+                return word
+        return ""
