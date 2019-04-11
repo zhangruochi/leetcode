@@ -149,7 +149,7 @@ Table of Contents
 |No.271|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|[Solution](./271/Solution.py)|[Note](./271/note.md)|Meduim|O(n)|O(n)||
 |No.003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Solution](./003/Solution.py)|[Note](./003/note.md)|Meduim|O(n)|O(n)||
 |No.293|[Flip Game](https://leetcode.com/problems/flip-game/)|[Solution](./293/Solution.py)|[Note](./293/note.md)|Easy|O(n)|O(n)||
-|No.293| Design Compressed String Iterator|[Solution](./293/Solution.py)|[Note](./293/note.md)|Easy|O(n)|O(n)|Iterator|
+|No.604|[Design Compressed String Iterator](https://leetcode.com/problems/design-compressed-string-iterator/)|[Solution](./293/Solution.py)|[Note](./293/note.md)|Easy|O(n)|O(n)|Iterator|
 |No.008| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Solution](./008/Solution.py)|[Note](./008/note.md)|Meduim|O(n)|O(n)||
 |No.151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Solution](./151/Solution.py)|[Note](./151/note.md)|Meduim|O(n)|O(n)||
 |No.557| [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Solution](./557/Solution.py)|[Note](./557/note.md)|Easy|O(n)|O(1)||

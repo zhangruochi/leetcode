@@ -26,6 +26,68 @@ iterator.hasNext(); // return false
 iterator.next(); // return ' '
 """
 
+class StringIterator(object):
+
+    def __init__(self, compressedString):
+        """
+        :type compressedString: str
+        """
+        self.num = 0
+        self.string = self.get_string(compressedString)
+        self.gen = self.my_gen()
+    
+    
+    def get_string(selif,compressedString):
+        res = []
+        num = ""
+        prev = compressedString[0]
+        for char in compressedString:
+            if char.isdigit():
+                num += char
+            
+            if num and char.isalpha():
+                res.append((int(num),prev))
+                num = ""
+                prev = char
+        
+        res.append((int(num),prev))
+        
+        return res[::-1]
+            
+    
+    def my_gen(self):
+        while self.string:
+            self.num, char = self.string.pop()
+            while self.num > 0:
+                self.num -= 1
+                yield char
+                
+            
+    def next(self):
+        """
+        :rtype: str
+        """
+        return next(self.gen) if self.hasNext() else " "
+            
+        
+        
+
+    def hasNext(self):
+        """
+        :rtype: bool
+        """
+        return True if self.string or self.num else False
+        
+        
+        
+
+
+# Your StringIterator object will be instantiated and called as such:
+# obj = StringIterator(compressedString)
+# param_1 = obj.next()
+# param_2 = obj.hasNext()
+
+
 
 class StringIterator:
 
