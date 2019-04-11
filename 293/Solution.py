@@ -28,3 +28,21 @@ class Solution:
                 ans.append(s[:i] + "--" + s[i+2:])
         return ans
 
+
+class Solution(object):
+    def generatePossibleNextMoves(self, s):
+        """
+        :type s: str
+        :rtype: List[str]
+        """
+        res = []
+        string = list(s)
+        for i in range(len(string)-1):
+            if string[i:i+2] == ["+","+"]:
+                string[i:i+2] = ["-","-"]
+                res.append("".join(string))
+                string[i:i+2] = ["+","+"]
+        
+        return res
+            
+        

@@ -42,6 +42,51 @@ Explanation: The number "-91283472332" is out of the range of a 32-bit signed in
              Thefore INT_MIN (−231) is returned.
 """
 
+
+class Solution(object):
+    def myAtoi(self, str):
+        """
+        :type str: str
+        :rtype: int
+        """
+        max_bound = 2**31-1
+        min_bound = -2**31
+        
+        
+        res = ""
+        front_flag = True
+        str = str.strip()
+        sign = 1
+        for char in str:
+            if front_flag and (char not in ("-","+") and (char < "0" or char >"9")):
+                return 0
+            
+            elif front_flag and char == "-":
+                front_flag = False
+                sign *= (-1)
+            
+            elif front_flag and char == "+":
+                front_flag = False
+            
+            elif char >= "0" and char <= "9":
+                front_flag = False
+                res += char
+            
+            elif (not front_flag) and (char < "0" or char > "9"):
+                break
+        
+        if not res:
+            return 0
+        elif sign > 0:
+            return min(max_bound, int(res))
+        elif sign < 0:
+            return max(min_bound,sign * int(res))
+
+                
+            
+
+
+
 class Solution:
     def myAtoi(self, str):
         """
