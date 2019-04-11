@@ -145,9 +145,9 @@ Table of Contents
 |No.005|Longest Palindromic Substring|[Solution](./005/Solution.py)|[Note](./005/note.md)|Medium|O(n^2)|O(1)||
 |No.819|[Most Common Word](https://leetcode.com/problems/most-common-word/)|[Solution](./819/Solution.py)|[Note](./819/note.md)|Easy|O(n)|O(n)||
 |No.929|[Unique Email Addresses](https://leetcode.com/problems/unique-email-addresses/)|[Solution](./929/Solution.py)|[Note](./929/note.md)|Easy|O(n^2)|O(n)||
-|No.535|Encode and Decode TinyURL|[Solution](./535/Solution.py)|[Note](./535/note.md)|Meduim|O(n)|O(n)||
-|No.271|Encode and Decode Strings|[Solution](./271/Solution.py)|[Note](./271/note.md)|Meduim|O(n)|O(n)||
-|No.003|Longest Substring Without Repeating Characters|[Solution](./003/Solution.py)|[Note](./003/note.md)|Meduim|O(n)|O(n)||
+|No.535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/)|[Solution](./535/Solution.py)|[Note](./535/note.md)|Meduim|O(n)|O(n)||
+|No.271|[Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/)|[Solution](./271/Solution.py)|[Note](./271/note.md)|Meduim|O(n)|O(n)||
+|No.003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)|[Solution](./003/Solution.py)|[Note](./003/note.md)|Meduim|O(n)|O(n)||
 |No.293|[Flip Game](https://leetcode.com/problems/flip-game/)|[Solution](./293/Solution.py)|[Note](./293/note.md)|Easy|O(n)|O(n)||
 |No.293| Design Compressed String Iterator|[Solution](./293/Solution.py)|[Note](./293/note.md)|Easy|O(n)|O(n)|Iterator|
 |No.008| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Solution](./008/Solution.py)|[Note](./008/note.md)|Meduim|O(n)|O(n)||

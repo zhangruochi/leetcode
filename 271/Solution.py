@@ -38,8 +38,46 @@ class Codec:
         :type strs: List[str]
         :rtype: str
         """
-        return "".join([str(len(str_))+"@"+str_ for str_ in strs])
+        return "".join(str(len(str_))+"@"+str_ for str_ in strs)
         
+
+    def decode(self, s):
+        """Decodes a single string to a list of strings.
+        
+        :type s: str
+        :rtype: List[str]
+        """
+        num = ""
+        res = []
+        i = 0
+        while i < len(s):
+            if s[i] >= "0" and s[i] <= "9":
+                num += s[i]
+                i+=1
+            if s[i] == "@":  
+                res.append(s[i+1:i+1+int(num)])
+                i = i+1+int(num)
+                num = ""
+        return res
+                
+            
+            
+        
+
+# Your Codec object will be instantiated and called as such:
+# codec = Codec()
+# codec.decode(codec.encode(strs))
+
+
+class Codec:
+
+    def encode(self, strs):
+        """Encodes a list of strings to a single string.
+        
+        :type strs: List[str]
+        :rtype: str
+        """
+        return "".join([str(len(str_))+"@"+str_ for str_ in strs])
         
 
     def decode(self, s):
