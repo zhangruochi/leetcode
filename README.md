@@ -151,8 +151,8 @@ Table of Contents
 |No.293|Flip Game|[Solution](./293/Solution.py)|[Note](./293/note.md)|Easy|O(n)|O(n)||
 |No.293| Design Compressed String Iterator|[Solution](./293/Solution.py)|[Note](./293/note.md)|Easy|O(n)|O(n)|Iterator|
 |No.008| String to Integer (atoi)|[Solution](./008/Solution.py)|[Note](./008/note.md)|Meduim|O(n)|O(n)||
-|No.151| Reverse Words in a String|[Solution](./151/Solution.py)|[Note](./151/note.md)|Meduim|O(n)|O(n)||
-|No.557| Reverse Words in a String III|[Solution](./557/Solution.py)|[Note](./557/note.md)|Easy|O(n)|O(1)||
+|No.151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Solution](./151/Solution.py)|[Note](./151/note.md)|Meduim|O(n)|O(n)||
+|No.557| [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Solution](./557/Solution.py)|[Note](./557/note.md)|Easy|O(n)|O(1)||
 
 
 ## Linked List
