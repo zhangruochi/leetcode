@@ -18,12 +18,32 @@ return its depth = 3.
 
 """
 
+
+
 # Definition for a binary tree node.
 class TreeNode:
     def __init__(self, x):
         self.val = x
         self.left = None
         self.right = None
+
+
+
+class Solution:
+    def maxDepth(self, root: TreeNode) -> int:
+        def traverse(root,depth):
+            if not root:
+                return depth
+            
+            if not root.left and not root.right:
+                return depth + 1
+            
+            return max(traverse(root.left, depth+1),traverse(root.right, depth + 1))
+        
+        return traverse(root,0)
+        
+            
+            
 
 
 

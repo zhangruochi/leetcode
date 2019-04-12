@@ -197,10 +197,10 @@ Table of Contents
 ## Recursion
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.101|Symmetric Tree|[Solution](./101/Solution.py)|[Note](./101/note.md)|Easy|O(n)|O(h)||
-|No.872|Leaf-Similar Trees|[Solution](./872/Solution.py)|[Note](./872/note.md)|Easy|O(n)|O(n)||
-|No.104|Maximum Depth of Binary Tree|[Solution](./104/Solution.py)|[Note](./104/note.md)|Easy|O(logn)|O(1)||
-|No.110|Balanced Binary Tree|[Solution](./110/Solution.py)|[Note](./110/note.md)|Easy|O(logn)|O(1)||
+|No.101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[Solution](./101/Solution.py)|[Note](./101/note.md)|Easy|O(n)|O(h)||
+|No.872|[Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)|[Solution](./872/Solution.py)|[Note](./872/note.md)|Easy|O(n)|O(n)||
+|No.104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)|[Solution](./104/Solution.py)|[Note](./104/note.md)|Easy|O(logn)|O(1)||
+|No.110|[Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)|[Solution](./110/Solution.py)|[Note](./110/note.md)|Easy|O(logn)|O(1)||
 |No.111|Minimum Depth of Binary Tree|[Solution](./111/Solution.py)|[Note](./111/note.md)|Easy|O(logn)|O(1)||
 |No.404|Sum of Left Leaves|[Solution](./404/Solution.py)|[Note](./404/note.md)|Easy|O(logn)|O(1)||
 |No.669|Trim a Binary Search Tree|[Solution](./669/Solution.py)|[Note](./669/note.md)|Easy|O(logn)|O(1)||
