@@ -39,3 +39,38 @@ class Solution:
             return 1 + min(self.minDepth(root.left),self.minDepth(root.right))
 
 
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def minDepth(self, root: TreeNode) -> int:
+        
+        if not root:
+            return 0
+        
+        res = float("inf")
+        
+        def rec(root,depth):
+            nonlocal res
+            if not root:
+                return 
+            
+            if not root.left and not root.right:
+                res = min(res, depth)
+                
+            rec(root.left, depth+1)
+            rec(root.right, depth+1)
+            
+            
+            
+        rec(root, 1)    
+        
+        return  res
+                
+                
+                
+        

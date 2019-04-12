@@ -38,6 +38,31 @@ class Solution:
 
                              
 
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def sumOfLeftLeaves(self, root: TreeNode) -> int:
+        res = 0
+        def traverse(root,flag):
+            nonlocal res
+            if not root:
+                return 
+            
+            if not root.left and not root.right and flag:
+                res += root.val
+            
+            traverse(root.left,1)
+            traverse(root.right,0)
+            
+        traverse(root,0)
+        
+        return res
+        
 
                     
 

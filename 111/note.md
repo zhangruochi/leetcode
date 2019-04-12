@@ -1,8 +1,8 @@
 ## 思路
 
 - 问题拆解：
-    -  左子树不存在，H(root) = H(root.left) + 1
-    -  右子树不存在，H(root) = H(root.right) + 1
+    -  右子树不存在，H(root) = H(root.left) + 1
+    -  左子树不存在，H(root) = H(root.right) + 1
     -  左右子树都存在, H(root) = min(H(root.left,root.right)) + 1
 
 - 停止条件:
