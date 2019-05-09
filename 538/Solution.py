@@ -51,5 +51,47 @@ class Solution:
             node.val += cum
             cum = node.val
             
-        
         return root
+
+
+
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    
+    
+    def convertBST(self, root: TreeNode) -> TreeNode:
+        suffix_sum = []
+        all_nodes = []
+        
+        def in_order(root):
+            if not root:
+                return 
+            in_order(root.left)
+            if suffix_sum:
+                root.val += suffix_sum.pop()
+            else:
+                all_nodes.append(root.val)
+            in_order(root.right)
+        
+        in_order(root)        
+        cum = 0
+        suffix_sum.append(0)
+        for num in all_nodes[::-1][:-1]:
+            cum += num
+            suffix_sum.append(cum)
+            
+        in_order(root)
+            
+        return root
+        
+            
+        
+         
+        

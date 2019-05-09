@@ -222,7 +222,7 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](./226/Solution.py)|[Note](./226/note.md)|Easy|O(logn)|O(h)||
-|No.538|Convert BST to Greater Tree|[Solution](./538/Solution.py)|[Note](./538/note.md)|Easy|O(n)|O(h)||
+|No.538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Solution](./538/Solution.py)|[Note](./538/note.md)|Easy|O(n)|O(h)||
 |No.543|Diameter of Binary Tree|[Solution](./543/Solution.py)|[Note](./543/note.md)|Easy|O(n)|O(h)||
 |No.687|Longest Univalue Path|[Solution](./687/Solution.py)|[Note](./687/note.md)|Easy|O(n)|O(h)||
 |No.897|Increasing Order Search Tree|[Solution](./897/Solution.py)|[Note](./897/note.md)|Easy|O(n)|O(h)||
