@@ -174,6 +174,7 @@ Table of Contents
 |No.138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Solution](./138/Solution.py)|[Note](./138/note.md)|Medium|O(n)|O(n)||
 |No.061|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Solution](./061/Solution.py)|[Note](./061/note.md)|Medium|O(n)|O(n)||
 |No.082|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Note](./082/note.md)|Medium|O(n)|O(n)||
+|No.086|[Partition List](https://leetcode.com/problems/partition-list/)|[Note](./086/note.md)|Medium|O(n)|O(n)||
 
 
 
