@@ -172,6 +172,10 @@ Table of Contents
 |No.142|[Linked List CycleII](https://leetcode.com/problems/linked-list-cycle-ii/)|[Solution](./142/Solution.py)|[Note](./142/note.md)|Medium|O(n)|O(1)|quick slow pointer|
 |No.023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)|[Solution](./023/Solution.py)|[Note](./023/note.md)|Hard|O(nlogn)|O(nk)||
 |No.138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)|[Solution](./138/Solution.py)|[Note](./138/note.md)|Medium|O(n)|O(n)||
+|No.061|[Rotate List](https://leetcode.com/problems/rotate-list/)|[Solution](./061/Solution.py)|[Note](./061/note.md)|Medium|O(n)|O(n)||
+|No.082|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Note](./082/note.md)|Medium|O(n)|O(n)||
+
+
 
 
 
@@ -223,7 +227,7 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](./226/Solution.py)|[Note](./226/note.md)|Easy|O(logn)|O(h)||
 |No.538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Solution](./538/Solution.py)|[Note](./538/note.md)|Easy|O(n)|O(h)||
-|No.543|Diameter of Binary Tree|[Solution](./543/Solution.py)|[Note](./543/note.md)|Easy|O(n)|O(h)||
+|No.543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Solution](./543/Solution.py)|[Note](./543/note.md)|Easy|O(n)|O(h)||
 |No.687|Longest Univalue Path|[Solution](./687/Solution.py)|[Note](./687/note.md)|Easy|O(n)|O(h)||
 |No.897|Increasing Order Search Tree|[Solution](./897/Solution.py)|[Note](./897/note.md)|Easy|O(n)|O(h)||
 |No.617|Merge Two Binary Trees|[Solution](./617/Solution.py)|[Note](./617/note.md)|Easy|O(n)|O(h)||
