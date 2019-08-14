@@ -48,4 +48,33 @@ class Solution:
                 
         return dummy.next
 
+
+
+class Solution:
+    def insertionSortList(self, head: ListNode) -> ListNode:
+        if not head:
+            return head
+        
+        dummy = ListNode(0)
+        dummy.next = head
+        
+        cur = head
+        while cur.next:
+            pos = dummy
+            while (pos.next is not cur.next) and (cur.next.val >= pos.next.val):
+                pos = pos.next
+            
+            if pos is cur:
+                cur = cur.next
+                continue
+            
+            else:
+                tmp = cur.next
+                cur.next = tmp.next
+                
+                tmp.next = pos.next
+                pos.next = tmp
+            
+        return dummy.next
+
         
