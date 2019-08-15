@@ -198,6 +198,7 @@ Table of Contents
 |No.339|[Nested List Weight Sum](https://leetcode.com/problems/nested-list-weight-sum/)|[Solution](./339/Solution.py)|[Note](./339/note.md)|Easy|O(n)|O(1)|DFS|
 |No.716|[Max Stack](https://leetcode.com/problems/max-stack/)|[Solution](./716/Solution.py)|[Note](./716/note.md)|Easy|O(n)|O(1)|DFS|
 |No.946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Solution](./946/Solution.py)|[Note](./946/note.md)|Medium|O(n)|O(n)||
+|No.071|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Solution](./071/Solution.py)|[Note](./071/note.md)|Medium|O(n)|O(n)||
 
 
 
