@@ -200,6 +200,8 @@ Table of Contents
 |No.946|[Validate Stack Sequences](https://leetcode.com/problems/validate-stack-sequences/)|[Solution](./946/Solution.py)|[Note](./946/note.md)|Medium|O(n)|O(n)||
 |No.071|[Simplify Path](https://leetcode.com/problems/simplify-path/)|[Solution](./071/Solution.py)|[Note](./071/note.md)|Medium|O(n)|O(n)||
 |No.150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Solution](./150/Solution.py)|[Note](./150/note.md)|Medium|O(n)|O(n)||
+|No.225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](./225/Solution.py)|[Note](./225/note.md)|Easy|O(n)|O(n)||
+|No.341|[Flatten Nested List Iterator](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](./341/Solution.py)|[Note](./341/note.md)|Easy|O(n)|O(n)||
 
 
 
