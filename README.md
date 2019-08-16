@@ -202,6 +202,8 @@ Table of Contents
 |No.150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)|[Solution](./150/Solution.py)|[Note](./150/note.md)|Medium|O(n)|O(n)||
 |No.225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](./225/Solution.py)|[Note](./225/note.md)|Easy|O(n)|O(n)||
 |No.341|[Flatten Nested List Iterator](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](./341/Solution.py)|[Note](./341/note.md)|Easy|O(n)|O(n)||
+|No.439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|[Solution](./439/Solution.py)|[Note](./439/note.md)|Medium|O(n)|O(n)||
+|No.042|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/](./042/Solution.py)|[Note](./042/note.md)|Hard|O(n)|O(n)||
 
 
 
