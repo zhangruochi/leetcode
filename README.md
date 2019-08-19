@@ -204,6 +204,7 @@ Table of Contents
 |No.341|[Flatten Nested List Iterator](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](./341/Solution.py)|[Note](./341/note.md)|Easy|O(n)|O(n)||
 |No.439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|[Solution](./439/Solution.py)|[Note](./439/note.md)|Medium|O(n)|O(n)||
 |No.042|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/](./042/Solution.py)|[Note](./042/note.md)|Hard|O(n)|O(n)||
+|No.084|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/](./084/Solution.py)|[Note](./084/note.md)|Hard|O(n)|O(n)||
 
 
 
