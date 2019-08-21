@@ -242,6 +242,7 @@ Table of Contents
 |No.127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Solution](./127/Solution.py)|[Note](./127/note.md)|Medium|O(n)|O(n)||
 |No.622|Design Circular Queue|[Solution](./622/Solution.py)|[Note](./622/note.md)|Medium|O(n)|O(n)||
 |No.641|Design Circular Deque|[Solution](./641/Solution.py)|[Note](./641/note.md)|Medium|O(n)|O(n)||
+|No.933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[Solution](./933/Solution.py)|[Note](./933/note.md)|Easy|O(n)|O(n)||
 
 
 ## Binary Tree
