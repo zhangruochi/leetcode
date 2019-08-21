@@ -1,72 +1,109 @@
-def check1(board,pos):
-    x,y = pos
-    for i in range(x):
-        for j in range(len(board)):
-            if board[i][j] == 1:
-                if j == y or abs(j-y) == abs(i-x):
-                    return False
-    return True
+class Queue(object):
+    def __init__(self, capacity):
+        self.capacity = capacity
+        self.items = [None] * self.capacity
+        self.head = 0
+        self.tail = 0
 
-def eightqueue1(board,row):
-    if row == len(board):    # 来到不存在的第九行了
-        print(board)
-        return 
+    def enqueue(self,x):
+        if self.tail == self.capacity:
+            ## 如果队满，检查队列头部是否在队始位置，如果不在，进行数据搬移
+            if self.head == 0:
+                return False
+            else:
+                for i in range(self.head, self.tail):
+                    self.items[i - self.head] = self.items[i]
+                    self.items[i] = None
+                self.tail -= self.head
+                self.head = 0
 
-    for y in range(len(board)):
-        if check1(board,(row,y)):
-            board[row][y] = 1   
-            eightqueue1(board,row+1)   
-            board[row][y] = 0
-    
-    return False
+        self.items[self.tail] = x
+        self.tail += 1
+        return True
+
+    def dequeue(self):
+        if self.head == self.tail:
+            return None
+
+        res = self.items[self.head]
+        self.items[self.head] = None
+        self.head += 1
+
+        return res
+
+    def __repr__(self):
+        return str(self.items)
 
 
+class CircleQueue(object):
+    def __init__(self, capacity):
+        self.capacity = capacity
+        self.items = [None] * self.capacity
+        self.head = 0
+        self.tail = 0
 
-
-
-
-## 优化
-def check2(board,row,col):
-    i = 0
-    while i < row:
-        if abs(col-board[i]) in (0, abs(row-i)):
+    def enqueue(self,x):
+        if (self.tail + 1)%self.capacity == self.head:
             return False
-        i+=1
-    return True    
+            
+        self.items[self.tail] = x
+        self.tail  = (self.tail + 1) % self.capacity
+        return True
 
-    
-def eightqueue2(board,row):
-    if row == len(board):
-        result.append(list(board))
-        #print(board)
-        return 
+    def dequeue(self):
+        if self.head == self.tail:
+            return None
 
-    for col in range(len(board)):
-        if check2(board,row,col):
-            board[row] = col
-            eightqueue2(board,row+1)
-            board[row] = 0
-    return False
+        res = self.items[self.head]
+        self.items[self.head] = None
+        self.head = (self.head + 1) % self.capacity
 
+        return res
 
-
-def generate3d(result):
-    ans = []
-    for i in range(len(result)):
-        for j in range(len(result)):
-            tmp = []
-            for k in range(len(result[0])):
-                tmp.append((k,result[i][k],result[j][k]))
-            ans.append(tmp)
-    return ans
-
+    def __repr__(self):
+        return str(self.items)
 
 
 
 if __name__ == '__main__':
-    board = [[0]*4 for i in range(4)]
-    result = []
-    eightqueue2(board,0)
-    ans = generate3d(result)
-    for answer in ans:
-        print(answer)
+    q = Queue(3)
+
+    q.enqueue(1)
+    q.enqueue(2)
+    q.enqueue(3)
+    q.dequeue()
+    q.dequeue()
+    q.enqueue(4)
+    q.enqueue(5)
+    q.dequeue()
+    q.dequeue()
+    q.enqueue(6)
+    q.enqueue(7)
+    # q.enqueue(4)
+    # q.enqueue(5)
+
+    print(q)
+
+    q = CircleQueue(3)
+
+    q.enqueue(1)
+    q.enqueue(2)
+    q.enqueue(3) # 失败
+    q.dequeue()
+    q.dequeue()
+    q.enqueue(4)
+    q.enqueue(5)
+    q.dequeue()
+    q.dequeue()
+    q.enqueue(6)
+    q.enqueue(7)
+    q.enqueue(4)
+    q.enqueue(5)
+
+    print(q)
+
+
+
+
+
+

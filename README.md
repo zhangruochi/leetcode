@@ -30,27 +30,33 @@ Table of Contents
 ## Complexity
 [Time & Space Complexity](./classical_algorithm/TimeSpaceCpmlexity.md)
 
+## Data Structure
+| Name. | Note |
+| --- | ----- |
+| [BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md)
+| Graph| [NOTE](./classical_algorithm/Graph.md)
+| [Trie](./classical_algorithm/Trie.py)|[NOTE](./classical_algorithm/Trie.md)
+| [Union Find](./classical_algorithm/UnionFind.py)|[NOTE](./classical_algorithm/UnionFind.md)
+| BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
+| [Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
+| [Queue](./classical_algorithm/queue.py) | [NOTE](./classical_algorithm/queue.md)
 
-## Classical Data Structure and Algorithm
+
+## Classical Algorithm
 | Name. | Note |
 | --- | ----- |
 | [KMP](./classical_algorithm/kmp.py) | [NOTE](./classical_algorithm/kmp.md)
-| [Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
-| [BST](./classical_algorithm/BinarySearchTree.py) | [NOTE](./classical_algorithm/BST.md)
 | Recursion | [NOTE](./classical_algorithm/Recursion.md)
-| Graph| [NOTE](./classical_algorithm/Graph.md)
 | [Dijkstra](./classical_algorithm/Dijkstra.py) | [NOTE](./classical_algorithm/Dijkstra.md)
 | Floyd |[NOTE](./classical_algorithm/Floyd.md)
-| BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
 | [BinarySearch](./classical_algorithm/BinarySearch.py)|[NOTE](./classical_algorithm/BinarySearch.md)
-| [Union Find](./classical_algorithm/UnionFind.py)|[NOTE](./classical_algorithm/UnionFind.md)
 | [Sort](./classical_algorithm/Sort.py)|[NOTE](./classical_algorithm/Sort.md)
 | [Heap and HeapSort](./classical_algorithm/MyHeap.py)| NOTE
 | [Greedy](./classical_algorithm/Greedy.py)|[NOTE](./classical_algorithm/Greedy.md)
-| [Trie](./classical_algorithm/Trie.py)|[NOTE](./classical_algorithm/Trie.md)
 | [Dynamic Programming](./classical_algorithm/DP.py)|[NOTE](./classical_algorithm/DP.md)
-| [Eight Queue](./classical_algorithm/queue.py)|Backtracking
+| [Eight Queue](./classical_algorithm/eight_queue.py)|Backtracking
 | [Hamilton circuit](./classical_algorithm/hamilton.py)|Backtracking
+
 
 
 
