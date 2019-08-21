@@ -1,7 +1,7 @@
 ## 思路
 
-- 使用 front 和 tail
-- front 始终指向 queue 的第一个元素
-- tail 始终指向 queue 的第一个空位置
-- 如果 front  == tail 且 queue[front]  不为空，则说明队列已满
-- 如果 front  == tail 且 queue[front]  为空，则说明队列已空
+- 队满条件 (tail + 1) % k == head
+- 队空条件 tail == head
+- 因为队满时实际上队列还有一个空位置，因此创造的队列容量为k+1
+
+

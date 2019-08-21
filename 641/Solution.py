@@ -1,134 +1,103 @@
-"""
-Design your implementation of the circular double-ended queue (deque).
-
-Your implementation should support following operations:
-
-MyCircularDeque(k): Constructor, set the size of the deque to be k.
-insertFront(): Adds an item at the front of Deque. Return true if the operation is successful.
-insertLast(): Adds an item at the rear of Deque. Return true if the operation is successful.
-deleteFront(): Deletes an item from the front of Deque. Return true if the operation is successful.
-deleteLast(): Deletes an item from the rear of Deque. Return true if the operation is successful.
-getFront(): Gets the front item from the Deque. If the deque is empty, return -1.
-getRear(): Gets the last item from Deque. If the deque is empty, return -1.
-isEmpty(): Checks whether Deque is empty or not. 
-isFull(): Checks whether Deque is full or not.
- 
-
-Example:
-
-MyCircularDeque circularDeque = new MycircularDeque(3); // set the size to be 3
-circularDeque.insertLast(1);            // return true
-circularDeque.insertLast(2);            // return true
-circularDeque.insertFront(3);           // return true
-circularDeque.insertFront(4);           // return false, the queue is full
-circularDeque.getRear();            // return 2
-circularDeque.isFull();             // return true
-circularDeque.deleteLast();         // return true
-circularDeque.insertFront(4);           // return true
-circularDeque.getFront();           // return 4
-"""
-
 class MyCircularDeque:
 
-    def __init__(self, k):
+    def __init__(self, k: int):
         """
         Initialize your data structure here. Set the size of the deque to be k.
-        :type k: int
         """
-        self.queue = [None] * k
-        self.front, self.tail = 0,0
-        self.length = k
+        self.k = k+1
+        self.items = [-1] * self.k
+        self.head = self.tail = 0
         
+          
 
-    def insertFront(self, value):
+    def insertFront(self, value: int) -> bool:
         """
         Adds an item at the front of Deque. Return true if the operation is successful.
-        :type value: int
-        :rtype: bool
         """
         if not self.isFull():
-            self.queue[self.front] = value
-            self.front = (self.front - 1) % self.length
+            self.head = (self.head + self.k - 1) % self.k
+            self.items[self.head] = value
             return True
-        return False
+        else:
+            return False
+        
         
         
 
-    def insertLast(self, value):
+    def insertLast(self, value: int) -> bool:
         """
         Adds an item at the rear of Deque. Return true if the operation is successful.
-        :type value: int
-        :rtype: bool
         """
         if not self.isFull():
-            self.tail = (self.tail + 1) % self.length
-            self.queue[self.tail] = value
+            self.items[self.tail] = value
+            self.tail = (self.tail + 1) % self.k
             return True
-        return False
-            
+        else:
+            return False
+        
         
 
-    def deleteFront(self):
+    def deleteFront(self) -> bool:
         """
         Deletes an item from the front of Deque. Return true if the operation is successful.
-        :rtype: bool
         """
         if not self.isEmpty():
-            self.front = (self.front + 1) % self.length
-            self.queue[self.front] = None
+            self.items[self.head] = -1
+            self.head = (self.head + 1) % self.k
             return True
-        return False
-        
+        else:
+            return False
             
-            
-    
-    def deleteLast(self):
+
+    def deleteLast(self) -> bool:
         """
         Deletes an item from the rear of Deque. Return true if the operation is successful.
-        :rtype: bool
         """
         if not self.isEmpty():
-            self.queue[self.tail] = None
-            self.tail = (self.tail - 1) % self.length
+            self.tail = (self.tail + self.k - 1) % self.k
+            self.items[self.tail] = -1
             return True
-        return False
-        
+        else:
+            return False
+            
+            
 
-    def getFront(self):
+    def getFront(self) -> int:
         """
         Get the front item from the deque.
-        :rtype: int
         """
         if not self.isEmpty():
-            return self.queue[(self.front+1)%self.length]
+            value = self.items[self.head]
+            return value
         else:
             return -1
         
+        
 
-    def getRear(self):
+    def getRear(self) -> int:
         """
         Get the last item from the deque.
-        :rtype: int
         """
         if not self.isEmpty():
-            return self.queue[self.tail]
+            index = (self.tail + self.k - 1) % self.k
+            return self.items[index]
         else:
             return -1
-
-    def isEmpty(self):
-        """
-        Checks whether the circular deque is empty or not.
-        :rtype: bool
-        """
-        return True if (self.front == self.tail and not self.queue[self.front]) else False
         
 
-    def isFull(self):
+    def isEmpty(self) -> bool:
+        """
+        Checks whether the circular deque is empty or not.
+        """
+        return True if self.head == self.tail else False
+            
+        
+
+    def isFull(self) -> bool:
         """
         Checks whether the circular deque is full or not.
-        :rtype: bool
         """
-        return True if (self.front == self.tail and self.queue[self.front]) else False
+        return True if (self.tail + 1) % self.k == self.head else False
         
 
 

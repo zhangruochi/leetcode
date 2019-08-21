@@ -240,8 +240,8 @@ Table of Contents
 |No.346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/)|[Solution](./346/Solution.py)|[Note](./346/note.md)|Easy|O(1)|O(w)||
 |No.281|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/)|[Solution](./281/Solution.py)|[Note](./281/note.md)|Medium|O(n)|O(n)||
 |No.127|[Word Ladder](https://leetcode.com/problems/word-ladder/)|[Solution](./127/Solution.py)|[Note](./127/note.md)|Medium|O(n)|O(n)||
-|No.622|Design Circular Queue|[Solution](./622/Solution.py)|[Note](./622/note.md)|Medium|O(n)|O(n)||
-|No.641|Design Circular Deque|[Solution](./641/Solution.py)|[Note](./641/note.md)|Medium|O(n)|O(n)||
+|No.622|[Design Circular Queue](https://leetcode.com/problems/design-circular-queue/)|[Solution](./622/Solution.py)|[Note](./622/note.md)|Medium|O(n)|O(n)||
+|No.641|[Design Circular Deque](https://leetcode.com/problems/design-circular-deque/)|[Solution](./641/Solution.py)|[Note](./641/note.md)|Medium|O(n)|O(n)||
 |No.933|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/)|[Solution](./933/Solution.py)|[Note](./933/note.md)|Easy|O(n)|O(n)||
 
 
