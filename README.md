@@ -206,6 +206,7 @@ Table of Contents
 |No.042|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/](./042/Solution.py)|[Note](./042/note.md)|Hard|O(n)|O(n)||
 |No.084|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/](./084/Solution.py)|[Note](./084/note.md)|Hard|O(n)|O(n)||
 |No.496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/](./496/Solution.py)|[Note](./496/note.md)|Easy|O(n)|O(n)||
+|No.1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/](./1021/Solution.py)|[Note](./1021/note.md)|Easy|O(n)|O(n)||
 
 
 
