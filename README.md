@@ -299,6 +299,7 @@ Table of Contents
 |No.599|Minimum Index Sum of Two Lists|[Solution](./599/Solution.py)|[Note](./599/note.md)|Easy|O(1)|O(n)||
 |No.359|Logger Rate Limiter|[Solution](./359/Solution.py)|[Note](./359/note.md)|Easy|O(1)|O(n)||
 |No.706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Solution](./706/Solution.py)|[Note](./706/note.md)|Easy|O(1)|O(n)||
+|No.380|[ Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Solution](./380/Solution.py)|[Note](./380/note.md)|Medium|O(1)|O(n)||
 
 
 ## Sort
