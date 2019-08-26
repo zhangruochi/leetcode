@@ -37,3 +37,36 @@ class Solution:
                 return False
             visited.add(_new)
             n = _new
+
+
+class Solution:
+    def isHappy(self, n: int) -> bool:
+        
+        def square(num):
+            return num ** 2
+        
+        
+        def get_digits(num):
+            res = []
+            while num:
+                res.append(num % 10)
+                num //= 10
+            return res
+                
+        
+        visited = set([n])
+        
+        while True:
+            n = sum(map(square, get_digits(n)))
+            if n == 1:
+                return True
+            else:
+                if n not in visited:
+                    visited.add(n)
+                else:
+                    return False
+            
+         
+        
+            
+            
