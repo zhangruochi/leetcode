@@ -59,3 +59,26 @@ class Solution(object):
             max_ = max(max_,len(visited))
             j += 1
         return max_
+
+
+
+from collections import deque
+class Solution:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        visited = set()
+        queue = deque([])
+        res = 0
+        for i,char in enumerate(s):
+            if char in visited:
+                while True:
+                    item = queue.popleft()
+                    visited.remove(item)
+                    if item == char:
+                        break
+                        
+            queue.append(char)
+            visited.add(char)
+            
+            res = max(res,len(queue))
+        
+        return res
