@@ -13,8 +13,8 @@ class Solution(object):
         return nums[-k]
 ```
 
-那么好，面试官说，那能轻易饶了你么，size肯定要宇宙无敌爆炸大，我就静静的看着你装逼哈。
-那么我们开始考虑如何做的比nlogn更快。
+
+我们开始考虑如何做的比nlogn更快。
 
 ### 根据Max Heap数据结构来解
 > Time: O(n + klog(n)) | Space: O(n)
@@ -31,4 +31,8 @@ class Solution(object):
         return -res
 ```
 
-首先解释下为什么要nums = [-num for num in nums]. 因为Python的Standard Library里面调用heapify的时候，永远是一个min_heap，然后因为没有Max Heap的implementation，你要做的就是通过Min Heap来模拟Max Heap的运算，最简单的就是将所有的数变成-num，这是不是一个好的Practice？不一定，很多人也自己implement了Max Heap的数据结构。具体推荐大家看看这个帖子：StackOverFlow
+首先解释下为什么要nums = [-num for num in nums]. 因为Python的Standard Library里面调用heapify的时候，永远是一个min_heap，然后因为没有Max Heap的implementation，你要做的就是通过Min Heap来模拟Max Heap的运算，最简单的就是将所有的数变成-num.
+
+### 维护一个size为 K 的最小堆
+- 当 heap 的 size 大于 K 时，每次进入一个元素就弹出堆内的最小元素。
+- 最终堆内的元素就是前 K 个最大元素，因为是最小堆，所以直接弹出一个元素即为 K 大的元素。
