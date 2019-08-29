@@ -301,6 +301,9 @@ Table of Contents
 |No.706|[Design HashMap](https://leetcode.com/problems/design-hashmap/)|[Solution](./706/Solution.py)|[Note](./706/note.md)|Easy|O(1)|O(n)||
 |No.380|[ Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)|[Solution](./380/Solution.py)|[Note](./380/note.md)|Medium|O(1)|O(n)||
 |No.981|[ Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)|[Solution](./981/Solution.py)|[Note](./981/note.md)|Medium|O(nlogn)|O(n)||
+|No.811|[ Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[Solution](./811/Solution.py)|[Note](./811/note.md)|Easy|O(nm)|O(n)||
+|No.609|[ Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[Solution](./609/Solution.py)|[Note](./609/note.md)|Medium|O(nk)|O(n)||
+|No.692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Solution](./692/Solution.py)|[Note](./692/note.md)|Medium|O(nlogn)|O(n)||
 
 
 ## Sort
@@ -313,7 +316,7 @@ Table of Contents
 |No.148|Sort List|[Solution](./148/Solution.py)|[Note](./148/note.md)|Medium|O(nlog)|O(1)|list merge sort|
 |No.179|[Largest Number](https://leetcode.com/problems/largest-number/)|[Solution](./179/Solution.py)|[Note](./179/note.md)|Medium|O(nlogn)|O(1)|cmp_to_key|
 |No.253|Meeting Rooms II|[Solution](./253/Solution.py)|[Note](./253/note.md)|Medium|O(nlogn)|O(n)||
-|No.347|Top K Frequent Elements|[Solution](./347/Solution.py)|[Note](./347/note.md)|Medium|O(nlogn)|O(n)||
+|No.347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Solution](./347/Solution.py)|[Note](./347/note.md)|Medium|O(nlogn)|O(n)||
 |No.581|Shortest Unsorted Continuous Subarray|[Solution](./581/Solution.py)|[Note](./581/note.md)|Easy|O(nlogn)|O(n)||
 
 
