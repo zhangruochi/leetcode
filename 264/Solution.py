@@ -118,6 +118,37 @@ class Solution:
         return -1
             
 
+import heapq
+class Solution(object):
+    def nthUglyNumber(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
+        heap = [1]
+        visited = set(heap)
+        heapq.heapify(heap)
+        index = 0
+        
+        while index < n:
+            item = heapq.heappop(heap)
+            index += 1
+            if item*2 not in visited:
+                heapq.heappush(heap,item*2)
+                visited.add(item*2)
+            
+            if item*3 not in visited:
+                heapq.heappush(heap,item*3)
+                visited.add(item*3)
+                
+            if item*5 not in visited:
+                heapq.heappush(heap,item*5)
+                visited.add(item*5)
+        
+        
+        return item
+        
+
 
 if __name__ == '__main__':
     print(Solution().nthUglyNumber(10))

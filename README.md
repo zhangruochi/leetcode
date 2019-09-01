@@ -323,7 +323,7 @@ Table of Contents
 ## Heap
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.264|Ugly Number II|[Solution](./264/Solution.py)|[Note](./264/note.md)|Medium|O(n)|O(1)||
+|No.264|[Ugly Number II](https://leetcode.com/problems/ugly-number-ii/)|[Solution](./264/Solution.py)|[Note](./264/note.md)|Medium|O(n)|O(1)||
 |No.313|Super Ugly Number|[Solution](./313/Solution.py)|[Note](./313/note.md)|Medium|O(n * k)|O(n * k)||
 |No.378|Kth Smallest Element in a Sorted Matrix|[Solution](./378/Solution.py)|[Note](./378/note.md)|Medium|O(nklogn)|O(n)||
 |No.215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Solution](./215/Solution.py)|[Note](./215/note.md)|Medium|O(n+klogn)|O(n)||
