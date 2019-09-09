@@ -47,3 +47,56 @@ class Solution:
             else:
                 self.add_carry(p1,carry)
         return l1
+
+
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        
+        def add_carry(head,carry):
+            dummy = cur = ListNode(0)
+            dummy.next = head       
+            while cur.next:
+                carry,cur.next.val = divmod((cur.next.val + carry),10)
+                cur = cur.next
+                    
+            if carry:
+                cur.next = ListNode(carry)
+            
+            return dummy.next
+        
+        
+        carry = 0
+        head = l1
+        
+        dummy_l1 = cur_l1 =  ListNode(0)
+        dummy_l1.next = l1
+        dummy_l2 = cur_l2 = ListNode(0)
+        dummy_l2.next = l2
+        
+        while cur_l1.next and cur_l2.next:
+            carry,cur_l1.next.val = divmod((cur_l1.next.val + cur_l2.next.val + carry),10)
+            cur_l1 = cur_l1.next
+            cur_l2 = cur_l2.next
+        
+
+        
+        if not carry:
+            if not cur_l1.next:
+                cur_l1.next = cur_l2.next                
+        else:
+            if not cur_l1.next and not cur_l2.next:
+                cur_l1.next = ListNode(carry)
+            elif not cur_l1.next:
+                add_carry(cur_l2.next,carry)
+                cur_l1.next = cur_l2.next
+            else:
+                add_carry(cur_l1.next,carry)
+                
+        return head
