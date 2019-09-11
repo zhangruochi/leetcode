@@ -21,24 +21,43 @@ Explanation: Intervals [1,4] and [4,5] are considerred overlapping.
 #         self.start = s
 #         self.end = e
 
+# class Solution:
+#     def merge(self, intervals):
+#         """
+#         :type intervals: List[Interval]
+#         :rtype: List[Interval]
+#         """
+#         ans,stack,points = [],[],[]
+#         for interval in intervals:
+#             points.append([interval.start,0])
+#             points.append([interval.end,1])
+#         points.sort()
+        
+#         for time,_ in points:
+#             if not _:
+#                 stack.append(time)
+#             else:
+#                 start = stack.pop()
+#                 if not stack:
+#                     ans.append([start,time])
+        
+#         return ans
+
+
 class Solution:
-    def merge(self, intervals):
-        """
-        :type intervals: List[Interval]
-        :rtype: List[Interval]
-        """
-        ans,stack,points = [],[],[]
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        stack = []
+        
+        intervals.sort(key = lambda x : x[0])
+        
         for interval in intervals:
-            points.append([interval.start,0])
-            points.append([interval.end,1])
-        points.sort()
-        
-        for time,_ in points:
-            if not _:
-                stack.append(time)
+            if not stack:
+                stack.append(interval)
             else:
-                start = stack.pop()
-                if not stack:
-                    ans.append([start,time])
+                if stack[-1][1] >= interval[0]:
+                    tmp = stack.pop()
+                    stack.append([tmp[0],max(tmp[1],interval[1])])
+                else:
+                    stack.append(interval)
         
-        return ans
+        return stack
