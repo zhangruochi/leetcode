@@ -273,7 +273,7 @@ Table of Contents
 |No.236|Lowest Common Ancestor of a Binary Tree|[Solution](./236/Solution.py)|[Note](./236/note.md)|Medium|O(n^2)|O(n)||
 |No.100|Same Tree|[Solution](./100/Solution.py)|[Note](./100/note.md)|Medium|O(n)|O(1)||
 |No.314|Binary Tree Vertical Order Traversal|[Solution](./314/Solution.py)|[Note](./314/note.md)|Medium|O(n)|O(n)||
-|No.637|Average of Levels in Binary Tree|[Solution](./637/Solution.py)|[Note](./637/note.md)|Easy|O(n)|O(n)||
+|No.637|[Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree/)|[Solution](./637/Solution.py)|[Note](./637/note.md)|Easy|O(n)|O(n)||
 |No.103|Binary Tree Zigzag Level Order Traversal|[Solution](./103/Solution.py)|[Note](./103/note.md)|Medium|O(n)|O(n)||
 |No.114|Flatten Binary Tree to Linked List|[Solution](./114/Solution.py)|[Note](./114/note.md)|Medium|O(n)|O(1)|DFS|
 |No.437|Path Sum III|[Solution](./437/Solution.py)|[Note](./437/note.md)|Medium|O(nlogn)|O(1)|DFS|

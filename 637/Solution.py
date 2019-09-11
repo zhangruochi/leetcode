@@ -50,3 +50,31 @@ class Solution(object):
                 queue.append((cur.right,level+1))
         
         return [sum(table[i])/len(table[i]) for i in range(len(table))]
+
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+from collections import deque
+from collections import defaultdict
+
+class Solution:
+    def averageOfLevels(self, root: TreeNode) -> List[float]:
+        
+        queue = deque([(0,root)])
+        table = defaultdict(list)
+        while queue:
+            level,node = queue.popleft()
+            table[level].append(node.val)
+            if node.left:
+                queue.append((level+1,node.left))
+            if node.right:
+                queue.append((level+1,node.right))
+                
+        
+        return [sum(vals)/len(vals) for key,vals in table.items()]
+        
