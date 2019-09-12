@@ -279,6 +279,7 @@ Table of Contents
 |No.437|Path Sum III|[Solution](./437/Solution.py)|[Note](./437/note.md)|Medium|O(nlogn)|O(1)|DFS|
 
 
+
 ## Hash Table
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
@@ -354,6 +355,7 @@ Table of Contents
 |No.278|First Bad Version|[Solution](./278/Solution.py)|[Note](./278/note.md)|Easy|O(logn)|O(1)||
 |No.033|Search in Rotated Array|[Solution](./033/Solution.py)|[Note](./033/note.md)|Medium|O(logn)|O(1)||
 |No.173|Binary Search Tree Iterator|[Solution](./173/Solution.py)|[Note](./173/note.md)|Medium|O(1)|O(h)||
+|No.938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Solution](./938/Solution.py)|[Note](./938/note.md)|Easy|O(n)|O(1)||
 
 
 ## N-ary Tree
