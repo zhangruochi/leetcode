@@ -277,6 +277,8 @@ Table of Contents
 |No.103|Binary Tree Zigzag Level Order Traversal|[Solution](./103/Solution.py)|[Note](./103/note.md)|Medium|O(n)|O(n)||
 |No.114|Flatten Binary Tree to Linked List|[Solution](./114/Solution.py)|[Note](./114/note.md)|Medium|O(n)|O(1)|DFS|
 |No.437|Path Sum III|[Solution](./437/Solution.py)|[Note](./437/note.md)|Medium|O(nlogn)|O(1)|DFS|
+|No.965|[Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)|[Solution](./965/Solution.py)|[Note](./965/note.md)|Easy|O(n)|O(1)||
+
 
 
 
@@ -356,14 +358,15 @@ Table of Contents
 |No.033|Search in Rotated Array|[Solution](./033/Solution.py)|[Note](./033/note.md)|Medium|O(logn)|O(1)||
 |No.173|Binary Search Tree Iterator|[Solution](./173/Solution.py)|[Note](./173/note.md)|Medium|O(1)|O(h)||
 |No.938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Solution](./938/Solution.py)|[Note](./938/note.md)|Easy|O(n)|O(1)||
+|No.700|(Search in a Binary Search Tree)[https://leetcode.com/problems/search-in-a-binary-search-tree/]|[Solution](./700/Solution.py)|[Note](./700/note.md)|Easy|O(n)|O(1)||
 
 
 ## N-ary Tree
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.589|N-ary Tree Preorder Traversal|[Solution](./589/Solution.py)|[Note](./589/note.md)|Easy|O(n)|O(n)||
-|No.590|N-ary Tree Postorder Traversal|[Solution](./590/Solution.py)|[Note](./590/note.md)|Easy|O(n)|O(n)||
-|No.429|N-ary Tree Levelorder Traversal|[Solution](./429/Solution.py)|[Note](./429/note.md)|Easy|O(n)|O(n)||
+|No.589|[N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)|[Solution](./589/Solution.py)|[Note](./589/note.md)|Easy|O(n)|O(n)||
+|No.590|[N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/)|[Solution](./590/Solution.py)|[Note](./590/note.md)|Easy|O(n)|O(n)||
+|No.429|[N-ary Tree Levelorder Traversal](https://leetcode.com/problems/n-ary-tree-level-order-traversal/)|[Solution](./429/Solution.py)|[Note](./429/note.md)|Easy|O(n)|O(n)||
 |No.559|Maximum Depth of N-ary Tree|[Solution](./559/Solution.py)|[Note](./559/note.md)|Easy|O(n)|O(n)||
 |No.208|Implement Trie (Prefix Tree)|[Solution](./208/Solution.py)|[Note](./208/note.md)|Medium|O(k)|O(n)|trie|
 |No.677|Map Sum Pairs|[Solution](./677/Solution.py)|[Note](./677/note.md)|Medium|||trie|

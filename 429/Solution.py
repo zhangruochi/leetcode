@@ -45,5 +45,36 @@ class Solution(object):
                 queue.append((child,level+1))
         return [result[i] for i in range(len(result))]
             
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val, children):
+        self.val = val
+        self.children = children
+"""
+from collections import deque
+from collections import defaultdict
+class Solution:
+    def levelOrder(self, root: 'Node') -> List[List[int]]:
+        
+        if not root: return 
+        
+        level = 0
+        table = defaultdict(list)
+        
+        queue = deque([(level,root)])
+        while queue:
+            level,root = queue.popleft()
+            table[level].append(root.val)
             
+            for child in root.children:
+                queue.append((level+1,child))
+        
+        
+        return [table[i] for i in range(len(table))]
+            
+        
+        
+        
         
