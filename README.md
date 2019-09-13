@@ -361,7 +361,7 @@ Table of Contents
 |No.938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Solution](./938/Solution.py)|[Note](./938/note.md)|Easy|O(n)|O(1)||
 |No.700|[Search in a Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Solution](./700/Solution.py)|[Note](./700/note.md)|Easy|O(n)|O(1)||
 |No.108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Solution](./108/Solution.py)|[Note](./108/note.md)|Easy|O(n)|O(1)||
-
+|No.530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Solution](./530/Solution.py)|[Note](./530/note.md)|Easy|O(n)|O(1)||
 
 ## N-ary Tree
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
