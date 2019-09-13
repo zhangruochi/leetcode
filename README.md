@@ -352,7 +352,7 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.852|Lowest Common Ancestor of a Binary Search Tree|[Solution](./852/Solution.py)|[Note](./852/note.md)|Easy|O(logn)|O(1)||
 |No.270|Closest Binary Search Tree Value|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(logn)|O(1)||
-|No.270|Two Sum IV - Input is a BST|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(n)|O(n)||
+|No.653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Solution](./653/Solution.py)|[Note](./653/note.md)|Easy|O(n)|O(n)||
 |No.098|Validate Binary Search Tree|[Solution](./098/Solution.py)|[Note](./098/note.md)|Easy|O(n)|O(n)||
 |No.278|First Bad Version|[Solution](./278/Solution.py)|[Note](./278/note.md)|Easy|O(logn)|O(1)||
 |No.033|Search in Rotated Array|[Solution](./033/Solution.py)|[Note](./033/note.md)|Medium|O(logn)|O(1)||

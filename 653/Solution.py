@@ -55,3 +55,28 @@ class Solution:
                 return True
         return False
 
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def findTarget(self, root: TreeNode, k: int) -> bool:
+        hash_set = set()
+        res = None
+        
+        def in_order(root):
+            nonlocal res
+            if root:
+                in_order(root.left)
+                if (k - root.val) in hash_set:
+                    res = True
+                hash_set.add(root.val) 
+                in_order(root.right)
+                
+        in_order(root)
+        
+        return res
