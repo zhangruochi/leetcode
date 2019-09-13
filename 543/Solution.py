@@ -29,4 +29,33 @@ class Solution:
         
         return diameter
         
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def diameterOfBinaryTree(self, root: TreeNode) -> int:
+        res = 0
+        
+        def helper(root):
+            nonlocal res
+            
+            if not root:
+                return 0
+            
+            left = helper(root.left) 
+            right = helper(root.right)
+            
+            res = max(res, left + right)
+            
+            return left+1 if left > right else right+1
+        
+        helper(root)
+        
+        return res
+            
         
