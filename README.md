@@ -260,7 +260,7 @@ Table of Contents
 |No.563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Solution](./563/Solution.py)|[Note](./563/note.md)|Easy|O(n^2)|||
 |No.094|Binary Tree Inorder Traversal|[Solution](./094/Solution.py)|[Note](./094/note.md)|Medium|O(n)|O(n)|Inorder Traversal|
 |No.112|Path Sum|[Solution](./112/Solution.py)|[Note](./112/note.md)|Easy|O(n)|O(1)|DFS|
-|No.257|Binary Tree Paths|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
+|No.257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
 |No.144|Binary Tree Preorder Traversal|[Solution](./144/Solution.py)|[Note](./144/note.md)|Medium|O(n)|O(n)|iteration traverse|
 |No.94|Binary Tree Inorder Traversal|[Solution](./94/Solution.py)|[Note](./94/note.md)|Medium|O(n)|O(n)|iteration traverse|
 |No.145|Binary Tree Postorder Traversal|[Solution](./145/Solution.py)|[Note](./145/note.md)|Hard|O(n)|O(n)|iteration traverse|
