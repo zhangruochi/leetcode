@@ -51,4 +51,28 @@ class Solution:
             return "{}({})({})".format(t.val,self.tree2str(t.left),self.tree2str(t.right))
 
 
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def tree2str(self, t: TreeNode) -> str:
+        if not t: return ""
+
+        def pre_order(t):
+            if not t:
+                return ""
+            elif not t.left and not t.right:
+                return str(t.val)
+            elif not t.right:
+                return str(t.val) + "(" + pre_order(t.left) + ")"
+            else:
+                return str(t.val) + "(" + pre_order(t.left) + ")"  + "(" + pre_order(t.right) + ")"
+            
+        res = pre_order(t)
+        return res
+
                 
