@@ -67,5 +67,58 @@ class Solution:
         
         return new_tree
             
+
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def increasingBST(self, root: TreeNode) -> TreeNode:
+        def in_order(root):
+            if root:
+                yield from in_order(root.left)
+                yield root
+                yield from in_order(root.right)
+        
+        gen = in_order(root)
+        ans = prev = next(gen)
+        for node in gen:
+            prev.right = node
+            prev = node
+        
+        prev.right = None
+        
+        # while ans:
+        #     print(ans.val)
+        #     ans = ans.right
+        
+        return ans
             
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def increasingBST(self, root: TreeNode) -> TreeNode:
+        
+        dummy = cur = TreeNode(None)
+        
+        def in_order(root):
+            nonlocal cur
+            if root:
+                in_order(root.left)
+                root.left = None
+                cur.right = root
+                cur = cur.right
+                in_order(root.right)
+        
+        in_order(root)
+        return dummy.right
         

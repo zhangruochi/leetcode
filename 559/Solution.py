@@ -43,4 +43,26 @@ class Solution(object):
         
         helper(root,0)
         return Solution.depth
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val, children):
+        self.val = val
+        self.children = children
+"""
+class Solution:
+    def maxDepth(self, root: 'Node') -> int:
+        if not root:
+            return 0
+        depth = 0
+        def traverse(root,level):
+            nonlocal depth
+            depth = max(depth,level)
+            for child in root.children:
+                traverse(child,level+1)
+        
+        traverse(root,1)
+        return depth
+        
                 
