@@ -362,6 +362,7 @@ Table of Contents
 |No.700|[Search in a Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)|[Solution](./700/Solution.py)|[Note](./700/note.md)|Easy|O(n)|O(1)||
 |No.108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/)|[Solution](./108/Solution.py)|[Note](./108/note.md)|Easy|O(n)|O(1)||
 |No.530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Solution](./530/Solution.py)|[Note](./530/note.md)|Easy|O(n)|O(1)||
+|No.783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Solution](./783/Solution.py)|[Note](./783/note.md)|Easy|O(n)|O(1)||
 
 ## N-ary Tree
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
