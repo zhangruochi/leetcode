@@ -72,3 +72,37 @@ class Solution(object):
 
 
 
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def closestValue(self, root: TreeNode, target: float) -> int:
+        
+        
+        
+        res = None
+        min_diff = float("inf")
+        
+        def traverse(root):
+            nonlocal res,min_diff
+            
+            if not root: return 
+            
+            if abs(root.val - target) < min_diff:
+                min_diff = abs(root.val - target)
+                res = root.val
+                
+            
+            if root.val < target:
+                traverse(root.right)
+            else:
+                traverse(root.left)
+            
+        
+        traverse(root)
+        
+        return res

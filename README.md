@@ -352,8 +352,8 @@ Table of Contents
 ## Binary Search Tree
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.852|Lowest Common Ancestor of a Binary Search Tree|[Solution](./852/Solution.py)|[Note](./852/note.md)|Easy|O(logn)|O(1)||
-|No.270|Closest Binary Search Tree Value|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(logn)|O(1)||
+|No.235|[Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)|[Solution](./235/Solution.py)|[Note](./235/note.md)|Easy|O(logn)|O(1)||
+|No.270|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(logn)|O(1)||
 |No.653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Solution](./653/Solution.py)|[Note](./653/note.md)|Easy|O(n)|O(n)||
 |No.098|Validate Binary Search Tree|[Solution](./098/Solution.py)|[Note](./098/note.md)|Easy|O(n)|O(n)||
 |No.278|First Bad Version|[Solution](./278/Solution.py)|[Note](./278/note.md)|Easy|O(logn)|O(1)||
