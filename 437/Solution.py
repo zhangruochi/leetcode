@@ -54,6 +54,48 @@ class Solution:
         
         return self.find_path(root,sum) + self.pathSum(root.left,sum) + self.pathSum(root.right,sum)
             
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def pathSum(self, root: TreeNode, sum: int) -> int:
+        
+        if not root: return 0
+        
+        res = 0
+        
+        def traverse(root,sum_):
+            nonlocal res
+            if not root:
+                return 
             
+            sum_ += root.val
+            if sum_ == sum:
+                res += 1
+            
+            traverse(root.left,sum_)
+            traverse(root.right,sum_)
+            
+        
+        def helper(root):
+            if not root: return 
+            
+            traverse(root,0)
+            
+            helper(root.left)
+            helper(root.right)
+            
+    
+        helper(root)      
+        
+        
+        return res
+                
+                
             
         
