@@ -46,3 +46,35 @@ class Solution:
             return False
         
         return self.DFS(root,0,sum)
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def hasPathSum(self, root: TreeNode, sum: int) -> bool:
+        
+        if not root: return False
+        
+        res = False
+        
+        def traverse(root,sum_):
+            
+            nonlocal res
+            
+            if not root: return 
+            
+            if not root.left and not root.right:
+                sum_ += root.val
+                if sum_ == sum:
+                    res = True
+            
+            traverse(root.left, sum_ + root.val)
+            traverse(root.right, sum_ + root.val)
+        
+            
+        traverse(root,0)
+        return res

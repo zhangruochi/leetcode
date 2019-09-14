@@ -60,7 +60,6 @@ class Solution:
 
             left = left + 1 if root.left and root.left.val == root.val else 0
             right = right + 1 if root.right and root.right.val == root.val else 0
-å
             longpath = max(longpath,left + right)
 
             return max(left,right)

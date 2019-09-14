@@ -252,14 +252,14 @@ Table of Contents
 |No.226|[Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)|[Solution](./226/Solution.py)|[Note](./226/note.md)|Easy|O(logn)|O(h)||
 |No.538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/)|[Solution](./538/Solution.py)|[Note](./538/note.md)|Easy|O(n)|O(h)||
 |No.543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/)|[Solution](./543/Solution.py)|[Note](./543/note.md)|Easy|O(n)|O(h)||
-|No.687|Longest Univalue Path|[Solution](./687/Solution.py)|[Note](./687/note.md)|Easy|O(n)|O(h)||
+|No.687|[Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/)|[Solution](./687/Solution.py)|[Note](./687/note.md)|Easy|O(n)|O(h)||
 |No.897|[Increasing Order Search Tree](https://leetcode.com/problems/increasing-order-search-tree/)|[Solution](./897/Solution.py)|[Note](./897/note.md)|Easy|O(n)|O(h)||
 |No.617|[Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)|[Solution](./617/Solution.py)|[Note](./617/note.md)|Easy|O(n)|O(h)||
 |No.606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Solution](./606/Solution.py)|[Note](./606/note.md)|Easy|O(n)|O(h)||
 |No.572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Solution](./572/Solution.py)|[Note](./572/note.md)|Easy|O(n)|O(h)||
 |No.563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Solution](./563/Solution.py)|[Note](./563/note.md)|Easy|O(n^2)|||
 |No.094|Binary Tree Inorder Traversal|[Solution](./094/Solution.py)|[Note](./094/note.md)|Medium|O(n)|O(n)|Inorder Traversal|
-|No.112|Path Sum|[Solution](./112/Solution.py)|[Note](./112/note.md)|Easy|O(n)|O(1)|DFS|
+|No.112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Solution](./112/Solution.py)|[Note](./112/note.md)|Easy|O(n)|O(1)|DFS|
 |No.257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
 |No.144|Binary Tree Preorder Traversal|[Solution](./144/Solution.py)|[Note](./144/note.md)|Medium|O(n)|O(n)|iteration traverse|
 |No.94|Binary Tree Inorder Traversal|[Solution](./94/Solution.py)|[Note](./94/note.md)|Medium|O(n)|O(n)|iteration traverse|
