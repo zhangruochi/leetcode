@@ -352,6 +352,7 @@ Table of Contents
 |No.153|Find Minimum in Rotated Sorted Array|[Solution](./153/Solution.py)|[Note](./153/note.md)|Medium|O(logn)|O(n)||
 
 
+
 ## Binary Search Tree
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
@@ -368,6 +369,8 @@ Table of Contents
 |No.530|[Minimum Absolute Difference in BST](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)|[Solution](./530/Solution.py)|[Note](./530/note.md)|Easy|O(n)|O(1)||
 |No.783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Solution](./783/Solution.py)|[Note](./783/note.md)|Easy|O(n)|O(1)||
 |No.501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Solution](./501/Solution.py)|[Note](./501/note.md)|Easy|O(n)|O(n)||
+|No.776|[Split BST](https://leetcode.com/problems/split-bst/)|[Solution](./776/Solution.py)|[Note](./776/note.md)|Medium|O(logn)|O(n)||
+
 
 ## N-ary Tree
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
