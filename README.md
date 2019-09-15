@@ -232,6 +232,8 @@ Table of Contents
 |No.669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/)|[Solution](./669/Solution.py)|[Note](./669/note.md)|Easy|O(logn)|O(1)||
 |No.671|[Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/)|[Solution](./671/Solution.py)|[Note](./671/note.md)|Easy|O(logn)|O(1)||
 |No.894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|[Solution](./894/Solution.py)|[Note](./894/note.md)|Easy|O(2^N)|O(n)||
+|No.1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[Solution](./1137/Solution.py)|[Note](./1137/note.md)|Easy|O(n)|O(n)||
+|No.544|[Output Contest Matches](https://leetcode.com/problems/output-contest-matches/)|[Solution](./544/Solution.py)|[Note](./544/note.md)|Medium|O(n)|O(n)||
 
 
 
