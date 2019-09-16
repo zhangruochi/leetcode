@@ -286,6 +286,7 @@ Table of Contents
 |No.654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Solution](./654/Solution.py)|[Note](./654/note.md)|Medium|O(nlogn)|O(n)||
 |No.1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[Solution](./1008/Solution.py)|[Note](./1008/note.md)|Medium|O(nlogn)|O(n)||
 |No.701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Solution](./701/Solution.py)|[Note](./701/note.md)|Medium|O(logn)|O(n)||
+|No.814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[Solution](./814/Solution.py)|[Note](./814/note.md)|Medium|O(logn)|O(n)||
 
 
 ## Hash Table
