@@ -284,7 +284,8 @@ Table of Contents
 |No.993|[Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/)|[Solution](./993/Solution.py)|[Note](./993/note.md)|Easy|O(n)|O(1)||
 |No.107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)|[Solution](./107/Solution.py)|[Note](./107/note.md)|Easy|O(n)|O(n)||
 |No.654|[Maximum Binary Tree](https://leetcode.com/problems/maximum-binary-tree/)|[Solution](./654/Solution.py)|[Note](./654/note.md)|Medium|O(nlogn)|O(n)||
-
+|No.1008|[Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/)|[Solution](./1008/Solution.py)|[Note](./1008/note.md)|Medium|O(nlogn)|O(n)||
+|No.701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Solution](./701/Solution.py)|[Note](./701/note.md)|Medium|O(logn)|O(n)||
 
 
 ## Hash Table
