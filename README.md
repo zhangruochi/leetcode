@@ -163,7 +163,7 @@ Table of Contents
 |No.1108| [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Solution](./1108/Solution.py)|[Note](./1108/note.md)|Easy|O(n)|O(1)||
 |No.1180| [Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[Solution](./1180/Solution.py)|[Note](./1180/note.md)|Easy|O(n)|O(1)||
 |No.1134| [Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[Solution](./1134/Solution.py)|[Note](./1134/note.md)|Easy|O(n)|O(1)||
-
+|No.709| [To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Solution](./709/Solution.py)|[Note](./709/note.md)|Easy|O(n)|O(1)||
 
 ## Linked List
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -322,6 +322,8 @@ Table of Contents
 |No.1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Solution](./1119/Solution.py)|[Note](./1119/note.md)|Easy|O(n)|O(1)||
 |No.1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Solution](./1165/Solution.py)|[Note](./1165/note.md)|Easy|O(n)|O(1)||
 |No.760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Solution](./760/Solution.py)|[Note](./760/note.md)|Easy|O(n)|O(n)||
+|No.804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Solution](./804/Solution.py)|[Note](./804/note.md)|Easy|O(n)|O(n)||
+
 
 ## Sort
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -443,3 +445,4 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.1068|Product Sales Analysis I|[Solution](./1068/Solution.py)|[Note](./1068/note.md)|Easy|O(n*n)|O(n*n)||
 |No.1069|Product Sales Analysis II|[Solution](./1069/Solution.py)|[Note](./1069/note.md)|Easy|O(n)|O(n)||
+|No.511|Game Play Analysis I|[Solution](./511/Solution.py)|[Note](./511/note.md)|Easy|O(n)|O(n)||
