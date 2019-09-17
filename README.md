@@ -440,3 +440,4 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.1068|Product Sales Analysis I|[Solution](./1068/Solution.py)|[Note](./1068/note.md)|Easy|O(n*n)|O(n*n)||
+|No.1069|Product Sales Analysis II|[Solution](./1069/Solution.py)|[Note](./1069/note.md)|Easy|O(n)|O(n)||
