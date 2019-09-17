@@ -80,6 +80,7 @@ Table of Contents
 |No.762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[Solution](./762/Solution.py)|[Note](./762/note.md)|Medium|O(1)|O(1)|Bit Manipulation|
 |No.371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Solution](./371/Solution.py)|[Note](./371/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 |No.268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Solution](./268/Solution.py)|[Note](./268/note.md)|Easy|O(n)|O(1)|Bit Manipulation,Math|
+|No.1085|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Solution](./1085/Solution.py)|[Note](./1085/note.md)|Easy|O(n)|O(1)||
 
 
 
@@ -127,6 +128,8 @@ Table of Contents
 |No.561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Solution](./561/Solution.py)|[Note](./561/note.md)|Easy|O(nlogn)|O(1)||
 |No.485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Solution](./485/Solution.py)|[Note](./485/note.md)|Easy|O(n)|O(1)||
 |No.1086|[High Five](https://leetcode.com/problems/high-five/)|[Solution](./1086/Solution.py)|[Note](./1086/note.md)|Easy|O(n^2logn)|O(n)||
+|No.1064|[Fixed Point](https://leetcode.com/problems/fixed-point/)|[Solution](./1064/Solution.py)|[Note](./1064/note.md)|Easy|O(n)|O(n)||
+|No.832|[Fixed Point](https://leetcode.com/problems/flipping-an-image/)|[Solution](./832/Solution.py)|[Note](./832/note.md)|Easy|O(n)|O(n)||
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -447,3 +450,5 @@ Table of Contents
 |No.1069|[Product Sales Analysis II](https://leetcode.com/problems/product-sales-analysis-ii/)|[Solution](./1069/Solution.py)|[Note](./1069/note.md)|Easy|O(n)|O(n)||
 |No.511|[Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)|[Solution](./511/Solution.py)|[Note](./511/note.md)|Easy|O(n)|O(n)||
 |No.595|[Big Countries](https://leetcode.com/problems/big-countries/)|[Solution](./595/Solution.py)|[Note](./595/note.md)|Easy|O(n)|O(n)||
+|No.1173|[Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/)|[Solution](./1173/Solution.py)|[Note](./1173/note.md)|Easy|O(n)|O(n)||
+|No.613|[Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/)|[Solution](./613/Solution.py)|[Note](./613/note.md)|Easy|O(n)|O(n)||
