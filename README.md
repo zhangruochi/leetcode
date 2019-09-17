@@ -161,6 +161,7 @@ Table of Contents
 |No.151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Solution](./151/Solution.py)|[Note](./151/note.md)|Meduim|O(n)|O(n)||
 |No.557| [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Solution](./557/Solution.py)|[Note](./557/note.md)|Easy|O(n)|O(1)||
 |No.1108| [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Solution](./1108/Solution.py)|[Note](./1108/note.md)|Easy|O(n)|O(1)||
+|No.1180| [Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[Solution](./1180/Solution.py)|[Note](./1180/note.md)|Easy|O(n)|O(1)||
 
 
 ## Linked List
@@ -268,7 +269,7 @@ Table of Contents
 |No.144|Binary Tree Preorder Traversal|[Solution](./144/Solution.py)|[Note](./144/note.md)|Medium|O(n)|O(n)|iteration traverse|
 |No.94|Binary Tree Inorder Traversal|[Solution](./94/Solution.py)|[Note](./94/note.md)|Medium|O(n)|O(n)|iteration traverse|
 |No.145|Binary Tree Postorder Traversal|[Solution](./145/Solution.py)|[Note](./145/note.md)|Hard|O(n)|O(n)|iteration traverse|
-|No.102|Binary Tree Level Order Traversal|[Solution](./102/Solution.py)|[Note](./102/note.md)|Medium|O(n)|O(n)|iteration traverse|
+|No.102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Solution](./102/Solution.py)|[Note](./102/note.md)|Medium|O(n)|O(n)|iteration traverse|
 |No.250|Count Univalue Subtrees|[Solution](./250/Solution.py)|[Note](./250/note.md)|Medium|O(n)|O(n)||
 |No.106|Construct Binary Tree from Inorder and Postorder Traversal|[Solution](./106/Solution.py)|[Note](./106/note.md)|Medium|O(n)|O(n)|build tree|
 |No.105|Construct Binary Tree from Inorder and Preorder Traversal|[Solution](./105/Solution.py)|[Note](./105/note.md)|Medium|O(n)|O(n)|build tree|
