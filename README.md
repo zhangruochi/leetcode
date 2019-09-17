@@ -126,7 +126,7 @@ Table of Contents
 |No.498|Diagonal Traverse|[Solution](./498/Solution.py)|[Note](./498/note.md)|Medium|O(n)|O(n)||
 |No.561|[Array Partition I](https://leetcode.com/problems/array-partition-i/)|[Solution](./561/Solution.py)|[Note](./561/note.md)|Easy|O(nlogn)|O(1)||
 |No.485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Solution](./485/Solution.py)|[Note](./485/note.md)|Easy|O(n)|O(1)||
-
+|No.1086|[High Five](https://leetcode.com/problems/high-five/)|[Solution](./1086/Solution.py)|[Note](./1086/note.md)|Easy|O(n^2logn)|O(n)||
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -443,6 +443,7 @@ Table of Contents
 ## SQL Schema
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.1068|Product Sales Analysis I|[Solution](./1068/Solution.py)|[Note](./1068/note.md)|Easy|O(n*n)|O(n*n)||
-|No.1069|Product Sales Analysis II|[Solution](./1069/Solution.py)|[Note](./1069/note.md)|Easy|O(n)|O(n)||
-|No.511|Game Play Analysis I|[Solution](./511/Solution.py)|[Note](./511/note.md)|Easy|O(n)|O(n)||
+|No.1068|[Product Sales Analysis I](https://leetcode.com/problems/product-sales-analysis-i/)|[Solution](./1068/Solution.py)|[Note](./1068/note.md)|Easy|O(n*n)|O(n*n)||
+|No.1069|[Product Sales Analysis II](https://leetcode.com/problems/product-sales-analysis-ii/)|[Solution](./1069/Solution.py)|[Note](./1069/note.md)|Easy|O(n)|O(n)||
+|No.511|[Game Play Analysis I](https://leetcode.com/problems/game-play-analysis-i/)|[Solution](./511/Solution.py)|[Note](./511/note.md)|Easy|O(n)|O(n)||
+|No.595|[Big Countries](https://leetcode.com/problems/big-countries/)|[Solution](./595/Solution.py)|[Note](./595/note.md)|Easy|O(n)|O(n)||
