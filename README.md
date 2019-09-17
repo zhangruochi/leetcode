@@ -162,6 +162,7 @@ Table of Contents
 |No.557| [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Solution](./557/Solution.py)|[Note](./557/note.md)|Easy|O(n)|O(1)||
 |No.1108| [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Solution](./1108/Solution.py)|[Note](./1108/note.md)|Easy|O(n)|O(1)||
 |No.1180| [Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[Solution](./1180/Solution.py)|[Note](./1180/note.md)|Easy|O(n)|O(1)||
+|No.1134| [Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[Solution](./1134/Solution.py)|[Note](./1134/note.md)|Easy|O(n)|O(1)||
 
 
 ## Linked List
@@ -320,7 +321,7 @@ Table of Contents
 |No.692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Solution](./692/Solution.py)|[Note](./692/note.md)|Medium|O(nlogn)|O(n)||
 |No.1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Solution](./1119/Solution.py)|[Note](./1119/note.md)|Easy|O(n)|O(1)||
 |No.1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Solution](./1165/Solution.py)|[Note](./1165/note.md)|Easy|O(n)|O(1)||
-
+|No.760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Solution](./760/Solution.py)|[Note](./760/note.md)|Easy|O(n)|O(n)||
 
 ## Sort
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
