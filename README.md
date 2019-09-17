@@ -25,6 +25,7 @@ Table of Contents
       * [Graph](#graph)
       * [BackTracking](#backtracking)
       * [Dynamic Programming](#dynamic-programming)
+      * [SQL Schema](#sql-schema)
       
 
 ## Complexity
@@ -159,6 +160,7 @@ Table of Contents
 |No.008| [String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)|[Solution](./008/Solution.py)|[Note](./008/note.md)|Meduim|O(n)|O(n)||
 |No.151| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Solution](./151/Solution.py)|[Note](./151/note.md)|Meduim|O(n)|O(n)||
 |No.557| [Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[Solution](./557/Solution.py)|[Note](./557/note.md)|Easy|O(n)|O(1)||
+|No.1108| [Defanging an IP Address](https://leetcode.com/problems/defanging-an-ip-address/)|[Solution](./1108/Solution.py)|[Note](./1108/note.md)|Easy|O(n)|O(1)||
 
 
 ## Linked List
@@ -315,6 +317,8 @@ Table of Contents
 |No.811|[ Subdomain Visit Count](https://leetcode.com/problems/subdomain-visit-count/)|[Solution](./811/Solution.py)|[Note](./811/note.md)|Easy|O(nm)|O(n)||
 |No.609|[ Find Duplicate File in System](https://leetcode.com/problems/find-duplicate-file-in-system/)|[Solution](./609/Solution.py)|[Note](./609/note.md)|Medium|O(nk)|O(n)||
 |No.692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/)|[Solution](./692/Solution.py)|[Note](./692/note.md)|Medium|O(nlogn)|O(n)||
+|No.1119|[Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/)|[Solution](./1119/Solution.py)|[Note](./1119/note.md)|Easy|O(n)|O(1)||
+|No.1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Solution](./1165/Solution.py)|[Note](./1165/note.md)|Easy|O(n)|O(1)||
 
 
 ## Sort
@@ -430,3 +434,9 @@ Table of Contents
 |No.845|Longest Mountain in Array|[Solution](./845/Solution.py)|[Note](./845/note.md)|Medium|O(n)|O(1)||
 |No.139|Longest Mountain in Array|[Solution](./139/Solution.py)|[Note](./139/note.md)|Medium|O(n)|O(1)||
 |No.300|Longest Increasing Subsequence|[Solution](./300/Solution.py)|[Note](./300/note.md)|Medium|O(nlogn)|O(1)||
+
+
+## SQL Schema
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.1068|Product Sales Analysis I|[Solution](./1068/Solution.py)|[Note](./1068/note.md)|Easy|O(n*n)|O(n*n)||
