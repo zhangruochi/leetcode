@@ -14,7 +14,7 @@
 - Divide & Conquer中治这一步要考虑清楚，本题三种情况
 - 如果left和right都有结果返回，说明root是最小公共祖先
 - 如果只有left有返回值，说明left的返回值是最小公共祖先
-- 如果只有root.right有返回值，说明root.right的返回值是最小公共祖先
+- 如果只有right有返回值，说明right的返回值是最小公共祖先
 
 
 ```Python
@@ -26,17 +26,13 @@
 #         self.right = None
 
 class Solution:
-    def lowestCommonAncestor(self, root, p, q):
-        """
-        :type root: TreeNode
-        :type p: TreeNode
-        :type q: TreeNode
-        :rtype: TreeNode
-        """
-        if not root:
-            return 
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        if not root: return 
+        
         if root == p or root == q:
             return root
+        
+        # p,q 一定分别在 lca 的左右子树
         
         l = self.lowestCommonAncestor(root.left,p,q)
         r = self.lowestCommonAncestor(root.right,p,q)
@@ -46,5 +42,5 @@ class Solution:
         elif l:
             return l
         else:
-            return root
+            return r
 ```
