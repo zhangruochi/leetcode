@@ -15,6 +15,7 @@ Table of Contents
       * [Recursion](#recursion)
       * [Queue](#queue)
       * [Binary Tree](#binary-tree)
+      * [Divide and Conquer](#divide-and-conquer)
       * [Hash Table](#hash-table)
       * [Sort](#sort)
       * [Heap](#heap)
@@ -130,6 +131,7 @@ Table of Contents
 |No.1086|[High Five](https://leetcode.com/problems/high-five/)|[Solution](./1086/Solution.py)|[Note](./1086/note.md)|Easy|O(n^2logn)|O(n)||
 |No.1064|[Fixed Point](https://leetcode.com/problems/fixed-point/)|[Solution](./1064/Solution.py)|[Note](./1064/note.md)|Easy|O(n)|O(n)||
 |No.832|[Fixed Point](https://leetcode.com/problems/flipping-an-image/)|[Solution](./832/Solution.py)|[Note](./832/note.md)|Easy|O(n)|O(n)||
+|No.053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](./053/Solution.py)|[Note](./053/note.md)|Easy|O(n)|O(n)|cum sum|
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -360,7 +362,6 @@ Table of Contents
 |No.475|Heaters|[Solution](./475/Solution.py)|[Note](./475/note.md)|Easy|O(nlogn)|O(1)||
 |No.744|Find Smallest Letter Greater Than Target|[Solution](./744/Solution.py)|[Note](./744/note.md)|Easy|O(n)|O(1)||
 |No.852|Peak Index in a Mountain Array|[Solution](./852/Solution.py)|[Note](./852/note.md)|Easy|O(n)|O(1)||
-|No.426|Convert Binary Search Tree to Sorted Doubly Linked List|[Solution](./426/Solution.py)|[Note](./426/note.md)|Medium|O(n)|O(1)||
 |No.050|Pow(x, n)|[Solution](./050/Solution.py)|[Note](./050/note.md)|Medium|O(logn)|O(1)||
 |No.153|Find Minimum in Rotated Sorted Array|[Solution](./153/Solution.py)|[Note](./153/note.md)|Medium|O(logn)|O(n)||
 
@@ -383,6 +384,7 @@ Table of Contents
 |No.783|[Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/)|[Solution](./783/Solution.py)|[Note](./783/note.md)|Easy|O(n)|O(1)||
 |No.501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/)|[Solution](./501/Solution.py)|[Note](./501/note.md)|Easy|O(n)|O(n)||
 |No.776|[Split BST](https://leetcode.com/problems/split-bst/)|[Solution](./776/Solution.py)|[Note](./776/note.md)|Medium|O(logn)|O(n)||
+|No.426|[Convert Binary Search Tree to Sorted Doubly Linked List](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/)|[Solution](./426/Solution.py)|[Note](./426/note.md)|Medium|O(n)|O(1)||
 
 
 ## N-ary Tree
@@ -428,6 +430,10 @@ Table of Contents
 |No.022|Generate Parentheses|[Solution](./022/Solution.py)|[Note](./022/note.md)|Medium|O(n!)|O(n)||
 |No.039|Combination Sum|[Solution](./039/Solution.py)|[Note](./039/note.md)|Medium|O(n!)|O(n)||
 
+
+## Divide and Conquer
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
 
 
 
