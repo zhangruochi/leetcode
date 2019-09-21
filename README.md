@@ -132,6 +132,8 @@ Table of Contents
 |No.1064|[Fixed Point](https://leetcode.com/problems/fixed-point/)|[Solution](./1064/Solution.py)|[Note](./1064/note.md)|Easy|O(n)|O(n)||
 |No.832|[Fixed Point](https://leetcode.com/problems/flipping-an-image/)|[Solution](./832/Solution.py)|[Note](./832/note.md)|Easy|O(n)|O(n)||
 |No.053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](./053/Solution.py)|[Note](./053/note.md)|Easy|O(n)|O(n)|cum sum|
+|No.240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Solution](./240/Solution.py)|[Note](./240/note.md)|Easy|O(N+M)|O(1)||
+|No.961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Solution](./961/Solution.py)|[Note](./961/note.md)|Easy|O(n)|O(n)||
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -169,6 +171,7 @@ Table of Contents
 |No.1180| [Count Substrings with Only One Distinct Letter](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/)|[Solution](./1180/Solution.py)|[Note](./1180/note.md)|Easy|O(n)|O(1)||
 |No.1134| [Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[Solution](./1134/Solution.py)|[Note](./1134/note.md)|Easy|O(n)|O(1)||
 |No.709| [To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Solution](./709/Solution.py)|[Note](./709/note.md)|Easy|O(n)|O(1)||
+|No.657| [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Solution](./657/Solution.py)|[Note](./657/note.md)|Easy|O(n)|O(n)||
 
 ## Linked List
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -434,8 +437,8 @@ Table of Contents
 ## Divide and Conquer
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.932|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|[Solution](./932/Solution.py)|[Note](./932/note.md)|Medium|O(n!)|O(n)||
-
+|No.932|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|[Solution](./932/Solution.py)|[Note](./932/note.md)|Medium|O(nlogn)|O(n)||
+|No.241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/)|[Solution](./241/Solution.py)|[Note](./241/note.md)|Medium|O(nlogn)|O(n)||
 
 
 ## Dynamic Programming
