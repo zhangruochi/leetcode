@@ -82,6 +82,7 @@ Table of Contents
 |No.371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Solution](./371/Solution.py)|[Note](./371/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
 |No.268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Solution](./268/Solution.py)|[Note](./268/note.md)|Easy|O(n)|O(1)|Bit Manipulation,Math|
 |No.1085|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Solution](./1085/Solution.py)|[Note](./1085/note.md)|Easy|O(n)|O(1)||
+|No.728|[Self Dividing Numbers](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Solution](./728/Solution.py)|[Note](./728/note.md)|Easy|O(nm)|O(1)||
 
 
 
@@ -134,6 +135,7 @@ Table of Contents
 |No.053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](./053/Solution.py)|[Note](./053/note.md)|Easy|O(n)|O(n)|cum sum|
 |No.240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Solution](./240/Solution.py)|[Note](./240/note.md)|Easy|O(N+M)|O(1)||
 |No.961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Solution](./961/Solution.py)|[Note](./961/note.md)|Easy|O(n)|O(n)||
+|No.977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Solution](./977/Solution.py)|[Note](./977/note.md)|Easy|O(n)|O(n)||
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -462,3 +464,4 @@ Table of Contents
 |No.595|[Big Countries](https://leetcode.com/problems/big-countries/)|[Solution](./595/Solution.py)|[Note](./595/note.md)|Easy|O(n)|O(n)||
 |No.1173|[Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/)|[Solution](./1173/Solution.py)|[Note](./1173/note.md)|Easy|O(n)|O(n)||
 |No.613|[Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/)|[Solution](./613/Solution.py)|[Note](./613/note.md)|Easy|O(n)|O(n)||
+|No.1050|[Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)|[Solution](./1050/Solution.py)|[Note](./1050/note.md)|Easy|O(n)|O(n)||
