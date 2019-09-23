@@ -248,6 +248,7 @@ Table of Contents
 |No.894|[All Possible Full Binary Trees](https://leetcode.com/problems/all-possible-full-binary-trees/)|[Solution](./894/Solution.py)|[Note](./894/note.md)|Easy|O(2^N)|O(n)||
 |No.1137|[N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number/)|[Solution](./1137/Solution.py)|[Note](./1137/note.md)|Easy|O(n)|O(n)||
 |No.544|[Output Contest Matches](https://leetcode.com/problems/output-contest-matches/)|[Solution](./544/Solution.py)|[Note](./544/note.md)|Medium|O(n)|O(n)||
+|No.247|[Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/)|[Solution](./247/Solution.py)|[Note](./247/note.md)|Medium|O(n)|O(n)||
 
 
 
@@ -347,7 +348,7 @@ Table of Contents
 |No.253|Meeting Rooms II|[Solution](./253/Solution.py)|[Note](./253/note.md)|Medium|O(nlogn)|O(n)||
 |No.347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Solution](./347/Solution.py)|[Note](./347/note.md)|Medium|O(nlogn)|O(n)||
 |No.581|Shortest Unsorted Continuous Subarray|[Solution](./581/Solution.py)|[Note](./581/note.md)|Easy|O(nlogn)|O(n)||
-
+|No.1051|Height Checker|[Solution](./1051/Solution.py)|[Note](./1051/note.md)|Easy|O(nlogn)|O(n)||
 
 ## Heap
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -465,3 +466,5 @@ Table of Contents
 |No.1173|[Immediate Food Delivery I](https://leetcode.com/problems/immediate-food-delivery-i/)|[Solution](./1173/Solution.py)|[Note](./1173/note.md)|Easy|O(n)|O(n)||
 |No.613|[Shortest Distance in a Line](https://leetcode.com/problems/shortest-distance-in-a-line/)|[Solution](./613/Solution.py)|[Note](./613/note.md)|Easy|O(n)|O(n)||
 |No.1050|[Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)|[Solution](./1050/Solution.py)|[Note](./1050/note.md)|Easy|O(n)|O(n)||
+|No.627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|[Solution](./627/Solution.py)|[Note](./627/note.md)|Easy|O(n)|O(1)||
+|No.1082|[Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/)|[Solution](./1082/Solution.py)|[Note](./1082/note.md)|Easy|O(n)|O(1)||
