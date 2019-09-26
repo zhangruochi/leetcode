@@ -15,6 +15,54 @@ Input:
 Output:  [1,2,4,7,5,3,6,8,9]
 """
 
+class Solution:
+    def findDiagonalOrder(self, matrix: List[List[int]]) -> List[int]:
+        
+        if not matrix or not matrix[0]: return []
+        
+        i = j = 0
+        direction = 1
+        M,N = len(matrix)-1,len(matrix[0])-1
+        res = []
+        count = 0
+        while count < (M+1)*(N+1):
+            res.append(matrix[i][j])
+            count += 1
+            if i == 0 and direction == 1:
+                direction = 0
+                if j == N:
+                    i += 1
+                else:
+                    j += 1
+                continue
+                
+            if j == 0 and direction == 0:
+                direction = 1
+                if i == M:
+                    j += 1
+                else:
+                     i+= 1
+                continue
+                
+            if i == M and direction == 0:
+                direction = 1
+                j += 1
+                continue
+                
+            if j == N and direction == 1:
+                direction = 0
+                i += 1
+                continue
+                
+            if direction == 0:
+                i += 1
+                j -= 1
+            else:
+                i -= 1
+                j += 1
+        return res
+                
+
 
 class Solution:
     def findDiagonalOrder(self, matrix):

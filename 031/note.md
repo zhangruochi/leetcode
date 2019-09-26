@@ -95,3 +95,5 @@ class Solution:
         self.quick_sort(nums,i+1,len(nums)-1)
 ```
 
+
+
