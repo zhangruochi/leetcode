@@ -23,6 +23,8 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
 #         self.left = None
 #         self.right = None
 
+
+
 class Solution(object):
     def preorderTraversal(self, root):
         """
@@ -40,3 +42,26 @@ class Solution(object):
             if cur.left:
                 stack.append(cur.left)
         return result
+
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
+        stack = []
+        res = []
+        while stack or root:
+            while root:
+                res.append(root.val)
+                stack.append(root)
+                root = root.left
+            
+            root = stack.pop().right
+        
+        return res
+        

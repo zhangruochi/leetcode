@@ -43,6 +43,23 @@ class Solution:
                 i -= 1
 
         return count
+
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        count = 0
+        flag = True
+        for i in range(len(s)-1,-1,-1):
+            if flag and s[i] == ' ':
+                continue
+            
+            if  ord('a') <= ord(s[i]) <= ord('z') or ord('A') <= ord(s[i]) <= ord('Z'):
+                count += 1
+                flag = False
+            
+            if s[i] == ' ':
+                break
+        
+        return count
       
 
 

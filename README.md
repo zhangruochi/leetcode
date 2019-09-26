@@ -143,7 +143,7 @@ Table of Contents
 |No.014|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[Solution](./014/Solution.py)|[Note](./014/note.md)|Easy|O(n)|O(1)|String|
 |No.028|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)|[Solution](./028/Solution.py)|[Note](./028/note.md)|Easy|O(n + k)|O(1)|kmp|
 |No.038|[Count and Say](https://leetcode.com/problems/count-and-say/)|[Solution](./038/Solution.py)|[Note](./038/note.md)|Easy|O(n * 2)|O(1)|iteration|
-|No.058|Length of Last Word|[Solution](./058/Solution.py)|[Note](./058/note.md)|Easy|O(n)|O(1)|count from back|
+|No.058|[Length of Last Word](https://leetcode.com/problems/length-of-last-word/)|[Solution](./058/Solution.py)|[Note](./058/note.md)|Easy|O(n)|O(1)|count from back|
 |No.067|[Add Binary](https://leetcode.com/problems/add-binary/)|[Solution](./067/Solution.py)|[Note](./067/note.md)|Easy|O(n)|O(1)|construction number|
 |No.125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)|[Solution](./125/Solution.py)|[Note](./125/note.md)|Easy|O(n)|O(n)||
 |No.165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Solution](./165/Solution.py)|[Note](./165/note.md)|Easy|O(n)|O(n)||
@@ -275,14 +275,14 @@ Table of Contents
 |No.606|[Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/)|[Solution](./606/Solution.py)|[Note](./606/note.md)|Easy|O(n)|O(h)||
 |No.572|[Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)|[Solution](./572/Solution.py)|[Note](./572/note.md)|Easy|O(n)|O(h)||
 |No.563|[Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)|[Solution](./563/Solution.py)|[Note](./563/note.md)|Easy|O(n^2)|||
-|No.094|Binary Tree Inorder Traversal|[Solution](./094/Solution.py)|[Note](./094/note.md)|Medium|O(n)|O(n)|Inorder Traversal|
+|No.094|[Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)|[Solution](./094/Solution.py)|[Note](./094/note.md)|Medium|O(n)|O(n)|Inorder Traversal|
 |No.112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Solution](./112/Solution.py)|[Note](./112/note.md)|Easy|O(n)|O(1)|DFS|
 |No.257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
-|No.144|Binary Tree Preorder Traversal|[Solution](./144/Solution.py)|[Note](./144/note.md)|Medium|O(n)|O(n)|iteration traverse|
+|No.144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Solution](./144/Solution.py)|[Note](./144/note.md)|Medium|O(n)|O(n)|iteration traverse|
 |No.94|Binary Tree Inorder Traversal|[Solution](./94/Solution.py)|[Note](./94/note.md)|Medium|O(n)|O(n)|iteration traverse|
-|No.145|Binary Tree Postorder Traversal|[Solution](./145/Solution.py)|[Note](./145/note.md)|Hard|O(n)|O(n)|iteration traverse|
+|No.145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[Solution](./145/Solution.py)|[Note](./145/note.md)|Hard|O(n)|O(n)|iteration traverse|
 |No.102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Solution](./102/Solution.py)|[Note](./102/note.md)|Medium|O(n)|O(n)|iteration traverse|
-|No.250|Count Univalue Subtrees|[Solution](./250/Solution.py)|[Note](./250/note.md)|Medium|O(n)|O(n)||
+|No.250|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|[Solution](./250/Solution.py)|[Note](./250/note.md)|Medium|O(n)|O(n)||
 |No.106|Construct Binary Tree from Inorder and Postorder Traversal|[Solution](./106/Solution.py)|[Note](./106/note.md)|Medium|O(n)|O(n)|build tree|
 |No.105|Construct Binary Tree from Inorder and Preorder Traversal|[Solution](./105/Solution.py)|[Note](./105/note.md)|Medium|O(n)|O(n)|build tree|
 |No.116|Populating Next Right Pointers in Each Node|[Solution](./116/Solution.py)|[Note](./116/note.md)|Medium|O(n)|O(n)||
