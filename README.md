@@ -223,10 +223,10 @@ Table of Contents
 |No.225|[Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](./225/Solution.py)|[Note](./225/note.md)|Easy|O(n)|O(n)||
 |No.341|[Flatten Nested List Iterator](https://leetcode.com/problems/implement-stack-using-queues/)|[Solution](./341/Solution.py)|[Note](./341/note.md)|Easy|O(n)|O(n)||
 |No.439|[Ternary Expression Parser](https://leetcode.com/problems/ternary-expression-parser/)|[Solution](./439/Solution.py)|[Note](./439/note.md)|Medium|O(n)|O(n)||
-|No.042|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/](./042/Solution.py)|[Note](./042/note.md)|Hard|O(n)|O(n)||
-|No.084|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/](./084/Solution.py)|[Note](./084/note.md)|Hard|O(n)|O(n)||
-|No.496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/](./496/Solution.py)|[Note](./496/note.md)|Easy|O(n)|O(n)||
-|No.1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/](./1021/Solution.py)|[Note](./1021/note.md)|Easy|O(n)|O(n)||
+|No.042|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/)|[Solution](./042/Solution.py)|[Note](./042/note.md)|Hard|O(n)|O(n)||
+|No.084|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|Solution](./084/Solution.py)|[Note](./084/note.md)|Hard|O(n)|O(n)||
+|No.496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Solution]](./496/Solution.py)|[Note](./496/note.md)|Easy|O(n)|O(n)||
+|No.1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|Solution](./1021/Solution.py)|[Note](./1021/note.md)|Easy|O(n)|O(n)||
 
 
 
@@ -436,6 +436,7 @@ Table of Contents
 |No.022|Generate Parentheses|[Solution](./022/Solution.py)|[Note](./022/note.md)|Medium|O(n!)|O(n)||
 |No.039|Combination Sum|[Solution](./039/Solution.py)|[Note](./039/note.md)|Medium|O(n!)|O(n)||
 |No.784|[Combination Sum](https://leetcode.com/problems/letter-case-permutation/)|[Solution](./784/Solution.py)|[Note](./784/note.md)|Easy|O(n*2)|O(n) + O(n*2)||
+|No.1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[Solution](./1079/Solution.py)|[Note](./1079/note.md)|Easy|O(2*n)|O(2*n)||
 
 
 ## Divide and Conquer
