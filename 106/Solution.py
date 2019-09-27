@@ -39,3 +39,32 @@ class Solution:
         root.left = self.buildTree(inorder[:index],postorder)
         
         return root
+
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def buildTree(self, inorder: List[int], postorder: List[int]) -> TreeNode:
+        if not inorder or not postorder: return None
+       
+        def helper(left_index,right_index):
+            if left_index > right_index:
+                return 
+            
+            root = TreeNode(postorder.pop())
+            mid = id_index[root.val]
+            
+            root.right = helper(mid+1,right_index)
+            root.left = helper(left_index,mid-1)
+            
+            return root
+        
+        id_index = {num:index for index,num in enumerate(inorder)}
+       
+        
+        return helper(0,len(inorder)-1)

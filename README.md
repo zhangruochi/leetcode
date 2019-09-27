@@ -279,11 +279,10 @@ Table of Contents
 |No.112|[Path Sum](https://leetcode.com/problems/path-sum/)|[Solution](./112/Solution.py)|[Note](./112/note.md)|Easy|O(n)|O(1)|DFS|
 |No.257|[Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/)|[Solution](./257/Solution.py)|[Note](./257/note.md)|Easy|O(n)|O(1)|DFS|
 |No.144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)|[Solution](./144/Solution.py)|[Note](./144/note.md)|Medium|O(n)|O(n)|iteration traverse|
-|No.94|Binary Tree Inorder Traversal|[Solution](./94/Solution.py)|[Note](./94/note.md)|Medium|O(n)|O(n)|iteration traverse|
 |No.145|[Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/)|[Solution](./145/Solution.py)|[Note](./145/note.md)|Hard|O(n)|O(n)|iteration traverse|
 |No.102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Solution](./102/Solution.py)|[Note](./102/note.md)|Medium|O(n)|O(n)|iteration traverse|
 |No.250|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|[Solution](./250/Solution.py)|[Note](./250/note.md)|Medium|O(n)|O(n)||
-|No.106|Construct Binary Tree from Inorder and Postorder Traversal|[Solution](./106/Solution.py)|[Note](./106/note.md)|Medium|O(n)|O(n)|build tree|
+|No.106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Solution](./106/Solution.py)|[Note](./106/note.md)|Medium|O(n)|O(n)|build tree|
 |No.105|Construct Binary Tree from Inorder and Preorder Traversal|[Solution](./105/Solution.py)|[Note](./105/note.md)|Medium|O(n)|O(n)|build tree|
 |No.116|Populating Next Right Pointers in Each Node|[Solution](./116/Solution.py)|[Note](./116/note.md)|Medium|O(n)|O(n)||
 |No.117|Populating Next Right Pointers in Each Node II|[Solution](./117/Solution.py)|[Note](./117/note.md)|Medium|O(n)|O(n)||
