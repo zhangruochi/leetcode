@@ -25,3 +25,30 @@ Y A   H R
 P     I
 """
 
+
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+        
+        if not s or numRows == 1: return s
+        
+        res = [[] for i in range(numRows)]
+        index = 0
+        i = 0
+        while index < len(s):
+            while index < len(s) and i < numRows:
+                res[i].append(s[index])
+                i += 1
+                index += 1
+            else:
+                i -= 1
+            
+            
+            while index < len(s) and i > 0:
+                i -= 1
+                res[i].append(s[index])
+                index += 1
+            else:
+                i += 1
+            
+        
+        return "".join(["".join(item) for item in res])
