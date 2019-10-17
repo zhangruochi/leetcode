@@ -113,3 +113,46 @@ def BFS_short_path(Graph,src):
 
 BFS_short_path(Graph2,1)
 ```
+
+
+
+```python
+from collections import deque
+
+def BFS(graph, s, t):
+    visited = [None] * len(graph)
+    prev = [-1] * len(graph)
+    queue = deque()
+
+    queue.append(s)
+    visited[s] = True
+
+    while queue:
+        s = queue.popleft()
+        for node in graph[s]:
+            if not visited[node]:
+                prev[node] = s
+                if node == t:
+                    return prev
+                visited[node] = True
+                queue.append(node)
+
+    return None
+
+
+def print_path(prev,s,t):
+    if prev[t] != -1 and s != t:
+        print_path(prev,s, prev[t])
+    print(str(t), end = " ")
+
+
+
+
+if __name__ == '__main__':
+    g = {0:[1,3],1:[0,2,4],2:[1,5],3:[0,4],4:[1,3,5,6],5:[2,4,7],6:[4,7],7:[5,6]}
+    prev = BFS(g,0,7)
+    print_path(prev,0,7)
+```
+1. visited是用来记录已经被访问的顶点，用来避免顶点被重复访问。如果顶点 q 被访问，那相应的 visited[q] 会被设置为 true。
+2. queue是一个队列，用来存储已经被访问、但相连的顶点还没有被访问的顶点。因为广度优先搜索是逐层访问的，也就是说，我们只有把第 k 层的顶点都访问完成之后，才能访问第 k+1 层的顶点。当我们访问到第 k 层的顶点的时候，我们需要把第 k 层的顶点记录下来，稍后才能通过第 k 层的顶点来找第 k+1 层的顶点。所以，我们用这个队列来实现记录的功能。
+3. prev用来记录搜索路径。当我们从顶点 s 开始，广度优先搜索到顶点 t 后，prev 数组中存储的就是搜索的路径。不过，这个路径是反向存储的。prev[w] 存储的是，顶点 w 是从哪个前驱顶点遍历过来的。比如，我们通过顶点 2 的邻接表访问到顶点 3，那 prev[3] 就等于 2。为了正向打印出路径，我们需要递归地来打印，你可以看下 print() 函数的实现方式。
