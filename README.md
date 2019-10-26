@@ -302,6 +302,7 @@ Table of Contents
 |No.701|[Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/)|[Solution](./701/Solution.py)|[Note](./701/note.md)|Medium|O(logn)|O(n)||
 |No.814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[Solution](./814/Solution.py)|[Note](./814/note.md)|Medium|O(logn)|O(n)||
 |No.655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[Solution](./655/Solution.py)|[Note](./655/note.md)|Medium|O(n)|O(n)||
+|No.988|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|[Solution](./988/Solution.py)|[Note](./988/note.md)|Medium|O(n)|O(n)||
 
 
 ## Hash Table
