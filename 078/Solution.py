@@ -33,3 +33,21 @@ class Solution:
         return ans
             
             
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        def helper(pos,num):
+            nonlocal res
+            if pos == len(nums):
+                return 
+            for i in range(pos, len(nums)):
+                num.append(nums[i])
+                res.append(num[:])
+                helper(i+1, num)
+                num.pop()
+        
+        helper(0,[])
+        res.append([])
+        
+        
+        return res
