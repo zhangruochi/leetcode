@@ -25,6 +25,7 @@ Table of Contents
       * [N-ary Tree](#n-ary-tree)
       * [Graph](#graph)
       * [BackTracking](#backtracking)
+      * [DFS](#dfs)
       * [Dynamic Programming](#dynamic-programming)
       * [SQL Schema](#sql-schema)
       
@@ -440,6 +441,11 @@ Table of Contents
 |No.784|[Combination Sum](https://leetcode.com/problems/letter-case-permutation/)|[Solution](./784/Solution.py)|[Note](./784/note.md)|Easy|O(n*2)|O(n) + O(n*2)||
 |No.1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[Solution](./1079/Solution.py)|[Note](./1079/note.md)|Easy|O(2*n)|O(2*n)||
 
+
+## Data Structure
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.1145|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|[Solution](./1145/Solution.py)|[Note](./1145/note.md)|Medium|O(n)|O(1)||
 
 ## Divide and Conquer
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
