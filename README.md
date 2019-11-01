@@ -304,6 +304,7 @@ Table of Contents
 |No.814|[Binary Tree Pruning](https://leetcode.com/problems/binary-tree-pruning/)|[Solution](./814/Solution.py)|[Note](./814/note.md)|Medium|O(logn)|O(n)||
 |No.655|[Print Binary Tree](https://leetcode.com/problems/print-binary-tree/)|[Solution](./655/Solution.py)|[Note](./655/note.md)|Medium|O(n)|O(n)||
 |No.988|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|[Solution](./988/Solution.py)|[Note](./988/note.md)|Medium|O(n)|O(n)||
+|No.1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Solution](./1123/Solution.py)|[Note](./1123/note.md)|Medium|O(n)|O(n)||
 
 
 ## Hash Table
