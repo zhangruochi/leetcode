@@ -432,10 +432,10 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.017|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)|[Solution](./017/Solution.py)|[Note](./017/note.md)|Medium|O(n)|O(n)||
-|No.093|Restore IP Addresses|[Solution](./093/Solution.py)|[Note](./093/note.md)|Medium|O(n^4)|O(n)||
+|No.093|[Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)|[Solution](./093/Solution.py)|[Note](./093/note.md)|Medium|O(n^4)|O(n)||
 |No.078|[Subset](https://leetcode.com/problems/subsets/)|[Solution](./078/Solution.py)|[Note](./078/note.md)|Medium|O(2^n)|O(n)||
 |No.078|[SubsetII](https://leetcode.com/problems/subsets-ii/)|[Solution](./090/Solution.py)|[Note](./090/note.md)|Medium|O(2^n)|O(n)||
-|No.046|Permutations|[Solution](./046/Solution.py)|[Note](./046/note.md)|Medium|O(n!)|O(n)||
+|No.046|[Permutations](https://leetcode.com/problems/permutations/)|[Solution](./046/Solution.py)|[Note](./046/note.md)|Medium|O(n!)|O(n)||
 |No.047|PermutationsII|[Solution](./047/Solution.py)|[Note](./047/note.md)|Medium|O(n!)|O(n)||
 |No.079|Word Search|[Solution](./079/Solution.py)|[Note](./079/note.md)|Medium|O(n^2)|O(n)||
 |No.022|Generate Parentheses|[Solution](./022/Solution.py)|[Note](./022/note.md)|Medium|O(n!)|O(n)||

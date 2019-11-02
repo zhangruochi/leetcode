@@ -34,6 +34,31 @@ class Solution:
         return list(permutations(nums,len(nums)))
 
 
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        
+        res = []
+        if not nums:
+            return res
+        
+        def helper(nums,item, visited):
+            if len(item) == len(nums):
+                res.append(item[:])
+                return 
+            
+            for num in nums:
+                if num not in visited:
+                    visited.add(num)
+                    item.append(num)
+                    helper(nums,item, visited)
+                    item.pop()
+                    visited.remove(num)
+                    
+        helper(nums,[],set())
+        return res
+                                
+
+
 if __name__ == '__main__':
     solution = Solution()
     for item in solution.permute([1,2,3,4]):
