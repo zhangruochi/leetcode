@@ -61,3 +61,34 @@ class Solution:
         backtrack(0)
         #dfs(0,"")
         return ans
+
+
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+        graph = {   '2': ['a','b','c'],
+                    '3': ['d','e','f'],
+                    '4': ['g','h','i'],
+                    '5': ['j','k','l'],
+                    '6': ['m','n','o'],
+                    '7': ['p','q','r','s'],
+                    '8': ['t','u','v'],
+                    '9': ['w','x','y','z']
+                }
+        
+        res = []
+        
+        def helper(digits,path):
+            
+            if not digits:
+                res.append(path)
+                return 
+            
+            for char in graph[digits[-1]]:
+                item = digits.pop()
+                helper(digits,path+char)
+                digits.append(item)
+                
+            return res
+            
+        
+        return helper(list(digits)[::-1],"")
