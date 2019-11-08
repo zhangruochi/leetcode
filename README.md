@@ -438,7 +438,7 @@ Table of Contents
 |No.078|[Subset](https://leetcode.com/problems/subsets/)|[Solution](./078/Solution.py)|[Note](./078/note.md)|Medium|O(2^n)|O(n)||
 |No.078|[SubsetII](https://leetcode.com/problems/subsets-ii/)|[Solution](./090/Solution.py)|[Note](./090/note.md)|Medium|O(2^n)|O(n)||
 |No.046|[Permutations](https://leetcode.com/problems/permutations/)|[Solution](./046/Solution.py)|[Note](./046/note.md)|Medium|O(n!)|O(n)||
-|No.047|PermutationsII|[Solution](./047/Solution.py)|[Note](./047/note.md)|Medium|O(n!)|O(n)||
+|No.047|[PermutationsII](https://leetcode.com/problems/permutations-ii/)|[Solution](./047/Solution.py)|[Note](./047/note.md)|Medium|O(n!)|O(n)||
 |No.079|Word Search|[Solution](./079/Solution.py)|[Note](./079/note.md)|Medium|O(n^2)|O(n)||
 |No.022|Generate Parentheses|[Solution](./022/Solution.py)|[Note](./022/note.md)|Medium|O(n!)|O(n)||
 |No.039|Combination Sum|[Solution](./039/Solution.py)|[Note](./039/note.md)|Medium|O(n!)|O(n)||
