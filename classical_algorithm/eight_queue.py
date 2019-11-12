@@ -67,6 +67,7 @@ if __name__ == '__main__':
     board = [[0]*4 for i in range(4)]
     result = []
     eightqueue2(board,0)
+    print(result)
     ans = generate3d(result)
     for answer in ans:
         print(answer)

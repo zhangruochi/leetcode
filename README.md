@@ -451,6 +451,7 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.1145|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|[Solution](./1145/Solution.py)|[Note](./1145/note.md)|Medium|O(n)|O(1)||
 |No.863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[Solution](./863/Solution.py)|[Note](./863/note.md)|Medium|O(n)|O(n)||
+|No.1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Solution](./1034/Solution.py)|[Note](./1034/note.md)|Medium|O(n)|O(n)||
 
 
 ## Divide and Conquer
