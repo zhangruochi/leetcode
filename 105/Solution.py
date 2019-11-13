@@ -44,3 +44,38 @@ class Solution:
             return None
         preorder.reverse()
         return self.recursive(preorder,inorder)
+
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
+class Solution:
+    def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
+        
+        if not preorder or not inorder:
+            return 
+        
+    
+        root_indx = {node:index for index, node in enumerate(inorder)}
+        preorder = preorder[::-1]
+
+        def tree_build(left,right):
+            nonlocal preorder,inorder
+            
+            if not preorder or left >= right:
+                return 
+            
+            root = TreeNode(preorder.pop())
+            indx = root_indx[root.val]
+            
+            root.left = tree_build(left,indx)
+            root.right = tree_build(indx+1,right)
+            
+            return root
+            
+        
+        return tree_build(0,len(preorder))
