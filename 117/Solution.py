@@ -57,5 +57,45 @@ class Solution:
         for level,nodes in table.items():
             for i in range(len(nodes)-1):
                 nodes[i].next = nodes[i+1]
+
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val, left, right, next):
+        self.val = val
+        self.left = left
+        self.right = right
+        self.next = next
+"""
+from collections import deque
+class Solution:
+    def connect(self, root: 'Node') -> 'Node':
+        
+        if not root:
+            return 
+        
+        res = root
+        prev = None
+        level = 0
+        queue = deque([(root,level)])
+        visited = set()
+        
+        while queue :
+            root,level = queue.popleft()
+            
+            if level not in visited:
+                visited.add(level)
+                prev = root
+            else:
+                root.next = prev
+                prev = root
+                
+            if root.right:
+                queue.append((root.right,level+1))
+            if root.left:
+                queue.append((root.left,level+1))
+                
+        return res
                 
             
