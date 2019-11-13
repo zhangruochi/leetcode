@@ -18,7 +18,6 @@ class Solution:
             left.next = right       
             helper(left.left,left.right)
             helper(right.left,right.right)
-            
             helper(left.right,right.left)
 
             

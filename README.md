@@ -286,8 +286,8 @@ Table of Contents
 |No.102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)|[Solution](./102/Solution.py)|[Note](./102/note.md)|Medium|O(n)|O(n)|iteration traverse|
 |No.250|[Count Univalue Subtrees](https://leetcode.com/problems/count-univalue-subtrees/)|[Solution](./250/Solution.py)|[Note](./250/note.md)|Medium|O(n)|O(n)||
 |No.106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)|[Solution](./106/Solution.py)|[Note](./106/note.md)|Medium|O(n)|O(n)|build tree|
-|No.105|Construct Binary Tree from Inorder and Preorder Traversal|[Solution](./105/Solution.py)|[Note](./105/note.md)|Medium|O(n)|O(n)|build tree|
-|No.116|Populating Next Right Pointers in Each Node|[Solution](./116/Solution.py)|[Note](./116/note.md)|Medium|O(n)|O(n)||
+|No.105|[Construct Binary Tree from Inorder and Preorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)|[Solution](./105/Solution.py)|[Note](./105/note.md)|Medium|O(n)|O(n)|build tree|
+|No.116|[Populating Next Right Pointers in Each Node](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)|[Solution](./116/Solution.py)|[Note](./116/note.md)|Medium|O(n)|O(n)||
 |No.117|Populating Next Right Pointers in Each Node II|[Solution](./117/Solution.py)|[Note](./117/note.md)|Medium|O(n)|O(n)||
 |No.236|[Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)|[Solution](./236/Solution.py)|[Note](./236/note.md)|Medium|O(n^2)|O(n)||
 |No.100|[Same Tree](https://leetcode.com/problems/same-tree/)|[Solution](./100/Solution.py)|[Note](./100/note.md)|Medium|O(n)|O(1)||
