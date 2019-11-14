@@ -74,14 +74,57 @@ class WordDictionary:
         recursive(word,self.trie)
         return flag
         
+
+# Your WordDictionary object will be instantiated and called as such:
+# obj = WordDictionary()
+# obj.addWord(word)
+# param_2 = obj.search(word)
+
+
+class WordDictionary:
+
+    def __init__(self):
+        """
+        Initialize your data structure here.
+        """
+        self.trie = {}
         
-                
-                
-                
-        
-                
-                
-        
+
+    def addWord(self, word: str) -> None:
+        """
+        Adds a word into the data structure.
+        """
+        trie = self.trie
+        for i in range(len(word)):
+            trie = trie.setdefault(word[i],{})
+        trie["#"] = "#"
+    
+
+    def search(self, word: str) -> bool:
+        """
+        Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter.
+        """
+        def helper(word,depth,trie):
+
+            if depth >= len(word):
+                return True if "#" in trie else False
+            else:
+                if trie == {"#":"#"}:
+                    return False
+                elif word[depth] == ".":
+                    for key,trie in trie.items():
+                        if key == "#":
+                            continue
+                        if helper(word,depth+1,trie):
+                            return True
+                    return False
+                else:
+                    if word[depth] not in trie:
+                        return False
+                    else:
+                        return helper(word,depth+1,trie[word[depth]])
+                    
+        return helper(word,0,self.trie)
 
 
 # Your WordDictionary object will be instantiated and called as such:
