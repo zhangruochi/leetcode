@@ -176,6 +176,7 @@ Table of Contents
 |No.1134| [Armstrong Number](https://leetcode.com/problems/armstrong-number/)|[Solution](./1134/Solution.py)|[Note](./1134/note.md)|Easy|O(n)|O(1)||
 |No.709| [To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Solution](./709/Solution.py)|[Note](./709/note.md)|Easy|O(n)|O(1)||
 |No.657| [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Solution](./657/Solution.py)|[Note](./657/note.md)|Easy|O(n)|O(n)||
+|No.1221| [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[Solution](./1221/Solution.py)|[Note](./1221/note.md)|Easy|O(n)|O(1)||
 
 ## Linked List
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -340,6 +341,7 @@ Table of Contents
 |No.1165|[Single-Row Keyboard](https://leetcode.com/problems/single-row-keyboard/)|[Solution](./1165/Solution.py)|[Note](./1165/note.md)|Easy|O(n)|O(1)||
 |No.760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Solution](./760/Solution.py)|[Note](./760/note.md)|Easy|O(n)|O(n)||
 |No.804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Solution](./804/Solution.py)|[Note](./804/note.md)|Easy|O(n)|O(n)||
+|No.1252|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|[Solution](./1252/Solution.py)|[Note](./1252/note.md)|Easy|O(n^2)|O(n)||
 
 
 ## Sort
