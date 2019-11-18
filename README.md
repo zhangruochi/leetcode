@@ -474,6 +474,7 @@ Table of Contents
 |No.139|Longest Mountain in Array|[Solution](./139/Solution.py)|[Note](./139/note.md)|Medium|O(n)|O(1)||
 |No.300|Longest Increasing Subsequence|[Solution](./300/Solution.py)|[Note](./300/note.md)|Medium|O(nlogn)|O(1)||
 |No.198|[House Robber](https://leetcode.com/problems/house-robber/)|[Solution](./198/Solution.py)|[Note](./198/note.md)|Easy|O(n)|O(n)||
+|No.746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Solution](./746/Solution.py)|[Note](./746/note.md)|Easy|O(n)|O(n)||
 
 
 ## SQL Schema
