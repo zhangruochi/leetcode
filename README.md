@@ -476,6 +476,7 @@ Table of Contents
 |No.198|[House Robber](https://leetcode.com/problems/house-robber/)|[Solution](./198/Solution.py)|[Note](./198/note.md)|Easy|O(n)|O(n)||
 |No.746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Solution](./746/Solution.py)|[Note](./746/note.md)|Easy|O(n)|O(n)||
 |No.790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|[Solution](./790/Solution.py)|[Note](./790/note.md)|Medium|O(n)|O(n)||
+|No.801|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|[Solution](./801/Solution.py)|[Note](./801/note.md)|Medium|O(n)|O(n)||
 
 
 ## SQL Schema
