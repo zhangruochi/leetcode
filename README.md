@@ -40,8 +40,6 @@ Table of Contents
 | Graph| [NOTE](./classical_algorithm/Graph.md)
 | [Trie](./classical_algorithm/Trie.py)|[NOTE](./classical_algorithm/Trie.md)
 | [Union Find](./classical_algorithm/UnionFind.py)|[NOTE](./classical_algorithm/UnionFind.md)
-| BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
-| [Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
 | [Queue](./classical_algorithm/queue.py) | [NOTE](./classical_algorithm/queue.md)
 
 
@@ -59,6 +57,8 @@ Table of Contents
 | [Dynamic Programming](./classical_algorithm/DP.py)|[NOTE](./classical_algorithm/DP.md)
 | [Eight Queue](./classical_algorithm/eight_queue.py)|Backtracking
 | [Hamilton circuit](./classical_algorithm/hamilton.py)|Backtracking
+| BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
+| [Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
 
 
 
@@ -376,7 +376,7 @@ Table of Contents
 |No.475|Heaters|[Solution](./475/Solution.py)|[Note](./475/note.md)|Easy|O(nlogn)|O(1)||
 |No.744|Find Smallest Letter Greater Than Target|[Solution](./744/Solution.py)|[Note](./744/note.md)|Easy|O(n)|O(1)||
 |No.852|Peak Index in a Mountain Array|[Solution](./852/Solution.py)|[Note](./852/note.md)|Easy|O(n)|O(1)||
-|No.050|Pow(x, n)|[Solution](./050/Solution.py)|[Note](./050/note.md)|Medium|O(logn)|O(1)||
+|No.050|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Solution](./050/Solution.py)|[Note](./050/note.md)|Medium|O(logn)|O(1)||
 |No.153|Find Minimum in Rotated Sorted Array|[Solution](./153/Solution.py)|[Note](./153/note.md)|Medium|O(logn)|O(n)||
 
 
@@ -467,12 +467,13 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.091|Decode Ways|[Solution](./091/Solution.py)|[Note](./091/note.md)|Medium|O(n)|O(1)||
-|No.062|Unique Paths|[Solution](./062/Solution.py)|[Note](./062/note.md)|Medium|O(n^2)|O(n)||
+|No.062|[Unique Paths](https://leetcode.com/problems/unique-paths/)|[Solution](./062/Solution.py)|[Note](./062/note.md)|Medium|O(n^2)|O(n)||
 |No.070|Combing Stairs|[Solution](./070/Solution.py)|[Note](./070/note.md)|Medium|O(n)|O(n)||
 |No.926|Flip String to Monotone Increasing|[Solution](./926/Solution.py)|[Note](./926/note.md)|Medium|O(n)|O(n)||
 |No.845|Longest Mountain in Array|[Solution](./845/Solution.py)|[Note](./845/note.md)|Medium|O(n)|O(1)||
 |No.139|Longest Mountain in Array|[Solution](./139/Solution.py)|[Note](./139/note.md)|Medium|O(n)|O(1)||
 |No.300|Longest Increasing Subsequence|[Solution](./300/Solution.py)|[Note](./300/note.md)|Medium|O(nlogn)|O(1)||
+|No.198|[House Robber](https://leetcode.com/problems/house-robber/)|[Solution](./198/Solution.py)|[Note](./198/note.md)|Easy|O(n)|O(n)||
 
 
 ## SQL Schema

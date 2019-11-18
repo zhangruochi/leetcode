@@ -55,3 +55,28 @@ class Solution:
             return 1/rec_pow(x,n,memo)
         else:
             return rec_pow(x,n,memo)
+
+class Solution:
+    def myPow(self, x: float, n: int) -> float:
+        if n == 0:
+            return 1
+        memory = {}
+        
+        def helper(x,n):
+            nonlocal memory 
+            if n == 1:
+                return x
+            
+            if n in memory:
+                return memory[n]
+            
+            if n % 2 == 0:
+                res =  helper(x,n//2) * helper(x, n//2)
+            else:
+                res =  helper(x,n//2) * helper(x, n//2 + 1)
+            
+            memory[n] = res
+            
+            return res
+        
+        return helper(x,abs(n)) if n > 0 else 1 / helper(x,abs(n))

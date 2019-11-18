@@ -1,4 +1,45 @@
+
+
+
 ## 思路
+
+## maximum recursion depth exceeded in comparison
+
+```python
+class Solution:
+    def myPow(self, x: float, n: int) -> float:
+        
+        if n == 0:
+            return 1
+        
+        times = abs(n)
+        def helper(x,times):
+            if times == 1:
+                return x
+            return x*helper(x,times-1)
+        
+        return helper(x,times) if n > 0 else 1/helper(x,times)
+```
+
+## Time Limit Exceeded
+
+```python
+class Solution:
+    def myPow(self, x: float, n: int) -> float:
+        
+        if n == 0:
+            return 1
+        
+        res = 1
+        for i in range(abs(n)):
+            res *= x
+            
+        return res if n > 0 else 1/res
+```
+
+
+## recursion with memo
+
 
 - 求X 的 N 次方，只要求两个 N/2 次方再相乘
 - 递归求解时，使用 memo 记录已经求过的答案
