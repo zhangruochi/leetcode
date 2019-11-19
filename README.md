@@ -138,6 +138,7 @@ Table of Contents
 |No.961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Solution](./961/Solution.py)|[Note](./961/note.md)|Easy|O(n)|O(n)||
 |No.977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Solution](./977/Solution.py)|[Note](./977/note.md)|Easy|O(n)|O(n)||
 |No.016|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](./016/Solution.py)|[Note](./016/note.md)|Medium|O(n^2)|O(1)||
+|No.1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Solution](./1207/Solution.py)|[Note](./1207/note.md)|Easy|O(n)|O(n)||
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
