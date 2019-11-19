@@ -34,7 +34,25 @@ class Solution:
             j-=1
         
         return j - i + 1 if  j > i else 0
+
+class Solution:
+    def findUnsortedSubarray(self, nums: List[int]) -> int:
+        n = len(nums)
+        start = -1; end = -2
+        mx = nums[0]
+        mn = nums[n-1]
+        
+        for i in range(n):
+            mx = max(nums[i],mx)
+            mn = min(nums[n-i-1],mn)
+            
+            if mx > nums[i]:
+                end = i
+            if mn < nums[n-1-i]:
+                start = n - 1 - i 
                 
+        return end - start + 1
+            
                 
             
         
