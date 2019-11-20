@@ -1,4 +1,4 @@
-LeetCode solutions in Python3.
+ LeetCode solutions in Python3.
 ========
 
 
@@ -26,6 +26,7 @@ Table of Contents
       * [Graph](#graph)
       * [BackTracking](#backtracking)
       * [DFS](#dfs)
+      * [Greedy](#greedy)
       * [Dynamic Programming](#dynamic-programming)
       * [SQL Schema](#sql-schema)
       
@@ -139,6 +140,8 @@ Table of Contents
 |No.977|[Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)|[Solution](./977/Solution.py)|[Note](./977/note.md)|Easy|O(n)|O(n)||
 |No.016|[3Sum Closest](https://leetcode.com/problems/3sum-closest/)|[Solution](./016/Solution.py)|[Note](./016/note.md)|Medium|O(n^2)|O(1)||
 |No.1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Solution](./1207/Solution.py)|[Note](./1207/note.md)|Easy|O(n)|O(n)||
+|No.338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Solution](./338/Solution.py)|[Note](./338/note.md)|Medium|O(n)|O(n)||
+|No.259|[3sum Smaller](https://leetcode.com/problems/counting-bits/)|[Solution](./259/Solution.py)|[Note](./259/note.md)|Medium|O(n^2)|O(1)||
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -455,6 +458,12 @@ Table of Contents
 |No.1145|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|[Solution](./1145/Solution.py)|[Note](./1145/note.md)|Medium|O(n)|O(1)||
 |No.863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[Solution](./863/Solution.py)|[Note](./863/note.md)|Medium|O(n)|O(n)||
 |No.1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Solution](./1034/Solution.py)|[Note](./1034/note.md)|Medium|O(n)|O(n)||
+
+
+## Greedy
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Solution](./455/Solution.py)|[Note](./455/note.md)|Easy|O(nlogn)|O(1)||
 
 
 ## Divide and Conquer
