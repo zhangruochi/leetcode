@@ -71,18 +71,18 @@ Table of Contents
 ## Bit Manipulation
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.136|[Single Number](https://leetcode.com/problems/single-number/)|[Solution](./136/Solution.py)|[Note](./136/note.md)|Easy|O(n)|O(1)|Bit Manipulation|
-|No.191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Solution](./191/Solution.py)|[Note](./191/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
-|No.190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Solution](./190/Solution.py)|[Note](./190/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
-|No.231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](./231/Solution.py)|[Note](./231/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
-|No.342|[Power of Four](https://leetcode.com/problems/power-of-four/submissions/)|[Solution](./342/Solution.py)|[Note](./342/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
-|No.401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Solution](./401/Solution.py)|[Note](./401/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
-|No.461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Solution](./461/Solution.py)|[Note](./461/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
-|No.645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Solution](./645/Solution.py)|[Note](./645/note.md)|Easy|O(n)|O(1)|Bit Manipulation|
-|No.137|[Single NumberII](https://leetcode.com/problems/single-number-ii/)|[Solution](./137/Solution.py)|[Note](./137/note.md)|Medium|O(n)|O(1)|Bit Manipulation|
-|No.762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[Solution](./762/Solution.py)|[Note](./762/note.md)|Medium|O(1)|O(1)|Bit Manipulation|
-|No.371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Solution](./371/Solution.py)|[Note](./371/note.md)|Easy|O(1)|O(1)|Bit Manipulation|
-|No.268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Solution](./268/Solution.py)|[Note](./268/note.md)|Easy|O(n)|O(1)|Bit Manipulation,Math|
+|No.136|[Single Number](https://leetcode.com/problems/single-number/)|[Solution](./136/Solution.py)|[Note](./136/note.md)|Easy|O(n)|O(1)||
+|No.191|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)|[Solution](./191/Solution.py)|[Note](./191/note.md)|Easy|O(1)|O(1)||
+|No.190|[Reverse Bits](https://leetcode.com/problems/reverse-bits/)|[Solution](./190/Solution.py)|[Note](./190/note.md)|Easy|O(1)|O(1)||
+|No.231|[Power of Two](https://leetcode.com/problems/power-of-two/)|[Solution](./231/Solution.py)|[Note](./231/note.md)|Easy|O(1)|O(1)||
+|No.342|[Power of Four](https://leetcode.com/problems/power-of-four/submissions/)|[Solution](./342/Solution.py)|[Note](./342/note.md)|Easy|O(1)|O(1)||
+|No.401|[Binary Watch](https://leetcode.com/problems/binary-watch/)|[Solution](./401/Solution.py)|[Note](./401/note.md)|Easy|O(1)|O(1)||
+|No.461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/)|[Solution](./461/Solution.py)|[Note](./461/note.md)|Easy|O(1)|O(1)||
+|No.645|[Set Mismatch](https://leetcode.com/problems/set-mismatch/)|[Solution](./645/Solution.py)|[Note](./645/note.md)|Easy|O(n)|O(1)||
+|No.137|[Single NumberII](https://leetcode.com/problems/single-number-ii/)|[Solution](./137/Solution.py)|[Note](./137/note.md)|Medium|O(n)|O(1)||
+|No.762|[Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/)|[Solution](./762/Solution.py)|[Note](./762/note.md)|Medium|O(1)|O(1)||
+|No.371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)|[Solution](./371/Solution.py)|[Note](./371/note.md)|Easy|O(1)|O(1)||
+|No.268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Solution](./268/Solution.py)|[Note](./268/note.md)|Easy|O(n)|O(1)|,Math|
 |No.1085|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Solution](./1085/Solution.py)|[Note](./1085/note.md)|Easy|O(n)|O(1)||
 |No.728|[Self Dividing Numbers](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Solution](./728/Solution.py)|[Note](./728/note.md)|Easy|O(nm)|O(1)||
 
@@ -142,6 +142,7 @@ Table of Contents
 |No.1207|[Unique Number of Occurrences](https://leetcode.com/problems/unique-number-of-occurrences/)|[Solution](./1207/Solution.py)|[Note](./1207/note.md)|Easy|O(n)|O(n)||
 |No.338|[Counting Bits](https://leetcode.com/problems/counting-bits/)|[Solution](./338/Solution.py)|[Note](./338/note.md)|Medium|O(n)|O(n)||
 |No.259|[3sum Smaller](https://leetcode.com/problems/counting-bits/)|[Solution](./259/Solution.py)|[Note](./259/note.md)|Medium|O(n^2)|O(1)||
+|No.1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Solution](./1007/Solution.py)|[Note](./1007/note.md)|Medium|O(n)|O(1)||
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -361,6 +362,7 @@ Table of Contents
 |No.347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)|[Solution](./347/Solution.py)|[Note](./347/note.md)|Medium|O(nlogn)|O(n)||
 |No.581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Solution](./581/Solution.py)|[Note](./581/note.md)|Easy|O(n)|O(1)||
 |No.1051|Height Checker|[Solution](./1051/Solution.py)|[Note](./1051/note.md)|Easy|O(nlogn)|O(n)||
+|No.207|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[Solution](./207/Solution.py)|[Note](./207/note.md)|Meduim|O(n)|O(n)||
 
 ## Heap
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
