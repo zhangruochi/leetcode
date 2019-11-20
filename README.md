@@ -501,3 +501,4 @@ Table of Contents
 |No.1050|[Actors and Directors Who Cooperated At Least Three Times](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/)|[Solution](./1050/Solution.py)|[Note](./1050/note.md)|Easy|O(n)|O(n)||
 |No.627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|[Solution](./627/Solution.py)|[Note](./627/note.md)|Easy|O(n)|O(1)||
 |No.1082|[Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/)|[Solution](./1082/Solution.py)|[Note](./1082/note.md)|Easy|O(n)|O(1)||
+|No.620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|[Solution](./620/Solution.py)|[Note](./620/note.md)|Easy|O(n)|O(1)||
