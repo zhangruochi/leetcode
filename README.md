@@ -182,6 +182,8 @@ Table of Contents
 |No.709| [To Lower Case](https://leetcode.com/problems/to-lower-case/)|[Solution](./709/Solution.py)|[Note](./709/note.md)|Easy|O(n)|O(1)||
 |No.657| [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Solution](./657/Solution.py)|[Note](./657/note.md)|Easy|O(n)|O(n)||
 |No.1221| [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[Solution](./1221/Solution.py)|[Note](./1221/note.md)|Easy|O(n)|O(1)||
+|No.214| [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Solution](./214/Solution.py)|[Note](./214/note.md)|Hard|O(n^2)|O(n)||
+
 
 ## Linked List
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -461,7 +463,8 @@ Table of Contents
 |No.1145|[Binary Tree Coloring Game](https://leetcode.com/problems/binary-tree-coloring-game/)|[Solution](./1145/Solution.py)|[Note](./1145/note.md)|Medium|O(n)|O(1)||
 |No.863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)|[Solution](./863/Solution.py)|[Note](./863/note.md)|Medium|O(n)|O(n)||
 |No.1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Solution](./1034/Solution.py)|[Note](./1034/note.md)|Medium|O(n)|O(n)||
-
+|No.306|[Additive Number](https://leetcode.com/problems/additive-number/)|[Solution](./306/Solution.py)|[Note](./306/note.md)|Medium|O(n^2)|O(n)||
+|No.842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[Solution](./842/Solution.py)|[Note](./842/note.md)|Medium|O(n^2)|O(n)||
 
 ## Greedy
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
