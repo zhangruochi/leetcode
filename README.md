@@ -429,8 +429,9 @@ Table of Contents
 |No.263|Ugly Number|[Solution](./263/Solution.py)|[Note](./263/note.md)|Easy|O(n)|O(1)||
 |No.238|Product of Array Except Self|[Solution](./238/Solution.py)|[Note](./238/note.md)|Easy|O(n)|O(1)||
 |No.621|Task Scheduler|[Solution](./621/Solution.py)|[Note](./621/note.md)|Medium|O(n)|O(1)||
-|No.326|Power of Three|[Solution](./326/Solution.py)|[Note](./326/note.md)|Easy|O(n)|O(1)|Math|
-|No.892|Surface Area of 3D Shapes|[Solution](./892/Solution.py)|[Note](./892/note.md)|Easy|O(n)|O(1)|Math|
+|No.326|Power of Three|[Solution](./326/Solution.py)|[Note](./326/note.md)|Easy|O(n)|O(1)||
+|No.892|Surface Area of 3D Shapes|[Solution](./892/Solution.py)|[Note](./892/note.md)|Easy|O(n)|O(1)||
+|No.1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Solution](./1266/Solution.py)|[Note](./1266/note.md)|Easy|O(n)|O(1)||
 
 
 ## Graph
@@ -493,6 +494,11 @@ Table of Contents
 |No.746|[Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)|[Solution](./746/Solution.py)|[Note](./746/note.md)|Easy|O(n)|O(n)||
 |No.790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/)|[Solution](./790/Solution.py)|[Note](./790/note.md)|Medium|O(n)|O(n)||
 |No.801|[Minimum Swaps To Make Sequences Increasing](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing/)|[Solution](./801/Solution.py)|[Note](./801/note.md)|Medium|O(n)|O(n)||
+|No.718|[Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/)|[Solution](./718/Solution.py)|[Note](./718/note.md)|Medium|O(n*m)|O(n*m)||
+|No.1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Solution](./1143/Solution.py)|[Note](./1143/note.md)|Medium|O(n*m)|O(n*m)||
+|No.583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Solution](./583/Solution.py)|[Note](./583/note.md)|Medium|O(n*m)|O(n*m)||
+|No.1092|[Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)|[Solution](./1092/Solution.py)|[Note](./1092/note.md)|Hard|O(n*m)|O(n*m)||
+
 
 
 ## SQL Schema
