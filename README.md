@@ -432,6 +432,7 @@ Table of Contents
 |No.326|Power of Three|[Solution](./326/Solution.py)|[Note](./326/note.md)|Easy|O(n)|O(1)||
 |No.892|Surface Area of 3D Shapes|[Solution](./892/Solution.py)|[Note](./892/note.md)|Easy|O(n)|O(1)||
 |No.1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Solution](./1266/Solution.py)|[Note](./1266/note.md)|Easy|O(n)|O(1)||
+|No.1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Solution](./1281/Solution.py)|[Note](./1281/note.md)|Easy|O(n)|O(n)||
 
 
 ## Graph
