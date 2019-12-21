@@ -33,6 +33,8 @@ Output: 0
 Explanation: The endWord "cog" is not in wordList, therefore no possible transformation.
 """
 
+### Time Limit Exceeded
+
 class Solution(object):
     def ladderLength(self, beginWord, endWord, wordList):
         """
@@ -60,13 +62,13 @@ class Solution(object):
                     if s in wordSet and s not in visited:
                         visited.add(s)
                         steps += 1
-                        rec_bfs(s,steps,visited)
+                        rec_dfs(s,steps,visited)
                         visited.discard(s)
                         steps -= 1
             return 
                         
                     
-        rec_bfs(beginWord,1,visited)
+        rec_dfs(beginWord,1,visited)
         if not flag:
             return 0
         
