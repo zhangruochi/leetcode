@@ -36,10 +36,10 @@ class ZigzagIterator(object):
         """
         self.v1 = deque(v1)
         self.v2 = deque(v2)
-        self.genobj = self.__next()
+        self.genobj = self._iter()
     
 
-    def __next(self):
+    def _iter(self):
         while self.v1 and self.v2:
             yield self.v1.popleft()
             yield self.v2.popleft()
@@ -66,16 +66,49 @@ class ZigzagIterator(object):
             return True
         else:
             return False    
+
+
+class ZigzagIterator(object):
+
+    def __init__(self, v1, v2):
+        """
+        Initialize your data structure here.
+        :type v1: List[int]
+        :type v2: List[int]
+        """
+        self.v1 = deque(v1)
+        self.v2 = deque(v2)
+
+
+    def __iter__(self):
+        while self.v1 and self.v2:
+            yield self.v1.popleft()
+            yield self.v2.popleft()
+
+        while self.v1:
+            yield self.v1.popleft() 
+        
+        while self.v2:
+            yield self.v2.popleft() 
+
+
+    def hasNext(self):
+        """
+        :rtype: bool
+        """
+        if self.v1 or self.v2:
+            return True
+        else:
+            return False   
+
         
 if __name__ == '__main__':
     v1 = [1,2]
     v2 = [3,4,5,6]
 
-    i, v = ZigzagIterator(v1, v2), []
-    while i.hasNext(): 
-        v.append(i.next())
-        print(v)
-    print(v)
+    zig = ZigzagIterator(v1, v2)
+    for item in zig:
+        print(item)
 
 
 

@@ -36,3 +36,33 @@ class Solution:
                 stack[-1][1] += char
 
         return stack[-1][1]
+
+
+class Substring:
+    def __init__(self,num,s):
+        self.num = num
+        self.s = s
+
+class Solution:
+    def decodeString(self, s: str) -> str:
+        
+        root = Substring(1,"")
+        stack = [root]
+        
+        i,num = 0,""
+
+        for char in s:
+            if char.isdigit():
+                num += char
+            elif char == "[":
+                stack.append(Substring(int(num),""))
+                num = ""
+            elif char == "]":
+                sub = stack.pop()
+                stack[-1].s += sub.num * sub.s
+            else:
+                stack[-1].s += char
+        
+        return root.s * root.num
+            
+        
