@@ -38,6 +38,8 @@ class Solution:
         return stack[-1][1]
 
 
+
+
 class Substring:
     def __init__(self,num,s):
         self.num = num
