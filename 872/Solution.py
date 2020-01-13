@@ -82,7 +82,28 @@ if __name__ == '__main__':
 
 
 
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
 
+class Solution:
+    def leafSimilar(self, root1: TreeNode, root2: TreeNode) -> bool:
+        def helper(root,seq):
+            if not root:
+                return 
+            if not root.left and not root.right:
+                seq.append(root.val)
+            
+            helper(root.left, seq)
+            helper(root.right, seq)
+            
+            return seq
+        
+        return helper(root1,[]) == helper(root2,[])
+            
 
 
 
