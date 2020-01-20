@@ -261,6 +261,7 @@ Table of Contents
 |No.544|[Output Contest Matches](https://leetcode.com/problems/output-contest-matches/)|[Solution](./544/Solution.py)|[Note](./544/note.md)|Medium|O(n)|O(n)||
 |No.247|[Strobogrammatic Number II](https://leetcode.com/problems/strobogrammatic-number-ii/)|[Solution](./247/Solution.py)|[Note](./247/note.md)|Medium|O(n)|O(n)||
 |No.721|[Accounts Merge](https://leetcode.com/problems/accounts-merge/)|[Solution](./721/Solution.py)|[Note](./721/note.md)|Medium|O(n^2)|O(n)||
+|No.988|[Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)|[Solution](./988/Solution.py)|[Note](./988/note.md)|Medium|O(n)|O(n)||
 
 
 
