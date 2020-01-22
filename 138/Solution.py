@@ -35,4 +35,36 @@ class Solution(object):
             cur = cur.next
         
         return table[head]
+
+
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, x, next=None, random=None):
+        self.val = int(x)
+        self.next = next
+        self.random = random
+"""
+class Solution(object):
+    
+    def __init__(self):
+        self.table = {}
+        
+    
+    def copyRandomList(self, head):
+        """
+        :type head: Node
+        :rtype: Node
+        """
+        
+        if not head: 
+            return 
+        
+        if not head in self.table:
+            self.table[head] = Node(head.val)
+            self.table[head].next = self.copyRandomList(head.next)
+            self.table[head].random = self.copyRandomList(head.random)
+        
+        return self.table[head]
             
