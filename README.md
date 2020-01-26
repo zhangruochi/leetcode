@@ -91,7 +91,7 @@ Table of Contents
 ## Array
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Python](./026/Solution.py); [C++](./026/Solution.cpp)|[Note](./026/note.md)|Easy|O(n)|O(1)|Array|
+|No.026|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)|[Python](./026/Solution.py) [C++](./026/Solution.cpp)|[Note](./026/note.md)|Easy|O(n)|O(1)|Array|
 |No.027|[Remove Element](https://leetcode.com/problems/remove-element/)|[Solution](./027/Solution.py)|[Note](./027/note.md)|Easy|O(n)|O(1)||
 |No.066|[Plus One](https://leetcode.com/problems/plus-one/)|[Solution](./066/Solution.py)|[Note](./066/note.md)|Easy|O(n)|O(1)||
 |No.118|[Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)|[Solution](./118/Solution.py)|[Note](./118/note.md)|Easy|O(n^2)|O(1)||
