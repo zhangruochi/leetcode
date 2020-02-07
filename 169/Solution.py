@@ -1,4 +1,4 @@
-"""
+﻿"""
 Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
 
 You may assume that the array is non-empty and the majority element always exist in the array.
@@ -34,6 +34,23 @@ class Solution:
         """
         counts = Counter(nums)
         return max(counts.keys(),key = counts.get)
+
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        res = nums[0]
+        count = 0
+        
+        for num in nums:
+            if count == 0:
+                res = num
+                count += 1
+            elif num == res:
+                count += 1
+            else:
+                count -= 1
+        
+        return res
+            
 
 
 

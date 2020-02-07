@@ -142,6 +142,7 @@ Table of Contents
 |No.259|[3sum Smaller](https://leetcode.com/problems/counting-bits/)|[Solution](./259/Solution.py)|[Note](./259/note.md)|Medium|O(n^2)|O(1)||
 |No.1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Solution](./1007/Solution.py)|[Note](./1007/note.md)|Medium|O(n)|O(1)||
 |No.041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[Solution](./041/Solution.py)|[Note](./041/note.md)|Hard|O(n)|O(1)||
+|No.229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[Solution](./229/Solution.py)|[Note](./229/note.md)|Hard|O(n)|O(n)||
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
