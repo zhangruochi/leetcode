@@ -183,6 +183,8 @@ Table of Contents
 |No.657| [Robot Return to Origin](https://leetcode.com/problems/robot-return-to-origin/)|[Solution](./657/Solution.py)|[Note](./657/note.md)|Easy|O(n)|O(n)||
 |No.1221| [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[Solution](./1221/Solution.py)|[Note](./1221/note.md)|Easy|O(n)|O(1)||
 |No.214| [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Solution](./214/Solution.py)|[Note](./214/note.md)|Hard|O(n^2)|O(n)||
+|No.838| [Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[Solution](./838/Solution.py)|[Note](./838/note.md)|Medium|O(n)|O(n)||
+
 
 
 ## Linked List
@@ -434,6 +436,7 @@ Table of Contents
 |No.892|Surface Area of 3D Shapes|[Solution](./892/Solution.py)|[Note](./892/note.md)|Easy|O(n)|O(1)||
 |No.1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Solution](./1266/Solution.py)|[Note](./1266/note.md)|Easy|O(n)|O(1)||
 |No.1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Solution](./1281/Solution.py)|[Note](./1281/note.md)|Easy|O(n)|O(n)||
+|No.1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Solution](./1232/Solution.py)|[Note](./1232/note.md)|Easy|O(n)|O(1)||
 
 
 ## Graph
@@ -500,6 +503,7 @@ Table of Contents
 |No.1143|[Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/)|[Solution](./1143/Solution.py)|[Note](./1143/note.md)|Medium|O(n*m)|O(n*m)||
 |No.583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Solution](./583/Solution.py)|[Note](./583/note.md)|Medium|O(n*m)|O(n*m)||
 |No.1092|[Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)|[Solution](./1092/Solution.py)|[Note](./1092/note.md)|Hard|O(n*m)|O(n*m)||
+|No.032|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Solution](./032/Solution.py)|[Note](./032/note.md)|Hard|O(n)|O(n)||
 
 
 
