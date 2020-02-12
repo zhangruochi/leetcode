@@ -143,6 +143,7 @@ Table of Contents
 |No.1007|[Minimum Domino Rotations For Equal Row](https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/)|[Solution](./1007/Solution.py)|[Note](./1007/note.md)|Medium|O(n)|O(1)||
 |No.041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[Solution](./041/Solution.py)|[Note](./041/note.md)|Hard|O(n)|O(1)||
 |No.229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[Solution](./229/Solution.py)|[Note](./229/note.md)|Hard|O(n)|O(n)||
+|No.923|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[Solution](./923/Solution.py)|[Note](./923/note.md)|Meidum|O(n^2)|O(n)||
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -438,6 +439,8 @@ Table of Contents
 |No.1266|[Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[Solution](./1266/Solution.py)|[Note](./1266/note.md)|Easy|O(n)|O(1)||
 |No.1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Solution](./1281/Solution.py)|[Note](./1281/note.md)|Easy|O(n)|O(n)||
 |No.1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Solution](./1232/Solution.py)|[Note](./1232/note.md)|Easy|O(n)|O(1)||
+|No.258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Solution](./258/Solution.py)|[Note](./258/note.md)|Easy|O(n)|O(n)||
+
 
 
 ## Graph
