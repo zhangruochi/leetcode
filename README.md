@@ -440,6 +440,7 @@ Table of Contents
 |No.1281|[Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[Solution](./1281/Solution.py)|[Note](./1281/note.md)|Easy|O(n)|O(n)||
 |No.1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Solution](./1232/Solution.py)|[Note](./1232/note.md)|Easy|O(n)|O(1)||
 |No.258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Solution](./258/Solution.py)|[Note](./258/note.md)|Easy|O(n)|O(n)||
+|No.069|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](./069/Solution.py)|[Note](./069/note.md)|Easy|O(n)|O(1)||
 
 
 
