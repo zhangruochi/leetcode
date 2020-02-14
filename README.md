@@ -370,6 +370,8 @@ Table of Contents
 |No.581|[Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/)|[Solution](./581/Solution.py)|[Note](./581/note.md)|Easy|O(n)|O(1)||
 |No.1051|Height Checker|[Solution](./1051/Solution.py)|[Note](./1051/note.md)|Easy|O(nlogn)|O(n)||
 |No.207|[Course Schedule](https://leetcode.com/problems/course-schedule/)|[Solution](./207/Solution.py)|[Note](./207/note.md)|Meduim|O(n)|O(n)||
+|No.912|[Sort an Array](https://leetcode.com/problems/sort-an-array/)|[Solution](./912/Solution.py)|[Note](./912/note.md)|Meduim|O(nlogn)|O(n)||
+
 
 ## Heap
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
