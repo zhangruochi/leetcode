@@ -144,6 +144,7 @@ Table of Contents
 |No.041|[First Missing Positive](https://leetcode.com/problems/first-missing-positive/)|[Solution](./041/Solution.py)|[Note](./041/note.md)|Hard|O(n)|O(1)||
 |No.229|[Majority Element II](https://leetcode.com/problems/majority-element-ii/)|[Solution](./229/Solution.py)|[Note](./229/note.md)|Hard|O(n)|O(n)||
 |No.923|[3Sum With Multiplicity](https://leetcode.com/problems/3sum-with-multiplicity/)|[Solution](./923/Solution.py)|[Note](./923/note.md)|Meidum|O(n^2)|O(n)||
+|No.891|[Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)|[Solution](./891/Solution.py)|[Note](./891/note.md)|Hard|O(n^2)|O(n)||
 
 ## String
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -443,6 +444,7 @@ Table of Contents
 |No.1232|[Check If It Is a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)|[Solution](./1232/Solution.py)|[Note](./1232/note.md)|Easy|O(n)|O(1)||
 |No.258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Solution](./258/Solution.py)|[Note](./258/note.md)|Easy|O(n)|O(n)||
 |No.069|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](./069/Solution.py)|[Note](./069/note.md)|Easy|O(n)|O(1)||
+|No.1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|[Solution](./1033/Solution.py)|[Note](./1033/note.md)|Easy|O(1)|O(1)||
 
 
 
@@ -468,6 +470,7 @@ Table of Contents
 |No.039|Combination Sum|[Solution](./039/Solution.py)|[Note](./039/note.md)|Medium|O(n!)|O(n)||
 |No.784|[Combination Sum](https://leetcode.com/problems/letter-case-permutation/)|[Solution](./784/Solution.py)|[Note](./784/note.md)|Easy|O(n*2)|O(n) + O(n*2)||
 |No.1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[Solution](./1079/Solution.py)|[Note](./1079/note.md)|Easy|O(2*n)|O(2*n)||
+|No.077|[Combinations](https://leetcode.com/problems/combinations/)|[Solution](./077/Solution.py)|[Note](./077/note.md)|Medium|O(2^n)|O(2^n)||
 
 
 ## DFS
