@@ -322,6 +322,7 @@ Table of Contents
 |No.988|[Maximum Binary Tree II](https://leetcode.com/problems/maximum-binary-tree-ii/)|[Solution](./988/Solution.py)|[Note](./988/note.md)|Medium|O(n)|O(n)||
 |No.1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Solution](./1123/Solution.py)|[Note](./1123/note.md)|Medium|O(n)|O(n)||
 |No.199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Solution](./199/Solution.py)|[Note](./199/note.md)|Medium|O(n)|O(n)||
+|No.1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[Solution](./1305/Solution.py)|[Note](./1305/note.md)|Medium|O(n)|O(n)||
 
 
 ## Hash Table
