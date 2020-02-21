@@ -430,6 +430,7 @@ Table of Contents
 |No.677|Map Sum Pairs|[Solution](./677/Solution.py)|[Note](./677/note.md)|Medium|||trie|
 |No.648|Replace Words|[Solution](./648/Solution.py)|[Note](./648/note.md)|Medium|O(n)|O(n)|trie|
 |No.211|[Add and Search Word - Data structure design](https://leetcode.com/problems/add-and-search-word-data-structure-design/)|[Solution](./211/Solution.py)|[Note](./211/note.md)|Medium|O(n)|O(n)|trie|
+|No.1233|[Remove Sub-Folders from the Filesystem](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/)|[Solution](./1233/Solution.py)|[Note](./1233/note.md)|Medium|O(n)|O(n)|trie|
 
 
 ## Math
