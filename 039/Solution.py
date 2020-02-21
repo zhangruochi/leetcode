@@ -47,4 +47,29 @@ class Solution:
         
         rec(0,[])
         return ans
+
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        candidates.sort()
+        res = []
+        
+        def helper(candidates, pos, path, temp_sum):
+            nonlocal res
+            if temp_sum == target:
+                res.append(path[:])
+    
+            for i in range(pos, len(candidates)):
+                if temp_sum + candidates[i] > target:
+                    break
+                path.append(candidates[i])
+                helper(candidates, i,  path, temp_sum+candidates[i])
+                path.pop()
+                
+ 
+                    
+        helper(candidates, 0, [], 0)
+        
+        return res
+
+        
             

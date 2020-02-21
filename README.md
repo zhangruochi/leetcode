@@ -1,4 +1,4 @@
- LeetCode solutions in Python3.
+LeetCode solutions in Python3.
 ========
 
 
@@ -466,12 +466,13 @@ Table of Contents
 |No.078|[SubsetII](https://leetcode.com/problems/subsets-ii/)|[Solution](./090/Solution.py)|[Note](./090/note.md)|Medium|O(2^n)|O(n)||
 |No.046|[Permutations](https://leetcode.com/problems/permutations/)|[Solution](./046/Solution.py)|[Note](./046/note.md)|Medium|O(n!)|O(n)||
 |No.047|[PermutationsII](https://leetcode.com/problems/permutations-ii/)|[Solution](./047/Solution.py)|[Note](./047/note.md)|Medium|O(n!)|O(n)||
-|No.079|Word Search|[Solution](./079/Solution.py)|[Note](./079/note.md)|Medium|O(n^2)|O(n)||
+|No.079|[Word Search](https://leetcode.com/problems/word-search/)|[Solution](./079/Solution.py)|[Note](./079/note.md)|Medium|O(n^2)|O(n)||
 |No.022|Generate Parentheses|[Solution](./022/Solution.py)|[Note](./022/note.md)|Medium|O(n!)|O(n)||
-|No.039|Combination Sum|[Solution](./039/Solution.py)|[Note](./039/note.md)|Medium|O(n!)|O(n)||
-|No.784|[Combination Sum](https://leetcode.com/problems/letter-case-permutation/)|[Solution](./784/Solution.py)|[Note](./784/note.md)|Easy|O(n*2)|O(n) + O(n*2)||
+|No.039|[Combination Sum](https://leetcode.com/problems/combination-sum/)|[Solution](./039/Solution.py)|[Note](./039/note.md)|Medium|O(n!)|O(n)||
+|No.784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Solution](./784/Solution.py)|[Note](./784/note.md)|Easy|O(n*2)|O(n) + O(n*2)||
 |No.1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[Solution](./1079/Solution.py)|[Note](./1079/note.md)|Easy|O(2*n)|O(2*n)||
 |No.077|[Combinations](https://leetcode.com/problems/combinations/)|[Solution](./077/Solution.py)|[Note](./077/note.md)|Medium|O(2^n)|O(2^n)||
+|No.40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Solution](./40/Solution.py)|[Note](./40/note.md)|Medium|O(n^n)|O(n^n)||
 
 
 ## DFS
