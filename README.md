@@ -473,7 +473,7 @@ Table of Contents
 |No.784|[Letter Case Permutation](https://leetcode.com/problems/letter-case-permutation/)|[Solution](./784/Solution.py)|[Note](./784/note.md)|Easy|O(n*2)|O(n) + O(n*2)||
 |No.1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[Solution](./1079/Solution.py)|[Note](./1079/note.md)|Easy|O(2*n)|O(2*n)||
 |No.077|[Combinations](https://leetcode.com/problems/combinations/)|[Solution](./077/Solution.py)|[Note](./077/note.md)|Medium|O(2^n)|O(2^n)||
-|No.40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Solution](./40/Solution.py)|[Note](./40/note.md)|Medium|O(n^n)|O(n^n)||
+|No.040|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Solution](./040/Solution.py)|[Note](./040/note.md)|Medium|O(n^n)|O(n^n)||
 
 
 ## DFS
