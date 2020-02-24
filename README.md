@@ -60,6 +60,8 @@ Table of Contents
 | [Hamilton circuit](./classical_algorithm/hamilton.py)|Backtracking
 | BFS(unweighted graph shortest path) |[NOTE](./classical_algorithm/BFS.md)
 | [Tree Traverse](./classical_algorithm/TreeTraverse.py) | [NOTE](./classical_algorithm/TreeTraverse.md)
+| [Knapsack](./classical_algorithm/Knapsack.py) | 
+
 
 
 
@@ -186,7 +188,8 @@ Table of Contents
 |No.1221| [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)|[Solution](./1221/Solution.py)|[Note](./1221/note.md)|Easy|O(n)|O(1)||
 |No.214| [Shortest Palindrome](https://leetcode.com/problems/shortest-palindrome/)|[Solution](./214/Solution.py)|[Note](./214/note.md)|Hard|O(n^2)|O(n)||
 |No.838| [Push Dominoes](https://leetcode.com/problems/push-dominoes/)|[Solution](./838/Solution.py)|[Note](./838/note.md)|Medium|O(n)|O(n)||
-
+|No.409| [Push Dominoes](https://leetcode.com/problems/longest-palindrome/)|[Solution](./409/Solution.py)|[Note](./409/note.md)|Easy|O(n)|O(n)||
+|No.520| [Detect Capital](https://leetcode.com/problems/detect-capital/)|[Solution](./520/Solution.py)|[Note](./520/note.md)|Easy|O(1)|O(1)||
 
 
 ## Linked List
