@@ -456,7 +456,7 @@ Table of Contents
 |No.258|[Add Digits](https://leetcode.com/problems/add-digits/)|[Solution](./258/Solution.py)|[Note](./258/note.md)|Easy|O(n)|O(n)||
 |No.069|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](./069/Solution.py)|[Note](./069/note.md)|Easy|O(n)|O(1)||
 |No.1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|[Solution](./1033/Solution.py)|[Note](./1033/note.md)|Easy|O(1)|O(1)||
-
+|No.1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Solution](./1342/Solution.py)|[Note](./1342/note.md)|Easy|O(n)|O(1)||
 
 
 ## Graph
