@@ -217,7 +217,8 @@ Table of Contents
 |No.082|[Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)|[Note](./082/note.md)|Medium|O(n)|O(n)||
 |No.086|[Partition List](https://leetcode.com/problems/partition-list/)|[Note](./086/note.md)|Medium|O(n)|O(n)||
 |No.092|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Note](./092/note.md)|Medium|O(n)|O(n)||
-|No.143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Note](./092/note.md)|Medium|O(n)|O(n)||
+|No.143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Note](./143/note.md)|Medium|O(n)|O(n)||
+|No.328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Note](./328/note.md)|Medium|O(n)|O(1)||
 
 
 

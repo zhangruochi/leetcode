@@ -76,9 +76,67 @@ class Solution:
 
         return head
 
-    
 
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def oddEvenList(self, head: ListNode) -> ListNode:
+        dummy_odd = cur_odd = ListNode(0)
+        dummy_even = cur_even = ListNode(0)
+        
+        cur = head
+        index = 1
+        while cur:
+            if index % 2 == 0:
+                cur_even.next = cur
+                cur_even = cur_even.next
+                cur = cur.next
+                cur_even.next = None
+            else:
+                cur_odd.next = cur
+                cur_odd = cur_odd.next
+                cur = cur.next
+                cur_odd.next = None
             
+            index += 1
+        
+        cur_odd.next = dummy_even.next
+        
+        
+        return dummy_odd.next
+        
+        
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def oddEvenList(self, head: ListNode) -> ListNode:
+        
+        if not head: return head
+        
+        tail = head
+        cur = head.next
+        
+        while cur and cur.next:
+            
+            tmp = cur.next
+            cur.next = tmp.next
+            tmp.next = tail.next
+            tail.next = tmp
+            
+            tail = tail.next
+            cur = cur.next
+        
+        return head
+        
 
 if __name__ == '__main__':
     a = ListNode(1)
