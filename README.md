@@ -149,6 +149,8 @@ Table of Contents
 |No.891|[Sum of Subsequence Widths](https://leetcode.com/problems/sum-of-subsequence-widths/)|[Solution](./891/Solution.py)|[Note](./891/note.md)|Hard|O(n^2)|O(n)||
 |No.900|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|[Solution](./900/Solution.py)|[Note](./900/note.md)|Medium|O(n)|O(n)||
 |No.228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Solution](./228/Solution.py)|[Note](./228/note.md)|Medium|O(n)|O(n)||
+|No.665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Solution](./665/Solution.py)|[Note](./665/note.md)|Easy|O(n)|O(1)||
+
 
 
 ## String
