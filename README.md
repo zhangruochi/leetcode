@@ -133,7 +133,7 @@ Table of Contents
 |No.485|[Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/)|[Solution](./485/Solution.py)|[Note](./485/note.md)|Easy|O(n)|O(1)||
 |No.1086|[High Five](https://leetcode.com/problems/high-five/)|[Solution](./1086/Solution.py)|[Note](./1086/note.md)|Easy|O(n^2logn)|O(n)||
 |No.1064|[Fixed Point](https://leetcode.com/problems/fixed-point/)|[Solution](./1064/Solution.py)|[Note](./1064/note.md)|Easy|O(n)|O(n)||
-|No.832|[Fixed Point](https://leetcode.com/problems/flipping-an-image/)|[Solution](./832/Solution.py)|[Note](./832/note.md)|Easy|O(n)|O(n)||
+|No.832|[Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[Solution](./832/Solution.py)|[Note](./832/note.md)|Easy|O(n)|O(n)||
 |No.053|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[Solution](./053/Solution.py)|[Note](./053/note.md)|Easy|O(n)|O(n)|cum sum|
 |No.240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)|[Solution](./240/Solution.py)|[Note](./240/note.md)|Easy|O(N+M)|O(1)||
 |No.961|[N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|[Solution](./961/Solution.py)|[Note](./961/note.md)|Easy|O(n)|O(n)||
@@ -253,6 +253,8 @@ Table of Contents
 |No.084|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)|[Solution](./084/Solution.py)|[Note](./084/note.md)|Hard|O(n)|O(n)||
 |No.496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Solution](./496/Solution.py)|[Note](./496/note.md)|Easy|O(n)|O(n)||
 |No.1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[Solution](./1021/Solution.py)|[Note](./1021/note.md)|Easy|O(n)|O(n)||
+|No.1081|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[Solution](./1081/Solution.py)|[Note](./1081/note.md)|Medium|O(n)|O(n)||
+
 
 
 
