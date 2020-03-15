@@ -196,6 +196,7 @@ Table of Contents
 |No.409| [Push Dominoes](https://leetcode.com/problems/longest-palindrome/)|[Solution](./409/Solution.py)|[Note](./409/note.md)|Easy|O(n)|O(n)||
 |No.520| [Detect Capital](https://leetcode.com/problems/detect-capital/)|[Solution](./520/Solution.py)|[Note](./520/note.md)|Easy|O(1)|O(1)||
 |No.791| [Custom Sort String](https://leetcode.com/problems/custom-sort-string/)|[Solution](./791/Solution.py)|[Note](./791/note.md)|Medium|O(n)|O(n)||
+|No.1163| [Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|[Solution](./1163/Solution.py)|[Note](./1163/note.md)|Hard|O(n^2)|O(1)||
 
 
 
