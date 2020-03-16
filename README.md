@@ -87,7 +87,7 @@ Table of Contents
 |No.268|[Missing Number](https://leetcode.com/problems/missing-number/)|[Solution](./268/Solution.py)|[Note](./268/note.md)|Easy|O(n)|O(1)|,Math|
 |No.1085|[Sum of Digits in the Minimum Number](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Solution](./1085/Solution.py)|[Note](./1085/note.md)|Easy|O(n)|O(1)||
 |No.728|[Self Dividing Numbers](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number/)|[Solution](./728/Solution.py)|[Note](./728/note.md)|Easy|O(nm)|O(1)||
-
+|No.319|[Bulb Switcher](https://leetcode.com/problems/bulb-switcher/)|[Solution](./319/Solution.py)|[Note](./319/note.md)|Medium|O(n)|O(1)||
 
 
 ## Array
