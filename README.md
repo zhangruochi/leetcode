@@ -532,6 +532,11 @@ Table of Contents
 |No.583|[Delete Operation for Two Strings](https://leetcode.com/problems/delete-operation-for-two-strings/)|[Solution](./583/Solution.py)|[Note](./583/note.md)|Medium|O(n*m)|O(n*m)||
 |No.1092|[Shortest Common Supersequence](https://leetcode.com/problems/shortest-common-supersequence/)|[Solution](./1092/Solution.py)|[Note](./1092/note.md)|Hard|O(n*m)|O(n*m)||
 |No.032|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/)|[Solution](./032/Solution.py)|[Note](./032/note.md)|Hard|O(n)|O(n)||
+|No.152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Solution](./152/Solution.py)|[Note](./152/note.md)|Medium|O(n)|O(1)||
+|No.647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Solution](./647/Solution.py)|[Note](./647/note.md)|Medium|O(n^2)|O(1)||
+|No.416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Solution](./416/Solution.py)|[Note](./416/note.md)|Medium|O(n^2)|O(n)||
+
+
 
 
 
