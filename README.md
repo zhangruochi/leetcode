@@ -452,7 +452,7 @@ Table of Contents
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.263|Ugly Number|[Solution](./263/Solution.py)|[Note](./263/note.md)|Easy|O(n)|O(1)||
-|No.238|Product of Array Except Self|[Solution](./238/Solution.py)|[Note](./238/note.md)|Easy|O(n)|O(1)||
+|No.238|[Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)|[Solution](./238/Solution.py)|[Note](./238/note.md)|Medium|O(n)|O(n)||
 |No.621|Task Scheduler|[Solution](./621/Solution.py)|[Note](./621/note.md)|Medium|O(n)|O(1)||
 |No.326|Power of Three|[Solution](./326/Solution.py)|[Note](./326/note.md)|Easy|O(n)|O(1)||
 |No.892|Surface Area of 3D Shapes|[Solution](./892/Solution.py)|[Note](./892/note.md)|Easy|O(n)|O(1)||
@@ -535,6 +535,7 @@ Table of Contents
 |No.152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)|[Solution](./152/Solution.py)|[Note](./152/note.md)|Medium|O(n)|O(1)||
 |No.647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Solution](./647/Solution.py)|[Note](./647/note.md)|Medium|O(n^2)|O(1)||
 |No.416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Solution](./416/Solution.py)|[Note](./416/note.md)|Medium|O(n^2)|O(n)||
+|No.279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Solution](./279/Solution.py)|[Note](./279/note.md)|Medium|O(n^2)|O(n)||
 
 
 
