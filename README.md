@@ -25,6 +25,7 @@ Table of Contents
       * [N-ary Tree](#n-ary-tree)
       * [Graph](#graph)
       * [BackTracking](#backtracking)
+      * [BFS](#bfs)
       * [DFS](#dfs)
       * [Greedy](#greedy)
       * [Dynamic Programming](#dynamic-programming)
@@ -150,6 +151,8 @@ Table of Contents
 |No.900|[RLE Iterator](https://leetcode.com/problems/rle-iterator/)|[Solution](./900/Solution.py)|[Note](./900/note.md)|Medium|O(n)|O(n)||
 |No.228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Solution](./228/Solution.py)|[Note](./228/note.md)|Medium|O(n)|O(n)||
 |No.665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Solution](./665/Solution.py)|[Note](./665/note.md)|Easy|O(n)|O(1)||
+|No.463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Solution](./463/Solution.py)|[Note](./463/note.md)|Easy|O(n)|O(1)||
+
 
 
 
@@ -469,9 +472,7 @@ Table of Contents
 ## Graph
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
-|No.200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Solution](./200/Solution.py)|[Note](./200/note.md)|Medium|O(n)|O(n)|BFS|
-|No.133|Clone Graph|[Solution](./133/Solution.py)|[Note](./133/note.md)|Medium|O(n)|O(n)|BFS|
-|No.399|Evaluate Division|[Solution](./399/Solution.py)|[Note](./399/note.md)|Medium|O(n)|O(n)|DFS|
+
 
 
 ## Backtracking
@@ -490,6 +491,14 @@ Table of Contents
 |No.1079|[Letter Tile Possibilities](https://leetcode.com/problems/letter-tile-possibilities/)|[Solution](./1079/Solution.py)|[Note](./1079/note.md)|Easy|O(2*n)|O(2*n)||
 |No.077|[Combinations](https://leetcode.com/problems/combinations/)|[Solution](./077/Solution.py)|[Note](./077/note.md)|Medium|O(2^n)|O(2^n)||
 |No.040|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)|[Solution](./040/Solution.py)|[Note](./040/note.md)|Medium|O(n^n)|O(n^n)||
+|No.695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/)|[Solution](./695/Solution.py)|[Note](./695/note.md)|Medium|O(n^2)|O(n^2)||
+
+## BFS
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.200|[Number of Islands](https://leetcode.com/problems/number-of-islands/)|[Solution](./200/Solution.py)|[Note](./200/note.md)|Medium|O(n)|O(n)|BFS|
+|No.133|Clone Graph|[Solution](./133/Solution.py)|[Note](./133/note.md)|Medium|O(n)|O(n)|BFS|
+|No.1162|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[Solution](./1162/Solution.py)|[Note](./1162/note.md)|Medium|O(n)|O(n)|BFS|
 
 
 ## DFS
@@ -500,6 +509,7 @@ Table of Contents
 |No.1034|[Coloring A Border](https://leetcode.com/problems/coloring-a-border/)|[Solution](./1034/Solution.py)|[Note](./1034/note.md)|Medium|O(n)|O(n)||
 |No.306|[Additive Number](https://leetcode.com/problems/additive-number/)|[Solution](./306/Solution.py)|[Note](./306/note.md)|Medium|O(n^2)|O(n)||
 |No.842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[Solution](./842/Solution.py)|[Note](./842/note.md)|Medium|O(n^2)|O(n)||
+|No.399|Evaluate Division|[Solution](./399/Solution.py)|[Note](./399/note.md)|Medium|O(n)|O(n)|DFS|
 
 ## Greedy
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
