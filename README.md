@@ -258,6 +258,8 @@ Table of Contents
 |No.496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)|[Solution](./496/Solution.py)|[Note](./496/note.md)|Easy|O(n)|O(n)||
 |No.1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[Solution](./1021/Solution.py)|[Note](./1021/note.md)|Easy|O(n)|O(n)||
 |No.1081|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[Solution](./1081/Solution.py)|[Note](./1081/note.md)|Medium|O(n)|O(n)||
+|No.735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Solution](./735/Solution.py)|[Note](./735/note.md)|Medium|O(n)|O(n)||
+
 
 
 
@@ -373,6 +375,7 @@ Table of Contents
 |No.760|[Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/)|[Solution](./760/Solution.py)|[Note](./760/note.md)|Easy|O(n)|O(n)||
 |No.804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Solution](./804/Solution.py)|[Note](./804/note.md)|Easy|O(n)|O(n)||
 |No.1252|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|[Solution](./1252/Solution.py)|[Note](./1252/note.md)|Easy|O(n^2)|O(n)||
+|No.954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|[Solution](./954/Solution.py)|[Note](./954/note.md)|Easy|O(n)|O(n)||
 
 
 ## Sort
@@ -467,7 +470,7 @@ Table of Contents
 |No.069|[Sqrt(x)](https://leetcode.com/problems/sqrtx/)|[Solution](./069/Solution.py)|[Note](./069/note.md)|Easy|O(n)|O(1)||
 |No.1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|[Solution](./1033/Solution.py)|[Note](./1033/note.md)|Easy|O(1)|O(1)||
 |No.1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Solution](./1342/Solution.py)|[Note](./1342/note.md)|Easy|O(n)|O(1)||
-
+|No.504|[Base 7](https://leetcode.com/problems/base-7/)|[Solution](./504/Solution.py)|[Note](./504/note.md)|Easy|O(n)|O(1)||
 
 ## Graph
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
