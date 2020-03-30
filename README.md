@@ -152,6 +152,7 @@ Table of Contents
 |No.228|[Summary Ranges](https://leetcode.com/problems/summary-ranges/)|[Solution](./228/Solution.py)|[Note](./228/note.md)|Medium|O(n)|O(n)||
 |No.665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Solution](./665/Solution.py)|[Note](./665/note.md)|Easy|O(n)|O(1)||
 |No.463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Solution](./463/Solution.py)|[Note](./463/note.md)|Easy|O(n)|O(1)||
+|No.948|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|[Solution](./948/Solution.py)|[Note](./948/note.md)|Medium|O(n)|O(1)||
 
 
 
@@ -342,6 +343,7 @@ Table of Contents
 |No.1123|[Lowest Common Ancestor of Deepest Leaves](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/)|[Solution](./1123/Solution.py)|[Note](./1123/note.md)|Medium|O(n)|O(n)||
 |No.199|[Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/)|[Solution](./199/Solution.py)|[Note](./199/note.md)|Medium|O(n)|O(n)||
 |No.1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[Solution](./1305/Solution.py)|[Note](./1305/note.md)|Medium|O(n)|O(n)||
+|No.1382|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[Solution](./1382/Solution.py)|[Note](./1382/note.md)|Medium|O(n)|O(n)||
 
 
 ## Hash Table
@@ -513,6 +515,7 @@ Table of Contents
 |No.306|[Additive Number](https://leetcode.com/problems/additive-number/)|[Solution](./306/Solution.py)|[Note](./306/note.md)|Medium|O(n^2)|O(n)||
 |No.842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[Solution](./842/Solution.py)|[Note](./842/note.md)|Medium|O(n^2)|O(n)||
 |No.399|Evaluate Division|[Solution](./399/Solution.py)|[Note](./399/note.md)|Medium|O(n)|O(n)|DFS|
+|No.526|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[Solution](./526/Solution.py)|[Note](./526/note.md)|Medium|O(n!)|O(n)|DFS|
 
 ## Greedy
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
