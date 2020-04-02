@@ -153,7 +153,9 @@ Table of Contents
 |No.665|[Non-decreasing Array](https://leetcode.com/problems/non-decreasing-array/)|[Solution](./665/Solution.py)|[Note](./665/note.md)|Easy|O(n)|O(1)||
 |No.463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/)|[Solution](./463/Solution.py)|[Note](./463/note.md)|Easy|O(n)|O(1)||
 |No.948|[Bag of Tokens](https://leetcode.com/problems/bag-of-tokens/)|[Solution](./948/Solution.py)|[Note](./948/note.md)|Medium|O(n)|O(1)||
-
+|No.667|[Beautiful Arrangement II](https://leetcode.com/problems/beautiful-arrangement-ii/)|[Solution](./667/Solution.py)|[Note](./667/note.md)|Medium|O(n)|O(n)||
+|No.419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Solution](./419/Solution.py)|[Note](./419/note.md)|Medium|O(nm)|O(1)||
+|No.1014|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|[Solution](./1014/Solution.py)|[Note](./1014/note.md)|Medium|O(n)|O(1)||
 
 
 
