@@ -348,7 +348,8 @@ Table of Contents
 |No.1305|[All Elements in Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)|[Solution](./1305/Solution.py)|[Note](./1305/note.md)|Medium|O(n)|O(n)||
 |No.1382|[Balance a Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/)|[Solution](./1382/Solution.py)|[Note](./1382/note.md)|Medium|O(n)|O(n)||
 |No.1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[Solution](./1038/Solution.py)|[Note](./1038/note.md)|Medium|O(n)|O(n)||
-
+|No.652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[Solution](./652/Solution.py)|[Note](./652/note.md)|Medium|O(n)|O(n)||
+|No.1261|[FFind Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/)|[Solution](./1261/Solution.py)|[Note](./1261/note.md)|Medium|O(n)|O(n)||
 
 ## Hash Table
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|

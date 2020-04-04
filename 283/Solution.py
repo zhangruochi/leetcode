@@ -23,3 +23,5 @@ class Solution:
                 index += 1
         
         nums[index:] = [0] * (len(nums) - index)
+
+        
