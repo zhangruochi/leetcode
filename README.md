@@ -157,6 +157,7 @@ Table of Contents
 |No.419|[Battleships in a Board](https://leetcode.com/problems/battleships-in-a-board/)|[Solution](./419/Solution.py)|[Note](./419/note.md)|Medium|O(nm)|O(1)||
 |No.1014|[Best Sightseeing Pair](https://leetcode.com/problems/best-sightseeing-pair/)|[Solution](./1014/Solution.py)|[Note](./1014/note.md)|Medium|O(n)|O(1)||
 |No.122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Solution](./122/Solution.py)|[Note](./122/note.md)|Easy|O(n)|O(1)||
+|No.080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Solution](./080/Solution.py)|[Note](./080/note.md)|Medium|O(n)|O(1)||
 
 
 
