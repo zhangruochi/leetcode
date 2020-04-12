@@ -24,3 +24,29 @@ The length of image and image[0] will be in the range [1, 50].
 The given starting pixel will satisfy 0 <= sr < image.length and 0 <= sc < image[0].length.
 The value of each color in image[i][j] and newColor will be an integer in [0, 65535].
 """
+
+class Solution:
+    def floodFill(self, image: List[List[int]], sr: int, sc: int, newColor: int) -> List[List[int]]:
+        
+        
+        init_color = image[sr][sc]
+        
+        if init_color ==  newColor:
+            return image
+        
+        
+        h, w = len(image), len(image[0])
+        
+        def helper(sr,sc,image,newColr, init_color):
+            
+            if  0 <= sr < h and  0 <= sc < w and image[sr][sc] == init_color:
+                image[sr][sc] = newColor
+                helper(sr-1,sc,image,newColor,init_color)
+                helper(sr+1,sc,image,newColor,init_color)
+                helper(sr,sc-1,image,newColor,init_color)
+                helper(sr,sc+1,image,newColor,init_color)
+                
+        helper(sr,sc,image,newColor,init_color)
+        
+        return image
+            

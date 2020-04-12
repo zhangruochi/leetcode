@@ -415,6 +415,7 @@ Table of Contents
 |No.215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)|[Solution](./215/Solution.py)|[Note](./215/note.md)|Medium|O(n+klogn)|O(n)||
 |No.937|[K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin/)|[Solution](./937/Solution.py)|[Note](./937/note.md)|Medium|O(klogn)|O(n)||
 |No.239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)|[Solution](./239/Solution.py)|[Note](./239/note.md)|Hard|O(nlogk)|O(n)||
+|No.1046|[Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)|[Solution](./1046/Solution.py)|[Note](./1046/note.md)|Easy|O(nlogn)|O(n)||
 
 
 ## Binary Search
@@ -427,6 +428,9 @@ Table of Contents
 |No.852|Peak Index in a Mountain Array|[Solution](./852/Solution.py)|[Note](./852/note.md)|Easy|O(n)|O(1)||
 |No.050|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Solution](./050/Solution.py)|[Note](./050/note.md)|Medium|O(logn)|O(1)||
 |No.153|Find Minimum in Rotated Sorted Array|[Solution](./153/Solution.py)|[Note](./153/note.md)|Medium|O(logn)|O(n)||
+|No.704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Solution](./704/Solution.py)|[Note](./704/note.md)|Easy|O(logn)|O(1)||
+|No.1201|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[Solution](./1201/Solution.py)|[Note](./1201/note.md)|Medium|O(logn)|O(1)||
+
 
 
 
@@ -515,6 +519,7 @@ Table of Contents
 |No.1162|[As Far from Land as Possible](https://leetcode.com/problems/as-far-from-land-as-possible/)|[Solution](./1162/Solution.py)|[Note](./1162/note.md)|Medium|O(n)|O(n)|BFS|
 
 
+
 ## DFS
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
@@ -525,11 +530,13 @@ Table of Contents
 |No.842|[Split Array into Fibonacci Sequence](https://leetcode.com/problems/split-array-into-fibonacci-sequence/)|[Solution](./842/Solution.py)|[Note](./842/note.md)|Medium|O(n^2)|O(n)||
 |No.399|Evaluate Division|[Solution](./399/Solution.py)|[Note](./399/note.md)|Medium|O(n)|O(n)|DFS|
 |No.526|[Beautiful Arrangement](https://leetcode.com/problems/beautiful-arrangement/)|[Solution](./526/Solution.py)|[Note](./526/note.md)|Medium|O(n!)|O(n)|DFS|
+|No.733|[Flood Fill](https://leetcode.com/problems/flood-fill/)|[Solution](./733/Solution.py)|[Note](./733/note.md)|Easy|O(n^2)|O(1)||
 
 ## Greedy
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
 |---|-----|--------|----|----------|----|-----|---|
 |No.455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Solution](./455/Solution.py)|[Note](./455/note.md)|Easy|O(nlogn)|O(1)||
+|No.055|[Jump Game](https://leetcode.com/problems/jump-game/)|[Solution](./055/Solution.py)|[Note](./055/note.md)|Medium|O(n)|O(1)||
 
 
 ## Divide and Conquer
