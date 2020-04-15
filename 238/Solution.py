@@ -33,3 +33,20 @@ class Solution:
         return [ prefix_product[i] * suffix_product[i+1]  for i, num in enumerate(nums)]
             
             
+class Solution:
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        prefix_product = suffix_product = 1
+        len_nums = len(nums)
+        res = []
+        
+        for num in nums:
+            res.append(prefix_product)
+            prefix_product *= num
+        
+        for i in range(len(nums)):
+            res[len_nums - i - 1] *= suffix_product
+            suffix_product *= nums[len_nums - i - 1]
+
+        return res
+            
+            
