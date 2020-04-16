@@ -266,7 +266,10 @@ Table of Contents
 |No.1021|[Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/)|[Solution](./1021/Solution.py)|[Note](./1021/note.md)|Easy|O(n)|O(n)||
 |No.1081|[Smallest Subsequence of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/)|[Solution](./1081/Solution.py)|[Note](./1081/note.md)|Medium|O(n)|O(n)||
 |No.735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Solution](./735/Solution.py)|[Note](./735/note.md)|Medium|O(n)|O(n)||
-|No.328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Note](./328/note.md)|Medium|O(n)|O(1)||
+|No.328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Solution](./328/Solution.py)|[Note](./328/note.md)|Medium|O(n)|O(n)||
+|No.678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[Solution](./678/Solution.py)|[Note](./678/note.md)|Medium|O(n)|O(n)||
+
+
 
 
 
