@@ -49,3 +49,31 @@ class Solution:
                     count += 1
         
         return count
+
+
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+        
+        if not grid:
+            return 0
+        
+        w, h = len(grid[0]), len(grid)
+        
+        def helper(row, col):
+            nonlocal grid, w, h
+            
+            if row < 0 or row >= h or col < 0 or col >= w or grid[row][col] == "0":
+                return 
+            
+            grid[row][col] = "0"
+            for r, c in ((row + 1, col), (row - 1, col), (row, col - 1), (row, col + 1) ):
+                helper(r,c)
+        
+        count = 0
+        for i in range(h):
+            for j in range(w):
+                if grid[i][j] == "1":
+                    helper(i,j)
+                    count += 1
+        
+        return count
