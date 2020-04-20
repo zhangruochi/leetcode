@@ -30,6 +30,8 @@ Table of Contents
       * [Greedy](#greedy)
       * [Dynamic Programming](#dynamic-programming)
       * [SQL Schema](#sql-schema)
+      * [剑指offer](#剑指offer)
+
       
 
 ## Complexity
@@ -591,3 +593,14 @@ Table of Contents
 |No.627|[Swap Salary](https://leetcode.com/problems/swap-salary/)|[Solution](./627/Solution.py)|[Note](./627/note.md)|Easy|O(n)|O(1)||
 |No.1082|[Sales Analysis I](https://leetcode.com/problems/sales-analysis-i/)|[Solution](./1082/Solution.py)|[Note](./1082/note.md)|Easy|O(n)|O(1)||
 |No.620|[Not Boring Movies](https://leetcode.com/problems/not-boring-movies/)|[Solution](./620/Solution.py)|[Note](./620/note.md)|Easy|O(n)|O(1)||
+
+
+
+## 剑指offer
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.LZOF_03|[数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)|[Solution](./LZOF_03/Solution.py)|[Note](./LZOF_03/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_04|[二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)|[Solution](./LZOF_04/Solution.py)|[Note](./LZOF_04/note.md)|Easy|O(nlogn)|O(1)||
+|No.LZOF_05|[替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|[Solution](./LZOF_05/Solution.py)|[Note](./LZOF_05/note.md)|Easy|O(n)|O(n)||
+|No.LZOF_06|[从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|[Solution](./LZOF_06/Solution.py)|[Note](./LZOF_06/note.md)|Easy|O(n)|O(n)||
+|No.LZOF_07|[重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)|[Solution](./LZOF_07/Solution.py)|[Note](./LZOF_07/note.md)|Medium|O(n)|O(n)||
