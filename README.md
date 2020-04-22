@@ -604,3 +604,8 @@ Table of Contents
 |No.LZOF_05|[替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)|[Solution](./LZOF_05/Solution.py)|[Note](./LZOF_05/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_06|[从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)|[Solution](./LZOF_06/Solution.py)|[Note](./LZOF_06/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_07|[重建二叉树](https://leetcode-cn.com/problems/zhong-jian-er-cha-shu-lcof/)|[Solution](./LZOF_07/Solution.py)|[Note](./LZOF_07/note.md)|Medium|O(n)|O(n)||
+|No.LZOF_09|[用两个栈实现队列  ](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|[Solution](./LZOF_09/Solution.py)|[Note](./LZOF_09/note.md)|Easy|O(n)|O(n)||
+|No.LZOF_10|[斐波那契数列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|[Solution](./LZOF_10/Solution.py)|[Note](./LZOF_10/note.md)|Easy|O(n)|O(n)||
+|No.LZOF_10-2|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)|[Solution](./LZOF_10-2/Solution.py)|[Note](./LZOF_10-2/note.md)|Easy|O(n)|O(n)||
+
+
