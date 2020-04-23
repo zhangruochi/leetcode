@@ -34,3 +34,21 @@ class Solution:
             
         return count
             
+
+from collections import defaultdict
+class Solution:
+    def subarraySum(self, nums: List[int], k: int) -> int:
+        
+        count,cum = 0,0
+        prefix_sums = defaultdict(int)
+        
+        prefix_sums[0] = 1
+        
+        
+        for num in nums:
+            cum += num
+            count += prefix_sums.get(cum - k, 0)
+            prefix_sums[cum] += 1
+            
+        return count
+        
