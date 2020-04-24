@@ -394,6 +394,7 @@ Table of Contents
 |No.804|[Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/)|[Solution](./804/Solution.py)|[Note](./804/note.md)|Easy|O(n)|O(n)||
 |No.1252|[Cells with Odd Values in a Matrix](https://leetcode.com/problems/cells-with-odd-values-in-a-matrix/)|[Solution](./1252/Solution.py)|[Note](./1252/note.md)|Easy|O(n^2)|O(n)||
 |No.954|[Array of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/)|[Solution](./954/Solution.py)|[Note](./954/note.md)|Easy|O(n)|O(n)||
+|No.146|[LRU Cache](https://leetcode.com/problems/lru-cache/)|[Solution](./146/Solution.py)|[Note](./146/note.md)|Medium|O(n)|O(n)||
 
 
 ## Sort
