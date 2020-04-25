@@ -495,6 +495,7 @@ Table of Contents
 |No.1033|[Moving Stones Until Consecutive](https://leetcode.com/problems/moving-stones-until-consecutive/)|[Solution](./1033/Solution.py)|[Note](./1033/note.md)|Easy|O(1)|O(1)||
 |No.1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Solution](./1342/Solution.py)|[Note](./1342/note.md)|Easy|O(n)|O(1)||
 |No.504|[Base 7](https://leetcode.com/problems/base-7/)|[Solution](./504/Solution.py)|[Note](./504/note.md)|Easy|O(n)|O(1)||
+|No.470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[Solution](./470/Solution.py)|[Note](./470/note.md)|medium|O(1)|O(1)||
 
 ## Graph
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
