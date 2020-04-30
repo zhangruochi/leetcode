@@ -361,6 +361,7 @@ Table of Contents
 |No.1038|[Binary Search Tree to Greater Sum Tree](https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/)|[Solution](./1038/Solution.py)|[Note](./1038/note.md)|Medium|O(n)|O(n)||
 |No.652|[Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/)|[Solution](./652/Solution.py)|[Note](./652/note.md)|Medium|O(n)|O(n)||
 |No.1261|[FFind Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/)|[Solution](./1261/Solution.py)|[Note](./1261/note.md)|Medium|O(n)|O(n)||
+|No.124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Solution](./124/Solution.py)|[Note](./124/note.md)|hard|O(n)|O(1)||
 
 ## Hash Table
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
