@@ -437,7 +437,7 @@ Table of Contents
 |No.744|Find Smallest Letter Greater Than Target|[Solution](./744/Solution.py)|[Note](./744/note.md)|Easy|O(n)|O(1)||
 |No.852|Peak Index in a Mountain Array|[Solution](./852/Solution.py)|[Note](./852/note.md)|Easy|O(n)|O(1)||
 |No.050|[Pow(x, n)](https://leetcode.com/problems/powx-n/)|[Solution](./050/Solution.py)|[Note](./050/note.md)|Medium|O(logn)|O(1)||
-|No.153|Find Minimum in Rotated Sorted Array|[Solution](./153/Solution.py)|[Note](./153/note.md)|Medium|O(logn)|O(n)||
+|No.153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|[Solution](./153/Solution.py)|[Note](./153/note.md)|Medium|O(logn)|O(n)||
 |No.704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Solution](./704/Solution.py)|[Note](./704/note.md)|Easy|O(logn)|O(1)||
 |No.1201|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[Solution](./1201/Solution.py)|[Note](./1201/note.md)|Medium|O(logn)|O(1)||
 
@@ -497,6 +497,8 @@ Table of Contents
 |No.1342|[Number of Steps to Reduce a Number to Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)|[Solution](./1342/Solution.py)|[Note](./1342/note.md)|Easy|O(n)|O(1)||
 |No.504|[Base 7](https://leetcode.com/problems/base-7/)|[Solution](./504/Solution.py)|[Note](./504/note.md)|Easy|O(n)|O(1)||
 |No.470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[Solution](./470/Solution.py)|[Note](./470/note.md)|medium|O(1)|O(1)||
+|No.154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Solution](./154/Solution.py)|[Note](./154/note.md)|hard|O(n)|O(1)||
+
 
 ## Graph
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -612,5 +614,6 @@ Table of Contents
 |No.LZOF_09|[用两个栈实现队列  ](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|[Solution](./LZOF_09/Solution.py)|[Note](./LZOF_09/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_10|[斐波那契数列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|[Solution](./LZOF_10/Solution.py)|[Note](./LZOF_10/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_10-2|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)|[Solution](./LZOF_10-2/Solution.py)|[Note](./LZOF_10-2/note.md)|Easy|O(n)|O(n)||
-
+|No.LZOF_11|[旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)|[Solution](./LZOF_11/Solution.py)|[Note](./LZOF_11/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)|[Solution](./LZOF_12/Solution.py)|[Note](./LZOF_12/note.md)|Medium|O(n*2)|O(n)||
 
