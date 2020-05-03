@@ -616,4 +616,9 @@ Table of Contents
 |No.LZOF_10-2|[青蛙跳台阶问题](https://leetcode-cn.com/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/)|[Solution](./LZOF_10-2/Solution.py)|[Note](./LZOF_10-2/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_11|[旋转数组的最小数字](https://leetcode-cn.com/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)|[Solution](./LZOF_11/Solution.py)|[Note](./LZOF_11/note.md)|Easy|O(n)|O(1)||
 |No.LZOF_12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)|[Solution](./LZOF_12/Solution.py)|[Note](./LZOF_12/note.md)|Medium|O(n*2)|O(n)||
+|No.LZOF_13|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)|[Solution](./LZOF_13/Solution.py)|[Note](./LZOF_13/note.md)|Medium|O(n*2)|O(n)||
+|No.LZOF_14|[剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)|[Solution](./LZOF_14/Solution.py)|[Note](./LZOF_14/note.md)|Medium|O(n*2)|O(n)||
+|No.LZOF_14_II|[剪绳子 ||](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)|[Solution](./LZOF_14_II/Solution.py)|[Note](./LZOF_14_II/note.md)|Medium|O(n*2)|O(n)||
+|No.LZOF_15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)|[Solution](./LZOF_15/Solution.py)|[Note](./LZOF_15/note.md)|Medium|O(n)|O(1)||
+|No.LZOF_16|[数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)|[Solution](./LZOF_16/Solution.py)|[Note](./LZOF_16/note.md)|Medium|O(logn)|O(1)||
 
