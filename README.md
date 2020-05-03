@@ -621,4 +621,10 @@ Table of Contents
 |No.LZOF_14_II|[剪绳子 ||](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)|[Solution](./LZOF_14_II/Solution.py)|[Note](./LZOF_14_II/note.md)|Medium|O(n*2)|O(n)||
 |No.LZOF_15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)|[Solution](./LZOF_15/Solution.py)|[Note](./LZOF_15/note.md)|Medium|O(n)|O(1)||
 |No.LZOF_16|[数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)|[Solution](./LZOF_16/Solution.py)|[Note](./LZOF_16/note.md)|Medium|O(logn)|O(1)||
-
+|No.LZOF_17|[打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)|[Solution](./LZOF_17/Solution.py)|[Note](./LZOF_17/note.md)|Easy|O(n)|O(n)||
+|No.LZOF_18|[删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)|[Solution](./LZOF_18/Solution.py)|[Note](./LZOF_18/note.md)|Easy|O(n)|O(n)||
+|No.LZOF_19|[正则表达式匹配](https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/)|[Solution](./LZOF_19/Solution.py)|[Note](./LZOF_19/note.md)|Hard|O(nm)|O(nm)||
+|No.LZOF_21|[调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/)|[Solution](./LZOF_21/Solution.py)|[Note](./LZOF_21/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_22|[链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|[Solution](./LZOF_22/Solution.py)|[Note](./LZOF_22/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_24|[反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)|[Solution](./LZOF_24/Solution.py)|[Note](./LZOF_24/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_25|[合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)|[Solution](./LZOF_25/Solution.py)|[Note](./LZOF_25/note.md)|Easy|O(n)|O(1)||
