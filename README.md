@@ -634,5 +634,10 @@ Table of Contents
 |No.LZOF_28|[对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|[Solution](./LZOF_28/Solution.py)|[Note](./LZOF_28/note.md)|Easy|O(n)|O(1)||
 |No.LZOF_29|[顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)|[Solution](./LZOF_29/Solution.py)|[Note](./LZOF_29/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_30|[包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)|[Solution](./LZOF_30/Solution.py)|[Note](./LZOF_30/note.md)|Easy|O(1)|O(1)||
-
-
+|No.LZOF_31|[ 栈的压入、弹出序列](https://leetcode-cn.com/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/)|[Solution](./LZOF_31/Solution.py)|[Note](./LZOF_31/note.md)|Medium|O(n)|O(n)||
+|No.LZOF_32|[从上到下打印二叉树](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/)|[Solution](./LZOF_32/Solution.py)|[Note](./LZOF_32/note.md)|Medium|O(n)|O(n)||
+|No.LZOF_32_II|[从上到下打印二叉树 II](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/)|[Solution](./LZOF_32_II/Solution.py)|[Note](./LZOF_32_II/note.md)|Medium|O(n)|O(n)||
+|No.LZOF_32_III|[从上到下打印二叉树 III](https://leetcode-cn.com/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/)|[Solution](./LZOF_32_III/Solution.py)|[Note](./LZOF_32_III/note.md)|Medium|O(n)|O(n)||
+|No.LZOF_33|[二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)|[Solution](./LZOF_33/Solution.py)|[Note](./LZOF_33/note.md)|Medium|O(n)|O(n)||
+|No.LZOF_34|[二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)|[Solution](./LZOF_34/Solution.py)|[Note](./LZOF_34/note.md)|Medium|O(n)|O(n)||
+|No.LZOF_35|[复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/)|[Solution](./LZOF_35/Solution.py)|[Note](./LZOF_35/note.md)|Medium|O(n)|O(n)||
