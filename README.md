@@ -163,6 +163,7 @@ Table of Contents
 |No.122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)|[Solution](./122/Solution.py)|[Note](./122/note.md)|Easy|O(n)|O(1)||
 |No.080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Solution](./080/Solution.py)|[Note](./080/note.md)|Medium|O(n)|O(1)||
 |No.525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Solution](./525/Solution.py)|[Note](./525/note.md)|Medium|O(n)|O(n)||
+|No.054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Note](./054/note.md)|Medium|O(n)|O(n)||
 
 
 
@@ -618,7 +619,7 @@ Table of Contents
 |No.LZOF_12|[矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)|[Solution](./LZOF_12/Solution.py)|[Note](./LZOF_12/note.md)|Medium|O(n*2)|O(n)||
 |No.LZOF_13|[机器人的运动范围](https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/)|[Solution](./LZOF_13/Solution.py)|[Note](./LZOF_13/note.md)|Medium|O(n*2)|O(n)||
 |No.LZOF_14|[剪绳子](https://leetcode-cn.com/problems/jian-sheng-zi-lcof/)|[Solution](./LZOF_14/Solution.py)|[Note](./LZOF_14/note.md)|Medium|O(n*2)|O(n)||
-|No.LZOF_14_II|[剪绳子 ||](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)|[Solution](./LZOF_14_II/Solution.py)|[Note](./LZOF_14_II/note.md)|Medium|O(n*2)|O(n)||
+|No.LZOF_14_II|[剪绳子II](https://leetcode-cn.com/problems/jian-sheng-zi-ii-lcof/)|[Solution](./LZOF_14_II/Solution.py)|[Note](./LZOF_14_II/note.md)|Medium|O(n*2)|O(n)||
 |No.LZOF_15|[二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)|[Solution](./LZOF_15/Solution.py)|[Note](./LZOF_15/note.md)|Medium|O(n)|O(1)||
 |No.LZOF_16|[数值的整数次方](https://leetcode-cn.com/problems/shu-zhi-de-zheng-shu-ci-fang-lcof/)|[Solution](./LZOF_16/Solution.py)|[Note](./LZOF_16/note.md)|Medium|O(logn)|O(1)||
 |No.LZOF_17|[打印从1到最大的n位数](https://leetcode-cn.com/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)|[Solution](./LZOF_17/Solution.py)|[Note](./LZOF_17/note.md)|Easy|O(n)|O(n)||
@@ -628,3 +629,10 @@ Table of Contents
 |No.LZOF_22|[链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)|[Solution](./LZOF_22/Solution.py)|[Note](./LZOF_22/note.md)|Easy|O(n)|O(1)||
 |No.LZOF_24|[反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)|[Solution](./LZOF_24/Solution.py)|[Note](./LZOF_24/note.md)|Easy|O(n)|O(1)||
 |No.LZOF_25|[合并两个排序的链表](https://leetcode-cn.com/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/)|[Solution](./LZOF_25/Solution.py)|[Note](./LZOF_25/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_26|[树的子结构](https://leetcode-cn.com/problems/shu-de-zi-jie-gou-lcof/)|[Solution](./LZOF_26/Solution.py)|[Note](./LZOF_26/note.md)|Easy|O(n^2)|O(1)||
+|No.LZOF_27|[二叉树的镜像](https://leetcode-cn.com/problems/er-cha-shu-de-jing-xiang-lcof/)|[Solution](./LZOF_27/Solution.py)|[Note](./LZOF_27/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_28|[对称的二叉树](https://leetcode-cn.com/problems/dui-cheng-de-er-cha-shu-lcof/)|[Solution](./LZOF_28/Solution.py)|[Note](./LZOF_28/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_29|[顺时针打印矩阵](https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/)|[Solution](./LZOF_29/Solution.py)|[Note](./LZOF_29/note.md)|Easy|O(n)|O(n)||
+|No.LZOF_30|[包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/)|[Solution](./LZOF_30/Solution.py)|[Note](./LZOF_30/note.md)|Easy|O(1)|O(1)||
+
+
