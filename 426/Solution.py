@@ -75,6 +75,53 @@ class Solution:
         tail.right = head
         
         return head
-            
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+"""
+class Solution:
+    def treeToDoublyList(self, root: 'Node') -> 'Node':
+
+        if not root:
+            return 
+        
+
+        head = None
+        tail = None
+
+        prev = None
+
+        def inorder(root):
+            nonlocal head, tail, prev
+
+            if not root:
+                return 
+
+            inorder(root.left)
+            if not prev:
+                prev = root
+            else:
+                prev.right = root
+                root.left = prev
+                prev = root
+
+            if not head:
+                head = root
+            tail = root
+
+            inorder(root.right)
+            return 
+        
+        inorder(root)
+
+        tail.right = head
+        head.left = tail
+
+        return head  
             
         

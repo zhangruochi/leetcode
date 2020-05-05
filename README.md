@@ -641,3 +641,9 @@ Table of Contents
 |No.LZOF_33|[二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)|[Solution](./LZOF_33/Solution.py)|[Note](./LZOF_33/note.md)|Medium|O(n)|O(n)||
 |No.LZOF_34|[二叉树中和为某一值的路径](https://leetcode-cn.com/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)|[Solution](./LZOF_34/Solution.py)|[Note](./LZOF_34/note.md)|Medium|O(n)|O(n)||
 |No.LZOF_35|[复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/)|[Solution](./LZOF_35/Solution.py)|[Note](./LZOF_35/note.md)|Medium|O(n)|O(n)||
+|No.LZOF_36|[二叉搜索树与双向链表](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/)|[Solution](./LZOF_36/Solution.py)|[Note](./LZOF_36/note.md)|Medium|O(n)|O(1)||
+|No.LZOF_37|[序列化二叉树](https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/)|[Solution](./LZOF_37/Solution.py)|[Note](./LZOF_37/note.md)|Hard|O(n)|O(n)||
+|No.LZOF_38|[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)|[Solution](./LZOF_38/Solution.py)|[Note](./LZOF_38/note.md)|Medium|O(n!)|O(n)||
+|No.LZOF_39|[数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/)|[Solution](./LZOF_39/Solution.py)|[Note](./LZOF_39/note.md)|Easy|O(nlogn)|O(1)||
+|No.LZOF_40|[最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)|[Solution](./LZOF_40/Solution.py)|[Note](./LZOF_40/note.md)|Easy|O(nlogk)|O(1)||
+
