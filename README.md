@@ -646,4 +646,19 @@ Table of Contents
 |No.LZOF_38|[字符串的排列](https://leetcode-cn.com/problems/zi-fu-chuan-de-pai-lie-lcof/)|[Solution](./LZOF_38/Solution.py)|[Note](./LZOF_38/note.md)|Medium|O(n!)|O(n)||
 |No.LZOF_39|[数组中出现次数超过一半的数字](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/)|[Solution](./LZOF_39/Solution.py)|[Note](./LZOF_39/note.md)|Easy|O(nlogn)|O(1)||
 |No.LZOF_40|[最小的k个数](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/)|[Solution](./LZOF_40/Solution.py)|[Note](./LZOF_40/note.md)|Easy|O(nlogk)|O(1)||
+|No.LZOF_41|[连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/)|[Solution](./LZOF_41/Solution.py)|[Note](./LZOF_41/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_49|[ 丑数](https://leetcode-cn.com/problems/chou-shu-lcof/)|[Solution](./LZOF_49/Solution.py)|[Note](./LZOF_49/note.md)|Medium|O(n)|O(1)||
+|No.LZOF_48|[最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)|[Solution](./LZOF_48/Solution.py)|[Note](./LZOF_48/note.md)|Medium|O(n)|O(n)||
+|No.LZOF_47|[礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/)|[Solution](./LZOF_47/Solution.py)|[Note](./LZOF_47/note.md)|Medium|O(n)|O(n*2)||
+|No.LZOF_46|[把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)|[Solution](./LZOF_46/Solution.py)|[Note](./LZOF_46/note.md)|Medium|O(n*2)|O(1)||
+|No.LZOF_45|[把数组排成最小的数](https://leetcode-cn.com/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/)|[Solution](./LZOF_45/Solution.py)|[Note](./LZOF_45/note.md)|Medium|O(nlogn)|O(n)||
+|No.LZOF_50|[第一个只出现一次的字符](https://leetcode-cn.com/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/)|[Solution](./LZOF_50/Solution.py)|[Note](./LZOF_50/note.md)|Easy|O(n)|O(n)||
+|No.LZOF_52|[两个链表的第一个公共节点](https://leetcode-cn.com/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/)|[Solution](./LZOF_52/Solution.py)|[Note](./LZOF_52/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_53_I|[在排序数组中查找数字I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)|[Solution](./LZOF_53_I/Solution.py)|[Note](./LZOF_53_I/note.md)|Easy|O(logn)|O(1)||
+|No.LZOF_53_II|[0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/)|[Solution](./LZOF_53_II/Solution.py)|[Note](./LZOF_53_II/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_54|[二叉搜索树的第k大节点](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)|[Solution](./LZOF_54/Solution.py)|[Note](./LZOF_54/note.md)|Easy|O(nlogk)|O(n)||
+|No.LZOF_55_I|[二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)|[Solution](./LZOF_55_I/Solution.py)|[Note](./LZOF_55_I/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_55_II|[平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)|[Solution](./LZOF_55_II/Solution.py)|[Note](./LZOF_55_II/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_56_I|[数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)|[Solution](./LZOF_56_I/Solution.py)|[Note](./LZOF_56_I/note.md)|medium|O(n)|O(1)||
+
 
