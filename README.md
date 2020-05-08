@@ -660,5 +660,13 @@ Table of Contents
 |No.LZOF_55_I|[二叉树的深度](https://leetcode-cn.com/problems/er-cha-shu-de-shen-du-lcof/)|[Solution](./LZOF_55_I/Solution.py)|[Note](./LZOF_55_I/note.md)|Easy|O(n)|O(1)||
 |No.LZOF_55_II|[平衡二叉树](https://leetcode-cn.com/problems/ping-heng-er-cha-shu-lcof/)|[Solution](./LZOF_55_II/Solution.py)|[Note](./LZOF_55_II/note.md)|Easy|O(n)|O(1)||
 |No.LZOF_56_I|[数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)|[Solution](./LZOF_56_I/Solution.py)|[Note](./LZOF_56_I/note.md)|medium|O(n)|O(1)||
+|No.LZOF_57|[和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/)|[Solution](./LZOF_57/Solution.py)|[Note](./LZOF_57/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_57_II|[和为s的连续正数序列](https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/)|[Solution](./LZOF_57_II/Solution.py)|[Note](./LZOF_57_II/note.md)|Easy|O(n)|O(n)||
+|No.LZOF_58_I|[翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)|[Solution](./LZOF_58_I/Solution.py)|[Note](./LZOF_58_I/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_58_II|[左旋转字符串](https://leetcode-cn.com/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)|[Solution](./LZOF_58_II/Solution.py)|[Note](./LZOF_58_II/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_59_I|[滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)|[Solution](./LZOF_59_I/Solution.py)|[Note](./LZOF_59_I/note.md)|Easy|O(n)|O(N)||
+|No.LZOF_59_II|[队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/)|[Solution](./LZOF_59_II/Solution.py)|[Note](./LZOF_59_II/note.md)|Medium|O(1)|O(N)||
+|No.LZOF_68_II|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/)|[Solution](./LZOF_68_II/Solution.py)|[Note](./LZOF_68_II/note.md)|Medium|O(1)|O(N)||
+
 
 

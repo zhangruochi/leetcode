@@ -49,7 +49,88 @@ class Solution:
         
         return res
 
-                
+       
+         
+from heapq import *
+from collections import namedtuple
+from functools import total_ordering
+
+class MyHeap():
+    def __init__(self):
+        self.data = []
+    
+    def push(self, x):
+        heappush(self.data, x)
+    
+    def pop(self):
+        return heappop(self.data)
+    
+    @property
+    def size(self):
+        return len(self.data)
+
+    def top(self):
+        return self.data[0]
+
+@total_ordering
+class Item():
+    def __init__(self, num, i):
+        self.num = num
+        self.priority = -num
+        self.index = i
+
+    def __eq__(self, other):
+        return self.priority == other.priority
+    
+    def __lt__(self, other):
+        return self.priority < other.priority
+
+
+class Solution:
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+
+        heap = MyHeap()
+        res = []
+
+
+        for i, num in enumerate(nums):
+            
+            while heap.size > 0 and i - heap.top().index >= k:
+                heap.pop()
+
+            heap.push(Item(num, i))
+
+            if i >= k - 1:
+                res.append(heap.top().num)
+        
+        return res
+
+
+
+
+from collections import deque
+
+class Solution:
+    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+
+        queue = deque()
+        res = []
+
+        for i, num in enumerate(nums):
+
+            while len(queue) != 0 and num > nums[queue[-1]]:
+                queue.pop()
+            
+            if len(queue) > 0 and i - queue[0] >= k:
+                queue.popleft() 
+
+            queue.append(i)
+
+            if i >= k - 1:
+                res.append(nums[queue[0]])
+        
+        return res
+
             
             
         
