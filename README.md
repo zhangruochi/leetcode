@@ -667,10 +667,13 @@ Table of Contents
 |No.LZOF_59_I|[滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/)|[Solution](./LZOF_59_I/Solution.py)|[Note](./LZOF_59_I/note.md)|Easy|O(n)|O(N)||
 |No.LZOF_59_II|[队列的最大值](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/)|[Solution](./LZOF_59_II/Solution.py)|[Note](./LZOF_59_II/note.md)|Medium|O(1)|O(N)||
 |No.LZOF_68_I|[二叉搜索树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/)|[Solution](./LZOF_68_I/Solution.py)|[Note](./LZOF_68_I/note.md)|Easy|O(n)|O(n)||
-|No.LZOF_68_II|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/)|[Solution](./LZOF_68_II/Solution.py)|[Note](./LZOF_68_II/note.md)|Medium|O(n)|O(n)||
+|No.LZOF_68_II|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/)|[Solution](./LZOF_68_II/Solution.py)|[Note](./LZOF_68_II/note.md)|Medium|O(n)|O(n)||
 |No.LZOF_67|[把字符串转换成整数](https://leetcode-cn.com/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof/)|[Solution](./LZOF_67/Solution.py)|[Note](./LZOF_67/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_66|[构建乘积数组](https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/)|[Solution](./LZOF_66/Solution.py)|[Note](./LZOF_66/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_65|[不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/)|[Solution](./LZOF_65/Solution.py)|[Note](./LZOF_65/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_63|[股票的最大利润](https://leetcode-cn.com/problems/gu-piao-de-zui-da-li-run-lcof/)|[Solution](./LZOF_63/Solution.py)|[Note](./LZOF_63/note.md)|Medium|O(n)|O(1)||
-
+|No.LZOF_65|[n个骰子的点数](https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/)|[Solution](./LZOF_65/Solution.py)|[Note](./LZOF_65/note.md)|Easy|O(n)|O(1)||
+|No.LZOF_62|[圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)|[Solution](./LZOF_62/Solution.py)|[Note](./LZOF_62/note.md)|Easy|O(n)|O(n)||
+|No.LZOF_61|[扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)|[Solution](./LZOF_61/Solution.py)|[Note](./LZOF_61/note.md)|Easy|O(n)|O(n)||
+|No.LZOF_64|[求1+2+...+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)|[Solution](./LZOF_64/Solution.py)|[Note](./LZOF_64/note.md)|Medium|O(n)|O(n)||
 
