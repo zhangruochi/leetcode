@@ -31,6 +31,7 @@ Table of Contents
       * [Dynamic Programming](#dynamic-programming)
       * [SQL Schema](#sql-schema)
       * [剑指offer](#剑指offer)
+      * [程序员面试经典](#程序员面试经典)
 
       
 
@@ -676,4 +677,19 @@ Table of Contents
 |No.LZOF_62|[圆圈中最后剩下的数字](https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/)|[Solution](./LZOF_62/Solution.py)|[Note](./LZOF_62/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_61|[扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)|[Solution](./LZOF_61/Solution.py)|[Note](./LZOF_61/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_64|[求1+2+...+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)|[Solution](./LZOF_64/Solution.py)|[Note](./LZOF_64/note.md)|Medium|O(n)|O(n)||
+|No.LZOF_56_II|[数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/)|[Solution](./LZOF_56_II/Solution.py)|[Note](./LZOF_56_II/note.md)|Medium|O(n)|O(1)||
+
+
+
+## 程序员面试经典
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.CXY_01_01|[判定字符是否唯一](https://leetcode-cn.com/problems/is-unique-lcci/)|[Solution](./CXY_01_01/Solution.py)|[Note](./CXY_01_01/note.md)|Easy|O(n)|O(n)||
+|No.CXY_01_02|[判定是否互为字符重排](https://leetcode-cn.com/problems/check-permutation-lcci/)|[Solution](./CXY_01_02/Solution.py)|[Note](./CXY_01_02/note.md)|Easy|O(n)|O(n)||
+|No.CXY_01_03|[URL化](https://leetcode-cn.com/problems/string-to-url-lcci/)|[Solution](./CXY_01_03/Solution.py)|[Note](./CXY_01_03/note.md)|Easy|O(n)|O(1)||
+|No.CXY_01_04|[回文排列](https://leetcode-cn.com/problems/palindrome-permutation-lcci/)|[Solution](./CXY_01_04/Solution.py)|[Note](./CXY_01_04/note.md)|Easy|O(n)|O(n)||
+|No.CXY_01_05|[一次编辑](https://leetcode-cn.com/problems/one-away-lcci/)|[Solution](./CXY_01_05/Solution.py)|[Note](./CXY_01_05/note.md)|Medium|O(n)|O(1)||
+|No.CXY_01_06|[字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)|[Solution](./CXY_01_06/Solution.py)|[Note](./CXY_01_06/note.md)|Easy|O(n)|O(n)||
+
+
 
