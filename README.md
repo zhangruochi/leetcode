@@ -690,6 +690,12 @@ Table of Contents
 |No.CXY_01_04|[回文排列](https://leetcode-cn.com/problems/palindrome-permutation-lcci/)|[Solution](./CXY_01_04/Solution.py)|[Note](./CXY_01_04/note.md)|Easy|O(n)|O(n)||
 |No.CXY_01_05|[一次编辑](https://leetcode-cn.com/problems/one-away-lcci/)|[Solution](./CXY_01_05/Solution.py)|[Note](./CXY_01_05/note.md)|Medium|O(n)|O(1)||
 |No.CXY_01_06|[字符串压缩](https://leetcode-cn.com/problems/compress-string-lcci/)|[Solution](./CXY_01_06/Solution.py)|[Note](./CXY_01_06/note.md)|Easy|O(n)|O(n)||
+|No.CXY_01_07|[旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci/)|[Solution](./CXY_01_07/Solution.py)|[Note](./CXY_01_07/note.md)|Medium|O(n)|O(1)||
+|No.CXY_01_08|[零矩阵](https://leetcode-cn.com/problems/zero-matrix-lcci/)|[Solution](./CXY_01_08/Solution.py)|[Note](./CXY_01_08/note.md)|Medium|O(n^2)|O(1)||
+|No.CXY_01_09|[字符串轮转](https://leetcode-cn.com/problems/string-rotation-lcci/)|[Solution](./CXY_01_09/Solution.py)|[Note](./CXY_01_09/note.md)|Easy|O(s1+s2)|O(n)||
+|No.CXY_02_01|[移除重复节点](https://leetcode-cn.com/problems/remove-duplicate-node-lcci/)|[Solution](./CXY_02_01/Solution.py)|[Note](./CXY_02_01/note.md)|Easy|O(n)|O(n)||
+|No.CXY_02_02|[返回倒数第 k 个节点](https://leetcode-cn.com/problems/kth-node-from-end-of-list-lcci/)|[Solution](./CXY_02_02/Solution.py)|[Note](./CXY_02_02/note.md)|Easy|O(n)|O(n)||
+|No.CXY_02_03|[删除中间节点](https://leetcode-cn.com/problems/delete-middle-node-lcci/)|[Solution](./CXY_02_03/Solution.py)|[Note](./CXY_02_03/note.md)|Easy|O(1)|O(1)||
 
 
 
