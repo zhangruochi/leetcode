@@ -700,7 +700,9 @@ Table of Contents
 |No.CXY_02_05|[链表求和](https://leetcode-cn.com/problems/sum-lists-lcci/)|[Solution](./CXY_02_05/Solution.py)|[Note](./CXY_02_05/note.md)|Medium|O(n)|O(n)||
 |No.CXY_02_06|[回文链表](https://leetcode-cn.com/problems/palindrome-linked-list-lcci/)|[Solution](./CXY_02_06/Solution.py)|[Note](./CXY_02_06/note.md)|Medium|O(n)|O(1)||
 |No.CXY_02_07|[链表相交](https://leetcode-cn.com/problems/intersection-of-two-linked-lists-lcci/)|[Solution](./CXY_02_07/Solution.py)|[Note](./CXY_02_07/note.md)|Easy|O(n)|O(1)||
-
+|No.CXY_02_08|[环路检测](https://leetcode-cn.com/problems/linked-list-cycle-lcci/)|[Solution](./CXY_02_08/Solution.py)|[Note](./CXY_02_08/note.md)|Easy|O(n)|O(1)||
+|No.CXY_03_01|[三合一](https://leetcode-cn.com/problems/three-in-one-lcci/)|[Solution](./CXY_03_01/Solution.py)|[Note](./CXY_03_01/note.md)|Easy|O(n)|O(n)||
+|No.CXY_03_02|[栈的最小值](https://leetcode-cn.com/problems/min-stack-lcci/)|[Solution](./CXY_03_02/Solution.py)|[Note](./CXY_03_02/note.md)|Easy|O(n)|O(1)||
 
 
 
