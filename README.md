@@ -703,6 +703,13 @@ Table of Contents
 |No.CXY_02_08|[环路检测](https://leetcode-cn.com/problems/linked-list-cycle-lcci/)|[Solution](./CXY_02_08/Solution.py)|[Note](./CXY_02_08/note.md)|Easy|O(n)|O(1)||
 |No.CXY_03_01|[三合一](https://leetcode-cn.com/problems/three-in-one-lcci/)|[Solution](./CXY_03_01/Solution.py)|[Note](./CXY_03_01/note.md)|Easy|O(n)|O(n)||
 |No.CXY_03_02|[栈的最小值](https://leetcode-cn.com/problems/min-stack-lcci/)|[Solution](./CXY_03_02/Solution.py)|[Note](./CXY_03_02/note.md)|Easy|O(n)|O(1)||
+|No.CXY_03_03|[堆盘子](https://leetcode-cn.com/problems/stack-of-plates-lcci/)|[Solution](./CXY_03_03/Solution.py)|[Note](./CXY_03_03/note.md)|Medium|O(n)|O(n)||
+|No.CXY_03_04|[化栈为队](https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci/)|[Solution](./CXY_03_04/Solution.py)|[Note](./CXY_03_04/note.md)|Easy|O(n)|O(n)||
+|No.CXY_03_05|[栈排序](https://leetcode-cn.com/problems/sort-of-stacks-lcci/)|[Solution](./CXY_03_05/Solution.py)|[Note](./CXY_03_05/note.md)|Medium|O(n)|O(n)||
+|No.CXY_03_06|[动物收容所](https://leetcode-cn.com/problems/animal-shelter-lcci/)|[Solution](./CXY_03_06/Solution.py)|[Note](./CXY_03_06/note.md)|Easy|O(n)|O(n)||
+|No.CXY_04_01|[节点间通路](https://leetcode-cn.com/problems/route-between-nodes-lcci/)|[Solution](./CXY_04_01/Solution.py)|[Note](./CXY_04_01/note.md)|Medium|O(n)|O(n)||
+
+
 
 
 
