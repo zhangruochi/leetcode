@@ -711,7 +711,8 @@ Table of Contents
 |No.CXY_04_02|[最小高度树](https://leetcode-cn.com/problems/minimum-height-tree-lcci/)|[Solution](./CXY_04_02/Solution.py)|[Note](./CXY_04_02/note.md)|Easy|O(n)|O(n)||
 |No.CXY_04_03|[特定深度节点链表](https://leetcode-cn.com/problems/list-of-depth-lcci/)|[Solution](./CXY_04_03/Solution.py)|[Note](./CXY_04_03/note.md)|Medium|O(n)|O(n)||
 |No.CXY_04_04|[检查平衡性](https://leetcode-cn.com/problems/check-balance-lcci/)|[Solution](./CXY_04_04/Solution.py)|[Note](./CXY_04_04/note.md)|Easy|O(n)|O(n)||
-
+|No.CXY_04_05|[合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/)|[Solution](./CXY_04_05/Solution.py)|[Note](./CXY_04_05/note.md)|Medium|O(n)|O(n)||
+|No.CXY_04_06|[后继者]https://leetcode-cn.com/problems/successor-lcci/)|[Solution](./CXY_04_06/Solution.py)|[Note](./CXY_04_06/note.md)|Medium|O(n)|O(n)||
 
 
 
