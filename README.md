@@ -712,8 +712,8 @@ Table of Contents
 |No.CXY_04_03|[特定深度节点链表](https://leetcode-cn.com/problems/list-of-depth-lcci/)|[Solution](./CXY_04_03/Solution.py)|[Note](./CXY_04_03/note.md)|Medium|O(n)|O(n)||
 |No.CXY_04_04|[检查平衡性](https://leetcode-cn.com/problems/check-balance-lcci/)|[Solution](./CXY_04_04/Solution.py)|[Note](./CXY_04_04/note.md)|Easy|O(n)|O(n)||
 |No.CXY_04_05|[合法二叉搜索树](https://leetcode-cn.com/problems/legal-binary-search-tree-lcci/)|[Solution](./CXY_04_05/Solution.py)|[Note](./CXY_04_05/note.md)|Medium|O(n)|O(n)||
-|No.CXY_04_06|[后继者]https://leetcode-cn.com/problems/successor-lcci/)|[Solution](./CXY_04_06/Solution.py)|[Note](./CXY_04_06/note.md)|Medium|O(n)|O(n)||
-
-
-
+|No.CXY_04_06|[后继者](https://leetcode-cn.com/problems/successor-lcci/)|[Solution](./CXY_04_06/Solution.py)|[Note](./CXY_04_06/note.md)|Medium|O(n)|O(n)||
+|No.CXY_04_08|[首个共同祖先](https://leetcode-cn.com/problems/first-common-ancestor-lcci/)|[Solution](./CXY_04_08/Solution.py)|[Note](./CXY_04_08/note.md)|Medium|O(n)|O(n)||
+|No.CXY_04_10|[检查子树](https://leetcode-cn.com/problems/check-subtree-lcci/)|[Solution](./CXY_04_10/Solution.py)|[Note](./CXY_04_10/note.md)|Medium|O(n^2)|O(n)||
+|No.CXY_04_12|[求和路径](https://leetcode-cn.com/problems/paths-with-sum-lcci/)|[Solution](./CXY_04_12/Solution.py)|[Note](./CXY_04_12/note.md)|Medium|O(n)|O(n)||
 
