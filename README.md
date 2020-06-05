@@ -716,4 +716,10 @@ Table of Contents
 |No.CXY_04_08|[首个共同祖先](https://leetcode-cn.com/problems/first-common-ancestor-lcci/)|[Solution](./CXY_04_08/Solution.py)|[Note](./CXY_04_08/note.md)|Medium|O(n)|O(n)||
 |No.CXY_04_10|[检查子树](https://leetcode-cn.com/problems/check-subtree-lcci/)|[Solution](./CXY_04_10/Solution.py)|[Note](./CXY_04_10/note.md)|Medium|O(n^2)|O(n)||
 |No.CXY_04_12|[求和路径](https://leetcode-cn.com/problems/paths-with-sum-lcci/)|[Solution](./CXY_04_12/Solution.py)|[Note](./CXY_04_12/note.md)|Medium|O(n)|O(n)||
+|No.CXY_08_01|[三步问题](https://leetcode-cn.com/problems/three-steps-problem-lcci/)|[Solution](./CXY_08_01/Solution.py)|[Note](./CXY_08_01/note.md)|Easy|O(n)|O(n)||
+|No.CXY_08_02|[迷路的机器人](https://leetcode-cn.com/problems/robot-in-a-grid-lcci/)|[Solution](./CXY_08_02/Solution.py)|[Note](./CXY_08_02/note.md)|Medium|O(100^2)|O(n)||
+|No.CXY_08_03|[魔术索引](https://leetcode-cn.com/problems/magic-index-lcci/)|[Solution](./CXY_08_03/Solution.py)|[Note](./CXY_08_03/note.md)|Easy|O(n)|O(1)||
+|No.CXY_08_04|[幂集](https://leetcode-cn.com/problems/power-set-lcci/)|[Solution](./CXY_08_04/Solution.py)|[Note](./CXY_08_04/note.md)|Medium|O(n^2)|O(n)||
+|No.CXY_08_05|[递归乘法](https://leetcode-cn.com/problems/recursive-mulitply-lcci/)|[Solution](./CXY_08_05/Solution.py)|[Note](./CXY_08_05/note.md)|Medium|O(n)|O(n)||
+
 
