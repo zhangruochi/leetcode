@@ -721,5 +721,5 @@ Table of Contents
 |No.CXY_08_03|[魔术索引](https://leetcode-cn.com/problems/magic-index-lcci/)|[Solution](./CXY_08_03/Solution.py)|[Note](./CXY_08_03/note.md)|Easy|O(n)|O(1)||
 |No.CXY_08_04|[幂集](https://leetcode-cn.com/problems/power-set-lcci/)|[Solution](./CXY_08_04/Solution.py)|[Note](./CXY_08_04/note.md)|Medium|O(n^2)|O(n)||
 |No.CXY_08_05|[递归乘法](https://leetcode-cn.com/problems/recursive-mulitply-lcci/)|[Solution](./CXY_08_05/Solution.py)|[Note](./CXY_08_05/note.md)|Medium|O(n)|O(n)||
-
+|No.CXY_08_06|[汉诺塔问题](https://leetcode-cn.com/problems/hanota-lcci/)|[Solution](./CXY_08_06/Solution.py)|[Note](./CXY_08_06/note.md)|Easy|O(2^n)|O(n)||
 
