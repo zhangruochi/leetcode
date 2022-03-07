@@ -101,6 +101,22 @@ if __name__ == '__main__':
 
 
 
+def valid_str(str_):
+    stack = []
+    for c in str_:
+        if c != "#":
+            stack.append(c)
+        else:
+            if len(stack) > 0:
+                stack.pop()
+    return "".join(stack)
+
+class Solution:
+    def backspaceCompare(self, s: str, t: str) -> bool:
+        str_s = valid_str(s)
+        str_t = valid_str(t)
+
+        return  str_s == str_t
 
 
 
