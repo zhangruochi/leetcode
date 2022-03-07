@@ -444,7 +444,7 @@ Table of Contents
 |No.704|[Binary Search](https://leetcode.com/problems/binary-search/)|[Solution](./704/Solution.py)|[Note](./704/note.md)|Easy|O(logn)|O(1)||
 |No.1201|[Ugly Number III](https://leetcode.com/problems/ugly-number-iii/)|[Solution](./1201/Solution.py)|[Note](./1201/note.md)|Medium|O(logn)|O(1)||
 |No.074|[Search a 2D Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix/)|[Solution](./074/Solution.py)|[Note](./074/note.md)|Medium|O(logn)|O(1)||
-
+|No.162|[Find Peak Element](https://leetcode-cn.com/problems/find-peak-element/)|[Solution](./162/Solution.py)|[Note](./162/note.md)|Medium|O(logn)|O(1)||
 
 
 ## Binary Search Tree

@@ -46,3 +46,40 @@ class Solution:
                         j -= 1
                     i+= 1; j-= 1
         return result
+
+
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        if len(nums) < 3:
+            return []
+
+        nums = sorted(nums)
+        res = set()
+        i = 0
+
+        for i in range(len(nums)):
+            if nums[i] > 0:
+                break
+            
+            two_sum = 0 - nums[i]
+
+            j = i+1
+            k = len(nums)-1
+
+            while j < k:
+                
+                if nums[j] + nums[k] == two_sum:
+                    res.add((nums[i], nums[j], nums[k]))
+                    j+=1
+                elif nums[j] + nums[k] > two_sum:
+                    k -= 1
+                else:
+                    j += 1
+
+        return [list(_) for _ in res]
+
+                
+                
+
+
+    

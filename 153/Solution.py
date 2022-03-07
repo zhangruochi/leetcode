@@ -70,3 +70,30 @@ class Solution:
                     return nums[mid]
                 else:
                     r = mid - 1
+
+
+
+class Solution:
+    def findMin(self, nums: List[int]) -> int:
+
+        if len(nums) == 1:
+            return nums[0]
+
+        if nums[0] < nums[-1]:
+            return nums[0]
+
+        left, right = 0, len(nums) -1
+
+        while left <= right:
+            mid = (left + right) // 2
+
+            if mid > 0 and nums[mid] < nums[mid-1]:
+                return nums[mid]
+            
+            if nums[mid] >= nums[left] and nums[mid] > nums[-1]:
+                left = mid + 1 
+            elif nums[mid] <= nums[right] and nums[mid] < nums[0]:
+                right = mid
+
+        return -1 
+

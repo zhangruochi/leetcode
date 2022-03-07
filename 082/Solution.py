@@ -55,4 +55,40 @@ class Solution:
         
         pre.next = None
         return dummy.next
+
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def deleteDuplicates(self, head: ListNode) -> ListNode:
+        
+        if not head:
+            return head
+
+        cur = head
+        visited = set()
+        dups = set()
+
+        while cur:
+            if cur.val in visited:
+                dups.add(cur.val)
+            visited.add(cur.val)
+            cur = cur.next
+
+        cur = head
+
+        dummy = ListNode(val = 0, next = None)
+        tail = dummy
+        while cur:
+            if cur.val not in dups:
+                tail.next = cur
+                tail = tail.next
+            cur = cur.next
+
+        tail.next = None
+
+        return dummy.next
         
