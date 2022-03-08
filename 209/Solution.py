@@ -70,7 +70,7 @@ class Solution:
         for num in nums:
             cum += num
             prefix_sums.append(cum)
-        print(prefix_sums)
+            
         length = float("inf")
         for i,prefix_sum in enumerate(prefix_sums):
             j = self.binarySearch(prefix_sums,prefix_sum+s,0,len(prefix_sums)-1)
@@ -78,4 +78,25 @@ class Solution:
                 length = min(length,j-i)
         
         return length
+
+
+
+class Solution:
+    def minSubArrayLen(self, target: int, nums: List[int]) -> int:
+
+        if sum(nums) < target:
+            return 0
+
+        min_length = float("inf")
+        left = sum_ = 0
+
+        for right, val in enumerate(nums):
+            sum_ += val
+            while sum_ >= target:
+                min_length = min(min_length, right - left + 1)
+                
+                sum_ -= nums[left]
+                left += 1
+
+        return min_length
             
