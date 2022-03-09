@@ -171,6 +171,7 @@ Table of Contents
 |No.080|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)|[Solution](./080/Solution.py)|[Note](./080/note.md)|Medium|O(n)|O(1)||
 |No.525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Solution](./525/Solution.py)|[Note](./525/note.md)|Medium|O(n)|O(n)||
 |No.054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Note](./054/note.md)|Medium|O(n)|O(n)||
+|No.547|[Number of Provinces](https://leetcode-cn.com/problems/number-of-provinces/)|[Note](./547/note.md)|Medium|O(n^2)|O()|Union Found|
 
 
 

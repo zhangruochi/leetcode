@@ -77,3 +77,34 @@ class Solution:
                     count += 1
         
         return count
+
+
+
+def search(grid, visisted, i, j):
+    if visisted[i][j] or grid[i][j] == "0":
+        return 
+    visisted[i][j] = True
+
+    for new_i, new_j in [(i,j-1), (i,j+1), (i-1, j), (i+1, j)]:
+        if new_i >= 0 and new_i < len(grid) and new_j >=0 and new_j < len(grid[0]):
+            search(grid, visisted, new_i, new_j)
+        
+class Solution:
+    def numIslands(self, grid: List[List[str]]) -> int:
+
+        if len(grid) == 0 or len(grid[0]) == 0:
+            return 0
+            
+        count = 0
+
+        visisted = [[False] * len(grid[0]) for i in range(len(grid))]
+
+        for i in range(len(grid)):
+            for j in range(len(grid[0])):
+                if visisted[i][j]:
+                    continue
+                if grid[i][j] == "1":
+                    search(grid, visisted, i, j)
+                    count += 1
+
+        return count
