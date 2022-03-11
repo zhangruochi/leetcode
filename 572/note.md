@@ -50,3 +50,6 @@ def DFS(self,s,t):
             return False
         return  self.DFS(s,t) or self.isSubtree(s.left,t) or self.isSubtree(s.right,t)
     ```
+
+
+"一棵子树上的点在深度优先搜索序列（即先序遍历）中是连续的。"

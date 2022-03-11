@@ -98,4 +98,51 @@ class Solution:
                 
         return res
                 
+
+
+"""
+# Definition for a Node.
+class Node:
+    def __init__(self, val: int = 0, left: 'Node' = None, right: 'Node' = None, next: 'Node' = None):
+        self.val = val
+        self.left = left
+        self.right = right
+        self.next = next
+"""
+from collections import defaultdict
+
+class Solution:
+    def connect(self, root: 'Node') -> 'Node':
+
+        if not root:
+            return root
+        
+        queue = []
+
+        prev = None
+        pre_level = -1
+        queue.append([root,0])
+
+        while queue:
+            node, level = queue.pop(0)
+
+            if node.left:
+                queue.append([node.left, level + 1])
+
+            if node.right:
+                queue.append([node.right, level + 1])
+
+            if level != pre_level:
+                if prev is not None:
+                    prev.next = None
+            else:
+                prev.next = node
+
+            prev = node
+            pre_level = level
+        
+        node.next = None
+
+        return root
+
             
