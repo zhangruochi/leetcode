@@ -51,3 +51,30 @@ class Solution:
         
         
         return res
+
+
+class Solution:
+    def subsets(self, nums: List[int]) -> List[List[int]]:
+
+        if not nums:
+            return []
+        
+        res = []
+
+        def helper(nums, pos, subset):
+            nonlocal res
+
+            if pos == len(nums):
+                res.append(subset[:])
+                return 
+
+            subset.append(nums[pos])
+            helper(nums, pos+1, subset)
+            subset.pop()
+
+            helper(nums, pos+1, subset)
+
+        helper(nums, 0, [])
+            
+        return res
+        
