@@ -37,3 +37,34 @@ class Solution:
         helper(item,visited)
         
         return res
+
+
+
+class Solution:
+    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+    
+        def helper(path, visited):
+
+            if len(path) == len(nums):
+                res.append(path[:])
+            
+            for i in range(len(nums)):
+
+                if visited[i] or ( i > 0 and nums[i] == nums[i-1] and visited[i-1] ):
+                    continue
+
+
+                path.append(nums[i])
+                visited[i] = True
+                helper(path, visited)
+
+                # backtrack
+                visited[i] = False
+                path.pop()
+        
+        res = []
+        visited = [False] * len(nums)
+        nums.sort()
+        helper([], visited)
+
+        return res
