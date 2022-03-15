@@ -55,3 +55,37 @@ class Solution:
                     return True
                 visited[i][j] = 0
         return False
+
+
+
+class Solution:
+    def exist(self, board: List[List[str]], word: str) -> bool:
+        
+        def search(i, j, visited,  word):
+            nonlocal res
+
+            if not word:
+                res = True
+                return 
+
+            if i < 0 or i >= len(board) or j < 0 or j >= len(board[0]) or visited[i][j] or board[i][j] != word[0]:
+                return 
+
+
+            visited[i][j] = True
+            for next_i, next_j in [(i-1, j), (i+1, j), (i, j-1), (i, j+1)]:
+
+                search(next_i, next_j, visited, word[1:])
+            
+            visited[i][j] = False
+
+
+        res = False
+        visited = [[False] * len(board[0]) for _ in range(len(board))]
+        
+        for i in range(len(board)):
+            for j in range(len(board[0])):
+                if board[i][j] == word[0]:
+                    search(i,j, visited, word)
+
+        return res

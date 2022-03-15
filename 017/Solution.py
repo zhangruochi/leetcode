@@ -92,3 +92,38 @@ class Solution:
             
         
         return helper(list(digits)[::-1],"")
+
+
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+
+        if not digits:
+            return []
+
+        mapping = {
+            "2": "abc",
+            "3": "def",
+            "4": "ghi",
+            "5": "jkl",
+            "6": "mno",
+            "7": "pqrs",
+            "8": "tuv",
+            "9": "wxyz"}
+
+        if len(digits) == 1:
+            return list(mapping[digits])
+        
+        def helper(digits, pos, path):
+
+            nonlocal res
+            if len(path) == len(digits):
+                res.append(path)
+            
+            for i in range(pos, len(digits)):
+                for c in mapping[digits[i]]:
+                    helper(digits, i+1, path + c)
+
+        res = []
+        helper(digits, 0, "")
+
+        return res
