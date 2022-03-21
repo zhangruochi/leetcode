@@ -30,8 +30,21 @@ class Solution:
             
     
     
+
+
                 
             
             
-            
+class Solution:
+    def canJump(self, nums: List[int]) -> bool:
+
+        res = False
+        k = 0
+
+        for i, steps in enumerate(nums):
+            if i > k:
+                break
+            k = max(steps + i, k)
+        
+        return k >= len(nums)-1           
         

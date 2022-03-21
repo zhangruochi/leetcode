@@ -26,3 +26,20 @@ class Solution(object):
                 return [index,table[res]]
             else:
                 table[num] = index
+
+
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+
+        cache = {}
+        res = []
+
+        for i, num in enumerate(nums):
+            if target - num in cache:
+                res = [cache[target - num], i]
+                break
+                
+            cache[num] = i 
+        
+        return res
