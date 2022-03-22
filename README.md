@@ -172,6 +172,8 @@ Table of Contents
 |No.525|[Contiguous Array](https://leetcode.com/problems/contiguous-array/)|[Solution](./525/Solution.py)|[Note](./525/note.md)|Medium|O(n)|O(n)||
 |No.054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Note](./054/note.md)|Medium|O(n)|O(n)||
 |No.547|[Number of Provinces](https://leetcode-cn.com/problems/number-of-provinces/)|[Note](./547/note.md)|Medium|O(n^2)|O()|Union Found|
+|No.566|[Reshape the Matrix](https://leetcode-cn.com/problems/reshape-the-matrix/)|[Note](./566/note.md)|Medium|O(n^2)|O()||
+
 
 
 

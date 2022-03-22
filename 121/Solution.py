@@ -32,3 +32,18 @@ class Solution:
                 max_profit = num - min_price
 
         return max_profit
+        
+
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+
+        if len(prices) <= 1:
+            return 0
+
+        prev_min = prices[0]
+        maxProfit = 0
+        for p in prices[1:]:
+            maxProfit = max(p-prev_min, maxProfit)
+            prev_min = min(prev_min, p)
+
+        return maxProfit

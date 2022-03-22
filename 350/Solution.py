@@ -37,3 +37,21 @@ class Solution:
                 result += [key] * min(value,table_num2[key])
         return result
             
+
+class Solution:
+    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        from collections import Counter
+
+        if not nums1 or not nums2:
+            return []
+
+        nums1_dict = Counter(nums1)
+        nums2_dict = Counter(nums2)
+
+        int_keys = set(nums1_dict.keys()).intersection(set(nums2_dict.keys()))
+
+        res = []
+        for _ in int_keys:
+            res.extend( [_] * min(nums1_dict[_], nums2_dict[_]))
+
+        return res
