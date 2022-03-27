@@ -60,6 +60,36 @@ class Solution(object):
             cur.next = None
         
         return dummy
+
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def deleteDuplicates(self, head: ListNode) -> ListNode:
+
+        if not head:
+            return head
+
+        dummy = ListNode(-101)
+        dummy.next = cur = tail = head
+
+        while cur:
+            if cur.val != tail.val:
+                tail.next = cur
+                tail = tail.next
+
+            cur = cur.next
+            
+        
+        tail.next = None
+
+        return dummy.next
+                
+            
+
                        
 
 if __name__ == '__main__':

@@ -79,6 +79,37 @@ class Solution:
         
         return True
     
+
+
+def check_line(line):
+    if len(line) == 0:
+        return True
+
+    if len(line) == len(set(line)) and max(line) <= 9:
+        return True
+    else:
+        return False
+
+class Solution:
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
+        if not board or not board[0]:
+            return False
+
+        for i in range(len(board)):
+            if not check_line([int(_) for _ in board[i] if _ != "."]):
+                return False
+
+        for j in range(len(board[0])):
+            if not check_line([int(board[i][j]) for i in range(len(board)) if board[i][j] != "."]):
+                return False
+
+        for i in range(0, len(board), 3):
+            for j in range(0, len(board[0]), 3):
+                line = [int(board[i+n][j+m]) for n in range(3) for m in range(3) if board[i+n][j+m] != "."]
+                if not check_line(line):
+                    return False
+        
+        return True
             
         
         

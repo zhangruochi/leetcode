@@ -57,4 +57,27 @@ class Solution:
             tail = cur
             cur = head.next
         return tail
+
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def reverseList(self, head: ListNode) -> ListNode:
+
+        if not head:
+            return head
+
+        cur = head
+        tail = head
+
+        while cur.next:
+            tmp = cur.next
+            cur.next = tmp.next
+            tmp.next = tail
+            tail = tmp
+        
+        return tail
         

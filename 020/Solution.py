@@ -74,6 +74,37 @@ class Solution:
         
         return True      
 
+
+
+class Solution:
+    def isValid(self, s: str) -> bool:
+
+
+        stack = []
+
+        char_map = {
+            "(": ")",
+            "{": "}",
+            "[": "]"
+        }
+
+        flag = True
+
+        for c in s:
+            if c in char_map:
+                stack.append(c)
+            else:
+                if stack and stack[-1] in char_map and char_map[stack[-1]] == c:
+                    stack.pop()
+                else:
+                    flag = False
+                    break
+        
+        if len(stack) > 0:
+            flag = False
+
+        return flag
+
 if __name__ == '__main__':
     print(Solution().isValid(""))
 

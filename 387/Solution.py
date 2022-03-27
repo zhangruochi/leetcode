@@ -42,3 +42,16 @@ class Solution:
                 return index
         
         return -1
+
+
+class Solution:
+    def firstUniqChar(self, s: str) -> int:
+        from collections import Counter
+
+        count_dict = Counter(s)
+
+        for i, c in enumerate(s):
+            if count_dict[c] == 1:
+                return i
+        
+        return -1

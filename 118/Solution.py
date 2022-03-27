@@ -66,6 +66,24 @@ class Solution:
         return res
 
 
+class Solution:
+    def generate(self, numRows: int) -> List[List[int]]:
+
+        res = [[1], [1,1]]
+
+        if numRows == 0 :
+            return [[]]
+
+        if numRows <= 2:
+            return res[: numRows]
+
+
+        for i in range(3, numRows+1):
+           res.append( [1] + [ a+b  for a, b in zip(res[-1][:-1], res[-1][1:])] + [1] )
+
+        return res
+        
+        
 
 if __name__ == '__main__':
     print(Solution().generate2(5))         

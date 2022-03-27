@@ -173,6 +173,7 @@ Table of Contents
 |No.054|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)|[Note](./054/note.md)|Medium|O(n)|O(n)||
 |No.547|[Number of Provinces](https://leetcode-cn.com/problems/number-of-provinces/)|[Note](./547/note.md)|Medium|O(n^2)|O()|Union Found|
 |No.566|[Reshape the Matrix](https://leetcode-cn.com/problems/reshape-the-matrix/)|[Note](./566/note.md)|Medium|O(n^2)|O()||
+|No.073|[Set Matrix Zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes/)|[Note](./073/note.md)|Medium|O(nm)|O()||
 
 
 
@@ -223,6 +224,7 @@ Table of Contents
 |No.1163| [Last Substring in Lexicographical Order](https://leetcode.com/problems/last-substring-in-lexicographical-order/)|[Solution](./1163/Solution.py)|[Note](./1163/note.md)|Hard|O(n^2)|O(1)||
 |No.1790| [Check if One String Swap Can Make Strings Equal](https://leetcode-cn.com/problems/check-if-one-string-swap-can-make-strings-equal/)|[Solution](./1790/Solution.py)|[Note](./1790/note.md)|Easy|O(n)|O(1)||
 |No.438| [Find All Anagrams in a String](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/)|[Solution](./438/Solution.py)|[Note](./438/note.md)|Medium|O(n)|O(n)||
+|No.383| [Ransom Note](https://leetcode-cn.com/problems/ransom-note/)|[Solution](./383/Solution.py)|[Note](./383/note.md)|Medium|O(n)|O(n)||
 
 
 ## Linked List
