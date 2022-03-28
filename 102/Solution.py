@@ -46,3 +46,33 @@ class Solution(object):
                 queue.append((cur.right,level+1))
                 
         return [table[i] for i in range(len(table))]
+
+
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+from collections import deque, defaultdict
+
+class Solution:
+    def levelOrder(self, root: TreeNode) -> List[List[int]]:
+
+        if not root:
+            return []
+
+        queue = deque()
+        queue.append((root,0))
+        res = defaultdict(list)
+
+        while len(queue) > 0:
+            root, level = queue.popleft()
+            res[level].append(root.val)
+            if root.left:
+                queue.append((root.left, level + 1))
+            if root.right:
+                queue.append((root.right, level + 1))
+            
+        
+        return [list(val) for key, val in res.items()]
