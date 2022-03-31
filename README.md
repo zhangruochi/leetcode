@@ -285,6 +285,7 @@ Table of Contents
 |No.735|[Asteroid Collision](https://leetcode.com/problems/asteroid-collision/)|[Solution](./735/Solution.py)|[Note](./735/note.md)|Medium|O(n)|O(n)||
 |No.328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Solution](./328/Solution.py)|[Note](./328/note.md)|Medium|O(n)|O(n)||
 |No.678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[Solution](./678/Solution.py)|[Note](./678/note.md)|Medium|O(n)|O(n)||
+|No.offer09|[剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|[Solution](./offer09/Solution.py)|[Note](./offer09/note.md)|Easy|O(n)|O(n)||
 
 
 
@@ -511,6 +512,7 @@ Table of Contents
 |No.504|[Base 7](https://leetcode.com/problems/base-7/)|[Solution](./504/Solution.py)|[Note](./504/note.md)|Easy|O(n)|O(1)||
 |No.470|[Implement Rand10() Using Rand7()](https://leetcode.com/problems/implement-rand10-using-rand7/)|[Solution](./470/Solution.py)|[Note](./470/note.md)|medium|O(1)|O(1)||
 |No.154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)|[Solution](./154/Solution.py)|[Note](./154/note.md)|hard|O(n)|O(1)||
+|No.007|[Reverse Integer](https://leetcode-cn.com/problems/reverse-integer/)|[Solution](./007/Solution.py)|[Note](./007/note.md)|Medium|O(1)|O(1)||
 
 
 ## Graph
@@ -596,6 +598,8 @@ Table of Contents
 |No.647|[Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)|[Solution](./647/Solution.py)|[Note](./647/note.md)|Medium|O(n^2)|O(1)||
 |No.416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Solution](./416/Solution.py)|[Note](./416/note.md)|Medium|O(n^2)|O(n)||
 |No.279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Solution](./279/Solution.py)|[Note](./279/note.md)|Medium|O(n^2)|O(n)||
+|No.418|[Sentence Screen Fitting](https://leetcode-cn.com/problems/sentence-screen-fitting/)|[Solution](./418/Solution.py)|[Note](./418/note.md)|Medium|O(n^2)|O(n)||
+
 
 
 

@@ -82,7 +82,19 @@ class Solution(object):
                 break
             index += 1
         
-        return strs[0][:index]      
+        return strs[0][:index]    
+
+class Solution:
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+        min_length = min([len(_) for _ in strs])
+
+        idx = 0
+        while idx < min_length:
+            if len(set([_[idx] for _ in strs ])) != 1:
+                break
+            idx += 1
+
+        return strs[0][:idx]  
 
 
 if __name__ == '__main__':
