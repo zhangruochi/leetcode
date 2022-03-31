@@ -100,3 +100,39 @@ class Solution:
                 add_carry(cur_l1.next,carry)
                 
         return head
+
+
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+
+        def list2num(head):
+            num = 0
+            mul = 1
+            while head:
+                num += head.val * mul
+                mul *= 10
+                head = head.next
+            
+            return num
+
+        def str2list(num):
+            dummy = tail = ListNode(0)
+            if num == 0:
+                return dummy
+            while num:
+                digit = num % 10
+                num = num // 10
+                tail.next = ListNode(digit)
+                tail = tail.next
+            return dummy.next
+
+        num1 = list2num(l1)
+        num2 = list2num(l2)
+
+        return str2list(num1+num2)
