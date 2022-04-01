@@ -599,6 +599,7 @@ Table of Contents
 |No.416|[Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)|[Solution](./416/Solution.py)|[Note](./416/note.md)|Medium|O(n^2)|O(n)||
 |No.279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Solution](./279/Solution.py)|[Note](./279/note.md)|Medium|O(n^2)|O(n)||
 |No.418|[Sentence Screen Fitting](https://leetcode-cn.com/problems/sentence-screen-fitting/)|[Solution](./418/Solution.py)|[Note](./418/note.md)|Medium|O(n^2)|O(n)||
+|No.070|[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)|[Solution](./070/Solution.py)|[Note](./070/note.md)|Medium|O(n)|O(n)||
 
 
 

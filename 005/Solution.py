@@ -89,3 +89,40 @@ class Solution:
             
         
         return res
+
+
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+
+        if len(s) <= 1:
+            return s
+
+        # dp[i][j] 表示从j开始到i结束的字符串是否为回文串
+        dp = [[False] * len(s) for _ in range(len(s))]
+
+        # 长度为1的子串
+        for i in range(len(s)):
+            dp[i][i] = True
+
+        # dp[i-1][j+1] = 1 if dp[i][j] and s[i-1] == s[j+1]
+
+        max_len = 1
+        start = end = 0
+
+        for i in range(1, len(s)):
+            for j in range(i):
+                if i-j <= 1:
+                    if s[i] == s[j]:
+                        dp[i][j] = True
+                        cur_len = i-j+1
+                else:
+                    if dp[i-1][j+1] and s[i] == s[j]:
+                        dp[i][j] = True
+                        cur_len = i-j+1
+                
+                if dp[i][j]:
+                    if cur_len > max_len:
+                        max_len = cur_len
+                        start = j
+        
+        return s[start:start+max_len]
