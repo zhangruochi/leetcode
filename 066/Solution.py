@@ -66,6 +66,30 @@ class Solution:
           
 
 
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+
+        if not digits:
+            return 0
+        
+        indx = len(digits)-1
+        carry = 0
+        
+        while indx >= 0:
+            if indx == len(digits)-1:
+                sum_ = digits[indx] + carry + 1
+            else:
+                sum_ = digits[indx] + carry
+
+            carry, mod = divmod(sum_, 10)
+            digits[indx] =  mod
+            indx -= 1
+
+        
+        if carry:
+            digits.insert(0, carry)
+        
+        return digits
 
 
             

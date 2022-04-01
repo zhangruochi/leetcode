@@ -65,6 +65,33 @@ class Solution(object):
             
         p.next = p.next.next
         return dummy.next
+
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+
+        m = 0
+        cur = head
+        while cur:
+            m += 1
+            cur = cur.next
+
+    
+        
+        n = m - n
+        dummy = cur = ListNode()
+        dummy.next = head
+        while n:
+            cur = cur.next
+            n-=1
+        
+        cur.next = cur.next.next
+
+        return dummy.next 
             
         
     

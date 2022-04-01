@@ -62,6 +62,38 @@ class Solution:
         return dummy.next
 
 
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def swapPairs(self, head: ListNode) -> ListNode:
+        if not head:
+            return head
+
+        dummy = cur = ListNode()
+        dummy.next = head
+
+        while cur.next and cur.next.next:
+            print(cur.val)
+
+            nn = cur.next.next.next
+
+            # 取
+            f = cur.next
+            s = cur.next.next
+
+            # 断、连
+            cur.next = s
+            s.next = f
+            f.next = nn
+
+            cur = f
+        
+        return dummy.next
+
+
 if __name__ == '__main__':
     one = ListNode(1) 
     two = ListNode(2)     
