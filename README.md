@@ -168,6 +168,7 @@ Table of Contents
 |No.566|[Reshape the Matrix](https://leetcode-cn.com/problems/reshape-the-matrix/)|[Note](./566/note.md)|Medium|O(n^2)|O()||
 |No.073|[Set Matrix Zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes/)|[Note](./073/note.md)|Medium|O(nm)|O()||
 |No.128|[Longest Consecutive Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence/)|[Note](./128/note.md)|Medium|O(n)|O(n)||
+|No.043|[Multiply Strings](https://leetcode-cn.com/problems/multiply-strings/)|[Note](./043/note.md)|Medium|O(nm)|O(n)||
 
 
 
