@@ -167,7 +167,7 @@ Table of Contents
 |No.547|[Number of Provinces](https://leetcode-cn.com/problems/number-of-provinces/)|[Note](./547/note.md)|Medium|O(n^2)|O()|Union Found|
 |No.566|[Reshape the Matrix](https://leetcode-cn.com/problems/reshape-the-matrix/)|[Note](./566/note.md)|Medium|O(n^2)|O()||
 |No.073|[Set Matrix Zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes/)|[Note](./073/note.md)|Medium|O(nm)|O()||
-
+|No.128|[Longest Consecutive Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence/)|[Note](./128/note.md)|Medium|O(n)|O(n)||
 
 
 

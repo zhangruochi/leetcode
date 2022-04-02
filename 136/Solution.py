@@ -35,6 +35,12 @@ class Solution:
 
     def singleNumber2(self,nums):
         return reduce(operator.xor,nums)
+
+
+class Solution:
+    def singleNumber(self, nums: List[int]) -> int:
+        from functools import reduce
+        return reduce(lambda x, y: x^y, nums)
         
 
 if __name__ == '__main__':
