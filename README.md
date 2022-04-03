@@ -553,7 +553,7 @@ Table of Contents
 |---|-----|--------|----|----------|----|-----|---|
 |No.455|[Assign Cookies](https://leetcode.com/problems/assign-cookies/)|[Solution](./455/Solution.py)|[Note](./455/note.md)|Easy|O(nlogn)|O(1)||
 |No.055|[Jump Game](https://leetcode.com/problems/jump-game/)|[Solution](./055/Solution.py)|[Note](./055/note.md)|Medium|O(n)|O(1)||
-
+|No.2086|[Minimum Number of Buckets Required to Collect Rainwater from Houses](https://leetcode-cn.com/problems/minimum-number-of-buckets-required-to-collect-rainwater-from-houses/)|[Solution](./2086/Solution.py)|[Note](./2086/note.md)|Medium|O(n)|O(1)||
 
 ## Divide and Conquer
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
