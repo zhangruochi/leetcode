@@ -28,6 +28,7 @@ Table of Contents
       * [BFS](#bfs)
       * [DFS](#dfs)
       * [Greedy](#greedy)
+      * [Design](#design)
       * [Dynamic Programming](#dynamic-programming)
       * [SQL Schema](#sql-schema)
       * [剑指offer](#剑指offer)
@@ -587,9 +588,14 @@ Table of Contents
 |No.279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/)|[Solution](./279/Solution.py)|[Note](./279/note.md)|Medium|O(n^2)|O(n)||
 |No.418|[Sentence Screen Fitting](https://leetcode-cn.com/problems/sentence-screen-fitting/)|[Solution](./418/Solution.py)|[Note](./418/note.md)|Medium|O(n^2)|O(n)||
 |No.070|[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)|[Solution](./070/Solution.py)|[Note](./070/note.md)|Medium|O(n)|O(n)||
+|No.6305|[Climbing Stairs](https://leetcode-cn.com/problems/number-of-ways-to-select-buildings/)|[Solution](./6305/Solution.py)|[Note](./6305/note.md)|Medium|O(n)|O(1)||
 
 
 
+## Design
+|NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
+|---|-----|--------|----|----------|----|-----|---|
+|No.1063|[Design Parking System](https://leetcode-cn.com/problems/design-parking-system/)|[Solution](./1063/Solution.py)|[Note](./1063/note.md)|Easy|O(n)|O(1)||
 
 
 ## SQL Schema
@@ -681,6 +687,8 @@ Table of Contents
 |No.LZOF_61|[扑克牌中的顺子](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/)|[Solution](./LZOF_61/Solution.py)|[Note](./LZOF_61/note.md)|Easy|O(n)|O(n)||
 |No.LZOF_64|[求1+2+...+n](https://leetcode-cn.com/problems/qiu-12n-lcof/)|[Solution](./LZOF_64/Solution.py)|[Note](./LZOF_64/note.md)|Medium|O(n)|O(n)||
 |No.LZOF_56_II|[数组中数字出现的次数 II](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof/)|[Solution](./LZOF_56_II/Solution.py)|[Note](./LZOF_56_II/note.md)|Medium|O(n)|O(1)||
+|No.LZOF41|[数据流中的中位数](https://leetcode-cn.com/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/)|[Solution](./LZOF41/Solution.py)|[Note](./LZOF41/note.md)|Hard|O(n^2)|O(n)||
+
 
 
 

@@ -56,6 +56,33 @@ class Solution:
                     
         helper(nums,[],set())
         return res
+
+
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+
+        res = []
+
+        def helper(nums, used, path):
+            nonlocal res
+
+            if len(path) == len(nums):
+                res.append(path[:])
+                return 
+
+            for i in range(len(nums)):
+                if used[i]:
+                    continue
+                
+                used[i] = True
+                path.append(nums[i])
+                helper(nums, used, path)
+                path.pop()
+                used[i] = False
+
+        helper(nums, [False]*len(nums), [])
+
+        return res
                                 
 
 

@@ -32,5 +32,16 @@ class Solution:
             res[hash_num(string)].append(string)
         
         return list(res.values())
+
+
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        from collections import defaultdict
+        res_dict = defaultdict(list)
+        for str_ in strs:
+            s_str_ = "".join(sorted(list(str_)))
+            res_dict[s_str_].append(str_)
+        
+        return [res_dict[_] for _ in res_dict ]
                 
         
