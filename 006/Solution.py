@@ -52,3 +52,41 @@ class Solution:
             
         
         return "".join(["".join(item) for item in res])
+        
+
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+
+        if not s or numRows <= 1:
+            return s
+
+        idx,r,c = 0, 0,0
+        chr2pos = {}
+
+        while idx < len(s):
+            while r < numRows and idx < len(s):
+                chr2pos[(r,c)] = s[idx]
+                # print(s[idx])
+                r += 1
+                idx += 1
+            else:
+                r -=1
+            
+            while r and idx < len(s):
+                r -= 1
+                c += 1
+                chr2pos[(r,c)] = s[idx]
+                # print(s[idx])
+                idx += 1
+            else:
+                r += 1
+
+        str_list = [""] * numRows
+        for pos,c in chr2pos.items():
+            str_list[pos[0]] = str_list[pos[0]] + c
+
+        return "".join(str_list)
+
+            
+            
+                
