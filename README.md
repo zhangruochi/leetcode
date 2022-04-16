@@ -98,6 +98,7 @@ Table of Contents
 |No.922|[Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)|[Solution](./922/Solution.py)|[Note](./922/note.md)|Easy|O(n)|O(1)|two pointer|
 |No.904|[Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/)|[Solution](./904/Solution.py)|[Note](./904/note.md)|Medium|O(n)|O(1)|two pointer|
 |No.986|[Interval List Intersections](https://leetcode-cn.com/problems/interval-list-intersections/)|[Solution](./986/Solution.py)|[Note](./986/note.md)|Medium|O(n)|O(1)|two pointer|
+|No.1099|[Two Sum Less Than K](https://leetcode-cn.com/problems/two-sum-less-than-k/)|[Solution](./1099/Solution.py)|[Note](./1099/note.md)|Easy|O(n)|O(1)|two pointer|
 
 
 ## Array
@@ -223,6 +224,7 @@ Table of Contents
 |No.383| [Ransom Note](https://leetcode-cn.com/problems/ransom-note/)|[Solution](./383/Solution.py)|[Note](./383/note.md)|Medium|O(n)|O(n)||
 |No.012| [Integer to Roman](https://leetcode-cn.com/problems/integer-to-roman/)|[Solution](./012/Solution.py)|[Note](./012/note.md)|Medium|O(n)|O(n)||
 |No.013| [Roman to Integer](https://leetcode-cn.com/problems/roman-to-integer/)|[Solution](./013/Solution.py)|[Note](./013/note.md)|Easy|O(n)|O(n)||
+|No.294| [Flip Game II](https://leetcode-cn.com/problems/flip-game-ii/)|[Solution](./294/Solution.py)|[Note](./294/note.md)|Medium|O(n^n)|O(n)||
 
 ## Linked List
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|

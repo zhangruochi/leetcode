@@ -91,8 +91,34 @@ class Solution(object):
         return string
                 
 
-if __name__ == '__main__':
-    print(Solution().countAndSay(6))            
+class Solution:
+    def countAndSay(self, n: int) -> str:
+
+        if n < 1:
+            return ""
+
+        def say(str_):
+            res = prev = ""
+            idx = 0
+
+            while idx < len(str_):
+
+                if prev != str_[idx]:
+                    prev = str_[idx]
+                    count = 0
+                    while idx < len(str_) and str_[idx] == prev:
+                        idx += 1
+                        count += 1
+                    else:
+                        res += "{}{}".format(count, prev)
+
+            return res
+
+        prev_str = "1"
+        for i in range(2, n+1):
+            prev_str = say(prev_str)
+        
+        return prev_str
 
 
                     
