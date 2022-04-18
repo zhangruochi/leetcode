@@ -40,3 +40,8 @@ class Solution(object):
         return " ".join( [w[::-1]  for w in s.split(" ")])
         
         
+
+class Solution:
+    def reverseWords(self, s: str) -> str:
+
+        return " ".join([ _[::-1] for _ in s.split(" ")])

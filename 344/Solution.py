@@ -19,3 +19,12 @@ class Solution(object):
             return rec_str(s[:-1],ans+s[-1])
         return rec_str(s,ans)
         
+
+class Solution:
+    def reverseString(self, s: List[str]) -> None:
+        """
+        Do not return anything, modify s in-place instead.
+        """
+        length = len(s)
+        for i in range(length // 2):
+            s[i], s[length-i-1] = s[length-i-1], s[i]
