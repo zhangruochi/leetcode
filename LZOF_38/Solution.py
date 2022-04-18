@@ -65,5 +65,31 @@ class Solution:
         return list(res)
             
 
+class Solution:
+    def permutation(self, s: str) -> List[str]:
+
+        s_list = sorted(list(s))
+        visited = [False] * len(s_list)
+        res = []
+
+        def helper(s_list, visited, path):
+            nonlocal res
+
+            if len(path) == len(s_list):
+                res.append(path)
+                return
+
+            for i in range(len(s_list)):
+                if not visited[i]:
+                    if i > 0 and s_list[i] == s_list[i-1] and visited[i-1] == False:
+                        continue
+                    visited[i] = True
+                    helper(s_list, visited, path + "{}".format(s_list[i]))
+                    visited[i] = False
+
+        helper(s_list, visited, "")
+
+        return res
+
 
 

@@ -29,3 +29,19 @@ class Solution:
             
         return res
             
+
+class Solution:
+    def maxProduct(self, nums: List[int]) -> int:
+    
+        res = cur_max = cur_min = nums[0]
+
+        for num in nums[1:]:
+            max_, min_ = cur_max, cur_min
+
+            cur_max = max([max_ * num, min_ * num, num ])
+            cur_min = min([max_ * num, min_ * num, num ])
+
+            res = max(cur_max, res)
+            
+        return res
+        

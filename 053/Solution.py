@@ -43,6 +43,17 @@ class Solution:
         
         return res
                 
+
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
         
+        cur_max = 0
+        res = -float("inf")
+
+        for num in nums:
+            cur_max = max(cur_max + num, num)
+            res = max(cur_max, res)
+            
+        return res
         
         
