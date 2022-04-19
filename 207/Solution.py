@@ -70,3 +70,40 @@ class Solution:
             
         
         return False if detect_cycle(graph) else True
+
+
+from collections import defaultdict
+from collections import deque
+
+class Solution:
+    def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
+
+        if len(prerequisites) == 0:
+            return True
+
+
+        in_degree = {node: 0 for node in range(numCourses)}
+        for p in prerequisites:
+            in_degree[p[0]] += 1
+        zero_degree = deque([k for k, v in in_degree.items() if v == 0])
+
+        visited = set([k for k, v in in_degree.items() if v == 0])
+
+        while zero_degree:
+            node = zero_degree.popleft()
+
+            for p in prerequisites:
+                if p[1] == node:
+                    in_degree[p[0]] -= 1
+
+
+            for k,v in in_degree.items():
+                if v == 0 and k not in visited:
+                    zero_degree.append(k)
+                    visited.add(k)
+        
+        
+        if sum(in_degree.values()) > 0:
+            return False 
+        else:
+            return True
