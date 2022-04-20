@@ -247,8 +247,8 @@ Table of Contents
 |No.086|[Partition List](https://leetcode.com/problems/partition-list/)|[Note](./086/note.md)|[Solution](./061/Solution.py)|Medium|O(n)|O(n)||
 |No.092|[Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)|[Note](./092/note.md)|[Solution](./061/Solution.py)|Medium|O(n)|O(n)||
 |No.143|[Reorder List](https://leetcode.com/problems/reorder-list/)|[Note](./143/note.md)|Medium|[Solution](./061/Solution.py)|O(n)|O(n)||
-|No.876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Note](./876/note.md)|[Solution](./061/Solution.py)|Easy|O(n)|O(1)||
-
+|No.876|[Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/)|[Note](./876/note.md)|[Solution](./876/Solution.py)|Easy|O(n)|O(1)||
+|No.061|[Rotate List](https://leetcode-cn.com/problems/rotate-list/)|[Note](./061/note.md)|[Solution](./061/Solution.py)|Meduim|O(n)|O(1)||
 
 
 
@@ -285,6 +285,7 @@ Table of Contents
 |No.328|[Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)|[Solution](./328/Solution.py)|[Note](./328/note.md)|Medium|O(n)|O(n)||
 |No.678|[Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)|[Solution](./678/Solution.py)|[Note](./678/note.md)|Medium|O(n)|O(n)||
 |No.offer09|[剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)|[Solution](./offer09/Solution.py)|[Note](./offer09/note.md)|Easy|O(n)|O(n)||
+|No.739|[Daily Temperatures](https://leetcode-cn.com/problems/daily-temperatures/)|[Solution](./739/Solution.py)|[Note](./739/note.md)|Medium|O(n)|O(n)||
 
 
 
