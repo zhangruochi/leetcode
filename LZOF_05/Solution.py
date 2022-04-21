@@ -28,3 +28,7 @@ class Solution:
             else:
                 res += char
         return res
+
+class Solution:
+    def replaceSpace(self, s: str) -> str:
+        return s.replace(" ", "%20")
