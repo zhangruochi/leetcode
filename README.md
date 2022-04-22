@@ -594,6 +594,8 @@ Table of Contents
 |No.070|[Climbing Stairs](https://leetcode-cn.com/problems/climbing-stairs/)|[Solution](./070/Solution.py)|[Note](./070/note.md)|Medium|O(n)|O(n)||
 |No.6305|[Climbing Stairs](https://leetcode-cn.com/problems/number-of-ways-to-select-buildings/)|[Solution](./6305/Solution.py)|[Note](./6305/note.md)|Medium|O(n)|O(1)||
 |No.322|[Coin Change](https://leetcode-cn.com/problems/coin-change/)|[Solution](./322/Solution.py)|[Note](./322/note.md)|Medium|O(n)|O(1)||
+|No.064|[Minimum Path Sum](https://leetcode-cn.com/problems/minimum-path-sum/)|[Solution](./064/Solution.py)|[Note](./064/note.md)|Medium|O(n*m)|O(m*n)||
+
 
 
 ## Design

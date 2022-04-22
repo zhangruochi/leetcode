@@ -35,8 +35,6 @@ class Solution:
         if x <= 1:
             return x
         
-        
-        
         def binarySerach(low,high,x):
             if low > high:
                 return -1
@@ -54,3 +52,27 @@ class Solution:
                     return binarySerach(low, mid-1, x)
         
         return binarySerach(1,x,x)
+
+
+class Solution:
+    def mySqrt(self, x: int) -> int:
+
+        def square(x):
+            return x * x
+
+        def helper(l, r, target):
+            if l > r:
+                return -1
+
+            mid  = (r + l ) // 2
+
+            if square(mid) > target:
+                return helper(l, mid-1, target)
+            else:
+                if square(mid + 1) > target:
+                    return mid
+                else:
+                    return helper(mid+1, r, target)
+
+
+        return helper(0, x, x)
