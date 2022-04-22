@@ -54,6 +54,38 @@ class Solution(object):
         return [ans_table[i] if i % 2 == 0 else list(reversed(ans_table[i])) for i in range(len(ans_table)) ]
         
         
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
+
+        if not root:
+            return []
+
+        from collections import deque
+        from collections import defaultdict
+
+        queue = deque([])
+        level_map = defaultdict(list)
+        queue.append([root, 0])
+
+        while queue:
+            root, level = queue.popleft()
+            level_map[level].append(root.val)
+            if root.left:
+                queue.append([root.left, level + 1])
+            if root.right:
+                queue.append([root.right, level + 1])
+
+        return [ v if k % 2 == 0 else v[::-1] for k,v in level_map.items()]
+
+
+
+
                 
         
         
