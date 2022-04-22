@@ -74,3 +74,63 @@ class Solution:
                 break
 
         return res
+
+
+class Solution:
+    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
+
+        r,c = 0,0
+        l_m, l_n, r_m, r_n = 0, 0, len(matrix)-1, len(matrix[0])-1
+        index = 0
+        res = []
+        total = (r_m + 1) * (r_n + 1)
+
+        while index < total:
+            
+            while c <= r_n:
+                res.append(matrix[r][c])
+                index += 1
+                c += 1
+            else:
+                c -= 1
+                r += 1
+                l_m += 1
+
+            if index >= total:
+                break
+            
+            while r <= r_m:
+                res.append(matrix[r][c])
+                index += 1
+                r += 1
+            else:
+                r -= 1
+                c -= 1
+                r_n-=1
+
+            if index >= total:
+                break
+            
+            while c >= l_n:
+                res.append(matrix[r][c])
+                print(matrix[r][c])
+                index+=1
+                c -= 1
+            else:
+                c += 1
+                r -= 1
+                r_m -= 1
+            
+            if index >= total:
+                break
+
+            while r >= l_m:
+                res.append(matrix[r][c])
+                index += 1
+                r -= 1
+            else:
+                r += 1
+                c += 1
+                l_n += 1
+
+        return res
