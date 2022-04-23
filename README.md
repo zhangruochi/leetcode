@@ -369,6 +369,7 @@ Table of Contents
 |No.1261|[FFind Elements in a Contaminated Binary Tree](https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/)|[Solution](./1261/Solution.py)|[Note](./1261/note.md)|Medium|O(n)|O(n)||
 |No.124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Solution](./124/Solution.py)|[Note](./124/note.md)|hard|O(n)|O(1)||
 |No.035|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)|[Solution](./035/Solution.py)|[Note](./035/note.md)|hard|O(logn)|O(1)||
+|No.099|[Recover Binary Search Tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)|[Solution](./099/Solution.py)|[Note](./099/note.md)|Medium|O(logn)|O(1)||
 
 ## Hash Table
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
