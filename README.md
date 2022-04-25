@@ -459,7 +459,7 @@ Table of Contents
 |No.270|[Closest Binary Search Tree Value](https://leetcode.com/problems/closest-binary-search-tree-value/)|[Solution](./270/Solution.py)|[Note](./270/note.md)|Easy|O(logn)|O(1)||
 |No.653|[Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/)|[Solution](./653/Solution.py)|[Note](./653/note.md)|Easy|O(n)|O(n)||
 |No.098|Validate Binary Search Tree|[Solution](./098/Solution.py)|[Note](./098/note.md)|Easy|O(n)|O(n)||
-|No.278|First Bad Version|[Solution](./278/Solution.py)|[Note](./278/note.md)|Easy|O(logn)|O(1)||
+|No.278|[First Bad Version](https://leetcode-cn.com/problems/first-bad-version/)|[Solution](./278/Solution.py)|[Note](./278/note.md)|Easy|O(logn)|O(1)||
 |No.033|[Search in Rotated Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)|[Solution](./033/Solution.py)|[Note](./033/note.md)|Medium|O(logn)|O(1)||
 |No.173|Binary Search Tree Iterator|[Solution](./173/Solution.py)|[Note](./173/note.md)|Medium|O(1)|O(h)||
 |No.938|[Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/)|[Solution](./938/Solution.py)|[Note](./938/note.md)|Easy|O(n)|O(1)||

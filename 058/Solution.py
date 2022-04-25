@@ -62,7 +62,9 @@ class Solution:
         return count
       
 
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
 
-if __name__ == '__main__':
-    print(Solution().lengthOfLastWord2("Hello World "))              
-    #print("Hello world!")
+
+        return len(s.strip().split()[-1])
+
