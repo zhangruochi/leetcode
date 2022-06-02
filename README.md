@@ -225,6 +225,7 @@ Table of Contents
 |No.012| [Integer to Roman](https://leetcode-cn.com/problems/integer-to-roman/)|[Solution](./012/Solution.py)|[Note](./012/note.md)|Medium|O(n)|O(n)||
 |No.013| [Roman to Integer](https://leetcode-cn.com/problems/roman-to-integer/)|[Solution](./013/Solution.py)|[Note](./013/note.md)|Easy|O(n)|O(n)||
 |No.294| [Flip Game II](https://leetcode-cn.com/problems/flip-game-ii/)|[Solution](./294/Solution.py)|[Note](./294/note.md)|Medium|O(n^n)|O(n)||
+|No.157| [Read N Characters Given Read4](https://leetcode.cn/problems/read-n-characters-given-read4/)|[Solution](./157/Solution.py)|[Note](./157/note.md)|Easy|O(n)|O(n)||
 
 ## Linked List
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
@@ -370,6 +371,7 @@ Table of Contents
 |No.124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)|[Solution](./124/Solution.py)|[Note](./124/note.md)|hard|O(n)|O(1)||
 |No.035|[Search Insert Position](https://leetcode-cn.com/problems/search-insert-position/)|[Solution](./035/Solution.py)|[Note](./035/note.md)|hard|O(logn)|O(1)||
 |No.099|[Recover Binary Search Tree](https://leetcode-cn.com/problems/recover-binary-search-tree/)|[Solution](./099/Solution.py)|[Note](./099/note.md)|Medium|O(logn)|O(1)||
+|No.156|[Binary Tree Upside Down](https://leetcode.cn/problems/binary-tree-upside-down/)|[Solution](./156/Solution.py)|[Note](./156/note.md)|Medium|O(logn)|O(1)||
 
 ## Hash Table
 |NO.|Title|Solution|Note|Difficulty|Time|Space|Tag|
